@@ -8,7 +8,11 @@ A format for describing pottery glaze samples.
            xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
            elementFormDefault="qualified">
 
-    <xs:simpleType name="sampleIdType">
+    <xs:simpleType name="sampleIDsType">
+        <xs:list itemType="sampleIDType"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="sampleIDType">
         <xs:restriction base="xs:string">
             <xs:pattern value="(T|W)\d+"/>
         </xs:restriction>
@@ -17,25 +21,41 @@ A format for describing pottery glaze samples.
     <xs:element name="glazeSamples">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="glazeSample" type="glazeSampleType"/>
+                <xs:element name="glazeSample"
+                            maxOccurs="unbounded"
+                            type="glazeSampleType"/>
             </xs:sequence>
+            <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace"/>
         </xs:complexType>
     </xs:element>
 
     <xs:complexType name="glazeSampleType">
         <xs:sequence>
-            <xs:element name="glaze" type="glazeType" minOccurs="1"/>
-            <xs:element name="note" type="xs:string" minOccurs="1"/>
+            <xs:element name="sample" type="sampleType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="glaze" type="glazeType" minOccurs="1" maxOccurs="unbounded"/>
+            <!--<xs:element name="clay" type="clayType" minOccurs="1"/>-->
+            <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
         </xs:sequence>
         <xs:attribute name="date" type="xs:date" use="required"/>
-        <xs:attribute name="id" type="sampleIdType" use="required"/>
+        <!--<xs:attribute name="id" type="sampleIDType" use="required"/>-->
+    </xs:complexType>
+
+    <xs:complexType name="sampleType">
+        <xs:attribute name="id" use="required" type="sampleIDType"/>
+    </xs:complexType>
+
+    <xs:complexType name="clayType">
+        <xs:attribute name="name" type="xs:string"/>
     </xs:complexType>
 
     <xs:complexType name="glazeType">
-    <xs:attribute name="name" use="required" type="xs:string"/>
-        <xs:attribute name="viscosity" use="required" type="xs:positiveInteger"/>
+        <xs:attribute name="name" use="required" type="xs:string"/>
+        <xs:attribute name="viscosity" use="optional" type="viscosityType"/>
     </xs:complexType>
 
+    <xs:simpleType name="viscosityType">
+        <xs:restriction base="xs:integer"/>
+    </xs:simpleType>
 </xs:schema>
 <!--
 vim: et:ts=4:sw=4:sts=4

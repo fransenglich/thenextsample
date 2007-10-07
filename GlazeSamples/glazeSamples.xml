@@ -1,11 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glazeSamples xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
 
-    <glazeSample date="2007-04-02" id="T19">
-        <glaze name="foo" viscosity="1">
-        </glaze>
+    <glazeSample date="2007-09-28">
+        <sample id="W1"/>
+        <sample id="T5"/>
+        <glaze name="Sand Brown, B/O, Potterycrafts LTD, 2845.5"/>
         <note>
+            The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.
         </note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="W10"/>
+        <sample id="T8"/>
+        <glaze name="Imagine ELG 80, Vent 230 ML Green, Ceradel"/>
+        <note>
+            Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?
+        </note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="W6"/>
+        <sample id="T4"/>
+        <sample id="W11"/>
+        <glaze name="Sahara Liquid Glazes, HF series, HF-18, Grey Amaco"/>
+        <note>W11 had an extra layer on the second level.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="T17"/>
+        <sample id="W2"/>
+        <glaze name="Frosted Jade, trickled" viscosity="46"/>
+        <note>Dipped, my famous "three seconds".</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="T9"/>
+        <sample id="W3"/>
+        <glaze name="Green Hue, trickled" viscosity="40"/>
+        <note>Dipped, my famous "three seconds".</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="W8"/>
+        <sample id="T34"/><!-- Although my paper note said T31 -->
+
+        <glaze name="Frosted Jade, trickled" viscosity="45"/>
+        <glaze name="Green Hue, trickled" viscosity="41"/>
+
+        <note>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="W13"/>
+        <sample id="T32"/>
+
+        <glaze name="White" viscosity="35"/>
+
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
+        <sample id="T6"/>
+        <sample id="W5"/>
+
+        <glaze name="Yellow"/>
+
+        <note/>
     </glazeSample>
 
 </glazeSamples>
