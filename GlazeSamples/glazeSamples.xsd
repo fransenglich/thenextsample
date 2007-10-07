@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+A format for describing pottery glaze samples.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="tag:fenglich.fastmail.fm,2007:GlazeSamples"
+           xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
+           elementFormDefault="qualified">
+
+    <xs:simpleType name="sampleIdType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(T|W)\d+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="glazeSamples">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="glazeSample" type="glazeSampleType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="glazeSampleType">
+        <xs:sequence>
+            <xs:element name="glaze" type="glazeType" minOccurs="1"/>
+            <xs:element name="note" type="xs:string" minOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="date" type="xs:date" use="required"/>
+        <xs:attribute name="id" type="sampleIdType" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="glazeType">
+    <xs:attribute name="name" use="required" type="xs:string"/>
+        <xs:attribute name="viscosity" use="required" type="xs:positiveInteger"/>
+    </xs:complexType>
+
+</xs:schema>
+<!--
+vim: et:ts=4:sw=4:sts=4
+-->

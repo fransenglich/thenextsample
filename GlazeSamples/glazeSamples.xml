@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glazeSamples xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
+
+    <glazeSample date="2007-04-02" id="T19">
+        <glaze name="foo" viscosity="1">
+        </glaze>
+        <note>
+        </note>
+    </glazeSample>
+
+</glazeSamples>
+<!--
+vim: et:ts=4:sw=4:sts=4
+-->
