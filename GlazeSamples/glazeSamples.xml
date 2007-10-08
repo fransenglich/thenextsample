@@ -69,6 +69,76 @@
         <note/>
     </glazeSample>
 
+    <glazeSample date="2007-08-15">
+        <sample id="T7"/>
+
+        <glaze name="Frosted Jade" viscosity="46"/>
+        <note>2 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-08-15">
+        <sample id="T12"/>
+
+        <glaze name="Frosted Jade" viscosity="46"/>
+        <note>4 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-08-15">
+        <sample id="T13"/>
+
+        <glaze name="Green Hue" viscosity="46"/>
+        <note>2 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-08-15">
+        <sample id="T10"/>
+
+        <glaze name="Green Hue" viscosity="46"/>
+        <note>4 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-08-15">
+        <sample id="T3"/>
+
+        <glaze name="White" viscosity="45"/>
+        <note>2 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-08-15">
+        <sample id="T2"/>
+
+        <glaze name="White" viscosity="45"/>
+        <note>4 seconds dipping.</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-25">
+        <sample id="T9"/>
+        <!-- TODO where's the note for this sample? -->
+        <glaze name="Frosted Jade"/>
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-09-25">
+        <sample id="W3"/>
+        <!-- TODO where's the note for this sample? -->
+        <glaze name="Frosted Jade"/>
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-09-25">
+        <sample id="W9"/>
+        <!-- TODO where's the note for this sample? -->
+        <glaze name="Green Hue"/>
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-09-25">
+        <sample id="T19"/>
+        <!-- TODO where's the note for this sample? -->
+        <glaze name="Green Hue"/>
+        <note/>
+    </glazeSample>
+
 </glazeSamples>
 <!--
 vim: et:ts=4:sw=4:sts=4
