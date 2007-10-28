@@ -139,6 +139,27 @@
         <note/>
     </glazeSample>
 
+    <glazeSample date="2007-10-29">
+        <sample id="T40"/>
+        <sample id="W7"/>
+        <glaze name="White" viscosity="50"/>
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-10-29">
+        <sample id="T31"/>
+        <glaze name="White" viscosity="44"/>
+        <note/>
+    </glazeSample>
+
+    <glazeSample date="2007-10-29">
+        <sample id="W40"/>
+        <sample id="T36"/>
+        <glaze name="Black" viscosity="50"/>
+        <note/>
+    </glazeSample>
+
+
 </glazeSamples>
 <!--
 vim: et:ts=4:sw=4:sts=4
