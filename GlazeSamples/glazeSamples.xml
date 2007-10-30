@@ -20,6 +20,13 @@
     </glazeSample>
 
     <glazeSample date="2007-09-28">
+        <sample id="W12"/>
+        <sample id="T41"/>
+        <glaze name="Frosted jade" viscosity="53"/>
+        <note>Very thick. Very hard to stir, could it be the temperature?</note>
+    </glazeSample>
+
+    <glazeSample date="2007-09-28">
         <sample id="W6"/>
         <sample id="T4"/>
         <sample id="W11"/>
