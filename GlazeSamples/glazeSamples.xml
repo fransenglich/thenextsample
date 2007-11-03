@@ -150,7 +150,7 @@
         <sample id="T40"/>
         <sample id="W7"/>
         <glaze name="White" viscosity="50"/>
-        <note/>
+        <note>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.<&note>
     </glazeSample>
 
     <glazeSample date="2007-10-29">
@@ -163,9 +163,8 @@
         <sample id="W40"/>
         <sample id="T36"/>
         <glaze name="Black" viscosity="50"/>
-        <note/>
+        <note>Despite being very thick, it is very elegant. Doesn't move at all, although the sample was lying horizontally.</note>
     </glazeSample>
-
 
 </glazeSamples>
 <!--
