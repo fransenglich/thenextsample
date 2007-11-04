@@ -263,18 +263,21 @@
         <piece id="36" date="2007-10-29">
             <glazing id="IntenseBlack" viscosity="50"/>
             <glazing id="WhiteGloss" viscosity="44"/>
-            <note>White was not fully dry when dipping.</note>
+            <glazing id="Yellow"/>
+            <note>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</note>
         </piece>
 
         <piece id="37" date="2007-10-29">
             <glazing id="IntenseBlack" viscosity="50"/>
             <glazing id="WhiteGloss" viscosity="50"/>
-            <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. The white was across the whole. The white was still cold, when dipping the black.</note>
+            <glazing id="Yellow"/>
+            <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside.</note>
         </piece>
 
-        <piece id="37" date="2007-10-29">
+        <piece id="38" date="2007-10-29">
             <glazing id="IntenseBlack" viscosity="50"/>
-            <note/>
+            <glazing id="Yellow"/>
+            <note>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</note>
         </piece>
 
         <!--
