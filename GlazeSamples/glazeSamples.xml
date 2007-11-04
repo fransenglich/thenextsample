@@ -8,8 +8,8 @@
 
         <clay id="WSW"
               name="White Stoneware"
-              productID="K148"
-              manufacturer="Potterycrafts Limited"/>
+              productID="1145"
+              manufacturer="5otterycrafts Limited"/>
     </clays>
 
     <glazes>
@@ -54,6 +54,8 @@
                productID="P2842"
                manufacturer="Potterycrafts Limited"
                description="Brush on glaze."/>
+
+           <!-- All for keramik, Cerama 6250. -->
     </glazes>
 
     <glazeSamples>
@@ -61,18 +63,14 @@
             <brick id="W1"/>
             <brick id="T5"/>
             <glazing id="SandBrown"/>
-            <note>
-                The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.
-            </note>
+            <note>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</note>
         </glazeSample>
 
         <glazeSample date="2007-09-28">
             <brick id="W10"/>
             <brick id="T8"/>
             <glazing id="ImagineGreen"/>
-            <note>
-                Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?
-            </note>
+            <note>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</note>
         </glazeSample>
 
         <glazeSample date="2007-09-28">
@@ -219,8 +217,45 @@
             <brick id="W4"/>
             <brick id="T36"/>
             <glazing id="IntenseBlack" viscosity="50"/>
-            <note>Despite being very thick, it is very elegant. Doesn't move at all, when judgin from other pieces.</note>
+            <note>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</note>
         </glazeSample>
+
+        <glazeSample date="2007-11-04">
+            <brick id="T43"/>
+            <clayref id="SaintThomas"/>
+            <note>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil.</note>
+        </glazeSample>
+
+        <glazeSample date="2007-11-04">
+            <brick id="T46"/>
+            <glazing id="WhiteGloss" viscosity="44"/>
+            <clayref id="SaintThomas"/>
+            <note>Drew with black lead graphite pencil, and then glazed on top of that.</note>
+        </glazeSample>
+
+        <glazeSample date="2007-11-04">
+            <brick id="T44"/>
+            <glazing id="WhiteGloss" viscosity="44"/>
+            <glazing id="WhiteGloss" viscosity="42"/>
+            <clayref id="SaintThomas"/>
+            <note/>
+        </glazeSample>
+
+        <glazeSample date="2007-11-04">
+            <brick id="T44"/>
+            <glazing id="IntenseBlack" viscosity="42"/>
+            <clayref id="SaintThomas"/>
+            <note/>
+        </glazeSample>
+
+        <glazeSample date="2007-11-04">
+            <brick id="T55"/>
+            <glazing id="IntenseBlack" viscosity="42"/>
+            <glazing id="WhiteGloss" viscosity="44"/>
+            <clayref id="SaintThomas"/>
+            <note>White black diagonally across the brick.</note>
+        </glazeSample>
+
     </glazeSamples>
 
     <pieces>
@@ -234,7 +269,7 @@
         <piece id="37" date="2007-10-29">
             <glazing id="IntenseBlack" viscosity="50"/>
             <glazing id="WhiteGloss" viscosity="50"/>
-            <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. The white was across the whole. he white  was still cold, while dipping the black.</note>
+            <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. The white was across the whole. The white was still cold, when dipping the black.</note>
         </piece>
 
         <piece id="37" date="2007-10-29">
@@ -242,6 +277,7 @@
             <note/>
         </piece>
 
+        <!--
         <piece id="20" date="2007-10-29">
             <glazing id="" viscosity="46"/>
             <note/>
@@ -281,82 +317,107 @@
         <piece id="11" date="">
             <note>Very thick.</note>
         </piece>
+        -->
 
         <piece id="5" date="2007-10-02">
-            <glazing id="" viscosity="42"/>
+            <glazing id="WSW" viscosity="42"/>
             <note>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
         </piece>
 
         <piece id="6" date="2007-10-02">
-            <glazing id="" viscosity="42"/>
+            <glazing id="WSW" viscosity="42"/>
             <note>Had hand inside when glazing the outside.</note>
         </piece>
 
         <piece id="7" date="2007-10-02">
-            <glazing id="" viscosity="42"/>
+            <glazing id="WSW" viscosity="42"/>
             <note>Polished the glaze edges. Same as 6, but better techniques.</note>
         </piece>
 
         <piece id="8" date="2007-10-02">
-            <glazing id="" viscosity="42"/>
+            <glazing id="WSW" viscosity="42"/>
             <note> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
         </piece>
 
         <piece id="9" date="2007-10-02">
-            <glazing id="" viscosity="35"/>
-            <note/>
+            <glazing id="WSW"/>
+            <note>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</note>
         </piece>
 
         <piece id="31" date="2007-10-27">
-            <clay id="SaintThomas" weightWhenWet="2200"/>
+            <clayref id="SaintThomas" weightWhenWet="2200"/>
+            <note></note>
         </piece>
 
         <piece id="32" date="2007-10-27">
-            <clay id="SaintThomas" weightWhenWet="2000"/>
+            <clayref id="SaintThomas" weightWhenWet="2000"/>
+            <note></note>
         </piece>
 
         <piece id="33" date="2007-10-27">
-            <clay id="SaintThomas" weightWhenWet="2000"/>
+            <clayref id="SaintThomas" weightWhenWet="2000"/>
+            <note></note>
         </piece>
 
         <piece id="34" date="2007-10-27">
-            <clay id="SaintThomas" weightWhenWet="2000"/>
+            <clayref id="SaintThomas" weightWhenWet="2000"/>
+            <note></note>
         </piece>
 
         <piece id="35" date="2007-10-27">
-            <clay id="SaintThomas" weightWhenWet="4100"/>
+            <clayref id="SaintThomas" weightWhenWet="4100"/>
+            <note></note>
         </piece>
 
         <piece id="15" date="2007-10-31">
-            <clay id="WhiteStoneware" weightWhenWet="800"/>
+            <clayref id="WSW" weightWhenWet="800"/>
+            <note></note>
         </piece>
 
         <piece id="16" date="2007-10-31">
-            <clay id="WhiteStoneware" weightWhenWet="800"/>
+            <clayref id="WSW" weightWhenWet="800"/>
+            <note></note>
         </piece>
 
         <piece id="17" date="2007-10-31">
-            <clay id="WhiteStoneware" weightWhenWet="800"/>
+            <clayref id="WSW" weightWhenWet="800"/>
+            <note></note>
         </piece>
 
         <piece id="18" date="2007-10-31">
-            <clay id="WhiteStoneware" weightWhenWet="800"/>
+            <clayref id="WSW" weightWhenWet="800"/>
+            <note></note>
         </piece>
 
         <piece id="19" date="2007-10-31">
-            <clay id="WhiteStoneware" weightWhenWet="800"/>
+            <clayref id="WSW" weightWhenWet="800"/>
+            <note></note>
         </piece>
 
+        <!--
         <piece id="hearth shaped">
-            <clay id="SaintThomas"/>
+            <clayref id="SaintThomas"/>
             <note>Very thin, uneven the date is estimated.</note>
         </piece>
 
         <piece id="small base, early creation">
-            <clay id="SaintThomas"/>
+            <clayref id="SaintThomas"/>
             <glaze id="FrostedJade" Viscosity="51"/>
             <note>The date is estimated. Thick layer.</note>
         </piece>
+        -->
+
+        <piece id="4" date="2007-11-04">
+            <clayref id="SaintThomas"/>
+            <note>The top edge broke exactly where I had put the wax, after having glazed it with white. Did the water from the glaze, or the wax lower the duability? Lousy diipping. Lots of rinning outside and inside. Waxed spots before glazing with white, filled in with black using baloon. The black ran in two places(over the white), from the two isolated cicled. Filled in with black using a brush on the broken edge.</note>
+
+        </piece>
+
+        <piece id="4" date="2007-11-04">
+            <clayref id="WSW"/>
+            <note>Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</note>
+        </piece>
+
 
     </pieces>
 

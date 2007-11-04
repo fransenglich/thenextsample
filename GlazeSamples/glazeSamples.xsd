@@ -63,9 +63,14 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <!-- TODO, sharpen up to make the clay element mandatory, and adjust up all the entries. -->
+                    <xs:element name="clayref"
+                                type="clayRefType"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
                     <xs:element name="glazing"
                                 type="glazingType"
-                                minOccurs="1"
+                                minOccurs="0"
                                 maxOccurs="unbounded"/>
                     <xs:element name="note"
                                 type="xs:normalizedString"
@@ -90,6 +95,11 @@ A format for describing pottery glazes, samples and pieces.
         <xs:attribute name="productID"      type="xs:normalizedString"  use="required"/>
     </xs:complexType>
 
+    <xs:complexType name="clayRefType">
+        <xs:attribute name="id"             type="xs:NCName"            use="required"/>
+        <xs:attribute name="weightWhenWet"  type="xs:positiveInteger"   use="optional"/>
+    </xs:complexType>
+
     <xs:complexType name="glazesType">
         <xs:sequence>
             <xs:element name="glaze" type="glazeType" minOccurs="0" maxOccurs="unbounded"/>
@@ -107,8 +117,9 @@ A format for describing pottery glazes, samples and pieces.
     <xs:complexType name="glazeSampleType">
         <xs:sequence>
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="glazing" type="glazingType" minOccurs="1" maxOccurs="unbounded"/>
-            <!--<xs:element name="clay" type="clayType" minOccurs="1"/>-->
+            <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
+            <!-- TODO make clayref mandatory. -->
+            <xs:element name="clayref" type="clayRefType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
         </xs:sequence>
         <xs:attribute name="date" type="xs:date" use="required"/>
