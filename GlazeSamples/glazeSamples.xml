@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pottery xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
+<pottery xml:lang="en" version="0.1" xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
     <glazes>
         <glaze id="GreenHue"
                manufacturer="Potterycrafts Limited"

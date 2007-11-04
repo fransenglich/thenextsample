@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
-A format for describing pottery glaze samples.
+A format for describing pottery glazes, samples and pieces.
 -->
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -18,26 +18,30 @@ A format for describing pottery glaze samples.
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:element name="pottery">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="glazes"
-                            minOccurs="1"
-                            maxOccurs="1"
-                            type="glazesType"/>
-                <xs:element name="glazeSamples"
-                            minOccurs="1"
-                            maxOccurs="1"
-                            type="glazeSamplesType"/>
-                <xs:element name="pieces"
-                            minOccurs="1"
-                            maxOccurs="1"
-                            type="piecesType"/>
-            </xs:sequence>
-            <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace"/>
-            <!--<xs:attribute name="version" type="xs:decimal"/>-->
-        </xs:complexType>
-    </xs:element>
+    <xs:element name="pottery" type="potteryType"/>
+
+    <xs:complexType name="potteryType">
+        <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+                <xs:sequence>
+                    <xs:element name="glazes"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="glazesType"/>
+                    <xs:element name="glazeSamples"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="glazeSamplesType"/>
+                    <xs:element name="pieces"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="piecesType"/>
+                </xs:sequence>
+                <xs:attribute name="version" type="xs:decimal"/>
+                <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="skip"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
 
     <xs:complexType name="glazeSamplesType">
         <xs:sequence>
