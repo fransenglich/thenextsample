@@ -24,6 +24,10 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <xs:element name="clays"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="claysType"/>
                     <xs:element name="glazes"
                                 minOccurs="1"
                                 maxOccurs="1"
@@ -51,8 +55,39 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:complexType name="piecesType">
         <xs:sequence>
-            <xs:element name="piece" type="glazeSampleType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="piece" type="pieceType" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="pieceType">
+        <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+                <xs:sequence>
+                    <xs:element name="glazing"
+                                type="glazingType"
+                                minOccurs="1"
+                                maxOccurs="unbounded"/>
+                    <xs:element name="note"
+                                type="xs:normalizedString"
+                                minOccurs="1"/>
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:normalizedString" use="required"/>
+                <xs:attribute name="date" type="xs:date" use="required"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="claysType">
+        <xs:sequence>
+            <xs:element name="clay" type="clayType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="clayType">
+        <xs:attribute name="id"             type="xs:NCName"            use="required"/>
+        <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
+        <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
+        <xs:attribute name="productID"      type="xs:normalizedString"  use="required"/>
     </xs:complexType>
 
     <xs:complexType name="glazesType">
@@ -82,10 +117,6 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:complexType name="brickType">
         <xs:attribute name="id" use="required" type="sampleIDType"/>
-    </xs:complexType>
-
-    <xs:complexType name="clayType">
-        <xs:attribute name="name" type="xs:string"/>
     </xs:complexType>
 
     <xs:complexType name="glazingType">

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pottery xml:lang="en" version="0.1" xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
+    <clays>
+        <clay id="SaintThomas"
+            name="White St. Thomas"
+              productID="1106"
+              manufacturer="Potterycrafts Limited"/>
+
+        <clay id="WSW"
+              name="White Stoneware"
+              productID="K148"
+              manufacturer="Potterycrafts Limited"/>
+    </clays>
+
     <glazes>
         <glaze id="GreenHue"
                manufacturer="Potterycrafts Limited"
@@ -212,6 +224,140 @@
     </glazeSamples>
 
     <pieces>
+
+        <piece id="36" date="2007-10-29">
+            <glazing id="IntenseBlack" viscosity="50"/>
+            <glazing id="WhiteGloss" viscosity="44"/>
+            <note>White was not fully dry when dipping.</note>
+        </piece>
+
+        <piece id="37" date="2007-10-29">
+            <glazing id="IntenseBlack" viscosity="50"/>
+            <glazing id="WhiteGloss" viscosity="50"/>
+            <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. The white was across the whole. he white  was still cold, while dipping the black.</note>
+        </piece>
+
+        <piece id="37" date="2007-10-29">
+            <glazing id="IntenseBlack" viscosity="50"/>
+            <note/>
+        </piece>
+
+        <piece id="20" date="2007-10-29">
+            <glazing id="" viscosity="46"/>
+            <note/>
+        </piece>
+
+        <piece id="21" date="2007-10-29">
+            <glazing id="" viscosity="46"/>
+            <note/>
+        </piece>
+
+        <piece id="21" date="2007-10-29">
+            <glazing id="" viscosity="46"/>
+            <note/>
+        </piece>
+
+        <piece id="22" date="2007-10-29">
+            <glazing id="" viscosity="Same as 21?"/>
+            <clay weightWhenWet="600"/>
+            <note/>
+        </piece>
+
+        <piece id="23" date="2007-10-29">
+            <glazing id="" viscosity="Same as 22?"/>
+            <clay weightWhenWet="400"/>
+            <note/>
+        </piece>
+
+        <piece id="12" date="">
+            <clay weightWhenWet="4000"/>
+            <note>Trimmed of 1 kilo.</note>
+        </piece>
+
+        <piece id="10" date="">
+            <note>Very thin Green Hue. Dropped it in the glaze bucket</note>
+        </piece>
+
+        <piece id="11" date="">
+            <note>Very thick.</note>
+        </piece>
+
+        <piece id="5" date="2007-10-02">
+            <glazing id="" viscosity="42"/>
+            <note>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
+        </piece>
+
+        <piece id="6" date="2007-10-02">
+            <glazing id="" viscosity="42"/>
+            <note>Had hand inside when glazing the outside.</note>
+        </piece>
+
+        <piece id="7" date="2007-10-02">
+            <glazing id="" viscosity="42"/>
+            <note>Polished the glaze edges. Same as 6, but better techniques.</note>
+        </piece>
+
+        <piece id="8" date="2007-10-02">
+            <glazing id="" viscosity="42"/>
+            <note> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
+        </piece>
+
+        <piece id="9" date="2007-10-02">
+            <glazing id="" viscosity="35"/>
+            <note/>
+        </piece>
+
+        <piece id="31" date="2007-10-27">
+            <clay id="SaintThomas" weightWhenWet="2200"/>
+        </piece>
+
+        <piece id="32" date="2007-10-27">
+            <clay id="SaintThomas" weightWhenWet="2000"/>
+        </piece>
+
+        <piece id="33" date="2007-10-27">
+            <clay id="SaintThomas" weightWhenWet="2000"/>
+        </piece>
+
+        <piece id="34" date="2007-10-27">
+            <clay id="SaintThomas" weightWhenWet="2000"/>
+        </piece>
+
+        <piece id="35" date="2007-10-27">
+            <clay id="SaintThomas" weightWhenWet="4100"/>
+        </piece>
+
+        <piece id="15" date="2007-10-31">
+            <clay id="WhiteStoneware" weightWhenWet="800"/>
+        </piece>
+
+        <piece id="16" date="2007-10-31">
+            <clay id="WhiteStoneware" weightWhenWet="800"/>
+        </piece>
+
+        <piece id="17" date="2007-10-31">
+            <clay id="WhiteStoneware" weightWhenWet="800"/>
+        </piece>
+
+        <piece id="18" date="2007-10-31">
+            <clay id="WhiteStoneware" weightWhenWet="800"/>
+        </piece>
+
+        <piece id="19" date="2007-10-31">
+            <clay id="WhiteStoneware" weightWhenWet="800"/>
+        </piece>
+
+        <piece id="hearth shaped">
+            <clay id="SaintThomas"/>
+            <note>Very thin, uneven the date is estimated.</note>
+        </piece>
+
+        <piece id="small base, early creation">
+            <clay id="SaintThomas"/>
+            <glaze id="FrostedJade" Viscosity="51"/>
+            <note>The date is estimated. Thick layer.</note>
+        </piece>
+
     </pieces>
 
 </pottery>
