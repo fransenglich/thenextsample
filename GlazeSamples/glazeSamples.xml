@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pottery xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
     <glazes>
+        <glaze id="GreenHue"
+               manufacturer="Potterycrafts Limited"
+               name="Green Hue"
+               productID="P2579"/>
+
+        <glaze id="FrostedJade"
+               manufacturer="Potterycrafts Limited"
+               name="Green Hue"
+               productID="P2540"/>
+
+        <glaze id="IntenseBlack"
+               manufacturer="Potterycrafts Limited"
+               name="Intense Black"
+               productID="P3555"/>
+
+       <glaze id="WhiteGloss"
+               manufacturer="Potterycrafts Limited"
+               name="White Gloss"
+               productID="P3550"/>
+
+        <glaze id="SandBrown"
+               manufacturer="Potterycrafts Limited"
+               name="Sand Brown, B/O"
+               productID="2845.5"/>
+
+        <glaze id="ImagineGreen"
+               manufacturer="Ceradel"
+               name="Imagine ELG 80, Vent 230 ML Green"
+               description="Brush on glaze."/>
+
+        <glaze id="GreyAmaco"
+               name="Sahara Liquid Glazes, HF series, HF-18, Grey Amaco"
+               productID="HF-18"
+               manufacturer="Amaco"
+               description="Brush on glaze."/>
+
+        <glaze id="Yellow"
+               name="Yellow Brush-on glaze."
+               productID="P2842"
+               manufacturer="Potterycrafts Limited"
+               description="Brush on glaze."/>
     </glazes>
 
     <glazeSamples>
         <glazeSample date="2007-09-28">
             <brick id="W1"/>
             <brick id="T5"/>
-            <glazing name="Sand Brown, B/O, Potterycrafts LTD, 2845.5"/>
+            <glazing id="SandBrown"/>
             <note>
                 The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.
             </note>
@@ -16,7 +57,7 @@
         <glazeSample date="2007-09-28">
             <brick id="W10"/>
             <brick id="T8"/>
-            <glazing name="Imagine ELG 80, Vent 230 ML Green, Ceradel"/>
+            <glazing id="ImagineGreen"/>
             <note>
                 Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?
             </note>
@@ -25,7 +66,7 @@
         <glazeSample date="2007-09-28">
             <brick id="W12"/>
             <brick id="T41"/>
-            <glazing name="Frosted jade" viscosity="53"/>
+            <glazing id="FrostedJade" viscosity="53"/>
             <note>Very thick. Very hard to stir, could it be the temperature?</note>
         </glazeSample>
 
@@ -33,30 +74,30 @@
             <brick id="W6"/>
             <brick id="T4"/>
             <brick id="W11"/>
-            <glazing name="Sahara Liquid Glazes, HF series, HF-18, Grey Amaco"/>
+            <glazing id="GreyAmaco"/>
             <note>W11 had an extra layer on the second level.</note>
         </glazeSample>
 
         <glazeSample date="2007-09-28">
             <brick id="T17"/>
             <brick id="W2"/>
-            <glazing name="Frosted Jade, trickled" viscosity="46"/>
+            <glazing id="FrostedJade" trickled="true" viscosity="46"/>
             <note>Dipped, my famous "three seconds".</note>
         </glazeSample>
 
         <glazeSample date="2007-09-28">
             <brick id="T9"/>
             <brick id="W3"/>
-            <glazing name="Green Hue, trickled" viscosity="40"/>
-            <note>Dipped, my famous "three seconds".</note>
+            <glazing id="GreenHue" trickled="true" viscosity="40"/>
+            <note>Dipped, the famous "three seconds".</note>
         </glazeSample>
 
         <glazeSample date="2007-09-28">
             <brick id="W8"/>
             <brick id="T34"/><!-- Although my paper note said T31 -->
 
-            <glazing name="Frosted Jade, trickled" viscosity="45"/>
-            <glazing name="Green Hue, trickled" viscosity="41"/>
+            <glazing id="FrostedJade" trickled="true" viscosity="45"/>
+            <glazing id="GreenHue" trickled="true" viscosity="41"/>
 
             <note>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</note>
         </glazeSample>
@@ -65,7 +106,7 @@
             <brick id="W13"/>
             <brick id="T32"/>
 
-            <glazing name="White" viscosity="35"/>
+            <glazing id="WhiteGloss" viscosity="35"/>
 
             <note/>
         </glazeSample>
@@ -74,7 +115,7 @@
             <brick id="T6"/>
             <brick id="W5"/>
 
-            <glazing name="Yellow"/>
+            <glazing id="Yellow"/>
 
             <note/>
         </glazeSample>
@@ -82,91 +123,91 @@
         <glazeSample date="2007-08-15">
             <brick id="T7"/>
 
-            <glazing name="Frosted Jade" viscosity="46"/>
+            <glazing id="FrostedJade" viscosity="46"/>
             <note>2 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-08-15">
             <brick id="T12"/>
 
-            <glazing name="Frosted Jade" viscosity="46"/>
+            <glazing id="FrostedJade" viscosity="46"/>
             <note>4 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-08-15">
             <brick id="T13"/>
 
-            <glazing name="Green Hue" viscosity="46"/>
+            <glazing id="GreenHue" viscosity="46"/>
             <note>2 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-08-15">
             <brick id="T10"/>
 
-            <glazing name="Green Hue" viscosity="46"/>
+            <glazing id="GreenHue" viscosity="46"/>
             <note>4 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-08-15">
             <brick id="T3"/>
 
-            <glazing name="White" viscosity="45"/>
+            <glazing id="WhiteGloss" viscosity="45"/>
             <note>2 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-08-15">
             <brick id="T2"/>
 
-            <glazing name="White" viscosity="45"/>
+            <glazing id="WhiteGloss" viscosity="45"/>
             <note>4 seconds dipping.</note>
         </glazeSample>
 
         <glazeSample date="2007-09-25">
             <brick id="T9"/>
             <!-- TODO where's the note for this brick? -->
-            <glazing name="Frosted Jade"/>
+            <glazing id="FrostedJade"/>
             <note/>
         </glazeSample>
 
         <glazeSample date="2007-09-25">
             <brick id="W3"/>
             <!-- TODO where's the note for this sample? -->
-            <glazing name="Frosted Jade"/>
+            <glazing id="FrostedJade"/>
             <note/>
         </glazeSample>
 
         <glazeSample date="2007-09-25">
             <brick id="W9"/>
             <!-- TODO where's the note for this sample? -->
-            <glazing name="Green Hue"/>
+            <glazing id="GreenHue"/>
             <note/>
         </glazeSample>
 
         <glazeSample date="2007-09-25">
             <brick id="T19"/>
             <!-- TODO where's the note for this sample? -->
-            <glazing name="Green Hue"/>
+            <glazing id="GreenHue"/>
             <note/>
         </glazeSample>
 
         <glazeSample date="2007-10-29">
             <brick id="T40"/>
             <brick id="W7"/>
-            <glazing name="White" viscosity="50"/>
+            <glazing id="WhiteGloss" viscosity="50"/>
             <note>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</note>
         </glazeSample>
 
         <glazeSample date="2007-10-29">
             <brick id="T31"/>
-            <glazing name="White" viscosity="44"/>
+            <glazing id="WhiteGloss" viscosity="44"/>
             <note>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</note>
         </glazeSample>
 
         <glazeSample date="2007-10-29">
             <brick id="W4"/>
             <brick id="T36"/>
-            <glazing name="Black" viscosity="50"/>
-            <note>Despite being very thick, it is very elegant. Doesn't move at all, though of course the sample was lying horizontally.</note>
+            <glazing id="IntenseBlack" viscosity="50"/>
+            <note>Despite being very thick, it is very elegant. Doesn't move at all, when judgin from other pieces.</note>
         </glazeSample>
     </glazeSamples>
 
