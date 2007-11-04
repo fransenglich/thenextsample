@@ -18,21 +18,55 @@ A format for describing pottery glaze samples.
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:element name="glazeSamples">
+    <xs:element name="pottery">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="glazeSample"
-                            maxOccurs="unbounded"
-                            type="glazeSampleType"/>
+                <xs:element name="glazes"
+                            minOccurs="1"
+                            maxOccurs="1"
+                            type="glazesType"/>
+                <xs:element name="glazeSamples"
+                            minOccurs="1"
+                            maxOccurs="1"
+                            type="glazeSamplesType"/>
+                <xs:element name="pieces"
+                            minOccurs="1"
+                            maxOccurs="1"
+                            type="piecesType"/>
             </xs:sequence>
             <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace"/>
+            <!--<xs:attribute name="version" type="xs:decimal"/>-->
         </xs:complexType>
     </xs:element>
 
+    <xs:complexType name="glazeSamplesType">
+        <xs:sequence>
+            <xs:element name="glazeSample" type="glazeSampleType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="piecesType">
+        <xs:sequence>
+            <xs:element name="piece" type="glazeSampleType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="glazesType">
+        <xs:sequence>
+            <xs:element name="glaze" type="glazeType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="glazeType">
+        <xs:sequence>
+            <xs:element name="glaze" type="glazeType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
     <xs:complexType name="glazeSampleType">
         <xs:sequence>
-            <xs:element name="sample" type="sampleType" minOccurs="1" maxOccurs="unbounded"/>
-            <xs:element name="glaze" type="glazeType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="glazing" type="glazingType" minOccurs="1" maxOccurs="unbounded"/>
             <!--<xs:element name="clay" type="clayType" minOccurs="1"/>-->
             <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
         </xs:sequence>
@@ -40,7 +74,7 @@ A format for describing pottery glaze samples.
         <!--<xs:attribute name="id" type="sampleIDType" use="required"/>-->
     </xs:complexType>
 
-    <xs:complexType name="sampleType">
+    <xs:complexType name="brickType">
         <xs:attribute name="id" use="required" type="sampleIDType"/>
     </xs:complexType>
 
@@ -48,7 +82,7 @@ A format for describing pottery glaze samples.
         <xs:attribute name="name" type="xs:string"/>
     </xs:complexType>
 
-    <xs:complexType name="glazeType">
+    <xs:complexType name="glazingType">
         <xs:attribute name="name" use="required" type="xs:string"/>
         <xs:attribute name="viscosity" use="optional" type="viscosityType"/>
     </xs:complexType>
