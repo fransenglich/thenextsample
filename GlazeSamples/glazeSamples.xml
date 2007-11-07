@@ -55,6 +55,28 @@
                manufacturer="Potterycrafts Limited"
                description="Brush on glaze."/>
 
+        <glaze id="AxnerBlackUnderGlazePen"
+               name="AXNER underglaze pen."
+               productID="P4001"
+               manufacturer="AXNER" description="Pre-mixed on bottle, to 1280C."/>
+
+        <glaze id="Transparent"
+               name="AXNER underglaze pen."
+               productID="P1091"
+               manufacturer="Potterycrafts Limited"/>
+
+        <glaze id="TransparentCobberCarbonate"
+               name="Cobber Carbonate oxide in transparent glaze."
+               productID=""
+               manufacturer="Mixture"
+               description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Cobber carbonate, P3404, added. Not trickled." />
+  
+        <glaze id="TransparentYellowStain"
+               name="Yellow stain in transparent glaze."
+               productID=""
+               manufacturer="Mixture"
+               description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Canary/Golden Yellow, P4140, added. Not trickled." />
+
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
 
@@ -256,6 +278,34 @@
             <note>White black diagonally across the brick.</note>
         </glazeSample>
 
+        <glazeSample date="2007-11-07">
+            <brick id="T54"/>
+            <glazing id="AxnerBlackUnderGlazePen"/>
+            <clayref id="SaintThomas"/>
+            <note/>
+        </glazeSample>
+
+        <glazeSample date="2007-11-07">
+            <brick id="T33"/>
+            <glazing id="Transparent" trickled="false" viscosity="42"/>
+            <clayref id="SaintThomas"/>
+            <note/>
+        </glazeSample>
+
+        <glazeSample date="2007-11-07">
+            <brick id="T30"/>
+            <glazing id="TransparentYellowStain"/>
+            <clayref id="SaintThomas"/>
+            <note/>
+        </glazeSample>
+
+        <glazeSample date="2007-11-07">
+            <brick id="T51"/>
+            <glazing id="TransparentCobberCarbonate"/>
+            <clayref id="SaintThomas"/>
+            <note>Visible white spots on the sample. As if the transparent hadn't dissolved.</note>
+        </glazeSample>
+
     </glazeSamples>
 
     <pieces>
@@ -323,27 +373,27 @@
         -->
 
         <piece id="5" date="2007-10-02">
-            <glazing id="WSW" viscosity="42"/>
+            <glazing id="WhiteGloss" viscosity="42"/>
             <note>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
         </piece>
 
         <piece id="6" date="2007-10-02">
-            <glazing id="WSW" viscosity="42"/>
+            <glazing id="WhiteGloss" viscosity="42"/>
             <note>Had hand inside when glazing the outside.</note>
         </piece>
 
         <piece id="7" date="2007-10-02">
-            <glazing id="WSW" viscosity="42"/>
+            <glazing id="WhiteGloss" viscosity="42"/>
             <note>Polished the glaze edges. Same as 6, but better techniques.</note>
         </piece>
 
         <piece id="8" date="2007-10-02">
-            <glazing id="WSW" viscosity="42"/>
+            <glazing id="WhiteGloss" viscosity="42"/>
             <note> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
         </piece>
 
         <piece id="9" date="2007-10-02">
-            <glazing id="WSW"/>
+            <glazing id="WhiteGloss"/>
             <note>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</note>
         </piece>
 
@@ -372,9 +422,12 @@
             <note></note>
         </piece>
 
-        <piece id="15" date="2007-10-31">
+        <piece id="15" date="2007-11-07">
+            <!-- 2007-11-07 -->
+            <glazing id="WhiteGloss" trickled="false" viscosity="49"/>
+            <glazing id="IntenseBlack" trickled="false" viscosity="42"/>
             <clayref id="WSW" weightWhenWet="800"/>
-            <note></note>
+            <note>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on.</note>
         </piece>
 
         <piece id="16" date="2007-10-31">
@@ -421,6 +474,11 @@
             <note>Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</note>
         </piece>
 
+        <piece id="22" date="2007-11-07">
+            <glazing id="WhiteGloss" trickled="false" viscosity="49"/>
+            <clayref id="SaintThomas"/>
+            <note>Glazing went ok. I expect it to come out sane.</note>
+        </piece>
 
     </pieces>
 
