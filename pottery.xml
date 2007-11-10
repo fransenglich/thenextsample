@@ -82,7 +82,7 @@
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
 
-    <xi:include href="glazeSamples.xml"/>
+    <xi:include href="samples.xml"/>
 
     <pieces>
 

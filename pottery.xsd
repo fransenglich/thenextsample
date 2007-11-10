@@ -32,10 +32,10 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="glazesType"/>
-                    <xs:element name="glazeSamples"
+                    <xs:element name="samples"
                                 minOccurs="1"
                                 maxOccurs="1"
-                                type="glazeSamplesType"/>
+                                type="samplesType"/>
                     <xs:element name="pieces"
                                 minOccurs="1"
                                 maxOccurs="1"
@@ -47,9 +47,9 @@ A format for describing pottery glazes, samples and pieces.
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:complexType name="glazeSamplesType">
+    <xs:complexType name="samplesType">
         <xs:sequence>
-            <xs:element name="glazeSample" type="glazeSampleType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="sample" type="sampleType" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -114,7 +114,7 @@ A format for describing pottery glazes, samples and pieces.
         <xs:attribute name="description"    type="xs:normalizedString"  use="optional"/>
     </xs:complexType>
 
-    <xs:complexType name="glazeSampleType">
+    <xs:complexType name="sampleType">
         <xs:sequence>
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
