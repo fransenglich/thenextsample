@@ -422,12 +422,12 @@
             <note></note>
         </piece>
 
-        <piece id="15" date="2007-11-07">
+        <piece id="15" date="2007-11-05">
             <!-- 2007-11-07 -->
             <glazing id="WhiteGloss" trickled="false" viscosity="49"/>
             <glazing id="IntenseBlack" trickled="false" viscosity="42"/>
             <clayref id="WSW" weightWhenWet="800"/>
-            <note>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on.</note>
+            <note>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</note>
         </piece>
 
         <piece id="16" date="2007-10-31">
@@ -437,7 +437,7 @@
 
         <piece id="17" date="2007-10-31">
             <clayref id="WSW" weightWhenWet="800"/>
-            <note></note>
+            <note>The edge sunk due to that the edge was too wetened when trimming.</note>
         </piece>
 
         <piece id="18" date="2007-10-31">
@@ -447,7 +447,7 @@
 
         <piece id="19" date="2007-10-31">
             <clayref id="WSW" weightWhenWet="800"/>
-            <note></note>
+            <note>Edge broken when loading oven.</note>
         </piece>
 
         <!--
