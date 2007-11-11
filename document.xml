@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "-//OASIS//DTD DocBook V5.0//EN">
+<book xmlns="http://docbook.org/ns/docbook">
+    <title>Frans' Pottery Log</title>
+
+    <chapter>
+        <title>PiecePieces</title>
+        <!-- pieces -->
+        <para/>
+    </chapter>
+
+</book>
+<!--
+vim: et:ts=4:sw=4:sts=4
+-->
