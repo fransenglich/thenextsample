@@ -216,6 +216,13 @@
         <clayref id="SaintThomas"/>
         <note>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</note>
     </sample>
+
+    <sample date="2007-11-10">
+        <brick id="T47"/>
+        <glazing id="TransparentBlackStain" trickled="false"/>
+        <clayref id="SaintThomas"/>
+        <note/>
+    </sample>
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4
