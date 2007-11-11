@@ -7,8 +7,8 @@ xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved
 xmllint --xinclude --noout --relaxng docbook.rng pottery.docbook
 
 sourceFile="sources.xml"
-echo '<xml version="1.0" encoding="UTF-8"?>' > $sourceFile
-echo '<sources>' >> $sourceFile
+echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
+echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">' >> $sourceFile
 sources="                       \
          glazes.xml             \
          pieces.xml             \
@@ -18,7 +18,7 @@ sources="                       \
          samples.xml            \
          $0"
 for source in $sources; do
-    echo "<source uri=\"$source\" gitSHA1=\"`git log --pretty=format:%h pieces.xml`\"/>" >> $sourceFile
+    echo "<source href=\"$source\" gitSHA1=\"`git log --pretty=format:%h pieces.xml`\"/>" >> $sourceFile
 done
 echo '</sources>' >> $sourceFile
 

@@ -45,8 +45,21 @@
     <xsl:template name="sourcesAppendix">
         <appendix>
             <title>Sources</title>
-            <para/>
+            <para>This document was generated from the following sources. The string following the file name is the git SHA1 checksum.</para>
+            <itemizedlist>
+                <xsl:apply-templates select="document('sources.xml')/p:sources/p:source"/>
+            </itemizedlist>
         </appendix>
+    </xsl:template>
+
+    <xsl:template match="p:source">
+        <listitem>
+            <para>
+                <filename><xsl:value-of select="@href"/></filename>
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="@gitSHA1"/>
+            </para>
+        </listitem>
     </xsl:template>
 
     <!-- Just swallow unmatched things for now. -->
