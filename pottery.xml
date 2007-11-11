@@ -2,6 +2,10 @@
 <pottery xml:lang="en" version="0.1"
     xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
     xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="pieces.xml"/>
+    <xi:include href="samples.xml"/>
+
     <clays>
         <clay id="SaintThomas"
             name="White St. Thomas"
@@ -38,7 +42,7 @@
         <glaze id="SandBrown"
                manufacturer="Potterycrafts Limited"
                name="Sand Brown, B/O"
-               productID="2845.5"/>
+               productID="P2845.5"/>
 
         <glaze id="ImagineGreen"
                manufacturer="Ceradel"
@@ -52,38 +56,33 @@
                description="Brush on glaze."/>
 
         <glaze id="Yellow"
-               name="Yellow Brush-on glaze."
+               name="Yellow Brush-on glaze"
                productID="P2842"
                manufacturer="Potterycrafts Limited"
                description="Brush on glaze."/>
 
         <glaze id="AxnerBlackUnderGlazePen"
-               name="AXNER underglaze pen."
+               name="AXNER underglaze pen"
                productID="P4001"
                manufacturer="AXNER" description="Pre-mixed on bottle, to 1280C."/>
 
         <glaze id="Transparent"
-               name="AXNER underglaze pen."
+               name="AXNER black underglaze pen"
                productID="P1091"
                manufacturer="Potterycrafts Limited"/>
 
         <glaze id="TransparentCobberCarbonate"
-               name="Cobber Carbonate oxide in transparent glaze."
-               productID=""
+               name="Cobber Carbonate oxide in transparent glaze"
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Cobber carbonate, P3404, added. Not trickled." />
   
         <glaze id="TransparentYellowStain"
-               name="Yellow stain in transparent glaze."
-               productID=""
+               name="Yellow stain in transparent glaze"
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Canary/Golden Yellow, P4140, added. Not trickled." />
 
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
-
-    <xi:include href="samples.xml"/>
-    <xi:include href="pieces.xml"/>
 
 </pottery>
 <!--

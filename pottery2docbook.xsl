@@ -42,6 +42,41 @@
         <para/>
     </xsl:template>
 
+    <xsl:template match="p:glazes">
+        <chapter>
+            <title>Glazes</title>
+            <xsl:apply-templates/>
+        </chapter>
+    </xsl:template>
+
+    <xsl:template match="p:glaze">
+        <formalpara>
+            <title>
+                <xsl:value-of select="@name"/>
+                <xsl:if test="@productID">, 
+                    <xsl:value-of select="@productID"/>
+                </xsl:if>
+            </title>
+            <para/>
+        </formalpara>
+    </xsl:template>
+
+    <xsl:template match="p:samples">
+        <chapter>
+            <title>Samples</title>
+            <xsl:apply-templates/>
+        </chapter>
+    </xsl:template>
+
+    <xsl:template match="p:sample">
+        <segmentedlist>
+            <title></title>
+            <segtitle></segtitle>
+            <seglistitem><seg></seg></seglistitem>
+        </segmentedlist>
+        <para><xsl:value-of select="string(p:note)"/></para>
+    </xsl:template>
+
     <xsl:template name="sourcesAppendix">
         <appendix>
             <title>Sources</title>

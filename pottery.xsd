@@ -24,6 +24,14 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <xs:element name="pieces"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="piecesType"/>
+                    <xs:element name="samples"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="samplesType"/>
                     <xs:element name="clays"
                                 minOccurs="1"
                                 maxOccurs="1"
@@ -32,14 +40,6 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="glazesType"/>
-                    <xs:element name="samples"
-                                minOccurs="1"
-                                maxOccurs="1"
-                                type="samplesType"/>
-                    <xs:element name="pieces"
-                                minOccurs="1"
-                                maxOccurs="1"
-                                type="piecesType"/>
                 </xs:sequence>
                 <xs:attribute name="version" type="xs:decimal"/>
                 <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="skip"/>
