@@ -164,29 +164,21 @@
     <sample date="2007-11-04">
         <brick id="T43"/>
         <clayref id="SaintThomas"/>
-        <note>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil.</note>
+        <note>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil. As the brick shows there's no trace, except for the mechanical marks that the ball pen did.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick id="T46"/>
         <glazing id="WhiteGloss" viscosity="44"/>
         <clayref id="SaintThomas"/>
-        <note>Drew with black lead graphite pencil, and then glazed on top of that.</note>
-    </sample>
-
-    <sample date="2007-11-04">
-        <brick id="T44"/>
-        <glazing id="WhiteGloss" viscosity="44"/>
-        <glazing id="WhiteGloss" viscosity="42"/>
-        <clayref id="SaintThomas"/>
-        <note/>
+        <note>Drew with black lead graphite pencil, and then glazed on top of that. As the brick shows there's not a single trace, so using pen is ok.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick id="T44"/>
         <glazing id="IntenseBlack" viscosity="42"/>
         <clayref id="SaintThomas"/>
-        <note/>
+        <note>Too thin.</note>
     </sample>
 
     <sample date="2007-11-04">
@@ -194,7 +186,7 @@
         <glazing id="IntenseBlack" viscosity="42"/>
         <glazing id="WhiteGloss" viscosity="44"/>
         <clayref id="SaintThomas"/>
-        <note>White black diagonally across the brick.</note>
+        <note>White black diagonally across the brick. Both glazes to thin, or at least to quick dipping.</note>
     </sample>
 
     <sample date="2007-11-07">
@@ -213,16 +205,16 @@
 
     <sample date="2007-11-07">
         <brick id="T30"/>
-        <glazing id="TransparentYellowStain"/>
+        <glazing id="TransparentYellowStain" trickled="false"/>
         <clayref id="SaintThomas"/>
-        <note/>
+        <note>Kinda ok, but it's a pity that the yellow is cold.</note>
     </sample>
 
     <sample date="2007-11-07">
         <brick id="T51"/>
-        <glazing id="TransparentCobberCarbonate"/>
+        <glazing id="TransparentCobberCarbonate" trickled="false"/>
         <clayref id="SaintThomas"/>
-        <note>Visible white spots on the sample. As if the transparent hadn't dissolved.</note>
+        <note>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</note>
     </sample>
 </samples>
 <!--
