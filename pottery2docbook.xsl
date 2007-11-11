@@ -56,7 +56,9 @@
         <listitem>
             <para>
                 <filename><xsl:value-of select="@href"/></filename>
-                <xsl:text> </xsl:text>
+                <xsl:text>, </xsl:text>
+                <date><xsl:value-of select="@date"/></date>
+                <xsl:text>, </xsl:text>
                 <xsl:value-of select="@gitSHA1"/>
             </para>
         </listitem>
