@@ -171,7 +171,18 @@
         <note>Glazing went ok. I expect it to come out sane.</note>
     </piece>
 
-    </pieces>
+    <piece id="57" date="2007-11-12">
+        <clayref id="SaintThomas" weightWhenWet="4100"/>
+        <note>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</note>
+    </piece>
+
+    <piece id="58" date="2007-11-12">
+        <clayref id="SaintThomas" weightWhenWet="4250"/>
+        <note>This wasn't really Saint Thomas, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
+    </piece>
+
+</pieces>
+
 <!--
 vim: et:ts=4:sw=4:sts=4
 -->
