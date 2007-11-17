@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pieces xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">
 
-    <piece id="36" date="2007-10-29">
+    <piece id="36">
         <glazing id="IntenseBlack" viscosity="50"/>
         <glazing id="WhiteGloss" viscosity="44"/>
         <glazing id="Yellow"/>
-        <note>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</note>
+        <note date="2007-10-29">White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</note>
     </piece>
 
-    <piece id="37" date="2007-10-29">
+    <piece id="37">
         <glazing id="IntenseBlack" viscosity="50"/>
         <glazing id="WhiteGloss" viscosity="50"/>
         <glazing id="Yellow"/>
-        <note>Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</note>
+        <note date="2007-10-29">Both glazes are very thick as the viscosity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</note>
     </piece>
 
-    <piece id="38" date="2007-10-29">
+    <piece id="38">
         <glazing id="IntenseBlack" viscosity="50"/>
         <glazing id="Yellow"/>
-        <note>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</note>
+        <note date="2007-10-29">The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</note>
     </piece>
 
     <!--
@@ -63,82 +63,83 @@
     </piece>
     -->
 
-    <piece id="5" date="2007-10-02">
+    <piece id="5">
         <glazing id="WhiteGloss" viscosity="42"/>
-        <note>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
+        <note date="2007-10-02">Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
     </piece>
 
-    <piece id="6" date="2007-10-02">
+    <piece id="6">
         <glazing id="WhiteGloss" viscosity="42"/>
-        <note>Had hand inside when glazing the outside.</note>
+        <note date="2007-10-02">Had hand inside when glazing the outside.</note>
     </piece>
 
-    <piece id="7" date="2007-10-02">
+    <piece id="7">
         <glazing id="WhiteGloss" viscosity="42"/>
-        <note>Polished the glaze edges. Same as 6, but better techniques.</note>
+        <note date="2007-10-02">Polished the glaze edges. Same as 6, but better techniques.</note>
     </piece>
 
-    <piece id="8" date="2007-10-02">
+    <piece id="8">
         <glazing id="WhiteGloss" viscosity="42"/>
-        <note> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
+        <note date="2007-10-02"> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
     </piece>
 
-    <piece id="9" date="2007-10-02">
+    <piece id="9">
         <glazing id="WhiteGloss"/>
-        <note>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</note>
+        <note date="2007-10-02">Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</note>
     </piece>
 
-    <piece id="31" date="2007-10-27">
+    <piece id="31">
         <clayref id="SaintThomas" weightWhenWet="2200"/>
-        <note></note>
+        <note date="2007-10-27"/>
     </piece>
 
-    <piece id="32" date="2007-10-27">
+    <piece id="32">
         <clayref id="SaintThomas" weightWhenWet="2000"/>
-        <note></note>
+        <note date="2007-10-27"/>
     </piece>
 
-    <piece id="33" date="2007-10-27">
+    <piece id="33">
         <clayref id="SaintThomas" weightWhenWet="2000"/>
-        <note></note>
+        <note date="2007-10-27"/>
     </piece>
 
-    <piece id="34" date="2007-10-27">
+    <piece id="34">
         <clayref id="SaintThomas" weightWhenWet="2000"/>
-        <note></note>
+        <note date="2007-10-27"/>
     </piece>
 
-    <piece id="35" date="2007-10-27">
+    <piece id="35">
         <clayref id="SaintThomas" weightWhenWet="4100"/>
-        <note></note>
+        <note date="2007-10-27"/>
     </piece>
 
-    <piece id="15" date="2007-11-05">
-        <!-- 2007-11-07 -->
+    <piece id="15">
         <glazing id="WhiteGloss" trickled="false" viscosity="49"/>
         <glazing id="IntenseBlack" trickled="false" viscosity="42"/>
         <clayref id="WSW" weightWhenWet="800"/>
-        <note>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</note>
+        <note date="2007-11-05">Threw it</note>
+        <note date="2007-11-07">Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</note>
+
     </piece>
 
-    <piece id="16" date="2007-10-31">
+    <piece id="16">
         <clayref id="WSW" weightWhenWet="800"/>
-        <note></note>
+        <note date="2007-10-31"/>
     </piece>
 
-    <piece id="17" date="2007-10-31">
+    <piece id="17">
         <clayref id="WSW" weightWhenWet="800"/>
-        <note>The edge sunk due to that the edge was too wetened when trimming.</note>
+        <note date="2007-10-31">The edge sunk due to that the edge was too wetened when trimming.</note>
     </piece>
 
-    <piece id="18" date="2007-10-31">
+    <piece id="18">
         <clayref id="WSW" weightWhenWet="800"/>
-        <note></note>
+        <note date="2007-10-31"/>
     </piece>
 
-    <piece id="19" date="2007-10-31">
+    <piece id="19">
         <clayref id="WSW" weightWhenWet="800"/>
-        <note>Edge broken when loading oven.</note>
+        <note date="2007-10-31">Edge broken when loading oven.</note>
     </piece>
 
     <!--
@@ -154,33 +155,33 @@
     </piece>
     -->
 
-    <piece id="4" date="2007-11-04">
+    <piece id="4">
         <clayref id="SaintThomas"/>
-        <note>The top edge broke exactly where I had put the wax, after having glazed it with white. Did the water from the glaze, or the wax lower the duability? Lousy diipping. Lots of rinning outside and inside. Waxed spots before glazing with white, filled in with black using baloon. The black ran in two places(over the white), from the two isolated cicled. Filled in with black using a brush on the broken edge.</note>
+        <note date="2007-11-04">The top edge broke exactly where I had put the wax, after having glazed it with white. Did the water from the glaze, or the wax lower the duability? Lousy diipping. Lots of rinning outside and inside. Waxed spots before glazing with white, filled in with black using baloon. The black ran in two places(over the white), from the two isolated cicled. Filled in with black using a brush on the broken edge.</note>
 
     </piece>
 
-    <piece id="4" date="2007-11-04">
+    <piece id="4">
         <clayref id="WSW"/>
-        <note>Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</note>
+        <note date="2007-11-04">Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</note>
     </piece>
 
-    <piece id="22" date="2007-11-07">
+    <piece id="22">
         <glazing id="WhiteGloss" trickled="false" viscosity="49"/>
         <clayref id="SaintThomas"/>
-        <note>Glazing went ok. I expect it to come out sane.</note>
+        <note date="2007-11-07">Glazing went ok. I expect it to come out sane.</note>
     </piece>
 
-    <piece id="41" date="2007-11-12">
+    <piece id="41">
         <clayref id="SaintThomas" weightWhenWet="4100"/>
-        <note>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</note>
+        <note date="2007-11-12">Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</note>
         <note date="2007-11-18">Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</note>
     </piece>
 
-    <piece id="42" date="2007-11-12">
+    <piece id="42">
         <clayref id="WSW" weightWhenWet="4250"/>
         <clayref id="SaintThomas"/>
-        <note>This wasn't really White Stoneware, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
+        <note date="2007-11-12">This wasn't really White Stoneware, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
         <note date="2007-11-18">Lots of rythm, trimmed of 1100 g. Clearly poorly thrown. Used it for bending experimentation. Cracks were filed up with Saint Thomas. Lots of trouble with bending, resulting in that the stem collapsed on one side. Repaired with Saint Thomas. My conclusion of all this is that one should trimm off the stem,  throw one separately, bend the body, and then mount it to the separate stem.</note>
     </piece>
 
