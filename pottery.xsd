@@ -73,13 +73,23 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="0"
                                 maxOccurs="unbounded"/>
                     <xs:element name="note"
-                                type="xs:normalizedString"
-                                minOccurs="1"/>
+                                type="noteType"
+                                minOccurs="1"
+                                maxOccurs="unbounded"/>
                 </xs:sequence>
                 <xs:attribute name="id" type="xs:normalizedString" use="required"/>
                 <xs:attribute name="date" type="xs:date" use="required"/>
             </xs:restriction>
         </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="noteType">
+        <xs:simpleContent>
+            <xs:extension base="xs:normalizedString">
+                <!-- TODO make it optional, and move the date attr from <piece> to the first note. -->
+                <xs:attribute name="date" use="optional" type="xs:date"/>
+            </xs:extension>
+        </xs:simpleContent>
     </xs:complexType>
 
     <xs:complexType name="claysType">

@@ -171,14 +171,17 @@
         <note>Glazing went ok. I expect it to come out sane.</note>
     </piece>
 
-    <piece id="57" date="2007-11-12">
+    <piece id="41" date="2007-11-12">
         <clayref id="SaintThomas" weightWhenWet="4100"/>
         <note>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</note>
+        <note date="2007-11-18">Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</note>
     </piece>
 
-    <piece id="58" date="2007-11-12">
-        <clayref id="SaintThomas" weightWhenWet="4250"/>
-        <note>This wasn't really Saint Thomas, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
+    <piece id="42" date="2007-11-12">
+        <clayref id="WSW" weightWhenWet="4250"/>
+        <clayref id="SaintThomas"/>
+        <note>This wasn't really White Stoneware, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
+        <note date="2007-11-18">Lots of rythm, trimmed of 1100 g. Clearly poorly thrown. Used it for bending experimentation. Cracks were filed up with Saint Thomas. Lots of trouble with bending, resulting in that the stem collapsed on one side. Repaired with Saint Thomas. My conclusion of all this is that one should trimm off the stem,  throw one separately, bend the body, and then mount it to the separate stem.</note>
     </piece>
 
 </pieces>
