@@ -10,10 +10,10 @@
                 xmlns:p="tag:fenglich.fastmail.fm,2007:Pottery">
 
 
-    <xsl:template match="/p:pottery">
+    <xsl:template match="p:pottery">
         <book xml:lang="en">
-            <title>Frans' Pottery Log</title>
             <info>
+                <title>Frans' Pottery Log</title>
                 <author>
                     <personname>
                         <firstname>Frans</firstname>
@@ -52,7 +52,25 @@
     </xsl:template>
 
     <xsl:template match="p:piece">
-        <para/>
+            <section>
+                <title>
+                    <xsl:value-of select="substring(@xml:id, 2)"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="p:note[1]/@date"/>
+                </title>
+                <xsl:apply-templates/>
+            </section>
+    </xsl:template>
+
+    <xsl:template match="p:clayref">
+    </xsl:template>
+
+
+    <xsl:template match="p:note">
+        <formalpara>
+            <title><xsl:value-of select="@date"/></title>
+            <para><xsl:value-of select="."/></para>
+        </formalpara>
     </xsl:template>
 
     <xsl:template match="p:glazes">
@@ -94,12 +112,39 @@
     </xsl:template>
 
     <xsl:template match="p:sample">
-        <segmentedlist>
-            <title></title>
-            <segtitle></segtitle>
-            <seglistitem><seg></seg></seglistitem>
-        </segmentedlist>
-        <para><xsl:value-of select="string(p:note)"/></para>
+        <section>
+            <title><xsl:apply-templates select="p:brick"/></title>
+            
+            <xsl:apply-templates select="p:glazing | p:note"/>
+        </section>
+    </xsl:template>
+
+    <xsl:template match="p:sample/p:note">
+        <formalpara>
+                <title><xsl:value-of select="../@date"/></title>
+                <para><xsl:value-of select="."/></para>
+        </formalpara>
+    </xsl:template>
+
+    <xsl:template match="p:glazing">
+        <para><emphasis>Glaze</emphasis>: <xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@id]/@name"/>
+            <xsl:apply-templates select="@viscosity | @trickled"/>
+        </para>
+    </xsl:template>
+
+    <xsl:template match="@viscosity">
+        <xsl:text>, </xsl:text><emphasis>viscosity</emphasis>:
+        <constant><xsl:value-of select="."/></constant>
+    </xsl:template>
+
+    <xsl:template match="@trickled">
+        <xsl:text>, </xsl:text><emphasis>trickled</emphasis>:
+        <xsl:value-of select="."/>
+    </xsl:template>
+
+    <xsl:template match="p:brick">
+        <xsl:value-of select="@xml:id"/>
+        <xsl:text> </xsl:text>
     </xsl:template>
 
     <xsl:template name="sourcesAppendix">
@@ -127,8 +172,8 @@
     <!-- We don't want to process this. -->
     <xsl:template match="p:clays"/>
 
-    <!-- Just swallow unmatched things for now. -->
-    <xsl:template match="*">
+    <!-- Flag things we miss. -->
+    <xsl:template match="* | @*">
         <xsl:message terminate="yes">
             Unmatched node: <xsl:value-of select="name()"/>
         </xsl:message>
