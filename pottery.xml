@@ -7,81 +7,81 @@
     <xi:include href="samples.xml"/>
 
     <clays>
-        <clay id="SaintThomas"
+        <clay xml:id="SaintThomas"
             name="White St. Thomas"
               productID="1106"
               manufacturer="Potterycrafts Limited"/>
 
-        <clay id="WSW"
+        <clay xml:id="WSW"
               name="White Stoneware"
               productID="1145"
               manufacturer="5otterycrafts Limited"/>
     </clays>
 
     <glazes>
-        <glaze id="GreenHue"
+        <glaze xml:id="GreenHue"
                manufacturer="Potterycrafts Limited"
                name="Green Hue"
                productID="P2579"/>
 
-        <glaze id="FrostedJade"
+        <glaze xml:id="FrostedJade"
                manufacturer="Potterycrafts Limited"
                name="Green Hue"
                productID="P2540"/>
 
-        <glaze id="IntenseBlack"
+        <glaze xml:id="IntenseBlack"
                manufacturer="Potterycrafts Limited"
                name="Intense Black"
                productID="P3555"/>
 
-       <glaze id="WhiteGloss"
+       <glaze xml:id="WhiteGloss"
                manufacturer="Potterycrafts Limited"
                name="White Gloss"
                productID="P3550"/>
 
-        <glaze id="SandBrown"
+        <glaze xml:id="SandBrown"
                manufacturer="Potterycrafts Limited"
                name="Sand Brown, B/O"
                productID="P2845.5"/>
 
-        <glaze id="ImagineGreen"
+        <glaze xml:id="ImagineGreen"
                manufacturer="Ceradel"
                name="Imagine ELG 80, Vent 230 ML Green"
                description="Brush on glaze."/>
 
-        <glaze id="GreyAmaco"
+        <glaze xml:id="GreyAmaco"
                name="Sahara Liquid Glazes, HF series, HF-18, Grey Amaco"
                productID="HF-18"
                manufacturer="Amaco"
                description="Brush on glaze."/>
 
-        <glaze id="Yellow"
+        <glaze xml:id="Yellow"
                name="Yellow Brush-on glaze"
                productID="P2842"
                manufacturer="Potterycrafts Limited"
                description="Brush on glaze."/>
 
-        <glaze id="AxnerBlackUnderGlazePen"
+        <glaze xml:id="AxnerBlackUnderGlazePen"
                name="AXNER underglaze pen"
                productID="P4001"
                manufacturer="AXNER" description="Pre-mixed on bottle, to 1280C."/>
 
-        <glaze id="Transparent"
+        <glaze xml:id="Transparent"
                name="AXNER black underglaze pen"
                productID="P1091"
                manufacturer="Potterycrafts Limited"/>
 
-        <glaze id="TransparentCobberCarbonate"
+        <glaze xml:id="TransparentCobberCarbonate"
                name="Cobber Carbonate oxide in transparent glaze"
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Cobber carbonate, P3404, added. Not trickled." />
   
-        <glaze id="TransparentYellowStain"
+        <glaze xml:id="TransparentYellowStain"
                name="Yellow stain in transparent glaze"
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Canary/Golden Yellow, P4140, added. Not trickled." />
   
-        <glaze id="TransparentBlackStain"
+        <glaze xml:id="TransparentBlackStain"
                name="Black stain in transparent glaze"
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Black stain, P4130, added. Not trickled." />

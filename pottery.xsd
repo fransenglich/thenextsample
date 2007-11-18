@@ -8,6 +8,10 @@ A format for describing pottery glazes, samples and pieces.
            xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
            elementFormDefault="qualified">
 
+    <!-- xml:id per http://www.w3.org/TR/2005/REC-xml-id-20050909/ -->
+    <xs:import schemaLocation="xmlid.xsd"
+               namespace="http://www.w3.org/XML/1998/namespace"/>
+
     <xs:simpleType name="sampleIDsType">
         <xs:list itemType="sampleIDType"/>
     </xs:simpleType>
@@ -99,7 +103,7 @@ A format for describing pottery glazes, samples and pieces.
                 <xs:sequence>
                     <!-- TODO, sharpen up to make the clay element mandatory, and adjust up all the entries. -->
                     <xs:element name="clayref"
-                                type="clayRefType"
+                                type="clayrefType"
                                 minOccurs="0"
                                 maxOccurs="unbounded"/>
                     <xs:element name="glazing"
@@ -111,7 +115,7 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="unbounded"/>
                 </xs:sequence>
-                <xs:attribute name="id" type="xs:NCName" use="required"/>
+                <xs:attribute ref="xml:id" use="required"/>
             </xs:restriction>
         </xs:complexContent>
     </xs:complexType>
@@ -131,13 +135,13 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="clayType">
-        <xs:attribute name="id"             type="xs:NCName"            use="required"/>
+        <xs:attribute ref="xml:id" use="required"/>
         <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
         <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
         <xs:attribute name="productID"      type="xs:normalizedString"  use="required"/>
     </xs:complexType>
 
-    <xs:complexType name="clayRefType">
+    <xs:complexType name="clayrefType">
         <xs:attribute name="id"             type="xs:NCName"            use="required"/>
         <xs:attribute name="weightWhenWet"  type="xs:positiveInteger"   use="optional"/>
     </xs:complexType>
@@ -149,7 +153,7 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazeType">
-        <xs:attribute name="id"             type="xs:NCName"            use="required"/>
+        <xs:attribute ref="xml:id" use="required"/>
         <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
         <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
         <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
@@ -161,14 +165,14 @@ A format for describing pottery glazes, samples and pieces.
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
             <!-- TODO make clayref mandatory. -->
-            <xs:element name="clayref" type="clayRefType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="clayref" type="clayrefType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
         </xs:sequence>
         <xs:attribute name="date" type="xs:date" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="brickType">
-        <xs:attribute name="id" use="required" type="sampleIDType"/>
+        <xs:attribute ref="xml:id" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="glazingType">
