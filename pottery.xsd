@@ -4,8 +4,8 @@ A format for describing pottery glazes, samples and pieces.
 -->
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="tag:fenglich.fastmail.fm,2007:GlazeSamples"
-           xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
+           targetNamespace="tag:fenglich.fastmail.fm,2007:Pottery"
+           xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
            elementFormDefault="qualified">
 
     <!-- For xml:lang -->

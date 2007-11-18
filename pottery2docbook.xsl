@@ -7,7 +7,7 @@
                 xmlns:ex="http://exslt.org/dates-and-times"
                 xmlns:em="http://exslt.org/math"
                 xmlns:es="http://exslt.org/sets"
-                xmlns:p="tag:fenglich.fastmail.fm,2007:GlazeSamples">
+                xmlns:p="tag:fenglich.fastmail.fm,2007:Pottery">
 
 
     <xsl:template match="/p:pottery">
@@ -124,8 +124,11 @@
         </listitem>
     </xsl:template>
 
+    <!-- We don't want to process this. -->
+    <xsl:template match="p:clays | comment()"/>
+
     <!-- Just swallow unmatched things for now. -->
-    <xsl:template match="node()">
+    <xsl:template match="*">
         <xsl:message>
             Unmatched node: <xsl:value-of select="name()"/>
         </xsl:message>

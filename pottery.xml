@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pottery xml:lang="en" version="0.1"
-    xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
+    xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <xi:include href="pieces.xml"/>

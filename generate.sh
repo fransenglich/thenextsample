@@ -9,7 +9,7 @@ xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved
 xmllint --xinclude --noout --relaxng docbook.rng pottery.docbook
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
-echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples">' >> $sourceFile
+echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:Pottery">' >> $sourceFile
 sources="                       \
          pieces.xml             \
          pottery.xml            \
