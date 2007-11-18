@@ -125,15 +125,13 @@
     </xsl:template>
 
     <!-- We don't want to process this. -->
-    <xsl:template match="p:clays | comment()"/>
+    <xsl:template match="p:clays"/>
 
     <!-- Just swallow unmatched things for now. -->
     <xsl:template match="*">
-        <xsl:message>
+        <xsl:message terminate="yes">
             Unmatched node: <xsl:value-of select="name()"/>
         </xsl:message>
-        <!-- TODO terminate when done
-        -->
     </xsl:template>
 
 </xsl:stylesheet>
