@@ -4,6 +4,7 @@
                 xml:lang="en"
                 xmlns="http://docbook.org/ns/docbook"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:ex="http://exslt.org/dates-and-times"
                 xmlns:em="http://exslt.org/math"
                 xmlns:es="http://exslt.org/sets"
@@ -63,8 +64,15 @@
     </xsl:template>
 
     <xsl:template match="p:clayref">
-    </xsl:template>
+        <para><emphasis>Clay</emphasis>: <phrase xlink:href="#{@id}"><xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@id]/@name"/></phrase><xsl:apply-templates select="@weightWhenWet"/></para>
+    
+    </xsl:template> 
 
+    <xsl:template match="@weightWhenWet">
+        <xsl:text>, weight </xsl:text>
+        <emphasis>when wet</emphasis>:
+        <constant><xsl:value-of select="."/></constant> g
+    </xsl:template> 
 
     <xsl:template match="p:note">
         <formalpara>
@@ -81,7 +89,8 @@
     </xsl:template>
 
     <xsl:template match="p:glaze">
-        <formalpara>
+        <section>
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
             <title>
                 <xsl:value-of select="@name"/>
                 <xsl:if test="@productID">, 
@@ -89,7 +98,7 @@
                 </xsl:if>
             </title>
             <para/>
-        </formalpara>
+        </section>
     </xsl:template>
 
     <xsl:template match="p:samples">
@@ -127,7 +136,7 @@
     </xsl:template>
 
     <xsl:template match="p:glazing">
-        <para><emphasis>Glaze</emphasis>: <xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@id]/@name"/>
+        <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@id}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@id]/@name"/></phrase>
             <xsl:apply-templates select="@viscosity | @trickled"/>
         </para>
     </xsl:template>
@@ -169,8 +178,25 @@
         </listitem>
     </xsl:template>
 
-    <!-- We don't want to process this. -->
-    <xsl:template match="p:clays"/>
+    <xsl:template match="p:clays">
+        <chapter>
+            <title>Clays</title>
+            <xsl:apply-templates/>
+        </chapter>
+    </xsl:template>
+
+    <xsl:template match="p:clay">
+        <section>
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <title>
+                <xsl:value-of select="@name"/>
+                <xsl:if test="@productID">, 
+                    <xsl:value-of select="@productID"/>
+                </xsl:if>
+            </title>
+            <para/>
+        </section>
+    </xsl:template>
 
     <!-- Flag things we miss. -->
     <xsl:template match="* | @*">
