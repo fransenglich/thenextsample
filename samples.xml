@@ -33,14 +33,14 @@
         <brick xml:id="T17"/>
         <brick xml:id="W2"/>
         <glazing id="FrostedJade" trickled="true" viscosity="46"/>
-        <note>Dipped, my famous "three seconds".</note>
+        <note>Dipped, three seconds.</note>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T9"/>
         <brick xml:id="W3"/>
         <glazing id="GreenHue" trickled="true" viscosity="40"/>
-        <note>Dipped, the famous "three seconds".</note>
+        <note>Dipped, three seconds.</note>
     </sample>
 
     <sample date="2007-09-28">
