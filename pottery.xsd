@@ -111,7 +111,7 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="unbounded"/>
                 </xs:sequence>
-                <xs:attribute name="id" type="xs:normalizedString" use="required"/>
+                <xs:attribute name="id" type="xs:NCName" use="required"/>
             </xs:restriction>
         </xs:complexContent>
     </xs:complexType>
