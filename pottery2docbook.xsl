@@ -42,7 +42,7 @@
                 <title>Statistics</title>
                 <para>A total of <xsl:value-of select="count(p:piece)"/> pieces.</para>
 
-                <!--<para><x, <xsl:value-of select="em:max(p:piece/@id)"/> - </para>-->
+                <!--<para><x, <xsl:value-of select="em:max(p:piece/@idref)"/> - </para>-->
             </section>
 
             <section>
@@ -64,7 +64,7 @@
     </xsl:template>
 
     <xsl:template match="p:clayref">
-        <para><emphasis>Clay</emphasis>: <phrase xlink:href="#{@id}"><xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@id]/@name"/></phrase><xsl:apply-templates select="@weightWhenWet"/></para>
+        <para><emphasis>Clay</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@idref]/@name"/></phrase><xsl:apply-templates select="@weightWhenWet"/></para>
     
     </xsl:template> 
 
@@ -136,7 +136,7 @@
     </xsl:template>
 
     <xsl:template match="p:glazing">
-        <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@id}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@id]/@name"/></phrase>
+        <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>
             <xsl:apply-templates select="@viscosity | @trickled"/>
         </para>
     </xsl:template>

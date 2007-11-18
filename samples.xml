@@ -3,21 +3,21 @@
     <sample date="2007-09-28">
         <brick xml:id="W1"/>
         <brick xml:id="T5"/>
-        <glazing id="SandBrown"/>
+        <glazing idref="SandBrown"/>
         <note>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</note>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W10"/>
         <brick xml:id="T8"/>
-        <glazing id="ImagineGreen"/>
+        <glazing idref="ImagineGreen"/>
         <note>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</note>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W12"/>
         <brick xml:id="T41"/>
-        <glazing id="FrostedJade" viscosity="53"/>
+        <glazing idref="FrostedJade" viscosity="53"/>
         <note>Very thick. Very hard to stir, could it be the temperature?</note>
     </sample>
 
@@ -25,21 +25,21 @@
         <brick xml:id="W6"/>
         <brick xml:id="T4"/>
         <brick xml:id="W11"/>
-        <glazing id="GreyAmaco"/>
+        <glazing idref="GreyAmaco"/>
         <note>W11 had an extra layer on the second level.</note>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T17"/>
         <brick xml:id="W2"/>
-        <glazing id="FrostedJade" trickled="true" viscosity="46"/>
+        <glazing idref="FrostedJade" trickled="true" viscosity="46"/>
         <note>Dipped, three seconds.</note>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T9"/>
         <brick xml:id="W3"/>
-        <glazing id="GreenHue" trickled="true" viscosity="40"/>
+        <glazing idref="GreenHue" trickled="true" viscosity="40"/>
         <note>Dipped, three seconds.</note>
     </sample>
 
@@ -47,8 +47,8 @@
         <brick xml:id="W8"/>
         <brick xml:id="T34"/><!-- Although my paper note said T31 -->
 
-        <glazing id="FrostedJade" trickled="true" viscosity="45"/>
-        <glazing id="GreenHue" trickled="true" viscosity="41"/>
+        <glazing idref="FrostedJade" trickled="true" viscosity="45"/>
+        <glazing idref="GreenHue" trickled="true" viscosity="41"/>
 
         <note>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</note>
     </sample>
@@ -57,7 +57,7 @@
         <brick xml:id="W13"/>
         <brick xml:id="T32"/>
 
-        <glazing id="WhiteGloss" viscosity="35"/>
+        <glazing idref="WhiteGloss" viscosity="35"/>
 
         <note/>
     </sample>
@@ -66,7 +66,7 @@
         <brick xml:id="T6"/>
         <brick xml:id="W5"/>
 
-        <glazing id="Yellow"/>
+        <glazing idref="Yellow"/>
 
         <note/>
     </sample>
@@ -74,55 +74,55 @@
     <sample date="2007-08-15">
         <brick xml:id="T7"/>
 
-        <glazing id="FrostedJade" viscosity="46"/>
+        <glazing idref="FrostedJade" viscosity="46"/>
         <note>2 seconds dipping.</note>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T12"/>
 
-        <glazing id="FrostedJade" viscosity="46"/>
+        <glazing idref="FrostedJade" viscosity="46"/>
         <note>4 seconds dipping.</note>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T13"/>
 
-        <glazing id="GreenHue" viscosity="46"/>
+        <glazing idref="GreenHue" viscosity="46"/>
         <note>2 seconds dipping.</note>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T10"/>
 
-        <glazing id="GreenHue" viscosity="46"/>
+        <glazing idref="GreenHue" viscosity="46"/>
         <note>4 seconds dipping.</note>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T3"/>
 
-        <glazing id="WhiteGloss" viscosity="45"/>
+        <glazing idref="WhiteGloss" viscosity="45"/>
         <note>2 seconds dipping.</note>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T2"/>
 
-        <glazing id="WhiteGloss" viscosity="45"/>
+        <glazing idref="WhiteGloss" viscosity="45"/>
         <note>4 seconds dipping.</note>
     </sample>
 
     <!-- TODO these are weird, probably gone.
     <sample date="2007-09-25">
         <brick xml:id="T9"/>
-        <glazing id="FrostedJade"/>
+        <glazing idref="FrostedJade"/>
         <note/>
     </sample>
 
     <sample date="2007-09-25">
         <brick xml:id="W3"/>
-        <glazing id="FrostedJade"/>
+        <glazing idref="FrostedJade"/>
         <note/>
     </sample>
     -->
@@ -130,97 +130,97 @@
     <sample date="2007-09-25">
         <brick xml:id="W9"/>
         <!-- TODO where's the note for this sample? -->
-        <glazing id="GreenHue"/>
+        <glazing idref="GreenHue"/>
         <note/>
     </sample>
 
     <sample date="2007-09-25">
         <brick xml:id="T19"/>
         <!-- TODO where's the note for this sample? -->
-        <glazing id="GreenHue"/>
+        <glazing idref="GreenHue"/>
         <note/>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T40"/>
         <brick xml:id="W7"/>
-        <glazing id="WhiteGloss" viscosity="50"/>
+        <glazing idref="WhiteGloss" viscosity="50"/>
         <note>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</note>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T31"/>
-        <glazing id="WhiteGloss" viscosity="44"/>
+        <glazing idref="WhiteGloss" viscosity="44"/>
         <note>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</note>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="W4"/>
         <brick xml:id="T36"/>
-        <glazing id="IntenseBlack" viscosity="50"/>
+        <glazing idref="IntenseBlack" viscosity="50"/>
         <note>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T43"/>
-        <clayref id="SaintThomas"/>
+        <clayref idref="SaintThomas"/>
         <note>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil. As the brick shows there's no trace, except for the mechanical marks that the ball pen did.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T46"/>
-        <glazing id="WhiteGloss" viscosity="44"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="WhiteGloss" viscosity="44"/>
+        <clayref idref="SaintThomas"/>
         <note>Drew with black lead graphite pencil, and then glazed on top of that. As the brick shows there's not a single trace, so using pen is ok.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T44"/>
-        <glazing id="IntenseBlack" viscosity="42"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="IntenseBlack" viscosity="42"/>
+        <clayref idref="SaintThomas"/>
         <note>Too thin.</note>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T55"/>
-        <glazing id="IntenseBlack" viscosity="42"/>
-        <glazing id="WhiteGloss" viscosity="44"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="IntenseBlack" viscosity="42"/>
+        <glazing idref="WhiteGloss" viscosity="44"/>
+        <clayref idref="SaintThomas"/>
         <note>White black diagonally across the brick. Both glazes to thin, or at least to quick dipping.</note>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T54"/>
-        <glazing id="AxnerBlackUnderGlazePen"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="AxnerBlackUnderGlazePen"/>
+        <clayref idref="SaintThomas"/>
         <note/>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T33"/>
-        <glazing id="Transparent" trickled="false" viscosity="42"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="Transparent" trickled="false" viscosity="42"/>
+        <clayref idref="SaintThomas"/>
         <note/>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T30"/>
-        <glazing id="TransparentYellowStain" trickled="false"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="TransparentYellowStain" trickled="false"/>
+        <clayref idref="SaintThomas"/>
         <note>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron. Dropped T30 in the floor on 2007-11-17, glued it with cyanoacrylate glue.</note>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T51"/>
-        <glazing id="TransparentCobberCarbonate" trickled="false"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="TransparentCobberCarbonate" trickled="false"/>
+        <clayref idref="SaintThomas"/>
         <note>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</note>
     </sample>
 
     <sample date="2007-11-10">
         <brick xml:id="T47"/>
-        <glazing id="TransparentBlackStain" trickled="false"/>
-        <clayref id="SaintThomas"/>
+        <glazing idref="TransparentBlackStain" trickled="false"/>
+        <clayref idref="SaintThomas"/>
         <note/>
     </sample>
 </samples>

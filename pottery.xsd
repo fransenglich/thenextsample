@@ -147,7 +147,7 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="clayrefType">
-        <xs:attribute name="id"             type="xs:NCName"            use="required"/>
+        <xs:attribute name="idref"          type="xs:NCName"            use="required"/>
         <xs:attribute name="weightWhenWet"  type="xs:positiveInteger"   use="optional"/>
     </xs:complexType>
 
@@ -180,9 +180,9 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazingType">
-        <xs:attribute name="id" use="required" type="xs:NCName"/>
-        <xs:attribute name="viscosity" use="optional" type="viscosityType"/>
-        <xs:attribute name="trickled" use="optional" type="xs:boolean" default="false"/>
+        <xs:attribute name="idref"      use="required" type="xs:NCName"/>
+        <xs:attribute name="viscosity"  use="optional" type="viscosityType"/>
+        <xs:attribute name="trickled"   use="optional" type="xs:boolean" default="false"/>
     </xs:complexType>
 
     <xs:simpleType name="viscosityType">
