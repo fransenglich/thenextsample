@@ -8,9 +8,15 @@ A format for describing pottery glazes, samples and pieces.
            xmlns="tag:fenglich.fastmail.fm,2007:GlazeSamples"
            elementFormDefault="qualified">
 
+    <!-- For xml:lang -->
+    <xs:import schemaLocation="xml.xsd"
+               namespace="http://www.w3.org/XML/1998/namespace"/>
+
     <!-- xml:id per http://www.w3.org/TR/2005/REC-xml-id-20050909/ -->
+<!--
     <xs:import schemaLocation="xmlid.xsd"
                namespace="http://www.w3.org/XML/1998/namespace"/>
+-->
 
     <xs:simpleType name="sampleIDsType">
         <xs:list itemType="sampleIDType"/>
@@ -80,7 +86,7 @@ A format for describing pottery glazes, samples and pieces.
 
                 </xs:sequence>
                 <xs:attribute name="version" type="xs:decimal"/>
-                <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="skip"/>
+                <xs:attribute ref="xml:lang" use="required"/>
             </xs:restriction>
         </xs:complexContent>
     </xs:complexType>
@@ -101,7 +107,6 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
-                    <!-- TODO, sharpen up to make the clay element mandatory, and adjust up all the entries. -->
                     <xs:element name="clayref"
                                 type="clayrefType"
                                 minOccurs="0"
@@ -164,7 +169,6 @@ A format for describing pottery glazes, samples and pieces.
         <xs:sequence>
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
-            <!-- TODO make clayref mandatory. -->
             <xs:element name="clayref" type="clayrefType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
         </xs:sequence>
