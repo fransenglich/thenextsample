@@ -5,6 +5,8 @@
                 xmlns="http://docbook.org/ns/docbook"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:ex="http://exslt.org/dates-and-times"
+                xmlns:em="http://exslt.org/math"
+                xmlns:es="http://exslt.org/sets"
                 xmlns:p="tag:fenglich.fastmail.fm,2007:GlazeSamples">
 
 
@@ -34,7 +36,18 @@
     <xsl:template match="p:pieces">
         <chapter>
             <title>Pieces</title>
-            <xsl:apply-templates/>
+
+            <section>
+                <title>Statistics</title>
+                <para>A total of <xsl:value-of select="count(p:piece)"/> pieces.</para>
+
+                <!--<para><x, <xsl:value-of select="em:max(p:piece/@id)"/> - </para>-->
+            </section>
+
+            <section>
+                <title>Pieces</title>
+                <xsl:apply-templates/>
+            </section>
         </chapter>
     </xsl:template>
 
@@ -64,7 +77,19 @@
     <xsl:template match="p:samples">
         <chapter>
             <title>Samples</title>
-            <xsl:apply-templates/>
+
+            <section>
+                <title>Statistics</title>
+
+               <para>A total of <xsl:value-of select="count(p:sample)"/> samples.</para>
+            </section>
+
+            <section>
+                <title>Samples</title>
+
+                <xsl:apply-templates/>
+            </section>
+
         </chapter>
     </xsl:template>
 
@@ -80,7 +105,7 @@
     <xsl:template name="sourcesAppendix">
         <appendix>
             <title>Sources</title>
-            <para>This document was generated from the following sources. The string following the file name is the git SHA1 checksum.</para>
+            <para>This document was generated from the following sources. The string following the file date is the git SHA1 checksum.</para>
             <itemizedlist>
                 <xsl:apply-templates select="document('sources.xml')/p:sources/p:source"/>
             </itemizedlist>
@@ -94,7 +119,7 @@
                 <xsl:text>, </xsl:text>
                 <date><xsl:value-of select="@date"/></date>
                 <xsl:text>, </xsl:text>
-                <xsl:value-of select="@gitSHA1"/>
+                <systemitem><xsl:value-of select="@gitSHA1"/></systemitem>
             </para>
         </listitem>
     </xsl:template>
