@@ -79,12 +79,12 @@
         <glaze xml:id="TransparentYellowStain"
                name="Yellow stain in transparent glaze"
                manufacturer="Mixture"
-               description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Canary/Golden Yellow, P4140, added. Not trickled." />
+               description="To 200 ml transparent glaze, P1091 was 20 g Canary/Golden Yellow, P4140, added." />
   
-        <glaze xml:id="TransparentBlackStain"
+           <glaze xml:id="Chocolate"
                name="Black stain in transparent glaze"
                manufacturer="Mixture"
-               description="To 200 ml transparent glaze, P1091, with viscocity 42, was 20 g Black stain, P4130, added. Not trickled." />
+               description="To 200 ml transparent glaze, P1091 was 20 g Black stain, P4130, added." />
 
            <!-- All for keramik, Cerama 6250. -->
     </glazes>

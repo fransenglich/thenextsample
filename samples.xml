@@ -205,7 +205,7 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T30"/>
-        <glazing idref="TransparentYellowStain" trickled="false"/>
+        <glazing idref="TransparentYellowStain" viscosity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
         <note>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron. Dropped T30 in the floor on 2007-11-17, glued it with cyanoacrylate glue.</note>
     </sample>
@@ -219,9 +219,9 @@
 
     <sample date="2007-11-10">
         <brick xml:id="T47"/>
-        <glazing idref="TransparentBlackStain" trickled="false"/>
+        <glazing idref="Chocolate" viscosity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note/>
+        <note>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</note>
     </sample>
 </samples>
 <!--

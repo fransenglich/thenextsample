@@ -1,7 +1,5 @@
 * Make clayref mandatory for samples.
 * Add measurements
 * Make clayref mandatory for pieces.
-* Move out viscosity from the stain glazes.
 * Get the right name for viscosity
 * Make trickled mandatory.
-* Fix ddt/@date in .xml
