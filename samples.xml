@@ -223,6 +223,37 @@
         <clayref idref="SaintThomas"/>
         <note>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</note>
     </sample>
+
+    <sample date="2007-11-22">
+        <brick xml:id="T35"/>
+        <glazing idref="FrostedJade" viscosity="50" trickled="false"/>
+        <clayref idref="SaintThomas"/>
+        <note>Maybe mixed up with T42.</note>
+    </sample>
+
+    <sample date="2007-11-22">
+        <brick xml:id="T42"/>
+        <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
+        <clayref idref="SaintThomas"/>
+        <note>Maybe mixed up with T35.</note>
+    </sample>
+
+    <sample date="2007-11-22">
+        <brick xml:id="T39"/>
+        <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
+        <glazing idref="GreenHue" viscosity="45" trickled="false"/>
+        <clayref idref="SaintThomas"/>
+        <note>Green Hue is on top, at the bottom. So Frosted Jade was applied first, in other words. Frosted Jade was dried a bit first, but not competely, since the bisque was a tad cold.</note>
+    </sample>
+
+    <sample date="2007-11-22">
+        <brick xml:id="T42"/>
+        <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
+        <glazing idref="GreenHue" viscosity="45" trickled="false"/>
+        <clayref idref="SaintThomas"/>
+        <note>The opposite of T39. Frosted Jade is on top, at the botto. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</note>
+    </sample>
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

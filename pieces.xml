@@ -124,7 +124,10 @@
 
     <piece xml:id="P16">
         <clayref idref="WSW" weightWhenWet="800"/>
+        <glazing idref="Chocolate" viscosity="42" trickled="false"/>
+        <glazing idref="TransparentYellowStain" viscosity="42" trickled="false"/>
         <note date="2007-10-31"/>
+        <note date="2007-11-23">Tried brushing on the Chocolate glaze while it was spinning. The bisque sucks too strongly. Same case with the yellow. Inbetween was a brushed on wax, while rotating. Same problem again, the bisque is sucking too strongly. Well thrown though, thin and even. Inside is knocked though. Interesting perl at the bottom that are the yellow glaze.</note>
     </piece>
 
     <piece xml:id="P17">
@@ -192,6 +195,15 @@
     <piece xml:id="P43">
         <clayref idref="SaintThomas" weightWhenWet="4600"/>
         <note date="2007-11-18">The clay was too wet.</note>
+    </piece>
+
+    <piece xml:id="P2">
+        <clayref idref="SaintThomas" weightWhenWet="4600"/>
+        <glazing idref="Yellow"/>
+        <glazing idref="WhiteGloss" viscosity="44" trickled="false"/>
+        <glazing idref="IntenseBlack" viscosity="42" trickled="false"/>
+
+        <note date="2007-11-22">Masking escapades. First the inside and outside was completely glazed in white. The inside went well -- easy when it's big and plenty of glaze. The outside as well. Had it standing on two rulers that sat on the edge of a bucket, which was spinning with the help of a iron whirler. Taped on the outside, on top of the white glaze. The tape won't stick on top of the glaze, but it will to itself if one goes all the way around. However, it's still not enough for creating a non-leaking edge, as the fired piece will demonstrate. Though, it helps if one has an overlapping, reinforcing layer at the opposite side of what is being masked. Once the tape was in place, the white glaze at the top and at the passage was scraped and subsequently wiped off. Once done, the open sides was taped up a bit(but apparently not enough), and the passage glazed with black, and the top edge with one thick layer of yellow. Once the yellow was semi-dry, it was smoothed out with a watered brush. The tape thing doesn't work at all, it can't keep the glaze away, it's too loose. Removable wax combined with tape is a no go because the tape rips off all the wax, as seen with P15. However, resistive wax(P3384) sticks strongly to the glaze, and the tape doesn't pull it off with it. All in all, black ended up pretty much everywhere. Spots on the inside, rinnin on the outside, and on top of the yellow. The piece needs to be completely covered up. Bags plus tape.</note>
     </piece>
 
 </pieces>
