@@ -3,7 +3,6 @@
 * Make clayref mandatory for pieces.
 * Get the right name for viscosity
 * Make trickled mandatory.
-* Rename Yellow to YellowBO
 * Change notes to use docbook, usch that we can link between pieces/samples.
 * P22 is duplcated, merge.
 * Add uniqueness key on @name/@productID

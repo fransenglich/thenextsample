@@ -55,7 +55,7 @@
                manufacturer="Amaco"
                description="Brush on glaze."/>
 
-        <glaze xml:id="Yellow"
+        <glaze xml:id="YellowBO"
                name="Yellow Brush-on glaze"
                productID="P2842"
                manufacturer="Potterycrafts Limited"
