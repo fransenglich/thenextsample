@@ -232,7 +232,7 @@
     </sample>
 
     <sample date="2007-11-22">
-        <brick xml:id="T42"/>
+        <brick xml:id="T92"/>
         <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
         <clayref idref="SaintThomas"/>
         <note>Maybe mixed up with T35.</note>
