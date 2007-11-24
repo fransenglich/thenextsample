@@ -137,12 +137,12 @@
 
     <xsl:template match="p:glazing">
         <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>
-            <xsl:apply-templates select="@viscosity | @trickled"/>
+            <xsl:apply-templates select="@gravity | @trickled"/>
         </para>
     </xsl:template>
 
-    <xsl:template match="@viscosity">
-        <xsl:text>, </xsl:text><emphasis>viscosity</emphasis>:
+    <xsl:template match="@gravity">
+        <xsl:text>, </xsl:text><emphasis>gravity</emphasis>:
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
 

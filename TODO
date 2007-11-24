@@ -1,7 +1,6 @@
 * Make clayref mandatory for samples.
 * Add measurements
 * Make clayref mandatory for pieces.
-* Get the right name for viscosity
 * Make trickled mandatory.
 * Change notes to use docbook, usch that we can link between pieces/samples.
 * Add uniqueness key on @name/@productID

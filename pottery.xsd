@@ -181,11 +181,11 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:complexType name="glazingType">
         <xs:attribute name="idref"      use="required" type="xs:NCName"/>
-        <xs:attribute name="viscosity"  use="optional" type="viscosityType"/>
+        <xs:attribute name="gravity"  use="optional" type="gravityType"/>
         <xs:attribute name="trickled"   use="optional" type="xs:boolean" default="false"/>
     </xs:complexType>
 
-    <xs:simpleType name="viscosityType">
+    <xs:simpleType name="gravityType">
         <xs:restriction base="xs:integer"/>
     </xs:simpleType>
 </xs:schema>
