@@ -37,12 +37,6 @@
         <note/>
     </piece>
 
-    <piece xml:id="P22" date="2007-10-29">
-        <glazing idref="" viscosity="Same as 21?"/>
-        <clay weightWhenWet="600"/>
-        <note/>
-    </piece>
-
     <piece xml:id="P23" date="2007-10-29">
         <glazing idref="" viscosity="Same as 22?"/>
         <clay weightWhenWet="400"/>
@@ -169,8 +163,10 @@
 
     <piece xml:id="P22">
         <glazing idref="WhiteGloss" trickled="false" viscosity="49"/>
-        <clayref idref="SaintThomas"/>
+        <clayref idref="SaintThomas" weightWhenWet="600"/>
+        <note date="2007-10-29"/>
         <note date="2007-11-07">Glazing went ok. I expect it to come out sane.</note>
+        <note date="2007-11-24">But it didn't. Pinholes, and runs dragging off.</note>
     </piece>
 
     <piece xml:id="P41">
