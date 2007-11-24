@@ -132,7 +132,10 @@
 
     <piece xml:id="P18">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <note date="2007-10-31"/>
+        <glazing idref="Yellow"/>
+        <glazing idref="WhiteGloss" viscosity="44" trickled="false"/>
+        <glazing idref="IntenseBlack" viscosity="44" trickled="false"/>
+        <note date="2007-11-24">Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</note>
     </piece>
 
     <piece xml:id="P19">

@@ -254,6 +254,27 @@
         <note>The opposite of T39. Frosted Jade is on top, at the botto. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</note>
     </sample>
 
+    <sample date="2007-11-24">
+        <brick xml:id="T02"/><!-- T32.. -->
+        <glazing idref="GreenHueAndFrostedJade" viscosity="45" trickled="false"/>
+        <clayref idref="SaintThomas"/>
+        <note>Green Hue were on 45, Frosted Jade on 44.</note>
+    </sample>
+
+    <sample date="2007-11-24">
+        <brick xml:id="T37"/>
+        <glazing idref="AmacoWhite"/>
+        <clayref idref="SaintThomas"/>
+        <note>Convenient thickness. Brushed three different thickness.</note>
+    </sample>
+
+    <sample date="2007-11-24">
+        <brick xml:id="T50"/>
+        <glazing idref="RedBO"/>
+        <clayref idref="SaintThomas"/>
+        <note>Brushed three different thickness.</note>
+    </sample>
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

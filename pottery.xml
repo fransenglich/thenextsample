@@ -86,6 +86,23 @@
                manufacturer="Mixture"
                description="To 200 ml transparent glaze, P1091 was 20 g Black stain, P4130, added." />
 
+           <glaze xml:id="GreenHueAndFrostedJade"
+               name="Green Hue mixed with Frosted jade"
+               manufacturer="Mixture"
+               description="100 ml Green Hue at viscosity 45 mixed with 100 ml Frosted Jade at viscosity 44." />
+
+           <glaze xml:id="AmacoWhite"
+               name="Green Hue mixed with Frosted jade"
+               productID="HF-11A White"
+               manufacturer="Amaco"
+               description="Sahara Liquid Glazed, HF-11 White. Brush-on."/>
+
+           <glaze xml:id="RedBO"
+               name="Red brush on"
+               productID="P2840"
+               manufacturer="Potterycrafts Limited"
+               description="Red brush on"/>
+
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
 
