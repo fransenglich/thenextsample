@@ -6,3 +6,8 @@
 * Rename Yellow to YellowBO
 * Change notes to use docbook, usch that we can link between pieces/samples.
 * P22 is duplcated, merge.
+* Add uniqueness key on @name/@productID
+
+TODO at liv:
+* Do samples from the broadcast list
+

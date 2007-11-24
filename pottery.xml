@@ -92,10 +92,16 @@
                description="100 ml Green Hue at viscosity 45 mixed with 100 ml Frosted Jade at viscosity 44." />
 
            <glaze xml:id="AmacoWhite"
-               name="Green Hue mixed with Frosted jade"
+               name="Amaco White"
                productID="HF-11A White"
                manufacturer="Amaco"
-               description="Sahara Liquid Glazed, HF-11 White. Brush-on."/>
+               description="Sahara Liquid Glazes, HF-11 White. Brush-on."/>
+
+           <glaze xml:id="AmacoWaxyWhite"
+               name="Amaco Waxy White"
+               productID="HF-17 WaxyWhite"
+               manufacturer="Amaco"
+               description="Sahara Liquid Glazes, HF-17 Waxy White. Brush-on."/>
 
            <glaze xml:id="RedBO"
                name="Red brush on"

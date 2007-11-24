@@ -235,7 +235,7 @@
         <brick xml:id="T92"/>
         <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Maybe mixed up with T35.</note>
+        <note>Maybe mixed up with T35. The backside reads 92.</note>
     </sample>
 
     <sample date="2007-11-22">
@@ -251,7 +251,7 @@
         <glazing idref="FrostedJade" viscosity="44" trickled="false"/>
         <glazing idref="GreenHue" viscosity="45" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>The opposite of T39. Frosted Jade is on top, at the botto. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</note>
+        <note>The opposite of T39. Frosted Jade is on topm, at the botto. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</note>
     </sample>
 
     <sample date="2007-11-24">
@@ -273,6 +273,25 @@
         <glazing idref="RedBO"/>
         <clayref idref="SaintThomas"/>
         <note>Brushed three different thickness.</note>
+    </sample>
+
+    <sample date="2007-11-27">
+        <brick xml:id="T72"/>
+        <clayref idref="SaintThomas"/>
+        <note>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait.</note>
+    </sample>
+
+    <sample date="2007-11-27">
+        <brick xml:id="T63"/>
+        <clayref idref="SaintThomas"/>
+        <note>Applied is a poreclain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait.</note>
+    </sample>
+
+    <sample date="2007-11-27">
+        <brick xml:id="T56"/>
+        <clayref idref="SaintThomas"/>
+        <glazing idref="AmacoWaxyWhite"/>
+        <note>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</note>
     </sample>
 
 </samples>
