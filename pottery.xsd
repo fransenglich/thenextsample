@@ -41,30 +41,18 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="piecesType">
-                        <xs:unique name="unique-pieces">
-                            <xs:selector xpath="piece"/>
-                            <xs:field xpath="@id"/>
-                        </xs:unique>
                     </xs:element>
 
                     <xs:element name="samples"
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="samplesType">
-                        <xs:unique name="unique-samples">
-                            <xs:selector xpath="sample"/>
-                            <xs:field xpath="brick/@id"/>
-                        </xs:unique>
                     </xs:element>
 
                     <xs:element name="clays"
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="claysType">
-                        <xs:unique name="unique-clays-id">
-                            <xs:selector xpath="clay"/>
-                            <xs:field xpath="@id"/>
-                        </xs:unique>
                         <xs:unique name="unique-clays-name">
                             <xs:selector xpath="clay"/>
                             <xs:field xpath="@name"/>
@@ -75,11 +63,6 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="glazesType">
-                        <xs:unique name="unique-glazes-id">
-                            <xs:selector xpath="glaze"/>
-                            <xs:field xpath="@id"/>
-                        </xs:unique>
-
                         <xs:unique name="unique-glazes-name">
                             <xs:selector xpath="glaze"/>
                             <xs:field xpath="@name"/>
