@@ -137,7 +137,14 @@
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
             
-            <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
+            <para>
+                <xsl:apply-templates select="p:glazing[@idref = $mainGlaze]" mode="lowKeyGlazing"/>
+            </para>
+            <xsl:variable name="additionalGlazes" select="p:glazing[@idref != $mainGlaze]"/>
+            <xsl:if test="p:glazing[@idref != $mainGlaze]">
+                <para>Additional glaze<xsl:if test="count($additionalGlazes) > 1">s</xsl:if>:</para>
+                <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
+            </xsl:if>
             <xsl:apply-templates select="p:note"/>
         </section>
     </xsl:template>
@@ -150,14 +157,18 @@
     </xsl:template>
 
     <xsl:template match="p:glazing">
-        <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>
-            <xsl:apply-templates select="@gravity"/>
-            <xsl:apply-templates select="@trickled"/>
+        <para><phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>, 
+            <xsl:apply-templates select="." mode="lowKeyGlazing"/>
         </para>
     </xsl:template>
 
+    <xsl:template match="p:glazing" mode="lowKeyGlazing">
+            <xsl:apply-templates select="@gravity"/>
+            <xsl:apply-templates select="@trickled"/>
+    </xsl:template>
+
     <xsl:template match="@gravity">
-        <xsl:text>, </xsl:text><emphasis>gravity</emphasis>:
+        <emphasis>gravity</emphasis>:
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
 
