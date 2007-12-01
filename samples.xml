@@ -212,7 +212,7 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T51"/>
-        <glazing idref="TransparentCobberCarbonate" trickled="false"/>
+        <glazing idref="TransparentCobberCarbonate" gravity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
         <note>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</note>
     </sample>
