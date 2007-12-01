@@ -6,7 +6,7 @@ xmllint --xinclude --output $withIncludesResolved --schema pottery.xsd pottery.x
 
 xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved || exit 2
 
-xmllint --xinclude --noout --relaxng docbook.rng pottery.docbook || exit 3
+xmllint --xinclude --noout --schema docbook.xsd pottery.docbook || exit 3
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
 echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:Pottery">' >> $sourceFile

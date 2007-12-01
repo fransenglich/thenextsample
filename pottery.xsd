@@ -12,6 +12,8 @@ A format for describing pottery glazes, samples and pieces.
     <xs:import schemaLocation="xml.xsd"
                namespace="http://www.w3.org/XML/1998/namespace"/>
 
+    <xs:import schemaLocation="docbook.xsd"
+               namespace="http://docbook.org/ns/docbook"/>
     <!-- xml:id per http://www.w3.org/TR/2005/REC-xml-id-20050909/ -->
 <!--
     <xs:import schemaLocation="xmlid.xsd"
