@@ -147,14 +147,16 @@
                 <para>Additional glaze<xsl:if test="count($additionalGlazes) > 1">s</xsl:if>:</para>
                 <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
             </xsl:if>
-            <xsl:apply-templates select="p:note"/>
+            <xsl:apply-templates select="db:para"/>
         </section>
     </xsl:template>
 
-    <xsl:template match="p:sample/p:note">
+    <xsl:template match="p:sample/p:para">
         <formalpara>
                 <title><xsl:value-of select="../@date"/></title>
-                <para><xsl:value-of select="."/></para>
+                <xsl:copy>
+                    <xsl:apply-templates select="."/>
+                </xsl:copy>
         </formalpara>
     </xsl:template>
 

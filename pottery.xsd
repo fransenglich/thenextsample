@@ -172,7 +172,9 @@ A format for describing pottery glazes, samples and pieces.
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="clayref" type="clayrefType" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="note" type="xs:normalizedString" minOccurs="1"/>
+            <xs:element ref="db:para"
+                        minOccurs="1"
+                        maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attribute name="date" type="xs:date" use="required"/>
     </xs:complexType>

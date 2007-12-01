@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<samples xmlns="tag:fenglich.fastmail.fm,2007:Pottery">
+<samples xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:db="http://docbook.org/ns/docbook">
+
     <sample date="2007-09-28">
         <brick xml:id="W1"/>
         <brick xml:id="T5"/>
         <glazing idref="SandBrown"/>
-        <note>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</note>
+        <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W10"/>
         <brick xml:id="T8"/>
         <glazing idref="ImagineGreen"/>
-        <note>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</note>
+        <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W12"/>
         <brick xml:id="T41"/>
         <glazing idref="FrostedJade" gravity="53"/>
-        <note>Very thick. Very hard to stir, could it be the temperature?</note>
+        <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
     </sample>
 
     <sample date="2007-09-28">
@@ -26,21 +29,21 @@
         <brick xml:id="T4"/>
         <brick xml:id="W11"/>
         <glazing idref="GreyAmaco"/>
-        <note>W11 had an extra layer on the second level.</note>
+        <db:para>W11 had an extra layer on the second level.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T17"/>
         <brick xml:id="W2"/>
         <glazing idref="FrostedJade" trickled="true" gravity="46"/>
-        <note>Dipped, three seconds.</note>
+        <db:para>Dipped, three seconds.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T9"/>
         <brick xml:id="W3"/>
         <glazing idref="GreenHue" trickled="true" gravity="40"/>
-        <note>Dipped, three seconds.</note>
+        <db:para>Dipped, three seconds.</db:para>
     </sample>
 
     <sample date="2007-09-28">
@@ -50,7 +53,7 @@
         <glazing idref="FrostedJade" trickled="true" gravity="45"/>
         <glazing idref="GreenHue" trickled="true" gravity="41"/>
 
-        <note>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</note>
+        <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
     </sample>
 
     <sample date="2007-09-28">
@@ -58,8 +61,7 @@
         <brick xml:id="T32"/>
 
         <glazing idref="WhiteGloss" gravity="35"/>
-
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-09-28">
@@ -68,62 +70,62 @@
 
         <glazing idref="YellowBO"/>
 
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T7"/>
 
         <glazing idref="FrostedJade" gravity="46"/>
-        <note>2 seconds dipping.</note>
+        <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T12"/>
 
         <glazing idref="FrostedJade" gravity="46"/>
-        <note>4 seconds dipping.</note>
+        <db:para>4 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T13"/>
 
         <glazing idref="GreenHue" gravity="46"/>
-        <note>2 seconds dipping.</note>
+        <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T10"/>
 
         <glazing idref="GreenHue" gravity="46"/>
-        <note>4 seconds dipping.</note>
+        <db:para>4 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T3"/>
 
         <glazing idref="WhiteGloss" gravity="45"/>
-        <note>2 seconds dipping.</note>
+        <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T2"/>
 
         <glazing idref="WhiteGloss" gravity="45"/>
-        <note>4 seconds dipping.</note>
+        <db:para>4 seconds dipping.</db:para>
     </sample>
 
     <!-- TODO these are weird, probably gone.
     <sample date="2007-09-25">
         <brick xml:id="T9"/>
         <glazing idref="FrostedJade"/>
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-09-25">
         <brick xml:id="W3"/>
         <glazing idref="FrostedJade"/>
-        <note/>
+        <db:para/>
     </sample>
     -->
 
@@ -131,54 +133,54 @@
         <brick xml:id="W9"/>
         <!-- TODO where's the note for this sample? -->
         <glazing idref="GreenHue"/>
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-09-25">
         <brick xml:id="T19"/>
         <!-- TODO where's the note for this sample? -->
         <glazing idref="GreenHue"/>
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T40"/>
         <brick xml:id="W7"/>
         <glazing idref="WhiteGloss" gravity="50"/>
-        <note>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</note>
+        <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T31"/>
         <glazing idref="WhiteGloss" gravity="44"/>
-        <note>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</note>
+        <db:para>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</db:para>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="W4"/>
         <brick xml:id="T36"/>
         <glazing idref="IntenseBlack" gravity="50"/>
-        <note>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</note>
+        <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T43"/>
         <clayref idref="SaintThomas"/>
-        <note>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil. As the brick shows there's no trace, except for the mechanical marks that the ball pen did.</note>
+        <db:para>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil. As the brick shows there's no trace, except for the mechanical marks that the ball pen did.</db:para>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T46"/>
         <glazing idref="WhiteGloss" gravity="44"/>
         <clayref idref="SaintThomas"/>
-        <note>Drew with black lead graphite pencil, and then glazed on top of that. As the brick shows there's not a single trace, so using pen is ok.</note>
+        <db:para>Drew with black lead graphite pencil, and then glazed on top of that. As the brick shows there's not a single trace, so using pen is ok.</db:para>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T44"/>
         <glazing idref="IntenseBlack" gravity="42"/>
         <clayref idref="SaintThomas"/>
-        <note>Too thin.</note>
+        <db:para>Too thin.</db:para>
     </sample>
 
     <sample date="2007-11-04">
@@ -186,56 +188,56 @@
         <glazing idref="IntenseBlack" gravity="42"/>
         <glazing idref="WhiteGloss" gravity="44"/>
         <clayref idref="SaintThomas"/>
-        <note>White black diagonally across the brick. Both glazes to thin, or at least to quick dipping.</note>
+        <db:para>White black diagonally across the brick. Both glazes to thin, or at least to quick dipping.</db:para>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T54"/>
         <glazing idref="AxnerBlackUnderGlazePen"/>
         <clayref idref="SaintThomas"/>
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T33"/>
         <glazing idref="Transparent" trickled="false" gravity="42"/>
         <clayref idref="SaintThomas"/>
-        <note/>
+        <db:para/>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T30"/>
         <glazing idref="TransparentYellowStain" gravity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron. Dropped T30 in the floor on 2007-11-17, glued it with cyanoacrylate glue.</note>
+        <db:para>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron. Dropped it in the floor on 2007-11-17, glued it with cyanoacrylate glue.</db:para>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T51"/>
         <glazing idref="TransparentCobberCarbonate" gravity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</note>
+        <db:para>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</db:para>
     </sample>
 
     <sample date="2007-11-10">
         <brick xml:id="T47"/>
         <glazing idref="Chocolate" gravity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</note>
+        <db:para>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T35"/>
         <glazing idref="FrostedJade" gravity="50" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Maybe mixed up with T42.</note>
+        <db:para>Maybe mixed up with T42.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T92"/>
         <glazing idref="FrostedJade" gravity="44" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Maybe mixed up with T35. The backside reads 92.</note>
+        <db:para>Maybe mixed up with T35. The backside reads 92.</db:para>
     </sample>
 
     <sample date="2007-11-22">
@@ -243,7 +245,7 @@
         <glazing idref="FrostedJade" gravity="44" trickled="false"/>
         <glazing idref="GreenHue" gravity="45" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Green Hue is on top, at the bottom. So Frosted Jade was applied first, in other words. Frosted Jade was dried a bit first, but not completely, since the bisque was a tad cold.</note>
+        <db:para>Green Hue is on top, at the bottom. So Frosted Jade was applied first, in other words. Frosted Jade was dried a bit first, but not completely, since the bisque was a tad cold.</db:para>
     </sample>
 
     <sample date="2007-11-22">
@@ -251,47 +253,47 @@
         <glazing idref="FrostedJade" gravity="44" trickled="false"/>
         <glazing idref="GreenHue" gravity="45" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>The opposite of T39. Frosted Jade is on top, at the bottom. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</note>
+        <db:para>The opposite of T39. Frosted Jade is on top, at the bottom. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</db:para>
     </sample>
 
     <sample date="2007-11-24">
         <brick xml:id="T02"/><!-- T32.. -->
         <glazing idref="GreenHueAndFrostedJade" gravity="45" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <note>Green Hue were on 45, Frosted Jade on 44.</note>
+        <db:para>Green Hue were on 45, Frosted Jade on 44.</db:para>
     </sample>
 
     <sample date="2007-11-24">
         <brick xml:id="T37"/>
         <glazing idref="AmacoWhite"/>
         <clayref idref="SaintThomas"/>
-        <note>Convenient thickness. Brushed three different thickness.</note>
+        <db:para>Convenient thickness. Brushed three different thickness.</db:para>
     </sample>
 
     <sample date="2007-11-24">
         <brick xml:id="T50"/>
         <glazing idref="RedBO"/>
         <clayref idref="SaintThomas"/>
-        <note>Brushed three different thickness.</note>
+        <db:para>Brushed three different thickness.</db:para>
     </sample>
 
     <sample date="2007-11-27">
         <brick xml:id="T72"/>
         <clayref idref="SaintThomas"/>
-        <note>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait.</note>
+        <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait.</db:para>
     </sample>
 
     <sample date="2007-11-27">
         <brick xml:id="T63"/>
         <clayref idref="SaintThomas"/>
-        <note>Applied is a poreclain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait.</note>
+        <db:para>Applied is a poreclain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait.</db:para>
     </sample>
 
     <sample date="2007-11-27">
         <brick xml:id="T56"/>
         <glazing idref="AmacoWaxyWhite"/>
         <clayref idref="SaintThomas"/>
-        <note>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</note>
+        <db:para>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</db:para>
     </sample>
 
 </samples>
