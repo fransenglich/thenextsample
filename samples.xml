@@ -289,8 +289,8 @@
 
     <sample date="2007-11-27">
         <brick xml:id="T56"/>
-        <clayref idref="SaintThomas"/>
         <glazing idref="AmacoWaxyWhite"/>
+        <clayref idref="SaintThomas"/>
         <note>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</note>
     </sample>
 

@@ -103,9 +103,9 @@
     </piece>
 
     <piece xml:id="P15">
+        <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="WhiteGloss" trickled="false" gravity="49"/>
         <glazing idref="IntenseBlack" trickled="false" gravity="42"/>
-        <clayref idref="WSW" weightWhenWet="800"/>
         <note date="2007-11-05">Threw it</note>
         <note date="2007-11-07">Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</note>
 
@@ -162,8 +162,8 @@
     </piece>
 
     <piece xml:id="P22">
-        <glazing idref="WhiteGloss" trickled="false" gravity="49"/>
         <clayref idref="SaintThomas" weightWhenWet="600"/>
+        <glazing idref="WhiteGloss" trickled="false" gravity="49"/>
         <note date="2007-10-29"/>
         <note date="2007-11-07">Glazing went ok. I expect it to come out sane.</note>
         <note date="2007-11-24">But it didn't. Pinholes, and runs dragging off.</note>
