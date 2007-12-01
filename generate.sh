@@ -2,11 +2,11 @@ withIncludesResolved="`tempfile`"
 sourceFile="sources.xml"
 tempFiles="$sourceFile $withIncludesResolved"
 
-xmllint --xinclude --output $withIncludesResolved --schema pottery.xsd pottery.xml
+xmllint --xinclude --output $withIncludesResolved --schema pottery.xsd pottery.xml || exit 1
 
-xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved
+xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved || exit 2
 
-xmllint --xinclude --noout --relaxng docbook.rng pottery.docbook
+xmllint --xinclude --noout --relaxng docbook.rng pottery.docbook || exit 3
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
 echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:Pottery">' >> $sourceFile
@@ -26,7 +26,7 @@ done
 echo '</sources>' >> $sourceFile
 
 cd xhtml/
-xsltproc ../../../src/docbook-xsl-1.73.2/xhtml/chunk.xsl ../pottery.docbook
+xsltproc ../../../src/docbook-xsl-1.73.2/xhtml/chunk.xsl ../pottery.docbook || exit 4
 
 #rm -f $tempFiles
 
