@@ -1,113 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pieces xmlns="tag:fenglich.fastmail.fm,2007:Pottery">
+<pieces xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:db="http://docbook.org/ns/docbook">
 
     <piece xml:id="P36">
         <glazing idref="IntenseBlack" gravity="50"/>
         <glazing idref="WhiteGloss" gravity="44"/>
         <glazing idref="YellowBO"/>
-        <note date="2007-10-29">White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</note>
+        <db:para><db:date>2007-10-29</db:date>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</db:para>
     </piece>
 
     <piece xml:id="P37">
         <glazing idref="IntenseBlack" gravity="50"/>
         <glazing idref="WhiteGloss" gravity="50"/>
         <glazing idref="YellowBO"/>
-        <note date="2007-10-29">Both glazes are very thick as the gravity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</note>
+        <db:para><db:date>2007-10-29</db:date>Both glazes are very thick as the gravity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</db:para>
     </piece>
 
     <piece xml:id="P38">
         <glazing idref="IntenseBlack" gravity="50"/>
         <glazing idref="YellowBO"/>
-        <note date="2007-10-29">The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</note>
+        <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
     </piece>
 
     <!--
-    <piece xml:id="P20" date="2007-10-29">
+    <piece xml:id="P20"><db:date>2007-10-29</db:date>
         <glazing idref="" gravity="46"/>
-        <note/>
+        <db:para/>
     </piece>
 
-    <piece xml:id="P21" date="2007-10-29">
+    <piece xml:id="P21"><db:date>2007-10-29</db:date>
         <glazing idref="" gravity="46"/>
-        <note/>
+        <db:para/>
     </piece>
 
-    <piece xml:id="P21" date="2007-10-29">
+    <piece xml:id="P21"><db:date>2007-10-29</db:date>
         <glazing idref="" gravity="46"/>
-        <note/>
+        <db:para/>
     </piece>
 
-    <piece xml:id="P23" date="2007-10-29">
+    <piece xml:id="P23"><db:date>2007-10-29</db:date>
         <glazing idref="" gravity="Same as 22?"/>
         <clay weightWhenWet="400"/>
-        <note/>
+        <db:para/>
     </piece>
 
-    <piece xml:id="P12" date="">
+    <piece xml:id="P12"><db:date></db:date>
         <clay weightWhenWet="4000"/>
-        <note>Trimmed of 1 kilo.</note>
+        <db:db:para>Trimmed of 1 kilo.</db:para>
     </piece>
 
-    <piece xml:id="P10" date="">
-        <note>Very thin Green Hue. Dropped it in the glaze bucket</note>
+    <piece xml:id="P10"><db:date></db:date>
+        <db:db:para>Very thin Green Hue. Dropped it in the glaze bucket</db:para>
     </piece>
 
-    <piece xml:id="P11" date="">
-        <note>Very thick.</note>
+    <piece xml:id="P11"><db:date></db:date>
+        <db:db:para>Very thick.</db:para>
     </piece>
     -->
 
     <piece xml:id="P5">
         <glazing idref="WhiteGloss" gravity="42"/>
-        <note date="2007-10-02">Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</note>
+        <db:para><db:date>2007-10-02</db:date>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</db:para>
     </piece>
 
     <piece xml:id="P6">
         <glazing idref="WhiteGloss" gravity="42"/>
-        <note date="2007-10-02">Had hand inside when glazing the outside.</note>
+        <db:para><db:date>2007-10-02</db:date>Had hand inside when glazing the outside.</db:para>
     </piece>
 
     <piece xml:id="P7">
         <glazing idref="WhiteGloss" gravity="42"/>
-        <note date="2007-10-02">Polished the glaze edges. Same as 6, but better techniques.</note>
+        <db:para><db:date>2007-10-02</db:date>Polished the glaze edges. Same as 6, but better techniques.</db:para>
     </piece>
 
     <piece xml:id="P8">
         <glazing idref="WhiteGloss" gravity="42"/>
-        <note date="2007-10-02"> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</note>
+        <db:para><db:date>2007-10-02</db:date> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</db:para>
     </piece>
 
     <piece xml:id="P9">
         <glazing idref="WhiteGloss"/>
-        <note date="2007-10-02">Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</note>
+        <db:para><db:date>2007-10-02</db:date>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</db:para>
     </piece>
 
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <note date="2007-10-27"/>
+        <db:para><db:date>2007-10-27</db:date></db:para>
     </piece>
 
     <piece xml:id="P33">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <note date="2007-10-27"/>
+        <db:para><db:date>2007-10-27</db:date></db:para>
     </piece>
 
     <piece xml:id="P34">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <note date="2007-10-27"/>
+        <db:para><db:date>2007-10-27</db:date></db:para>
     </piece>
 
     <piece xml:id="P35">
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
-        <note date="2007-10-27"/>
+        <db:para><db:date>2007-10-27</db:date></db:para>
     </piece>
 
     <piece xml:id="P15">
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="WhiteGloss" trickled="false" gravity="49"/>
         <glazing idref="IntenseBlack" trickled="false" gravity="42"/>
-        <note date="2007-11-05">Threw it</note>
-        <note date="2007-11-07">Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</note>
+        <db:para><db:date>2007-11-05</db:date>Threw it</db:para>
+        <db:para><db:date>2007-11-07</db:date>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</db:para>
 
     </piece>
 
@@ -115,13 +117,13 @@
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="Chocolate" gravity="42" trickled="false"/>
         <glazing idref="TransparentYellowStain" gravity="42" trickled="false"/>
-        <note date="2007-10-31"/>
-        <note date="2007-11-23">Tried brushing on the Chocolate glaze while it was spinning. The bisque sucks too strongly. Same case with the yellow. Inbetween was a brushed on wax, while rotating. Same problem again, the bisque is sucking too strongly. Well thrown though, thin and even. Inside is knocked though. Interesting perl at the bottom that are the yellow glaze.</note>
+        <db:para><db:date>2007-10-31</db:date></db:para>
+        <db:para><db:date>2007-11-23</db:date>Tried brushing on the Chocolate glaze while it was spinning. The bisque sucks too strongly. Same case with the yellow. Inbetween was a brushed on wax, while rotating. Same problem again, the bisque is sucking too strongly. Well thrown though, thin and even. Inside is knocked though. Interesting perl at the bottom that are the yellow glaze.</db:para>
     </piece>
 
     <piece xml:id="P17">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <note date="2007-10-31">The edge sunk due to that the edge was too wetened when trimming.</note>
+        <db:para><db:date>2007-10-31</db:date>The edge sunk due to that the edge was too wetened when trimming.</db:para>
     </piece>
 
     <piece xml:id="P18">
@@ -129,73 +131,73 @@
         <glazing idref="YellowBO"/>
         <glazing idref="WhiteGloss" gravity="44" trickled="false"/>
         <glazing idref="IntenseBlack" gravity="44" trickled="false"/>
-        <note date="2007-11-24">Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</note>
+        <db:para><db:date>2007-11-24</db:date>Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</db:para>
     </piece>
 
     <piece xml:id="P19">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <note date="2007-10-31">Edge broken when loading oven.</note>
+        <db:para><db:date>2007-10-31</db:date>Edge broken when loading oven.</db:para>
     </piece>
 
     <!--
     <piece xml:id="hearth shaped">
         <clayref idref="SaintThomas"/>
-        <note>Very thin, uneven the date is estimated.</note>
+        <db:db:para>Very thin, uneven the date is estimated.</db:para>
     </piece>
 
     <piece xml:id="small base, early creation">
         <clayref idref="SaintThomas"/>
         <glaze id="FrostedJade" Gravity="51"/>
-        <note>The date is estimated. Thick layer.</note>
+        <db:db:para>The date is estimated. Thick layer.</db:para>
     </piece>
     -->
 
     <piece xml:id="P4">
         <clayref idref="SaintThomas"/>
-        <note date="2007-11-04">The top edge broke exactly where I had put the wax, after having glazed it with white. Did the water from the glaze, or the wax lower the duability? Lousy diipping. Lots of rinning outside and inside. Waxed spots before glazing with white, filled in with black using baloon. The black ran in two places(over the white), from the two isolated cicled. Filled in with black using a brush on the broken edge.</note>
+        <db:para><db:date>2007-11-04</db:date>The top edge broke exactly where I had put the wax, after having glazed it with white. Did the water from the glaze, or the wax lower the duability? Lousy diipping. Lots of rinning outside and inside. Waxed spots before glazing with white, filled in with black using baloon. The black ran in two places(over the white), from the two isolated cicled. Filled in with black using a brush on the broken edge.</db:para>
 
     </piece>
 
     <piece xml:id="P39">
         <clayref idref="WSW"/>
-        <note date="2007-11-04">Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</note>
+        <db:para><db:date>2007-11-04</db:date>Small spots, 1mm2, with black on white on the inside. The big circle on the black outside was done brushing with white, followed with wax on the top, followed by dipping in black. Afterwards the wax that was on top of the white was removed.</db:para>
     </piece>
 
     <piece xml:id="P22">
         <clayref idref="SaintThomas" weightWhenWet="600"/>
         <glazing idref="WhiteGloss" trickled="false" gravity="49"/>
-        <note date="2007-10-29"/>
-        <note date="2007-11-07">Glazing went ok. I expect it to come out sane.</note>
-        <note date="2007-11-24">But it didn't. Pinholes, and runs dragging off.</note>
+        <db:para><db:date>2007-10-29</db:date></db:para>
+        <db:para><db:date>2007-11-07</db:date>Glazing went ok. I expect it to come out sane.</db:para>
+        <db:para><db:date>2007-11-24</db:date>But it didn't. Pinholes, and runs dragging off.</db:para>
     </piece>
 
     <piece xml:id="P41">
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
-        <note date="2007-11-12">Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</note>
-        <note date="2007-11-18">Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</note>
+        <db:para><db:date>2007-11-12</db:date>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</db:para>
+        <db:para><db:date>2007-11-18</db:date>Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</db:para>
     </piece>
 
     <piece xml:id="P42">
         <clayref idref="WSW" weightWhenWet="4250"/>
-        <note date="2007-11-12">This wasn't really White Stoneware, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</note>
-        <note date="2007-11-18">Lots of rythm, trimmed of 1100 g. Clearly poorly thrown. Used it for bending experimentation. Cracks were filled up with Saint Thomas. Lots of trouble with bending, resulting in that the stem collapsed on one side. Repaired with Saint Thomas. My conclusion of all this is that one should trimm off the stem,  throw one separately, bend the body, and then mount it on the thrown stem.</note>
+        <db:para><db:date>2007-11-12</db:date>This wasn't really White Stoneware, it was re-wedged clay of extremely poor quality. It was rather White Stoneware with low humidity, acting like a soft stone. Tons of rythm, and the edge had sunken into a bow.</db:para>
+        <db:para><db:date>2007-11-18</db:date>Lots of rythm, trimmed of 1100 g. Clearly poorly thrown. Used it for bending experimentation. Cracks were filled up with Saint Thomas. Lots of trouble with bending, resulting in that the stem collapsed on one side. Repaired with Saint Thomas. My conclusion of all this is that one should trimm off the stem,  throw one separately, bend the body, and then mount it on the thrown stem.</db:para>
     </piece>
 
     <piece xml:id="P40">
         <clayref idref="SaintThomas" weightWhenWet="4300"/>
-        <note date="2007-11-18">The clay was too wet.</note>
+        <db:para><db:date>2007-11-18</db:date>The clay was too wet.</db:para>
     </piece>
 
     <piece xml:id="P43">
         <clayref idref="SaintThomas" weightWhenWet="4600"/>
-        <note date="2007-11-18">The clay was too wet.</note>
+        <db:para><db:date>2007-11-18</db:date>The clay was too wet.</db:para>
     </piece>
 
     <!--
     This is a mixup. The one which is glazed I sincerely doubt the one I glazed was made of 4600.
     <piece xml:id="P31">
         <clayref idref="SaintThomas" weightWhenWet="4600"/>
-        <note date="2007-10-27"/>
+        <db:para date="2007-10-27"/>
     </piece>
     -->
 
@@ -205,14 +207,14 @@
         <glazing idref="WhiteGloss" gravity="44" trickled="false"/>
         <glazing idref="IntenseBlack" gravity="42" trickled="false"/>
 
-        <note date="2007-11-22">Masking escapades. First the inside and outside was completely glazed in white. The inside went well -- easy when it's big and plenty of glaze. The outside as well. Had it standing on two rulers that sat on the edge of a bucket, which was spinning with the help of a iron whirler. Taped on the outside, on top of the white glaze. The tape won't stick on top of the glaze, but it will to itself if one goes all the way around. However, it's still not enough for creating a non-leaking edge, as the fired piece will demonstrate. Though, it helps if one has an overlapping, reinforcing layer at the opposite side of what is being masked. Once the tape was in place, the white glaze at the top and at the passage was scraped and subsequently wiped off. Once done, the open sides was taped up a bit(but apparently not enough), and the passage glazed with black, and the top edge with one thick layer of yellow. Once the yellow was semi-dry, it was smoothed out with a watered brush. The tape thing doesn't work at all, it can't keep the glaze away, it's too loose. Removable wax combined with tape is a no go because the tape rips off all the wax, as seen with P15. However, resistive wax(P3384) sticks strongly to the glaze, and the tape doesn't pull it off with it. All in all, black ended up pretty much everywhere. Spots on the inside, rinning on the outside, and on top of the yellow. The piece needs to be completely covered up. Bags plus tape.</note>
+        <db:para><db:date>2007-11-22</db:date>Masking escapades. First the inside and outside was completely glazed in white. The inside went well -- easy when it's big and plenty of glaze. The outside as well. Had it standing on two rulers that sat on the edge of a bucket, which was spinning with the help of a iron whirler. Taped on the outside, on top of the white glaze. The tape won't stick on top of the glaze, but it will to itself if one goes all the way around. However, it's still not enough for creating a non-leaking edge, as the fired piece will demonstrate. Though, it helps if one has an overlapping, reinforcing layer at the opposite side of what is being masked. Once the tape was in place, the white glaze at the top and at the passage was scraped and subsequently wiped off. Once done, the open sides was taped up a bit(but apparently not enough), and the passage glazed with black, and the top edge with one thick layer of yellow. Once the yellow was semi-dry, it was smoothed out with a watered brush. The tape thing doesn't work at all, it can't keep the glaze away, it's too loose. Removable wax combined with tape is a no go because the tape rips off all the wax, as seen with <db:xref xlink:href="#P15"/>. However, resistive wax(P3384) sticks strongly to the glaze, and the tape doesn't pull it off with it. All in all, black ended up pretty much everywhere. Spots on the inside, rinning on the outside, and on top of the yellow. The piece needs to be completely covered up. Bags plus tape.</db:para>
     </piece>
 
     <piece xml:id="P2">
         <clayref idref="SaintThomas"/>
         <glazing idref="FrostedJade" gravity="44" trickled="false"/>
 
-        <note date="2007-11-22">The piece was thrown, dried, cut up, folded, and once completely dried, sanded and polished to remove rough edges and touch up the shape. The glazing was done by just putting it in the glaze bucket and roll it around a bit. The result was better than with more old fashioned approaches.</note>
+        <db:para><db:date>2007-11-22</db:date>The piece was thrown, dried, cut up, folded, and once completely dried, sanded and polished to remove rough edges and touch up the shape. The glazing was done by just putting it in the glaze bucket and roll it around a bit. The result was better than with more old fashioned approaches.</db:para>
     </piece>
 
 </pieces>

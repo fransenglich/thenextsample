@@ -3,6 +3,7 @@
 <xsl:stylesheet version="1.0"
                 xml:lang="en"
                 xmlns="http://docbook.org/ns/docbook"
+                xmlns:db="http://docbook.org/ns/docbook"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:ex="http://exslt.org/dates-and-times"
@@ -56,7 +57,8 @@
 
     <xsl:template match="p:piece">
             <section>
-                <title>
+                <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+               <title>
                     <xsl:value-of select="substring(@xml:id, 2)"/>
                 </title>
                 <xsl:apply-templates/>
@@ -222,6 +224,17 @@
             </title>
             <para/>
         </section>
+    </xsl:template>
+
+    <xsl:template match="@* | db:* | @xlink:*">
+        <xsl:copy>
+            <xsl:apply-templates select="@*|node()"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="db:date">
+        <emphasis><xsl:value-of select="."/></emphasis>
+        <xsl:text> </xsl:text>
     </xsl:template>
 
     <!-- We don't use it directly. -->

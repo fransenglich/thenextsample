@@ -4,6 +4,7 @@ A format for describing pottery glazes, samples and pieces.
 -->
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:db="http://docbook.org/ns/docbook"
            targetNamespace="tag:fenglich.fastmail.fm,2007:Pottery"
            xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
            elementFormDefault="qualified">
@@ -117,8 +118,7 @@ A format for describing pottery glazes, samples and pieces.
                                 type="glazingType"
                                 minOccurs="0"
                                 maxOccurs="unbounded"/>
-                    <xs:element name="note"
-                                type="noteType"
+                    <xs:element ref="db:para"
                                 minOccurs="1"
                                 maxOccurs="unbounded"/>
                 </xs:sequence>
