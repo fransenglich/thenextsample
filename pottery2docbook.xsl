@@ -137,7 +137,8 @@
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
             
-            <xsl:apply-templates select="p:glazing[@idref != $mainGlaze] | p:note"/>
+            <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
+            <xsl:apply-templates select="p:note"/>
         </section>
     </xsl:template>
 
@@ -150,7 +151,8 @@
 
     <xsl:template match="p:glazing">
         <para><emphasis>Glaze</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>
-            <xsl:apply-templates select="@gravity | @trickled"/>
+            <xsl:apply-templates select="@gravity"/>
+            <xsl:apply-templates select="@trickled"/>
         </para>
     </xsl:template>
 
