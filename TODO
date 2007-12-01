@@ -1,8 +1,8 @@
 * Make clayref mandatory for samples.
 * Add measurements
 * Make clayref mandatory for pieces.
-* Make trickled mandatory.
 * Add uniqueness key on @name/@productID
+* Add images
 
 TODO at liv:
 * Do samples from the broadcast list

@@ -4,22 +4,22 @@
         xmlns:db="http://docbook.org/ns/docbook">
 
     <piece xml:id="P36">
-        <glazing idref="IntenseBlack" gravity="50"/>
-        <glazing idref="WhiteGloss" gravity="44"/>
-        <glazing idref="YellowBO"/>
+        <glazing idref="IntenseBlack" trickled="false" gravity="50"/>
+        <glazing idref="WhiteGloss" trickled="false" gravity="44"/>
+        <glazing idref="YellowBO" trickled="false"/>
         <db:para><db:date>2007-10-29</db:date>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</db:para>
     </piece>
 
     <piece xml:id="P37">
-        <glazing idref="IntenseBlack" gravity="50"/>
-        <glazing idref="WhiteGloss" gravity="50"/>
-        <glazing idref="YellowBO"/>
+        <glazing idref="IntenseBlack" trickled="false" gravity="50"/>
+        <glazing idref="WhiteGloss" trickled="false" gravity="50"/>
+        <glazing idref="YellowBO" trickled="false"/>
         <db:para><db:date>2007-10-29</db:date>Both glazes are very thick as the gravity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</db:para>
     </piece>
 
     <piece xml:id="P38">
-        <glazing idref="IntenseBlack" gravity="50"/>
-        <glazing idref="YellowBO"/>
+        <glazing idref="IntenseBlack" trickled="false" gravity="50"/>
+        <glazing idref="YellowBO" trickled="false"/>
         <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
     </piece>
 
@@ -60,27 +60,27 @@
     -->
 
     <piece xml:id="P5">
-        <glazing idref="WhiteGloss" gravity="42"/>
+        <glazing idref="WhiteGloss"  trickled="false" gravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</db:para>
     </piece>
 
     <piece xml:id="P6">
-        <glazing idref="WhiteGloss" gravity="42"/>
+        <glazing idref="WhiteGloss"  trickled="false" gravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Had hand inside when glazing the outside.</db:para>
     </piece>
 
     <piece xml:id="P7">
-        <glazing idref="WhiteGloss" gravity="42"/>
+        <glazing idref="WhiteGloss"  trickled="false" gravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Polished the glaze edges. Same as 6, but better techniques.</db:para>
     </piece>
 
     <piece xml:id="P8">
-        <glazing idref="WhiteGloss" gravity="42"/>
+        <glazing idref="WhiteGloss"  trickled="false" gravity="42"/>
         <db:para><db:date>2007-10-02</db:date> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</db:para>
     </piece>
 
     <piece xml:id="P9">
-        <glazing idref="WhiteGloss"/>
+        <glazing  trickled="false" idref="WhiteGloss"/>
         <db:para><db:date>2007-10-02</db:date>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</db:para>
     </piece>
 
@@ -128,7 +128,7 @@
 
     <piece xml:id="P18">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing idref="YellowBO"/>
+        <glazing  trickled="false" idref="YellowBO"/>
         <glazing idref="WhiteGloss" gravity="44" trickled="false"/>
         <glazing idref="IntenseBlack" gravity="44" trickled="false"/>
         <db:para><db:date>2007-11-24</db:date>Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</db:para>
@@ -203,7 +203,7 @@
 
     <piece xml:id="P31">
         <clayref idref="SaintThomas" weightWhenWet="2200"/>
-        <glazing idref="YellowBO"/>
+        <glazing idref="YellowBO" trickled="false"/>
         <glazing idref="WhiteGloss" gravity="44" trickled="false"/>
         <glazing idref="IntenseBlack" gravity="42" trickled="false"/>
 
