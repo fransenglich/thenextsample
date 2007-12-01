@@ -28,7 +28,9 @@
                 <pubdate><xsl:value-of select="ex:date()"/></pubdate>
             </info>
 
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="p:pieces"/>
+            <xsl:apply-templates select="p:glazes"/>
+            <xsl:apply-templates select="p:clays"/>
 
             <xsl:call-template name="sourcesAppendix"/>
         </book>
@@ -56,8 +58,6 @@
             <section>
                 <title>
                     <xsl:value-of select="substring(@xml:id, 2)"/>
-                    <xsl:text>, </xsl:text>
-                    <xsl:value-of select="p:note[1]/@date"/>
                 </title>
                 <xsl:apply-templates/>
             </section>
@@ -97,10 +97,21 @@
                     <xsl:value-of select="@productID"/>
                 </xsl:if>
             </title>
-            <para/>
+
+            <xsl:if test="@description">
+                <para>
+                    <xsl:value-of select="@description"/>
+                </para>
+            </xsl:if>
+
+            <xsl:apply-templates select="//p:samples/p:sample[p:glazing/@idref = current()/@xml:id]">
+                <xsl:sort data-type="number" select="number(p:glazing/@gravity)"/>
+                <xsl:with-param name="mainGlaze" select="@xml:id"/>
+            </xsl:apply-templates>
         </section>
     </xsl:template>
 
+    <!--
     <xsl:template match="p:samples">
         <chapter>
             <title>Samples</title>
@@ -119,12 +130,14 @@
 
         </chapter>
     </xsl:template>
+    -->
 
     <xsl:template match="p:sample">
+        <xsl:param name="mainGlaze"/>
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
             
-            <xsl:apply-templates select="p:glazing | p:note"/>
+            <xsl:apply-templates select="p:glazing[@idref != $mainGlaze] | p:note"/>
         </section>
     </xsl:template>
 
@@ -197,6 +210,9 @@
             <para/>
         </section>
     </xsl:template>
+
+    <!-- We don't use it directly. -->
+    <xsl:template match="p:samples"/>
 
     <!-- Flag things we miss. -->
     <xsl:template match="* | @*">

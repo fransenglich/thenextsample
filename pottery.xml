@@ -74,7 +74,7 @@
         <glaze xml:id="TransparentCobberCarbonate"
                name="Cobber Carbonate oxide in transparent glaze"
                manufacturer="Mixture"
-               description="To 200 ml transparent glaze, P1091, with gravity 42, was 20 g Cobber carbonate, P3404, added. Not trickled." />
+               description="To 200 ml transparent glaze, P1091, with gravity 42, was 20 g Cobber carbonate, P3404, added." />
   
         <glaze xml:id="TransparentYellowStain"
                name="Yellow stain in transparent glaze"
