@@ -67,10 +67,10 @@
                manufacturer="AXNER" description="Pre-mixed on bottle, to 1280C."/>
 
         <glaze xml:id="Transparent"
-               name="AXNER black underglaze pen"
+               name="Transparent"
                productID="P1091"
-               manufacturer="Potterycrafts Limited"/>
-
+               manufacturer="Unknown"
+               description="Can't be found in Waldermar Ellefesen's price catalog from 2003, nor does the number show up in Potterycrafts' info. Is a porcelain glaze, according to Sissel."/>
         <glaze xml:id="TransparentCobberCarbonate"
                name="Cobber Carbonate oxide in transparent glaze"
                manufacturer="Mixture"
