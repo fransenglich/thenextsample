@@ -280,13 +280,15 @@
     <sample date="2007-11-27">
         <brick xml:id="T72"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait.</db:para>
+        <glazing trickled="false" idref="Transparent"/>
+        <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait. The glazed part is brown, tilitng towards (khaki) green.</db:para>
     </sample>
 
     <sample date="2007-11-27">
         <brick xml:id="T63"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Applied is a porcelain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait.</db:para>
+        <glazing idref="Transparent"/>
+        <db:para>Applied is a porcelain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait. The transparent glaze turned out really well, think I dipped it for a long time.</db:para>
     </sample>
 
     <sample date="2007-11-27">
