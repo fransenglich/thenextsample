@@ -87,6 +87,8 @@
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
+
+        <db:para><db:date>2007-12-02</db:date>With tape, permanent wax and Mask&amp;Peel wax, the two halfs of white and black were painted out. First the black outside, then the black inside, the white inside, white outside. Time consuming, error prone process. Wouldn't surprise me if the white or black comes out contaminated. The black outside was double glazed, though it had both before and after pin holes. The white outside glazed three times(although without full drying inbetween) in order to try to tackle pinholes. The white inside was done by filling up(yes, on top of the black with wax on top) and rolling around three times. The top edge became very thick and uneven at the end. Hard to find a masking mechanism that sticks on top of glaze.</db:para>
     </piece>
 
     <piece xml:id="P33">
@@ -220,6 +222,12 @@
         <glazing idref="FrostedJade" gravity="44" trickled="false"/>
 
         <db:para><db:date>2007-11-22</db:date>The piece was thrown, dried, cut up, folded, and once completely dried, sanded and polished to remove rough edges and touch up the shape. The glazing was done by just putting it in the glaze bucket and roll it around a bit. The result was better than with more old fashioned approaches.</db:para>
+    </piece>
+
+    <piece xml:id="P47">
+        <clayref idref="SaintThomas"/>
+
+        <db:para><db:date>2007-12-02</db:date> Basically a cylinder that was lightly dried(two days in calm location with a thoroughly covering bag) that first had a thick layer of porcelain slip, followed by the masked black slip at the bottom(PRNF 4005), followed by a second porcelain layer. Tried to even out the porcelain afterwards with a dry, coarse sponge. Not effective. Tried soaked sponge, leading to the slip bubbling up, which was then pulled through with further sponging. A lot of bubbles were left, maybe they'll fall off in bisque fire.</db:para>
     </piece>
 
 </pieces>

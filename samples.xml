@@ -298,6 +298,49 @@
         <db:para>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</db:para>
     </sample>
 
+    <sample date="2007-12-05">
+        <brick xml:id="T61"/>
+        <glazing trickled="false" idref="TurquoiseBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-05">
+        <brick xml:id="T70"/>
+        <glazing trickled="false" idref="WhiteBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-05">
+        <brick xml:id="T60"/>
+        <glazing trickled="false" idref="IndigoBlue"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-05">
+        <brick xml:id="T62"/>
+        <glazing trickled="false" idref="OilSpot"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-05">
+        <brick xml:id="T69"/>
+        <glazing trickled="false" idref="TexturedBlue"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-05">
+        <brick xml:id="T67"/>
+        <glazing trickled="false" idref="GoldBrownBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

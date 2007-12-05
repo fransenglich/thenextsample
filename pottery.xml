@@ -71,6 +71,7 @@
                productID="P1091"
                manufacturer="Unknown"
                description="Can't be found in Waldermar Ellefesen's price catalog from 2003, nor does the number show up in Potterycrafts' info. Is a porcelain glaze, according to Sissel."/>
+
         <glaze xml:id="TransparentCobberCarbonate"
                name="Cobber Carbonate oxide in transparent glaze"
                manufacturer="Mixture"
@@ -108,6 +109,36 @@
                productID="P2840"
                manufacturer="Potterycrafts Limited"
                description="Red brush on"/>
+
+           <glaze xml:id="TurquoiseBO"
+               name="Turquoise, Sahara Liquid Series"
+               productID="HF-26"
+               manufacturer="Amaco"/>
+
+           <glaze xml:id="WhiteBO"
+                  name="White Brush-on"
+                  productID="2850.5"
+                  manufacturer="Potterycrafts Limited"/>
+
+           <glaze xml:id="IndigoBlue"
+                  name="Indigo Blue"
+                  productID="2844.5"
+                  manufacturer="Potterycrafts Limited"/>
+
+           <glaze xml:id="OilSpot"
+                  name="Oil Spot, Potter's Choice Liquid Glazes"
+                  productID="PC-35"
+                  manufacturer="Amaco"/>
+
+           <glaze xml:id="TexturedBlue"
+                  name="Textured Blue, Sahara Liquid Glaze"
+                  productID="HF-22"
+                  manufacturer="Amaco"/>
+
+           <glaze xml:id="GoldBrownBO"
+                  name="Gold Brown Brush-on"
+                  productID="2847.5"
+                  manufacturer="Potterycrafts Limited"/>
 
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
