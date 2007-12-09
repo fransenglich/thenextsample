@@ -140,6 +140,21 @@
                   productID="2847.5"
                   manufacturer="Potterycrafts Limited"/>
 
+           <glaze xml:id="VelourBlackBO"
+                  name="Velour Black, V Series, Velvet Underglaze"
+                  productID="V-370"
+                  manufacturer="Amaco"/>
+
+           <glaze xml:id="CeradelNoir"
+                  name="Noir, Imagine"
+                  productID="ELG 60"
+                  manufacturer="Ceradel"/>
+
+           <glaze xml:id="AmacoWhiteUnderglaze"
+                  name="White, V Series, Velvet Underglaze"
+                  productID="V.360"
+                  manufacturer="Ceradel"/>
+
            <!-- All for keramik, Cerama 6250. -->
     </glazes>
 

@@ -340,6 +340,29 @@
         <db:para/>
     </sample>
 
+    <sample date="2007-12-09">
+        <brick xml:id="T66"/>
+        <glazing trickled="false" idref="VelourBlackBO"/>
+        <glazing trickled="false" gravity="42" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2007-12-09">
+        <brick xml:id="T65"/>
+        <glazing trickled="false" idref="CeradelNoir"/>
+        <glazing trickled="false" gravity="42" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers. Extremely thick, like semi-dry tooth paste.</db:para>
+    </sample>
+
+    <sample date="2007-12-09">
+        <brick xml:id="T68"/>
+        <glazing trickled="false" idref="AmacoWhiteUnderglaze"/>
+        <glazing trickled="false" gravity="42" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Five layers.</db:para>
+    </sample>
 
 </samples>
 <!--
