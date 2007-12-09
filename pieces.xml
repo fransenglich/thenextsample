@@ -230,6 +230,56 @@
         <db:para><db:date>2007-12-02</db:date> Basically a cylinder that was lightly dried(two days in calm location with a thoroughly covering bag) that first had a thick layer of porcelain slip, followed by the masked black slip at the bottom(PRNF 4005), followed by a second porcelain layer. Tried to even out the porcelain afterwards with a dry, coarse sponge. Not effective. Tried soaked sponge, leading to the slip bubbling up, which was then pulled through with further sponging. A lot of bubbles were left, maybe they'll fall off in bisque fire.</db:para>
     </piece>
 
+    <piece xml:id="P95">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-08</db:date>Trimmed into a cone.</db:para>
+    </piece>
+
+    <piece xml:id="P96">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-08</db:date>Trimmed into a cone.</db:para>
+    </piece>
+
+    <piece xml:id="P91">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-08</db:date> Another prototype piece. Bottom trimmed too thin. Cut three feet from the stem.</db:para>
+    </piece>
+
+    <piece xml:id="P93">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-08</db:date> A lousy vase. Cut up to see profile. The clay was wedged too early, so it was too wet for throwing thinly.</db:para>
+    </piece>
+
+    <piece xml:id="P94">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-08</db:date> Another lousy vase. Cut up to see profile. The clay was wedged too early, so it was too wet for throwing thinly.</db:para>
+    </piece>
+
+    <piece xml:id="P97">
+        <clayref idref="SaintThomas" weightWhenWet="500"/>
+
+        <db:para><db:date>2007-12-08</db:date> Oval experiment. After throwing, I ran my finger on the inside. Too crappy for burning.</db:para>
+    </piece>
+
+    <piece xml:id="P92">
+        <clayref idref="SaintThomas" weightWhenWet="1100"/>
+
+        <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This has to be fancy on a big piece.</db:para>
+    </piece>
+
+    <!--
+    2007-12-09 900, high, thin, cylinder
+    2007-12-09 1200, poorly thrown weird vase with afro hair
+    2007-12-09 900, poorly thrown Aladin in the lamp
+    2007-12-09 900, small piece for oval experiments. Trimmed of tons
+    2007-12-09 900, bigger, small bowl, for oval experiements.
+    -->
+
 </pieces>
 
 <!--
