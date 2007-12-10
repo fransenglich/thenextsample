@@ -113,26 +113,24 @@
         </section>
     </xsl:template>
 
-    <!--
-    <xsl:template match="p:samples">
-        <chapter>
-            <title>Samples</title>
-
-            <section>
-                <title>Statistics</title>
-
-               <para>A total of <xsl:value-of select="count(p:sample)"/> samples.</para>
-            </section>
-
-            <section>
-                <title>Samples</title>
-
-                <xsl:apply-templates/>
-            </section>
-
-        </chapter>
+    <xsl:template name="imageForSample">
+        <xsl:param name="sampleName"/>
+        <xsl:param name="imageName"/>
+        <mediaobject>
+            <imageobject>
+                <imagedata align="right" format="JPG" fileref="../Images/Samples/{$sampleName}/{$imageName}.jpg"/>
+            </imageobject>
+        </mediaobject>
     </xsl:template>
-    -->
+
+    <xsl:template match="p:piece/p:image">
+        <mediaobject>
+            <imageobject>
+                <imagedata align="right" format="JPG" fileref="../Images/Pieces/{../@xml:id}/{.}.jpg"/>
+            </imageobject>
+        </mediaobject>
+    </xsl:template>
+
 
     <xsl:template match="p:sample">
         <xsl:param name="mainGlaze"/>
@@ -148,7 +146,15 @@
                 <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
             </xsl:if>
             <xsl:apply-templates select="db:para"/>
+            <xsl:apply-templates mode="doImage" select="p:brick"/>
         </section>
+    </xsl:template>
+
+    <xsl:template mode="doImage" match="p:brick">
+        <xsl:call-template name="imageForSample">
+            <xsl:with-param name="sampleName" select="@xml:id"/>
+            <xsl:with-param name="imageName" select="@xml:id"/>
+        </xsl:call-template>
     </xsl:template>
 
     <xsl:template match="p:sample/p:para">

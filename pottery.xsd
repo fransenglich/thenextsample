@@ -89,10 +89,20 @@ A format for describing pottery glazes, samples and pieces.
         </xs:sequence>
     </xs:complexType>
 
+    <xs:complexType name="imageType">
+        <xs:simpleContent>
+            <xs:extension base="xs:NCName"/>
+        </xs:simpleContent>
+    </xs:complexType>
+
     <xs:complexType name="pieceType">
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <xs:element name="image"
+                                type="imageType"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
                     <xs:element name="clayref"
                                 type="clayrefType"
                                 minOccurs="0"
@@ -152,6 +162,7 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:complexType name="sampleType">
         <xs:sequence>
+            <xs:element name="image" type="imageType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="clayref" type="clayrefType" minOccurs="0" maxOccurs="unbounded"/>
