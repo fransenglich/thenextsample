@@ -364,6 +364,45 @@
         <db:para>Five layers.</db:para>
     </sample>
 
+    <sample date="2007-12-15">
+        <brick xml:id="T84"/>
+        <glazing trickled="false" idref="WhiteBO"/>
+        <glazing trickled="false" idref="LichenGreenBO"/>
+        <glazing trickled="false" idref="BlackBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The first layer has three vertical stripes which from left to right are white, black and green. The second layer has three horizontal stripes which from top to bottom are white, black, and green. All was done with tape masking, and each stripe had two even coats. This gives a range of a combinations. For instance, in the top right corner one finds white on top of green, and in the left bottom corner green on top of white.</db:para>
+
+        <db:para>The black leaked into the white in the first layer and white leaked onto black at the top on the second layer. There was another leakage, not noted down, as well. Basically, the tape for flexible curves couldn't hold it out.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T500"/>
+        <glazing trickled="false" idref="BlackBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T96"/>
+        <glazing trickled="false" idref="LichenGreenBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T90"/>
+        <glazing trickled="false" idref="WhiteBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T95"/>
+        <glazing trickled="false" idref="OrangeBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Five layers, I think. This brush-on acts quite thin.</db:para>
+    </sample>
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

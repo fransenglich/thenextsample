@@ -137,6 +137,21 @@
       productID="V-360"
       manufacturer="Ceradel"/>
 
+   <glaze xml:id="BlackBO"
+           manufacturer="Potterycrafts Limited"
+           name="Black Brush-on"
+           productID="P2851"/>
+
+   <glaze xml:id="LichenGreenBO"
+           manufacturer="Potterycrafts Limited"
+           name="Lichen Green"
+           productID="P2822"/>
+
+   <glaze xml:id="OrangeBO"
+           manufacturer="Potterycrafts Limited"
+           name="Orange brush-on"
+           productID="P2841"/>
+
    <!-- All for keramik, Cerama 6250. -->
 </glazes>
 <!--
