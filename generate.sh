@@ -4,13 +4,10 @@ tempFiles="$sourceFile $withIncludesResolved"
 
 xmllint --xinclude --output $withIncludesResolved --schema pottery.xsd pottery.xml || exit 1
 
-xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved || exit 2
-
-xmllint --xinclude --noout --schema docbook.xsd pottery.docbook || exit 3
-
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
 echo '<sources xmlns="tag:fenglich.fastmail.fm,2007:Pottery">' >> $sourceFile
 sources="                       \
+         glazes.xml             \
          pieces.xml             \
          pottery.xml            \
          pottery.xsd            \
@@ -25,8 +22,15 @@ for source in $sources; do
 done
 echo '</sources>' >> $sourceFile
 
+# Let's just check it is ok
+xmllint --noout $sourceFile || exit 2
+
+xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved || exit 3
+
+xmllint --xinclude --noout --schema docbook.xsd pottery.docbook || exit 4
+
 cd xhtml/
-xsltproc ../../../src/docbook-xsl-1.73.2/xhtml/chunk.xsl ../pottery.docbook || exit 4
+xsltproc ../../../src/docbook-xsl-1.73.2/xhtml/chunk.xsl ../pottery.docbook || exit 5
 
 #rm -f $tempFiles
 
