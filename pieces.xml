@@ -188,6 +188,7 @@
 
     <piece xml:id="P40">
         <clayref idref="SaintThomas" weightWhenWet="4300"/>
+        <glazing idref="IntenseBlack" trickled="false" gravity="48"/>
         <db:para><db:date>2007-11-18</db:date>The clay was too wet.</db:para>
     </piece>
 
@@ -273,9 +274,23 @@
         <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This has to be fancy on a big piece.</db:para>
     </piece>
 
+    <piece xml:id="P99">
+        <clayref idref="SaintThomas" weightWhenWet="1200"/>
+
+        <db:para><db:date>2007-12-09</db:date> Poorly thrown vase like thing. Looks like a rapper from the eighties.</db:para>
+    </piece>
+
+    <piece xml:id="P98">
+        <clayref idref="SaintThomas" weightWhenWet="900"/>
+
+        <db:para><db:date>2007-12-09</db:date> High, thin cylinder</db:para>
+    </piece>
+
+    <piece xml:id="P13">
+        <clayref idref="SaintThomas"/>
+        <db:para><db:date>2007-12-09</db:date> The UFO penguin.</db:para>
+    </piece>
     <!--
-    2007-12-09 900, high, thin, cylinder
-    2007-12-09 1200, poorly thrown weird vase with afro hair
     2007-12-09 900, poorly thrown Aladin in the lamp
     2007-12-09 900, small piece for oval experiments. Trimmed of tons
     2007-12-09 900, bigger, small bowl, for oval experiements.
