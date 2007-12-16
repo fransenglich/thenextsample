@@ -28,11 +28,11 @@
 
     <glaze xml:id="ImagineGreen"
            manufacturer="Ceradel"
-           name="Imagine ELG 80, Vent 230 ML Green"
+           name="Green, Imagine ELG 80, Vent 230 ML Green"
            description="Brush on glaze."/>
 
     <glaze xml:id="GreyAmaco"
-           name="Sahara Liquid Glazes, HF series, HF-18, Grey Amaco"
+           name="Grey, Sahara Liquid Glazes, HF series"
            productID="HF-18"
            manufacturer="Amaco"
            description="Brush on glaze."/>
@@ -44,9 +44,10 @@
            description="Brush on glaze."/>
 
     <glaze xml:id="AxnerBlackUnderGlazePen"
-           name="AXNER underglaze pen"
+           name="Black underglaze pen"
            productID="P4001"
-           manufacturer="AXNER" description="Pre-mixed on bottle, to 1280C."/>
+           manufacturer="AXNER"
+           description="Pre-mixed on bottle, to 1280C."/>
 
     <glaze xml:id="Transparent"
            name="Transparent"
@@ -75,14 +76,14 @@
        description="100 ml Green Hue at gravity 45 mixed with 100 ml Frosted Jade at gravity 44." />
 
    <glaze xml:id="AmacoWhite"
-       name="Amaco White"
+       name="White"
        productID="HF-11A White"
        manufacturer="Amaco"
        description="Sahara Liquid Glazes, HF-11 White. Brush-on."/>
 
    <glaze xml:id="AmacoWaxyWhite"
-       name="Amaco Waxy White"
-       productID="HF-17 WaxyWhite"
+       name="Waxy White"
+       productID="HF-17"
        manufacturer="Amaco"
        description="Sahara Liquid Glazes, HF-17 Waxy White. Brush-on."/>
 

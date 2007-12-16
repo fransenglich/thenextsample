@@ -86,7 +86,9 @@
     <xsl:template match="p:glazes">
         <chapter>
             <title>Glazes</title>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="p:glaze">
+                <xsl:sort select="@name"/>
+            </xsl:apply-templates>
         </chapter>
     </xsl:template>
 
