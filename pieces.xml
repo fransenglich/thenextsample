@@ -93,7 +93,15 @@
 
     <piece xml:id="P33">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
+        <glazing idref="FrostedJade" gravity="52" trickled="true"/>
+        <glazing idref="GreenHue" gravity="59" trickled="true"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
+
+        <db:para><db:date>2007-12-16</db:date> Glazed the whole in Frosted Jade first. This went quite well, I had such a large quantity that I simply filled up the whole inside up to the rim. After, strips with "stamp"-tape that was activated with water was applied to form the T. A sewing-strip was used to ensure the tape was somewhat centered in the middle.</db:para>
+
+        <db:para>Once done, the whole thing was waxed with permanent wax, the strips removed, and glazed with Green Hue. I think glue from the strips sticked to the glaze(or was it water, or had the wax flown in beneath? Doubt the latter), so it will be interesting to see how Green Hue will deal with that. Green Hue was extremely thick. Like an old man in acid.</db:para>
+        
+        <db:para>As usual this was messy, due to the strips pulling off the wax a bit(had to repair by hand with brush), glaze staying on top of the wax(had to wipe off). Both glaze batches had been extend and therefore remixed/trickled and were creamy and ran easy. Have no clue how this will turn out.</db:para>
     </piece>
 
     <piece xml:id="P34">
