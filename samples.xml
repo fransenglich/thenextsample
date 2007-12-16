@@ -376,10 +376,10 @@
     </sample>
 
     <sample date="2007-12-15">
-        <brick xml:id="T500"/>
+        <brick xml:id="T100"/>
         <glazing trickled="false" idref="BlackBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Four layers.</db:para>
+        <db:para>Four layers. The number in the top right corner is drawn over with black AXNER underglaze, and the back says 100. Oops.</db:para>
     </sample>
 
     <sample date="2007-12-15">
