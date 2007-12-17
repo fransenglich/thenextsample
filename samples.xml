@@ -405,15 +405,18 @@
 
     <sample date="2007-12-16">
         <brick xml:id="T88"/>
-        <glazing trickled="false" idref="FrostedJade"/><!-- TODO Fix this crap. -->
-        <glazing trickled="false" idref="LichenGreenBO"/><!-- TODO Fix this crap. -->
+        <glazing trickled="false" gravity="45" idref="FrostedJade"/>
+        <glazing trickled="false" idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The left corner has Lichen Green brushed on top in one thorough layer. In the middle there was a drop of water which gave a visible texture, maybe it shows up after firing. On the right was sprayed, which flooded in a bit under the tape, a fixativ. It prevents the surface from being powderish, but doesn't repell water, athough slows down suction a bit. Not that that is of any use. However, it makes handling a glazed piece with ones hands less destructive. Assuming it doesn't have an effect on after glaze burn. The fixativ was Winsor &amp; Newton Artists' Fixativ, transparent, non removable.</db:para>
+
+        <db:para>The frosted jade was one long even dip.</db:para>
+
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T81"/>
-        <glazing trickled="false" idref="AmacoBlack"/>
+        <glazing trickled="false" idref="JetBlack"/>
         <glazing trickled="false" gravity="38" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
@@ -433,6 +436,40 @@
         <glazing trickled="false" idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>First, three layers of red was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of red and and three layers of yellow, and at the bottom three layers of red and three layers of yellow.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T97"/>
+        <glazing trickled="false" idref="AmacoBrown"/>
+        <glazing trickled="false" gravity="41" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers</db:para>
+    </sample>
+
+    <!--
+    <sample date="2007-12-15">
+        <brick xml:id=""/>TODO What brick ID?
+        <glazing trickled="false" idref="JetBlack"/>
+        <glazing trickled="false" idref="TransparentBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Three layers of black.</db:para>
+    </sample>
+    -->
+
+    <sample date="2007-12-15">
+        <brick xml:id="T86"/>
+        <glazing trickled="false" idref="YellowOatMetal"/>
+        <glazing trickled="false" gravity="41" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2007-12-15">
+        <brick xml:id="T71"/>
+        <glazing trickled="false" idref="JetBlack"/>
+        <glazing trickled="false" gravity="41" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
     </sample>
 
 </samples>

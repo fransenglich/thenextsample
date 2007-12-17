@@ -153,10 +153,25 @@
            name="Orange brush-on"
            productID="P2841"/>
 
-   <glaze xml:id="AmacoBlack"
+   <glaze xml:id="JetBlack"
            manufacturer="Amaco"
-           name="Black, Velvet Underglaze, V Series"
+           name="Jet Black, Velvet Underglaze, V Series"
            productID="V-361"/>
+
+   <glaze xml:id="AmacoBrown"
+           manufacturer="Amaco"
+           name="Brown, Sahara Liquid Series, HF-Series"
+           productID="HF-30"/>
+
+   <glaze xml:id="YellowOatMetal"
+           manufacturer="Amaco"
+           name="Matt Yellow Oat Metal, Sahara Liquid Series, HF-Series"
+           productID="HF-62"/>
+
+   <glaze xml:id="TransparentBO"
+           manufacturer="Potterycrafts Limited"
+           name="Transparent brush-on"
+           productID="P2793"/>
 
    <!-- All for keramik, Cerama 6250. -->
 </glazes>
