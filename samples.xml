@@ -419,6 +419,22 @@
         <db:para/>
     </sample>
 
+    <sample date="2007-12-17">
+        <brick xml:id="T87"/>
+        <glazing trickled="false" idref="OrangeBO"/>
+        <glazing trickled="false" idref="YellowBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>First, three layers of orange was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of orange and and three layers of yellow, and at the bottom three layers of orange and three layers of yellow.</db:para>
+    </sample>
+
+    <sample date="2007-12-17">
+        <brick xml:id="T83"/>
+        <glazing trickled="false" idref="RedBO"/>
+        <glazing trickled="false" idref="YellowBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>First, three layers of red was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of red and and three layers of yellow, and at the bottom three layers of red and three layers of yellow.</db:para>
+    </sample>
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4
