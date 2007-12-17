@@ -153,6 +153,11 @@
            name="Orange brush-on"
            productID="P2841"/>
 
+   <glaze xml:id="AmacoBlack"
+           manufacturer="Amaco"
+           name="Black, Velvet Underglaze, V Series"
+           productID="V-361"/>
+
    <!-- All for keramik, Cerama 6250. -->
 </glazes>
 <!--

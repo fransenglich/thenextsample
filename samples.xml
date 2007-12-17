@@ -411,6 +411,14 @@
         <db:para>The left corner has Lichen Green brushed on top in one thorough layer. In the middle there was a drop of water which gave a visible texture, maybe it shows up after firing. On the right was sprayed, which flooded in a bit under the tape, a fixativ. It prevents the surface from being powderish, but doesn't repell water, athough slows down suction a bit. Not that that is of any use. However, it makes handling a glazed piece with ones hands less destructive. Assuming it doesn't have an effect on after glaze burn. The fixativ was Winsor &amp; Newton Artists' Fixativ, transparent, non removable.</db:para>
     </sample>
 
+    <sample date="2007-12-15">
+        <brick xml:id="T81"/>
+        <glazing trickled="false" idref="AmacoBlack"/>
+        <glazing trickled="false" gravity="38" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

@@ -106,7 +106,13 @@
 
     <piece xml:id="P34">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
+        <glazing idref="GreenHue" gravity="55" trickled="true"/>
+        <glazing idref="AmacoBlack" trickled="false"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
+
+        <db:para><db:date>2007-12-16</db:date> Did the ring on the inside with guidelines on the inside by an ink pen, followed by filling in with the black. All the others were done with tape masking. The angles and straight lines were generally tricky, a Linex template was often of good help for putting a first baseline. Many angles are out of order and it's generally a bit sloppy. Leakage on many places, especially the long inside strip, due to that the tape has to be so darn tight. Quite time consuming, time is no 01:30.</db:para>
+
+        <db:para>Afterwards the whole thing was glazed with green, which was creamy but thick. Managed to drop the thing in the 65 L bucket, which explains any uneveness on the outside. The rim, as often, was rather uneven due to dripping and so on.</db:para>
     </piece>
 
     <piece xml:id="P35">
