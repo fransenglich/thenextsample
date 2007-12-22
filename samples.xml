@@ -412,7 +412,7 @@
 
         <db:para>The frosted jade was one long even dip.</db:para>
 
-        <db:para><db:date>2007-12-21</db:para> So the Lichen Green area turned into as graphite, and no sign at all from the fixativ. Top right corner is cool, the one below a bit too.</db:para>
+        <db:para><db:date>2007-12-21</db:date> So the Lichen Green area turned into as graphite, and no sign at all from the fixativ. Top right corner is cool, the one below a bit too.</db:para>
     </sample>
 
     <sample date="2007-12-15">
@@ -449,15 +449,13 @@
         <db:para>Four layers</db:para>
     </sample>
 
-    <!--
     <sample date="2007-12-15">
-        <brick xml:id=""/>TODO What brick ID?
+        <brick xml:id="T94"/>
         <glazing trickled="false" idref="JetBlack"/>
         <glazing trickled="false" idref="TransparentBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Three layers of black.</db:para>
     </sample>
-    -->
 
     <sample date="2007-12-15">
         <brick xml:id="T86"/>

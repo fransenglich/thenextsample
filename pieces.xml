@@ -102,6 +102,8 @@
         <db:para>Once done, the whole thing was waxed with permanent wax, the strips removed, and glazed with Green Hue. I think glue from the strips sticked to the glaze(or was it water, or had the wax flown in beneath? Doubt the latter), so it will be interesting to see how Green Hue will deal with that. Green Hue was extremely thick. Like an old man in acid.</db:para>
         
         <db:para>As usual this was messy, due to the strips pulling off the wax a bit(had to repair by hand with brush), glaze staying on top of the wax(had to wipe off). Both glaze batches had been extend and therefore remixed/trickled and were creamy and ran easy. Have no clue how this will turn out.</db:para>
+
+        <db:para><db:date>2007-12-22-20</db:date> Issues: tons of blister in Frosted Jade, Green Hue not gripping at the very bottom on the outside. Slight orange skin on the Green Hue here and there, perhaps caused by thickness. Beyond the problems the general idea works and it looks ok.</db:para>
     </piece>
 
     <piece xml:id="P34">
@@ -113,6 +115,7 @@
         <db:para><db:date>2007-12-16</db:date> Did the ring on the inside with guidelines on the inside by an ink pen, followed by filling in with the black. All the others were done with tape masking. The angles and straight lines were generally tricky, a Linex template was often of good help for putting a first baseline. Many angles are out of order and it's generally a bit sloppy. Leakage on many places, especially the long inside strip, due to that the tape has to be so darn tight. Quite time consuming, time is no 01:30.</db:para>
 
         <db:para>Afterwards the whole thing was glazed with green, which was creamy but thick. Managed to drop the thing in the 65 L bucket, which explains any uneveness on the outside. The rim, as often, was rather uneven due to dripping and so on.</db:para>
+        <db:para><db:date>2007-12-22-20</db:date> Issues: just as <db:xref xlink:href="#P33"/> and <db:xref xlink:href="#40"/> orange skin can be seen. If this isn't glaze thickness(which is thick) I suspect kiln contamination that turned the crap into a salt firing. At times uneven on the outside and it should have been thicker, it should have been as the inside is, a healty strong green. Pin holes here and there. At some places the underglazes was pulled away causing small artifacts. Maybe this could have been avoided by ensuring it's not a thick layer of underglaze.</db:para>
     </piece>
 
     <piece xml:id="P35">
@@ -139,6 +142,7 @@
 
     <piece xml:id="P17">
         <clayref idref="WSW" weightWhenWet="800"/>
+        <glazing idref="IntenseBlack" trickled="false"/>
         <db:para><db:date>2007-10-31</db:date>The edge sunk due to that the edge was too wetened when trimming.</db:para>
     </piece>
 
@@ -203,7 +207,12 @@
     <piece xml:id="P40">
         <clayref idref="SaintThomas" weightWhenWet="4300"/>
         <glazing idref="IntenseBlack" trickled="false" gravity="48"/>
-        <db:para><db:date>2007-11-18</db:date>The clay was too wet.</db:para>
+        <db:para><db:date>2007-11-18</db:date>The clay was too wet. It collapsed slightly so I trimmed it from the inside in order to keep the inside sane.</db:para>
+        <db:para>Glazed it by filling up the inside and then tilting the glaze around. Hence very long time of glazing on the inside. The outside was glazed twice by pooring while spinning. Probably thick too.</db:para>
+
+        <db:para><db:date>2007-12-22-20</db:date> Issues: orange skin(many small pin holes that doesn't reach the clay, reminds of salt/soda firing) all over it as well as pin holes. I suspect the orange skin is caused by the thickness of the glaze. The glaze lack the same kind of appearance as it has on <db:xref xlink:href="#P15"/>. But very even despite that there were uneven sections, this glaze flows well. Probably the thickness helpt. The rim is missing some glaze on the inside.</db:para>
+
+        <db:para>Overall this the the best piece to date. The glaze issues can be considered relatively minor.</db:para>
     </piece>
 
     <piece xml:id="P43">
