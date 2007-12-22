@@ -473,6 +473,33 @@
         <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
     </sample>
 
+    <sample date="2007-12-20">
+        <brick xml:id="T82"/>
+        <glazing trickled="false" idref="TexturedTan"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-20">
+        <brick xml:id="T89"/>
+        <glazing trickled="false" idref="AmacoYellow"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-12-20">
+        <brick xml:id="T85"/>
+        <glazing trickled="false" idref="AmacoWhiteUnderglaze"/>
+        <glazing trickled="false" idref="JetBlack"/>
+        <glazing trickled="false" idref="LichenGreenBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>At the bottom, vertically, from left to right: white, black and green. On top, horizontally, from top to bottom: white, black and green. Each strip had two layers, so in total there's four layers on each square.</db:para>
+
+    </sample>
+
+
+    <!-- Made samples 101-112. -->
+
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

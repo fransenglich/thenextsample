@@ -168,6 +168,16 @@
            name="Matt Yellow Oat Metal, Sahara Liquid Series, HF-Series"
            productID="HF-62"/>
 
+   <glaze xml:id="TexturedTan"
+           manufacturer="Amaco"
+           name="Textured Tan, Sahara Liquid Series, HF-Series"
+           productID="HF-32"/>
+
+   <glaze xml:id="AmacoYellow"
+           manufacturer="Amaco"
+           name="Yellow, Sahara Liquid Series, HF-Series"
+           productID="HF-60"/>
+
    <glaze xml:id="TransparentBO"
            manufacturer="Potterycrafts Limited"
            name="Transparent brush-on"

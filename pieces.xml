@@ -23,18 +23,16 @@
         <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
     </piece>
 
+    <piece xml:id="P21">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="LichenGreenBO" trickled="false"/>
+        <glazing idref="WhiteBO" trickled="false"/>
+        <db:para><db:date>2007-10-29</db:date></db:para>
+        <db:para><db:date>2007-12-21</db:date> Brushed the whole thing with two laywers of green, then one across whole with white, and then a second layer with white across the half inside and outside.</db:para>
+    </piece>
+
     <!--
     <piece xml:id="P20"><db:date>2007-10-29</db:date>
-        <glazing idref="" gravity="46"/>
-        <db:para/>
-    </piece>
-
-    <piece xml:id="P21"><db:date>2007-10-29</db:date>
-        <glazing idref="" gravity="46"/>
-        <db:para/>
-    </piece>
-
-    <piece xml:id="P21"><db:date>2007-10-29</db:date>
         <glazing idref="" gravity="46"/>
         <db:para/>
     </piece>
