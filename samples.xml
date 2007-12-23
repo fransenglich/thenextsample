@@ -209,7 +209,8 @@
         <brick xml:id="T30"/>
         <glazing idref="TransparentYellowStain" gravity="42" trickled="false"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron. Dropped it in the floor on 2007-11-17, glued it with cyanoacrylate glue.</db:para>
+        <db:para>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron.</db:para>
+        <db:para>Dropped it in the floor on <db:date>2007-11-17</db:date>, glued it with cyanoacrylate glue.</db:para>
     </sample>
 
     <sample date="2007-11-07">
