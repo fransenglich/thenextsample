@@ -29,6 +29,77 @@
                 <pubdate><xsl:value-of select="ex:date()"/></pubdate>
             </info>
 
+            <chapter>
+                <title>Oven Programs</title>
+
+                <para>Unless otherwise stated, all burns were done with the following settings.</para>
+                <table>
+                    <title/>
+                    <tgroup cols="8">
+                        <thead>
+                            <row>
+                                <entry>Program Code</entry>
+                                <entry>Type</entry>
+                                <entry>C/h 1</entry>
+                                <entry>Temp 1</entry>
+                                <entry>Time 1</entry>
+                                <entry>C/h 2</entry>
+                                <entry>Temp 2</entry>
+                                <entry>Time 2</entry>
+                                <entry>C/h 3</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>P1</entry>
+                                <entry>Bisque</entry>
+                                <entry>80</entry>
+                                <entry>80</entry>
+                                <entry>300</entry>
+                                <entry>150</entry>
+                                <entry>960</entry>
+                                <entry>30</entry>
+                                <entry>700</entry>
+                            </row>
+                            <row>
+                                <entry>P2</entry>
+                                <entry>Decal &amp; Luster</entry>
+                                <entry>150</entry>
+                                <entry>650</entry>
+                                <entry>0</entry>
+                                <entry>200</entry>
+                                <entry>780</entry>
+                                <entry>0</entry>
+                                <entry>700</entry>
+                            </row>
+                            <row>
+                                <entry>P3</entry>
+                                <entry>Unused Bisque Program</entry>
+                                <entry>80</entry>
+                                <entry>80</entry>
+                                <entry>540</entry>
+                                <entry>150</entry>
+                                <entry>960</entry>
+                                <entry>0</entry>
+                                <entry>500</entry>
+                            </row>
+                            <row>
+                                <entry>P4</entry>
+                                <entry>Glaze</entry>
+                                <entry>150</entry>
+                                <entry>600</entry>
+                                <entry>0</entry>
+                                <entry>200</entry>
+                                <entry>1240</entry>
+                                <entry>10</entry>
+                                <entry>500</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+
+            </chapter>
+
             <xsl:apply-templates select="p:pieces"/>
             <xsl:apply-templates select="p:glazes"/>
             <xsl:apply-templates select="p:clays"/>
