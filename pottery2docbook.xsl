@@ -50,7 +50,13 @@
 
             <section>
                 <title>Pieces</title>
-                <xsl:apply-templates/>
+
+                <para>The IDs assigned to pieces are arbitrary and not sequential, reflects cronologically
+                      or anything like that. However, they are sorted numerically in this document for quick lookup.</para>
+
+                <xsl:apply-templates select="p:piece">
+                    <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
+                </xsl:apply-templates>
             </section>
         </chapter>
     </xsl:template>
@@ -86,6 +92,7 @@
     <xsl:template match="p:glazes">
         <chapter>
             <title>Glazes</title>
+
             <xsl:apply-templates select="p:glaze">
                 <xsl:sort select="@name"/>
             </xsl:apply-templates>
