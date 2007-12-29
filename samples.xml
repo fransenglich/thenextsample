@@ -498,6 +498,15 @@
 
     </sample>
 
+    <sample date="2007-12-29">
+        <brick xml:id="T93"/>
+        <glazing trickled="false" idref="RedBO"/>
+        <glazing trickled="false" idref="JetBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Five solid layers. Should be fired standing vertically, for testing viscosity.</db:para>
+
+    </sample>
+
 
     <!-- Made samples 101-112. -->
 
