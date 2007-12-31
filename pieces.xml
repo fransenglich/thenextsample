@@ -305,12 +305,20 @@
         <clayref idref="SaintThomas" weightWhenWet="900"/>
 
         <db:para><db:date>2007-12-09</db:date> High, thin cylinder</db:para>
+        <db:para><db:date>2007-12-31</db:date> "Glazed" with porcelain slip. A bit uneven.</db:para>
     </piece>
 
     <piece xml:id="P13">
         <clayref idref="SaintThomas"/>
         <db:para><db:date>2007-12-09</db:date> The UFO penguin.</db:para>
+        <db:para><db:date>2007-12-31</db:date> "Glazed" it with porcelain slip. One runs into the same kind of problems as when glazing with a real glaze; finger marks, damaged rims and so on. The body had dried a bit too much, so there were plenty of crazings. So lots of trouble with this approach, maybe there's a better approach for doing white things. Razorhead's will turn out to be a prototype. How suitable.</db:para>
     </piece>
+
+    <piece xml:id="P24">
+        <clayref idref="SaintThomas" weightWhenWet="3500"/>
+        <db:para><db:date>2007-12-31</db:date> Trimmed it and burnished the outside up to about 5 cm to the rim. Lots of rythm, asymmetric rim, but looks like it will give an ok impression anyway. Threw the stem too; this will be a big tilting one.</db:para>
+    </piece>
+
     <!--
     2007-12-09 900, poorly thrown Aladin in the lamp
     2007-12-09 900, small piece for oval experiments. Trimmed of tons
@@ -318,7 +326,6 @@
 
 
     2007-12-29 3500
-    2007-12-29 2900
     -->
 
 </pieces>
