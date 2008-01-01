@@ -254,7 +254,7 @@
 
     <xsl:template match="p:glazing" mode="lowKeyGlazing">
             <xsl:apply-templates select="@gravity"/>
-            <xsl:apply-templates select="@trickled"/>
+            <xsl:apply-templates select="@sieved"/>
     </xsl:template>
 
     <xsl:template match="@gravity">
@@ -262,8 +262,8 @@
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
 
-    <xsl:template match="@trickled">
-        <xsl:text>, </xsl:text><emphasis>trickled</emphasis>:
+    <xsl:template match="@sieved">
+        <xsl:text>, </xsl:text><emphasis>sieved</emphasis>:
         <xsl:value-of select="."/>
     </xsl:template>
 
