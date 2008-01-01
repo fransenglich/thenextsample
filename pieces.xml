@@ -84,6 +84,7 @@
 
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
+        <!-- TODO Where the fuck is the glaze refs? Find the notes. -->
         <db:para><db:date>2007-10-27</db:date></db:para>
 
         <db:para><db:date>2007-12-02</db:date>With tape, permanent wax and Mask&amp;Peel wax, the two halfs of white and black were painted out. First the black outside, then the black inside, the white inside, white outside. Time consuming, error prone process. Wouldn't surprise me if the white or black comes out contaminated. The black outside was double glazed, though it had both before and after pin holes. The white outside glazed three times(although without full drying inbetween) in order to try to tackle pinholes. The white inside was done by filling up(yes, on top of the black with wax on top) and rolling around three times. The top edge became very thick and uneven at the end. Hard to find a masking mechanism that sticks on top of glaze.</db:para>
@@ -141,6 +142,7 @@
     <piece xml:id="P17">
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="IntenseBlack" trickled="false"/>
+        <!--- TODO What's the gravity? -->
         <db:para><db:date>2007-10-31</db:date>The edge sunk due to that the edge was too wetened when trimming.</db:para>
     </piece>
 
@@ -191,8 +193,11 @@
 
     <piece xml:id="P41">
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
+        <glazing idref="IntenseBlack" trickled="false" gravity="41"/>
         <db:para><db:date>2007-11-12</db:date>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</db:para>
         <db:para><db:date>2007-11-18</db:date>Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</db:para>
+
+        <db:para><db:date>2007-12-31</db:date> Glazed it.</db:para>
     </piece>
 
     <piece xml:id="P42">
@@ -292,7 +297,11 @@
     <piece xml:id="P92">
         <clayref idref="SaintThomas" weightWhenWet="1100"/>
 
-        <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This has to be fancy on a big piece.</db:para>
+        <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This is maybe fancy on a big piece.</db:para>
+
+        <db:para><db:date>2007-12-31</db:date> Glazed, trying to kill blisters with Frosted Jade. Let water run on the bisqued piece first such that it absorbed plenty, in the hope that the glaze would stick better(but unfortunately less as well, but that's only as long as the first layer is wet). Glazed the inside by tilting as usual, and poored on the outside. The outside has three areas, where each area had one additional layer.</db:para>
+
+        <db:para>The glaze had rather large particles that trickling maybe would have solved. Maybe it will be more gray instead of green for this reason.</db:para>
     </piece>
 
     <piece xml:id="P99">
