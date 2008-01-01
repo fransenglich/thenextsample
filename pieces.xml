@@ -85,7 +85,7 @@
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <glazing sieved="false" gravity="50" idref="WhiteGloss"/>
-        <glazing sieved="false" gravity="48" idref="Black"/>
+        <glazing sieved="false" gravity="48" idref="IntenseBlack"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
 
         <db:para><db:date>2007-12-02</db:date>With tape, permanent wax and Mask&amp;Peel wax, the two halfs of white and black were painted out. First the black outside, then the black inside, the white inside, white outside. Time consuming, error prone process. Wouldn't surprise me if the white or black comes out contaminated. The black outside was double glazed, though it had pin holes both before and after. The white outside was glazed three times(although without full drying inbetween) in order to try to tackle pinholes. The white inside was done by filling up(yes, on top of the black with wax on top) and rolling around three times. The top edge became very thick and uneven at the end. Hard to find a masking mechanism that sticks on top of glaze.</db:para>
