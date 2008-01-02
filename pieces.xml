@@ -299,6 +299,7 @@
 
     <piece xml:id="P92">
         <clayref idref="SaintThomas" weightWhenWet="1100"/>
+        <glazing idref="FrostedJade" sieved="false" gravity="51"/>
 
         <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This is maybe fancy on a big piece.</db:para>
 
