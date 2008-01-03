@@ -343,6 +343,7 @@
     <piece xml:id="P25">
         <clayref idref="SaintThomas"/>
         <glazing idref="GreenHue" sieved="false" gravity="55"/>
+        <glazing idref="JetBlack" sieved="false"/>
 
         <db:para>Threw that piece quite some months ago. Although it for the recent time have been covered with a plastic bag, it may have collected dust. Heavy bottom, wasn't trimmed, and that was a mistake.</db:para>
 
