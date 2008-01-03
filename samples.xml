@@ -504,6 +504,7 @@
         <glazing sieved="false" idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five solid layers. Should be fired standing vertically, for testing viscosity.</db:para>
+        <db:para><db:date>2008-01-03</db:date> Loaded it standing more than vertically: maybe 15 degrees "forward."</db:para>
 
     </sample>
 

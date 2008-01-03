@@ -204,6 +204,7 @@
         <db:para><db:date>2007-11-18</db:date>Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</db:para>
 
         <db:para><db:date>2007-12-31</db:date> Glazed it.</db:para>
+        <db:para><db:date>2008-01-03</db:date> Loaded it in the kiln at the next top most level, to have somewhat the same conditions as for <db:xref xlink:href="#P15"/>.</db:para>
     </piece>
 
     <piece xml:id="P42">
@@ -280,8 +281,10 @@
 
     <piece xml:id="P91">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
+        <glazing idref="FrostedJade" sieved="true" gravity="45"/>
 
         <db:para><db:date>2007-12-08</db:date> Another prototype piece. Bottom trimmed too thin. Cut three feet from the stem.</db:para>
+        <db:para><db:date>2008-01-03</db:date> Glazed it. Noticed the bottom was thin by that the glaze took a long time to dry in the bottom. The outside was glazed twice. It didn't dry completely inbetween.</db:para>
     </piece>
 
     <piece xml:id="P93">
@@ -335,6 +338,16 @@
     <piece xml:id="P24">
         <clayref idref="SaintThomas" weightWhenWet="3500"/>
         <db:para><db:date>2007-12-31</db:date> Trimmed it and burnished the outside up to about 5 cm to the rim. Lots of rythm, asymmetric rim, but looks like it will give an ok impression anyway. Threw the stem too; this will be a big tilting one.</db:para>
+    </piece>
+
+    <piece xml:id="P25">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="GreenHue" sieved="false" gravity="55"/>
+
+        <db:para>Threw that piece quite some months ago. Although it for the recent time have been covered with a plastic bag, it may have collected dust. Heavy bottom, wasn't trimmed, and that was a mistake.</db:para>
+
+        <db:para><db:date>2008-01-03</db:date> Cut a section in "Adhesive Transparent Film"(Clas Ohlson, 31.4132) for the strip with black underglaze. The film works very well, but the underglaze still easily jumps in under. Glazed randomly with Green Hue. Let the area over the underglaze sink in for a while, 3-5 seconds. Other than that glazed the thing rather randomly. The Green Hue felt thick and easily broke off.</db:para>
+
     </piece>
 
     <!--
