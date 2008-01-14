@@ -360,27 +360,32 @@
         <clayref idref="SaintThomas" weightWhenWet="700"/>
 
         <db:para><db:date>2008-01-13</db:date> The clay was new, straight from the bag. In other words, this is not re-used clay.</db:para>
+        <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
     </piece>
 
     <piece xml:id="P27">
         <clayref idref="SaintThomas" weightWhenWet="700"/>
 
         <db:para><db:date>2008-01-13</db:date> Used re-weidged clay, as I usually do.</db:para>
+        <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
     </piece>
 
     <piece xml:id="P28">
         <clayref idref="SaintThomas" weightWhenWet="3200"/>
         <db:para><db:date>2008-01-13</db:date> Threw it.</db:para>
+        <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
     </piece>
 
     <piece xml:id="P29">
         <clayref idref="SaintThomas" weightWhenWet="2700"/>
         <db:para><db:date>2008-01-13</db:date> No rythm at all. Except for that the rim has some patterns, this one is probably the best one I've thrown.</db:para>
+        <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
     </piece>
 
     <piece xml:id="P30">
         <clayref idref="SaintThomas" weightWhenWet="3600"/>
         <db:para><db:date>2008-01-13</db:date> Collapsed, used hot air gun to pull it up.</db:para>
+        <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside as well as the inside, in order to compensate for the collapse.</db:para>
     </piece>
 
     <!--
