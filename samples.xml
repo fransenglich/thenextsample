@@ -509,8 +509,14 @@
         <db:para>Obviously the bottle have been incorrectly labeled. This is not the red spot iron glaze, this is a glossy dark blue. Whatever it is, it didn't run.</db:para>
     </sample>
 
+    <sample date="2008-01-20">
+        <brick xml:id="T91"/>
+        <glazing sieved="false" gravity="45" idref="RawBaseLeach"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Slight pink shade(before fired at least) due to the Flint. Very large particles, very powderish. Saturated it with fixativ for that reason. Don't think the third layer is any thicker, due to that it solved away the underlying layers, because of them being too moist. From a <db:constant>200</db:constant>g test batch. </db:para>
+    </sample>
 
-    <!-- Made samples 101-112. -->
+    <!-- Made samples 101-112. Made samples 130 - 15? -->
 
 </samples>
 <!--

@@ -183,6 +183,12 @@
            name="Transparent brush-on"
            productID="P2793"/>
 
+   <glaze xml:id="RawBaseLeach"
+           manufacturer="Frans Englich"
+           name="Leach Base Glaze"
+           productID="Leach"
+           description="40 Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oksid, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319)."/>
+
    <!-- All for keramik, Cerama 6250. -->
 </glazes>
 <!--
