@@ -111,6 +111,10 @@ A format for describing pottery glazes, samples and pieces.
                                 type="glazingType"
                                 minOccurs="0"
                                 maxOccurs="unbounded"/>
+                    <xs:element name="brushon"
+                                type="brushonType"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
                     <xs:element ref="db:para"
                                 minOccurs="1"
                                 maxOccurs="unbounded"/>
@@ -158,6 +162,14 @@ A format for describing pottery glazes, samples and pieces.
         <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
         <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
         <xs:attribute name="description"    type="xs:normalizedString"  use="optional"/>
+        <xs:attribute name="type" use="optional">
+            <xs:simpleType>
+                <xs:restriction base = "xs:string">
+                    <xs:enumeration value = "BrushOn"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+
     </xs:complexType>
 
     <xs:complexType name="sampleType">
@@ -165,6 +177,7 @@ A format for describing pottery glazes, samples and pieces.
             <xs:element name="image" type="imageType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="brushon" type="brushonType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="clayref" type="clayrefType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element ref="db:para"
                         minOccurs="1"
@@ -178,9 +191,13 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazingType">
-        <xs:attribute name="idref"      use="required" type="xs:NCName"/>
-        <xs:attribute name="gravity"    use="optional" type="gravityType"/>
+        <xs:attribute name="idref"    use="required" type="xs:NCName"/>
+        <xs:attribute name="gravity"  use="optional" type="gravityType"/>
         <xs:attribute name="sieved"   use="required" type="xs:boolean"/>
+    </xs:complexType>
+
+    <xs:complexType name="brushonType">
+        <xs:attribute name="idref"      use="required" type="xs:NCName"/>
     </xs:complexType>
 
     <xs:simpleType name="gravityType">

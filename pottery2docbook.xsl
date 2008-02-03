@@ -12,6 +12,35 @@
                 xmlns:p="tag:fenglich.fastmail.fm,2007:Pottery">
 
 
+    <!-- Do some business logic validation. -->
+    <xsl:template match="/">
+        <!-- glazing referencing brushons. -->
+        <xsl:variable name="invalidGlazeRef">
+            <xsl:for-each select="//p:glazing">
+                <xsl:variable name="name" select="@idref"/>
+                <xsl:value-of select="//p:glaze[@xml:id = $name and @type = 'BrushOn']/@xml:id"/>
+            </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:if test="string-length(normalize-space($invalidGlazeRef)) > 0">
+            <xsl:message terminate="yes"><xsl:value-of select="$invalidGlazeRef"/> is referenced as a non-brushon, while it in fact is.</xsl:message>
+        </xsl:if>
+
+        <!-- brushons referencing non-brushons. -->
+        <xsl:variable name="invalidBrushOnGlazeRef">
+            <xsl:for-each select="//p:brushon">
+                <xsl:variable name="name" select="@idref"/>
+                <xsl:value-of select="//p:glaze[@xml:id = $name and @type != 'BrushOn']/@xml:id"/>
+            </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:if test="string-length(normalize-space($invalidBrushOnGlazeRef)) > 0">
+            <xsl:message terminate="yes"><xsl:value-of select="$invalidBrushOnGlazeRef"/> are referenced as a brushon, while it isn't.</xsl:message>
+        </xsl:if>
+
+        <xsl:apply-templates/>
+    </xsl:template>
+
     <xsl:template match="p:pottery">
         <book xml:lang="en">
             <info>
@@ -178,6 +207,7 @@
                 <xsl:if test="@productID">, 
                     <xsl:value-of select="@productID"/>
                 </xsl:if>
+                <xsl:if test="@type = 'BrushOn'"> (brush-on)</xsl:if>
             </title>
 
             <xsl:if test="@description">
@@ -186,7 +216,7 @@
                 </para>
             </xsl:if>
 
-            <xsl:apply-templates select="//p:samples/p:sample[p:glazing/@idref = current()/@xml:id]">
+            <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
                 <xsl:sort data-type="number" select="number(p:glazing/@gravity)"/>
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
@@ -211,19 +241,18 @@
         </mediaobject>
     </xsl:template>
 
-
     <xsl:template match="p:sample">
         <xsl:param name="mainGlaze"/>
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
             
             <para>
-                <xsl:apply-templates select="p:glazing[@idref = $mainGlaze]" mode="lowKeyGlazing"/>
+                <xsl:apply-templates select="(p:glazing | p:brushon)[@idref = $mainGlaze]" mode="lowKeyGlazing"/>
             </para>
-            <xsl:variable name="additionalGlazes" select="p:glazing[@idref != $mainGlaze]"/>
-            <xsl:if test="p:glazing[@idref != $mainGlaze]">
+            <xsl:variable name="additionalGlazes" select="(p:brushon | p:glazing)[@idref != $mainGlaze]"/>
+            <xsl:if test="(p:brushon | p:glazing)[@idref != $mainGlaze]">
                 <para>Additional glaze<xsl:if test="count($additionalGlazes) > 1">s</xsl:if>:</para>
-                <xsl:apply-templates select="p:glazing[@idref != $mainGlaze]"/>
+                <xsl:apply-templates select="(p:brushon | p:glazing)[@idref != $mainGlaze]"/>
             </xsl:if>
             <xsl:apply-templates select="db:para"/>
             <xsl:apply-templates mode="doImage" select="p:brick"/>
@@ -250,6 +279,10 @@
         <para><phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>, 
             <xsl:apply-templates select="." mode="lowKeyGlazing"/>
         </para>
+    </xsl:template>
+
+    <xsl:template match="p:brushon">
+        <para><phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase></para>
     </xsl:template>
 
     <xsl:template match="p:glazing" mode="lowKeyGlazing">

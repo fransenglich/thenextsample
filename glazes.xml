@@ -24,29 +24,34 @@
     <glaze xml:id="SandBrown"
            manufacturer="Potterycrafts Limited"
            name="Sand Brown, B/O"
+           type="BrushOn"
            productID="P2845.5"/>
 
     <glaze xml:id="ImagineGreen"
            manufacturer="Ceradel"
            name="Green, Imagine ELG 80, Vent 230 ML Green"
-           description="Brush on glaze."/>
+           type="BrushOn"
+           description="Brush on."/>
 
     <glaze xml:id="GreyAmaco"
            name="Grey, Sahara Liquid Glazes, HF series"
            productID="HF-18"
            manufacturer="Amaco"
+           type="BrushOn"
            description="Brush on glaze."/>
 
     <glaze xml:id="YellowBO"
            name="Yellow Brush-on glaze"
            productID="P2842"
            manufacturer="Potterycrafts Limited"
+           type="BrushOn"
            description="Brush on glaze."/>
 
     <glaze xml:id="AxnerBlackUnderGlazePen"
            name="Black underglaze pen"
            productID="P4001"
            manufacturer="AXNER"
+           type="BrushOn"
            description="Pre-mixed on bottle, to 1280C."/>
 
     <glaze xml:id="Transparent"
@@ -75,112 +80,134 @@
        manufacturer="Mixture"
        description="100 ml Green Hue at gravity 45 mixed with 100 ml Frosted Jade at gravity 44." />
 
-   <glaze xml:id="AmacoWhite"
+   <glaze xml:id="AmacoWhiteBO"
        name="White"
        productID="HF-11A White"
        manufacturer="Amaco"
+       type="BrushOn"
        description="Sahara Liquid Glazes, HF-11 White. Brush-on."/>
 
    <glaze xml:id="AmacoWaxyWhite"
        name="Waxy White"
        productID="HF-17"
        manufacturer="Amaco"
+       type="BrushOn"
        description="Sahara Liquid Glazes, HF-17 Waxy White. Brush-on."/>
 
    <glaze xml:id="RedBO"
        name="Red brush on"
        productID="P2840"
        manufacturer="Potterycrafts Limited"
+       type="BrushOn"
        description="Red brush on"/>
 
    <glaze xml:id="TurquoiseBO"
        name="Turquoise, Sahara Liquid Series"
        productID="HF-26"
+       type="BrushOn"
        manufacturer="Amaco"/>
 
    <glaze xml:id="WhiteBO"
       name="White Brush-on"
       productID="2850.5"
+      type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="IndigoBlue"
       name="Indigo Blue"
       productID="2844.5"
+      type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="OilSpot"
       name="Oil Spot, Potter's Choice Liquid Glazes"
       productID="PC-35"
+      type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="TexturedBlue"
       name="Textured Blue, Sahara Liquid Glaze"
       productID="HF-22"
+      type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="GoldBrownBO"
       name="Gold Brown Brush-on"
       productID="2847.5"
+      type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="VelourBlackBO"
       name="Velour Black, V Series, Velvet Underglaze"
       productID="V-370"
+      type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="CeradelNoir"
       name="Noir, Imagine"
       productID="ELG 60"
-      manufacturer="Ceradel"/>
+      manufacturer="Ceradel"
+      type="BrushOn"
+      description="Brush on."/>
 
    <glaze xml:id="AmacoWhiteUnderglaze"
       name="White, V Series, Velvet Underglaze"
       productID="V-360"
+      type="BrushOn"
       manufacturer="Ceradel"/>
 
    <glaze xml:id="BlackBO"
            manufacturer="Potterycrafts Limited"
            name="Black Brush-on"
+           type="BrushOn"
            productID="P2851"/>
 
    <glaze xml:id="LichenGreenBO"
            manufacturer="Potterycrafts Limited"
            name="Lichen Green"
+           type="BrushOn"
            productID="P2822"/>
 
    <glaze xml:id="OrangeBO"
            manufacturer="Potterycrafts Limited"
            name="Orange brush-on"
+           type="BrushOn"
            productID="P2841"/>
 
    <glaze xml:id="JetBlack"
            manufacturer="Amaco"
            name="Jet Black, Velvet Underglaze, V Series"
+           type="BrushOn"
            productID="V-361"/>
 
    <glaze xml:id="AmacoBrown"
            manufacturer="Amaco"
            name="Brown, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
            productID="HF-30"/>
 
    <glaze xml:id="YellowOatMetal"
            manufacturer="Amaco"
            name="Matt Yellow Oat Metal, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
            productID="HF-62"/>
 
    <glaze xml:id="TexturedTan"
            manufacturer="Amaco"
            name="Textured Tan, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
            productID="HF-32"/>
 
    <glaze xml:id="AmacoYellow"
            manufacturer="Amaco"
            name="Yellow, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
            productID="HF-60"/>
 
    <glaze xml:id="TransparentBO"
            manufacturer="Potterycrafts Limited"
            name="Transparent brush-on"
+           type="BrushOn"
            productID="P2793"/>
 
    <glaze xml:id="RawBaseLeach"

@@ -6,14 +6,14 @@
     <sample date="2007-09-28">
         <brick xml:id="W1"/>
         <brick xml:id="T5"/>
-        <glazing sieved="false" idref="SandBrown"/>
+        <brushon idref="SandBrown"/>
         <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W10"/>
         <brick xml:id="T8"/>
-        <glazing sieved="false" idref="ImagineGreen"/>
+        <brushon idref="ImagineGreen"/>
         <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
     </sample>
 
@@ -28,7 +28,7 @@
         <brick xml:id="W6"/>
         <brick xml:id="T4"/>
         <brick xml:id="W11"/>
-        <glazing sieved="false" idref="GreyAmaco"/>
+        <brushon idref="GreyAmaco"/>
         <db:para>W11 had an extra layer on the second level.</db:para>
     </sample>
 
@@ -68,7 +68,7 @@
         <brick xml:id="T6"/>
         <brick xml:id="W5"/>
 
-        <glazing sieved="false" idref="YellowBO"/>
+        <brushon idref="YellowBO"/>
 
         <db:para/>
     </sample>
@@ -193,7 +193,7 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T54"/>
-        <glazing sieved="false" idref="AxnerBlackUnderGlazePen"/>
+        <brushon idref="AxnerBlackUnderGlazePen"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
@@ -266,14 +266,14 @@
 
     <sample date="2007-11-24">
         <brick xml:id="T37"/>
-        <glazing sieved="false" idref="AmacoWhite"/>
+        <brushon idref="AmacoWhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Convenient thickness. Brushed three different thickness.</db:para>
     </sample>
 
     <sample date="2007-11-24">
         <brick xml:id="T50"/>
-        <glazing sieved="false" idref="RedBO"/>
+        <brushon idref="RedBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Brushed three different thickness.</db:para>
     </sample>
@@ -294,82 +294,82 @@
 
     <sample date="2007-11-27">
         <brick xml:id="T56"/>
-        <glazing sieved="false" idref="AmacoWaxyWhite"/>
+        <brushon idref="AmacoWaxyWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</db:para>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T61"/>
-        <glazing sieved="false" idref="TurquoiseBO"/>
+        <brushon idref="TurquoiseBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T70"/>
-        <glazing sieved="false" idref="WhiteBO"/>
+        <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T60"/>
-        <glazing sieved="false" idref="IndigoBlue"/>
+        <brushon idref="IndigoBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T62"/>
-        <glazing sieved="false" idref="OilSpot"/>
+        <brushon idref="OilSpot"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T69"/>
-        <glazing sieved="false" idref="TexturedBlue"/>
+        <brushon idref="TexturedBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-05">
         <brick xml:id="T67"/>
-        <glazing sieved="false" idref="GoldBrownBO"/>
+        <brushon idref="GoldBrownBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-09">
         <brick xml:id="T66"/>
-        <glazing sieved="false" idref="VelourBlackBO"/>
         <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <brushon idref="VelourBlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-09">
         <brick xml:id="T65"/>
-        <glazing sieved="false" idref="CeradelNoir"/>
         <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <brushon idref="CeradelNoir"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. Extremely thick, like semi-dry tooth paste.</db:para>
     </sample>
 
     <sample date="2007-12-09">
         <brick xml:id="T68"/>
-        <glazing sieved="false" idref="AmacoWhiteUnderglaze"/>
         <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <brushon idref="AmacoWhiteUnderglaze"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T84"/>
-        <glazing sieved="false" idref="WhiteBO"/>
-        <glazing sieved="false" idref="LichenGreenBO"/>
-        <glazing sieved="false" idref="BlackBO"/>
+        <brushon idref="WhiteBO"/>
+        <brushon idref="LichenGreenBO"/>
+        <brushon idref="BlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The first layer has three vertical stripes which from left to right are white, black and green. The second layer has three horizontal stripes which from top to bottom are white, black, and green. All was done with tape masking, and each stripe had two even coats. This gives a range of a combinations. For instance, in the top right corner one finds white on top of green, and in the left bottom corner green on top of white.</db:para>
 
@@ -378,28 +378,28 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T100"/>
-        <glazing sieved="false" idref="BlackBO"/>
+        <brushon idref="BlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. The number in the top right corner is drawn over with black AXNER underglaze, and the back says 100. Oops.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T96"/>
-        <glazing sieved="false" idref="LichenGreenBO"/>
+        <brushon idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T90"/>
-        <glazing sieved="false" idref="WhiteBO"/>
+        <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T95"/>
-        <glazing sieved="false" idref="OrangeBO"/>
+        <brushon idref="OrangeBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers, I think. This brush-on acts quite thin.</db:para>
     </sample>
@@ -407,7 +407,7 @@
     <sample date="2007-12-16">
         <brick xml:id="T88"/>
         <glazing sieved="false" gravity="45" idref="FrostedJade"/>
-        <glazing sieved="false" idref="LichenGreenBO"/>
+        <brushon idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The left corner has Lichen Green brushed on top in one thorough layer. In the middle there was a drop of water which gave a visible texture, maybe it shows up after firing. On the right was sprayed, which flooded in a bit under the tape, a fixativ. It prevents the surface from being powderish, but doesn't repell water, athough slows down suction a bit. Not that that is of any use. However, it makes handling a glazed piece with ones hands less destructive. Assuming it doesn't have an effect on after glaze burn. The fixativ was Winsor &amp; Newton Artists' Fixativ, transparent, non removable.</db:para>
 
@@ -418,24 +418,24 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T81"/>
-        <glazing sieved="false" idref="JetBlack"/>
         <glazing sieved="false" gravity="38" idref="Transparent"/>
+        <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-17">
         <brick xml:id="T87"/>
-        <glazing sieved="false" idref="OrangeBO"/>
-        <glazing sieved="false" idref="YellowBO"/>
+        <brushon idref="OrangeBO"/>
+        <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>First, three layers of orange was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of orange and and three layers of yellow, and at the bottom three layers of orange and three layers of yellow.</db:para>
     </sample>
 
     <sample date="2007-12-17">
         <brick xml:id="T83"/>
-        <glazing sieved="false" idref="RedBO"/>
-        <glazing sieved="false" idref="YellowBO"/>
+        <brushon idref="RedBO"/>
+        <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>First, three layers of red was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of red and and three layers of yellow, and at the bottom three layers of red and three layers of yellow.</db:para>
 
@@ -444,55 +444,55 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T97"/>
-        <glazing sieved="false" idref="AmacoBrown"/>
         <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <brushon idref="AmacoBrown"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T94"/>
-        <glazing sieved="false" idref="JetBlack"/>
-        <glazing sieved="false" idref="TransparentBO"/>
+        <brushon idref="TransparentBO"/>
+        <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Three layers of black.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T86"/>
-        <glazing sieved="false" idref="YellowOatMetal"/>
         <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <brushon idref="YellowOatMetal"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <brick xml:id="T71"/>
-        <glazing sieved="false" idref="JetBlack"/>
         <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
     </sample>
 
     <sample date="2007-12-20">
         <brick xml:id="T82"/>
-        <glazing sieved="false" idref="TexturedTan"/>
+        <brushon idref="TexturedTan"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-20">
         <brick xml:id="T89"/>
-        <glazing sieved="false" idref="AmacoYellow"/>
+        <brushon idref="AmacoYellow"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-12-20">
         <brick xml:id="T85"/>
-        <glazing sieved="false" idref="AmacoWhiteUnderglaze"/>
-        <glazing sieved="false" idref="JetBlack"/>
-        <glazing sieved="false" idref="LichenGreenBO"/>
+        <brushon idref="AmacoWhiteUnderglaze"/>
+        <brushon idref="LichenGreenBO"/>
+        <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>At the bottom, vertically, from left to right: white, black and green. On top, horizontally, from top to bottom: white, black and green. Each strip had two layers, so in total there's four layers on each square.</db:para>
 
@@ -500,8 +500,8 @@
 
     <sample date="2007-12-29">
         <brick xml:id="T93"/>
-        <glazing sieved="false" idref="RedBO"/>
-        <glazing sieved="false" idref="JetBlack"/>
+        <brushon idref="RedBO"/>
+        <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five solid layers. Should be fired standing vertically, for testing viscosity.</db:para>
         <db:para><db:date>2008-01-03</db:date> Loaded it standing more than vertically: maybe 15 degrees "forward."</db:para>

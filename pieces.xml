@@ -6,27 +6,27 @@
     <piece xml:id="P36">
         <glazing idref="IntenseBlack" sieved="false" gravity="50"/>
         <glazing idref="WhiteGloss" sieved="false" gravity="44"/>
-        <glazing idref="YellowBO" sieved="false"/>
+        <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</db:para>
     </piece>
 
     <piece xml:id="P37">
         <glazing idref="IntenseBlack" sieved="false" gravity="50"/>
         <glazing idref="WhiteGloss" sieved="false" gravity="50"/>
-        <glazing idref="YellowBO" sieved="false"/>
+        <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>Both glazes are very thick as the gravity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</db:para>
     </piece>
 
     <piece xml:id="P38">
         <glazing idref="IntenseBlack" sieved="false" gravity="50"/>
-        <glazing idref="YellowBO" sieved="false"/>
+        <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
     </piece>
 
     <piece xml:id="P21">
         <clayref idref="SaintThomas"/>
-        <glazing idref="LichenGreenBO" sieved="false"/>
-        <glazing idref="WhiteBO" sieved="false"/>
+        <brushon idref="LichenGreenBO"/>
+        <brushon idref="WhiteBO"/>
         <db:para><db:date>2007-10-29</db:date></db:para>
         <db:para><db:date>2007-12-21</db:date> Brushed the whole thing with two laywers of green, then one across whole with white, and then a second layer with white across the half inside and outside.</db:para>
     </piece>
@@ -111,7 +111,7 @@
     <piece xml:id="P34">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <glazing idref="GreenHue" gravity="55" sieved="true"/>
-        <glazing idref="JetBlack" sieved="false"/>
+        <brushon idref="JetBlack"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
 
         <db:para><db:date>2007-12-16</db:date> Did the ring on the inside with guidelines on the inside by an ink pen, followed by filling in with the black. All the others were done with tape masking. The angles and straight lines were generally tricky, a Linex template was often of good help for putting a first baseline. Many angles are out of order and it's generally a bit sloppy. Leakage on many places, especially the long inside strip, due to that the tape has to be so darn tight. Quite time consuming, time is no 01:30.</db:para>
@@ -154,9 +154,9 @@
 
     <piece xml:id="P18">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing  sieved="false" idref="YellowBO"/>
         <glazing idref="WhiteGloss" gravity="44" sieved="false"/>
         <glazing idref="IntenseBlack" gravity="44" sieved="false"/>
+        <brushon idref="YellowBO"/>
         <db:para><db:date>2007-11-24</db:date>Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</db:para>
     </piece>
 
@@ -242,9 +242,9 @@
 
     <piece xml:id="P31">
         <clayref idref="SaintThomas" weightWhenWet="2200"/>
-        <glazing idref="YellowBO" sieved="false"/>
         <glazing idref="WhiteGloss" gravity="44" sieved="false"/>
         <glazing idref="IntenseBlack" gravity="42" sieved="false"/>
+        <brushon idref="YellowBO"/>
 
         <db:para><db:date>2007-11-22</db:date>Masking escapades. First the inside and outside was completely glazed in white. The inside went well -- easy when it's big and plenty of glaze. The outside as well. Had it standing on two rulers that sat on the edge of a bucket, which was spinning with the help of a iron whirler. Taped on the outside, on top of the white glaze. The tape won't stick on top of the glaze, but it will to itself if one goes all the way around. However, it's still not enough for creating a non-leaking edge, as the fired piece will demonstrate. Though, it helps if one has an overlapping, reinforcing layer at the opposite side of what is being masked.</db:para>
 
@@ -304,7 +304,7 @@
     <piece xml:id="P97">
         <clayref idref="SaintThomas" weightWhenWet="500"/>
         <glazing idref="Transparent" sieved="false" gravity="45"/>
-        <glazing idref="JetBlack" sieved="false"/>
+        <brushon idref="JetBlack"/>
 
         <db:para><db:date>2007-12-08</db:date> Oval experiment. After throwing, I ran my finger on the inside. Too crappy for burning.</db:para>
 
@@ -333,6 +333,7 @@
     <piece xml:id="P98">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
         <glazing idref="Transparent" sieved="false" gravity="45"/>
+        <brushon idref="JetBlack"/>
 
         <db:para><db:date>2007-12-09</db:date> High, thin cylinder</db:para>
         <db:para><db:date>2007-12-31</db:date> "Glazed" with porcelain slip. A bit uneven. The piece had been packed in plastique so it was closer to leather dry than to dry when applying.</db:para>
@@ -365,7 +366,7 @@
     <piece xml:id="P25">
         <clayref idref="SaintThomas"/>
         <glazing idref="GreenHue" sieved="false" gravity="55"/>
-        <glazing idref="JetBlack" sieved="false"/>
+        <brushon idref="JetBlack"/>
 
         <db:para>Threw that piece quite some months ago. Although it for the recent time have been covered with a plastic bag, it may have collected dust. Heavy bottom, wasn't trimmed, and that was a mistake.</db:para>
 
