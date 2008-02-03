@@ -514,7 +514,24 @@
         <glazing sieved="false" gravity="45" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Slight pink shade(before fired at least) due to the Flint. Very large particles, very powderish. Saturated it with fixativ for that reason. Don't think the third layer is any thicker, due to that it solved away the underlying layers, because of them being too moist. From a <db:constant>200</db:constant>g test batch. </db:para>
+
+        <db:para>Looks like porridge. Hilarious, the glaze is for Cone 10, about 1300 C, so the glaze probably didn't melt.</db:para>
     </sample>
+
+    <sample date="2008-01-28">
+        <brick xml:id="T105"/>
+        <glazing sieved="true" gravity="46" idref="RawBaseLeach"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water.</db:para>
+    </sample>
+
+    <sample date="2008-01-28">
+        <brick xml:id="T108"/>
+        <glazing sieved="true" gravity="49" idref="RawBaseLeach"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Leach base with zirconoium oxide added</db:para>
+    </sample>
+
 
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
