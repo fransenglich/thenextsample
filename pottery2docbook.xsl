@@ -291,13 +291,22 @@
     </xsl:template>
 
     <xsl:template match="@gravity">
-        <emphasis>gravity</emphasis>:
+        <emphasis>gravity</emphasis>
+        <xsl:text> </xsl:text>
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
 
-    <xsl:template match="@sieved">
-        <xsl:text>, </xsl:text><emphasis>sieved</emphasis>:
-        <xsl:value-of select="."/>
+    <xsl:template match="@sieved">, 
+        <emphasis>
+            <xsl:choose>
+                <xsl:when test=". = 'true'">
+                    sieved
+                </xsl:when>
+                <xsl:otherwise>
+                    not sieved
+                </xsl:otherwise>
+            </xsl:choose>
+        </emphasis>
     </xsl:template>
 
     <xsl:template match="p:brick">

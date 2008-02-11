@@ -522,14 +522,14 @@
         <brick xml:id="T105"/>
         <glazing sieved="true" gravity="46" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water.</db:para>
+        <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water. Beyond the mixing, another reason to it being vastly different could be that it had been mixed in water for a couple of days, and hence dissolved better.</db:para>
     </sample>
 
     <sample date="2008-01-28">
         <brick xml:id="T108"/>
         <glazing sieved="true" gravity="49" idref="WhiteLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Leach base with zirconoium oxide added</db:para>
+        <db:para>Leach base with zirconium oxide added.</db:para>
     </sample>
 
 
