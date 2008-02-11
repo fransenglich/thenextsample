@@ -192,7 +192,7 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:complexType name="glazingType">
         <xs:attribute name="idref"    use="required" type="xs:NCName"/>
-        <xs:attribute name="gravity"  use="optional" type="gravityType"/>
+        <xs:attribute name="hydrometerGravity"  use="optional" type="hydrometerGravityType"/>
         <xs:attribute name="sieved"   use="required" type="xs:boolean"/>
     </xs:complexType>
 
@@ -200,7 +200,7 @@ A format for describing pottery glazes, samples and pieces.
         <xs:attribute name="idref"      use="required" type="xs:NCName"/>
     </xs:complexType>
 
-    <xs:simpleType name="gravityType">
+    <xs:simpleType name="hydrometerGravityType">
         <xs:restriction base="xs:integer"/>
     </xs:simpleType>
 </xs:schema>

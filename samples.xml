@@ -20,7 +20,7 @@
     <sample date="2007-09-28">
         <brick xml:id="W12"/>
         <brick xml:id="T41"/>
-        <glazing sieved="false" idref="FrostedJade" gravity="53"/>
+        <glazing sieved="false" idref="FrostedJade" hydrometerGravity="53"/>
         <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
     </sample>
 
@@ -35,14 +35,14 @@
     <sample date="2007-09-28">
         <brick xml:id="T17"/>
         <brick xml:id="W2"/>
-        <glazing idref="FrostedJade" sieved="true" gravity="46"/>
+        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="46"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T9"/>
         <brick xml:id="W3"/>
-        <glazing idref="GreenHue" sieved="true" gravity="40"/>
+        <glazing idref="GreenHue" sieved="true" hydrometerGravity="40"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
 
@@ -50,8 +50,8 @@
         <brick xml:id="W8"/>
         <brick xml:id="T34"/><!-- Although my paper note said T31 -->
 
-        <glazing idref="FrostedJade" sieved="true" gravity="45"/>
-        <glazing idref="GreenHue" sieved="true" gravity="41"/>
+        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
+        <glazing idref="GreenHue" sieved="true" hydrometerGravity="41"/>
 
         <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
     </sample>
@@ -60,7 +60,7 @@
         <brick xml:id="W13"/>
         <brick xml:id="T32"/>
 
-        <glazing sieved="false" idref="WhiteGloss" gravity="35"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="35"/>
         <db:para/>
     </sample>
 
@@ -76,42 +76,42 @@
     <sample date="2007-08-15">
         <brick xml:id="T7"/>
 
-        <glazing sieved="false" idref="FrostedJade" gravity="46"/>
+        <glazing sieved="false" idref="FrostedJade" hydrometerGravity="46"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T12"/>
 
-        <glazing sieved="false" idref="FrostedJade" gravity="46"/>
+        <glazing sieved="false" idref="FrostedJade" hydrometerGravity="46"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T13"/>
 
-        <glazing sieved="false" idref="GreenHue" gravity="46"/>
+        <glazing sieved="false" idref="GreenHue" hydrometerGravity="46"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T10"/>
 
-        <glazing sieved="false" idref="GreenHue" gravity="46"/>
+        <glazing sieved="false" idref="GreenHue" hydrometerGravity="46"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T3"/>
 
-        <glazing sieved="false" idref="WhiteGloss" gravity="45"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="45"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
     <sample date="2007-08-15">
         <brick xml:id="T2"/>
 
-        <glazing sieved="false" idref="WhiteGloss" gravity="45"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="45"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
@@ -146,20 +146,20 @@
     <sample date="2007-10-29">
         <brick xml:id="T40"/>
         <brick xml:id="W7"/>
-        <glazing sieved="false" idref="WhiteGloss" gravity="50"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="50"/>
         <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T31"/>
-        <glazing sieved="false" idref="WhiteGloss" gravity="44"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="44"/>
         <db:para>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</db:para>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="W4"/>
         <brick xml:id="T36"/>
-        <glazing sieved="false" idref="IntenseBlack" gravity="50"/>
+        <glazing sieved="false" idref="IntenseBlack" hydrometerGravity="50"/>
         <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
     </sample>
 
@@ -171,22 +171,22 @@
 
     <sample date="2007-11-04">
         <brick xml:id="T46"/>
-        <glazing sieved="false" idref="WhiteGloss" gravity="44"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="44"/>
         <clayref idref="SaintThomas"/>
         <db:para>Drew with black lead graphite pencil, and then glazed on top of that. As the brick shows there's not a single trace, so using pen is ok.</db:para>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T44"/>
-        <glazing sieved="false" idref="IntenseBlack" gravity="42"/>
+        <glazing sieved="false" idref="IntenseBlack" hydrometerGravity="42"/>
         <clayref idref="SaintThomas"/>
         <db:para>Too thin.</db:para>
     </sample>
 
     <sample date="2007-11-04">
         <brick xml:id="T55"/>
-        <glazing sieved="false" idref="IntenseBlack" gravity="42"/>
-        <glazing sieved="false" idref="WhiteGloss" gravity="44"/>
+        <glazing sieved="false" idref="IntenseBlack" hydrometerGravity="42"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="44"/>
         <clayref idref="SaintThomas"/>
         <db:para>White black diagonally across the brick. Both glazes to thin, or at least to quick dipping.</db:para>
     </sample>
@@ -200,14 +200,14 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T33"/>
-        <glazing idref="Transparent" sieved="false" gravity="42"/>
+        <glazing idref="Transparent" sieved="false" hydrometerGravity="42"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-11-07">
         <brick xml:id="T30"/>
-        <glazing idref="TransparentYellowStain" gravity="42" sieved="false"/>
+        <glazing idref="TransparentYellowStain" hydrometerGravity="42" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron.</db:para>
         <db:para>Dropped it in the floor on <db:date>2007-11-17</db:date>, glued it with cyanoacrylate glue.</db:para>
@@ -215,51 +215,51 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T51"/>
-        <glazing idref="TransparentCobberCarbonate" gravity="42" sieved="false"/>
+        <glazing idref="TransparentCobberCarbonate" hydrometerGravity="42" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</db:para>
     </sample>
 
     <sample date="2007-11-10">
         <brick xml:id="T47"/>
-        <glazing idref="Chocolate" gravity="42" sieved="false"/>
+        <glazing idref="Chocolate" hydrometerGravity="42" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T35"/>
-        <glazing idref="FrostedJade" gravity="50" sieved="false"/>
+        <glazing idref="FrostedJade" hydrometerGravity="50" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Maybe mixed up with T42.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T92"/>
-        <glazing idref="FrostedJade" gravity="44" sieved="false"/>
+        <glazing idref="FrostedJade" hydrometerGravity="44" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Maybe mixed up with T35. The backside reads 92.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T39"/>
-        <glazing idref="FrostedJade" gravity="44" sieved="false"/>
-        <glazing idref="GreenHue" gravity="45" sieved="false"/>
+        <glazing idref="FrostedJade" hydrometerGravity="44" sieved="false"/>
+        <glazing idref="GreenHue" hydrometerGravity="45" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Green Hue is on top, at the bottom. So Frosted Jade was applied first, in other words. Frosted Jade was dried a bit first, but not completely, since the bisque was a tad cold.</db:para>
     </sample>
 
     <sample date="2007-11-22">
         <brick xml:id="T42"/>
-        <glazing idref="FrostedJade" gravity="44" sieved="false"/>
-        <glazing idref="GreenHue" gravity="45" sieved="false"/>
+        <glazing idref="FrostedJade" hydrometerGravity="44" sieved="false"/>
+        <glazing idref="GreenHue" hydrometerGravity="45" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>The opposite of T39. Frosted Jade is on top, at the bottom. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</db:para>
     </sample>
 
     <sample date="2007-11-24">
         <brick xml:id="T02"/><!-- T32.. -->
-        <glazing idref="GreenHueAndFrostedJade" gravity="45" sieved="false"/>
+        <glazing idref="GreenHueAndFrostedJade" hydrometerGravity="45" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Green Hue were on 45, Frosted Jade on 44.</db:para>
     </sample>
@@ -343,7 +343,7 @@
 
     <sample date="2007-12-09">
         <brick xml:id="T66"/>
-        <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="VelourBlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
@@ -351,7 +351,7 @@
 
     <sample date="2007-12-09">
         <brick xml:id="T65"/>
-        <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="CeradelNoir"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. Extremely thick, like semi-dry tooth paste.</db:para>
@@ -359,7 +359,7 @@
 
     <sample date="2007-12-09">
         <brick xml:id="T68"/>
-        <glazing sieved="false" gravity="42" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="AmacoWhiteUnderglaze"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers.</db:para>
@@ -406,7 +406,7 @@
 
     <sample date="2007-12-16">
         <brick xml:id="T88"/>
-        <glazing sieved="false" gravity="45" idref="FrostedJade"/>
+        <glazing sieved="false" hydrometerGravity="45" idref="FrostedJade"/>
         <brushon idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The left corner has Lichen Green brushed on top in one thorough layer. In the middle there was a drop of water which gave a visible texture, maybe it shows up after firing. On the right was sprayed, which flooded in a bit under the tape, a fixativ. It prevents the surface from being powderish, but doesn't repell water, athough slows down suction a bit. Not that that is of any use. However, it makes handling a glazed piece with ones hands less destructive. Assuming it doesn't have an effect on after glaze burn. The fixativ was Winsor &amp; Newton Artists' Fixativ, transparent, non removable.</db:para>
@@ -418,7 +418,7 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T81"/>
-        <glazing sieved="false" gravity="38" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="38" idref="Transparent"/>
         <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
@@ -444,7 +444,7 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T97"/>
-        <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="AmacoBrown"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers</db:para>
@@ -460,7 +460,7 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T86"/>
-        <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="YellowOatMetal"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
@@ -468,7 +468,7 @@
 
     <sample date="2007-12-15">
         <brick xml:id="T71"/>
-        <glazing sieved="false" gravity="41" idref="Transparent"/>
+        <glazing sieved="false" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
@@ -511,7 +511,7 @@
 
     <sample date="2008-01-20">
         <brick xml:id="T91"/>
-        <glazing sieved="false" gravity="45" idref="RawBaseLeach"/>
+        <glazing sieved="false" hydrometerGravity="45" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Slight pink shade(before fired at least) due to the Flint. Very large particles, very powderish. Saturated it with fixativ for that reason. Don't think the third layer is any thicker, due to that it solved away the underlying layers, because of them being too moist. From a <db:constant>200</db:constant>g test batch. </db:para>
 
@@ -520,14 +520,14 @@
 
     <sample date="2008-01-28">
         <brick xml:id="T105"/>
-        <glazing sieved="true" gravity="46" idref="RawBaseLeach"/>
+        <glazing sieved="true" hydrometerGravity="46" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water. Beyond the mixing, another reason to it being vastly different could be that it had been mixed in water for a couple of days, and hence dissolved better.</db:para>
     </sample>
 
     <sample date="2008-01-28">
         <brick xml:id="T108"/>
-        <glazing sieved="true" gravity="49" idref="WhiteLeach"/>
+        <glazing sieved="true" hydrometerGravity="49" idref="WhiteLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconium oxide added.</db:para>
     </sample>

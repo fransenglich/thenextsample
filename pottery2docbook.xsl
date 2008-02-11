@@ -225,7 +225,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </xsl:if>
 
             <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
-                <xsl:sort data-type="number" select="number(p:glazing/@gravity)"/>
+                <xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
         </section>
@@ -294,12 +294,12 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:glazing" mode="lowKeyGlazing">
-            <xsl:apply-templates select="@gravity"/>
+            <xsl:apply-templates select="@hydrometerGravity"/>
             <xsl:apply-templates select="@sieved"/>
     </xsl:template>
 
-    <xsl:template match="@gravity">
-        <emphasis>gravity</emphasis>
+    <xsl:template match="@hydrometerGravity">
+        <emphasis>hydrometer gravity</emphasis>
         <xsl:text> </xsl:text>
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
