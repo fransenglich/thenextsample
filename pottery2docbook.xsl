@@ -56,6 +56,14 @@
                     </address>
                 </author>
                 <pubdate><xsl:value-of select="ex:date()"/></pubdate>
+                <legalnotice>
+                    <para>Copyright (c) 2007-2008 Frans Englich</para>
+                    <para>Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.2
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover
+Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://www.gnu.org/licenses/fdl.html">Free Software Foundation's website</phrase> or by contacting the author.</para>
+                </legalnotice>
             </info>
 
             <chapter>
