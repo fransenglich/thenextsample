@@ -527,7 +527,7 @@
 
     <sample date="2008-01-28">
         <brick xml:id="T108"/>
-        <glazing sieved="true" gravity="49" idref="RawBaseLeach"/>
+        <glazing sieved="true" gravity="49" idref="WhiteLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconoium oxide added</db:para>
     </sample>
