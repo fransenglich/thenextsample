@@ -532,9 +532,45 @@
         <db:para>Leach base with zirconium oxide added.</db:para>
     </sample>
 
+    <sample date="2008-02-16">
+        <brick xml:id="T107"/>
+        <glazing sieved="true" hydrometerGravity="52" idref="WhiteLeach"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Leach base with zirconium oxide added but twice as much as T105. Think it has a small contamination of Candace Black.</db:para>
+    </sample>
+
+    <sample date="2008-02-16">
+        <brick xml:id="T102"/>
+        <glazing sieved="true" hydrometerGravity="52" idref="BlueWhiterLeach"/>
+        <clayref idref="SaintThomas"/>
+        <db:para></db:para>
+    </sample>
+
+    <sample date="2008-02-16">
+        <brick xml:id="T104"/>
+        <glazing sieved="false" hydrometerGravity="40" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Wrote with oxyde pen, HC Hobbyceram Sottosmalto NERO 606.</db:para>
+    </sample>
+
+    <sample date="2008-02-16">
+        <brick xml:id="T103"/>
+        <glazing sieved="true" hydrometerGravity="52" idref="CandaceBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt disprsed unevenly, small black spots at the tops. Sealed of with fixativ. 100 ml weighted 178 g.</db:para>
+    </sample>
 
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
+    <!--
+    BUY 
+    Chrome oxide, 100 g?
+    CMC, carboxymethylcellulose, 100 g?
+    zinc oxide, 100 g?
+    sodium carbonat(soda ash), 100g?
+    FRIT 3110 for harding oxblood
+    NC-4 Feldspar
+    -->
 </samples>
 <!--
 vim: et:ts=4:sw=4:sts=4

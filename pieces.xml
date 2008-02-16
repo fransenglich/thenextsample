@@ -420,6 +420,11 @@
         <db:para><db:date>2008-02-03</db:date> A good experiement at best. Orange skin, and the glaze have crept away from some areas at the bottom, most likely due to the thickness. The rim is poor too. A pity, because the shape was ok. However, it seems this glaze is quite recillient to variations in thickness, it flows out quite well.</db:para>
     </piece>
 
+    <piece xml:id="P14">
+        <clayref idref="SaintThomas" weightWhenWet="3600"/>
+        <db:para><db:date>2008-02-16</db:date> When looking from the side, it's not well compositioned. The reason being that the bottom is not round, slightly flat, and therefore the stem sits on the side. Ifit was round the stem wouldn't be able to sit on the side, because the cirlcle would only have rotated. For the same reason the stem is not level across. A circle, which the stem is, can't keep its shape on a non-circle.</db:para>
+    </piece>
+
     <!--
     2007-12-09 900, poorly thrown Aladin in the lamp
     2007-12-09 900, small piece for oval experiments. Trimmed of tons
