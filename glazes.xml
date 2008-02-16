@@ -210,32 +210,46 @@
            type="BrushOn"
            productID="P2793"/>
 
+       <!-- WTF? TODO Aluminium Oxide as Silica??? -->
    <glaze xml:id="RawBaseLeach"
            manufacturer="Frans Englich"
            name="Leach Base Glaze"
            productID="Leach"
-           description="40 Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oksid, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319)."/>
+           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319)."/>
 
    <glaze xml:id="WhiteLeach"
            manufacturer="Frans Englich"
            name="White Leach"
            productID="WhiteLeach"
-           description="40 Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oksid, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words."/>
+           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words."/>
    <glaze xml:id="WhiterLeach"
            manufacturer="Frans Englich"
            name="White Leach"
            productID="WhiteLeach"
-           description="40 Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oksid, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words."/>
+           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words."/>
        <glaze xml:id="BlueWhiterLeach"
            manufacturer="Frans Englich"
            name="White Leach"
            productID="WhiteLeach"
-           description="40 Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oksid, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words."/>
+           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words."/>
+
    <glaze xml:id="CandaceBlack"
            manufacturer="Frans Englich"
            name="Candace Black(not oil spot)"
            productID="CandaceBlack"
-           description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide((P3300) as Kaolin, RedSynthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
+           description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
+
+   <glaze xml:id="ModifiedTransparentGreen"
+           manufacturer="Frans Englich"
+           name="Transparent Green"
+           productID="CandaceBlack"
+           description='Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but using Tin Oxide instead of Zinc Oxide. 70 Cornwall Stone, Whiting 10, Grolleg Kaolin 10, Tin Oxide 10, Copper Carbonate 4. Instead of Grolleg Kaolin(whatever that is) was Aluminium Oxide(P3300) used.'/>
+
+   <glaze xml:id="WillsOribe"
+           manufacturer="Frans Englich"
+           name="Will's Oribe"
+           productID="WillsOribe"
+           description="Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Custer Feldspar 50, Whiting 15, Silica 30, Kaolin 5, Copper Carbonate 5. Used Flint(P3319) as Silica, and Aluminium Oxide(P3300) instead of Kaolin, and Feldspar FFF(P3316) as Custer Feldspar."/>
 
    <!-- All for keramik, Cerama 6250. -->
 </glazes>

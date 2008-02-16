@@ -3,6 +3,7 @@
 * Make clayref mandatory for pieces.
 * Add uniqueness key on @name/@productID
 * Add images
+* Make descripition a DB element.
 
 Buy:
     * Pimpett

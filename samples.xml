@@ -560,16 +560,37 @@
         <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt disprsed unevenly, small black spots at the tops. Sealed of with fixativ. 100 ml weighted 178 g.</db:para>
     </sample>
 
+    <sample date="2008-02-16">
+        <brick xml:id="T106"/>
+        <glazing sieved="true" hydrometerGravity="40" idref="ModifiedTransparentGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
+    </sample>
+
+    <sample date="2008-02-16">
+        <brick xml:id="T111"/>
+        <glazing sieved="true" hydrometerGravity="51" idref="WillsOribe"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The middle layer had a lot less Cobber on its surface, for some reason. Hm, that's because the cobber settles quickly, quicker than the others. Bentonite needed.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
     <!--
     BUY 
     Chrome oxide, 100 g?
     CMC, carboxymethylcellulose, 100 g?
-    zinc oxide, 100 g?
+    _tin_ oxide, 100 g?
     sodium carbonat(soda ash), 100g?
     FRIT 3110 for harding oxblood
     NC-4 Feldspar
+    titanium dioxide - for crystal gflazes
+    bone ash
+    talc
+
+    What is grolleg kaolin?
+    Whatg is "custer" feldspar?
+    What does "calcined" mean?
     -->
 </samples>
 <!--
