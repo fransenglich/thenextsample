@@ -425,6 +425,21 @@
         <db:para><db:date>2008-02-16</db:date> When looking from the side, it's not well compositioned. The reason being that the bottom is not round, slightly flat, and therefore the stem sits on the side. Ifit was round the stem wouldn't be able to sit on the side, because the cirlcle would only have rotated. For the same reason the stem is not level across. A circle, which the stem is, can't keep its shape on a non-circle.</db:para>
     </piece>
 
+    <piece xml:id="P3">
+        <clayref idref="SaintThomas" weightWhenWet="2000"/>
+        <db:para><db:date>2008-02-16</db:date> One problem with these tilted ones so far has been that the stem has been too high and therefore appeared clumpsy and not poroprtional to the body. Corrected this by trimming the selected stem(it being up side down) since it in that way can be exactly adapted to the particular body.</db:para>
+    </piece>
+
+    <piece xml:id="P1">
+        <clayref idref="SaintThomas" weightWhenWet="2500"/>
+        <db:para><db:date>2008-02-16</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P49">
+        <clayref idref="SaintThomas" weightWhenWet="3200"/>
+        <db:para><db:date>2008-02-16</db:date></db:para>
+    </piece>
+
     <!--
     2007-12-09 900, poorly thrown Aladin in the lamp
     2007-12-09 900, small piece for oval experiments. Trimmed of tons
