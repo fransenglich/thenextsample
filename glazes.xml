@@ -231,8 +231,8 @@
 
    <glaze xml:id="CandaceBlack"
            manufacturer="Frans Englich"
-           name="Candace Black(not oil spot)"
-           description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
+           name="Candace Black"
+           description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
 
    <glaze xml:id="ModifiedTransparentGreen"
            manufacturer="Frans Englich"
