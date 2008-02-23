@@ -565,6 +565,8 @@
         <glazing sieved="true" hydrometerGravity="40" idref="ModifiedTransparentGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
+
+        <db:para><db:date>2008-02-23</db:date> It's sort of obvious why this turned out as it did. Zinc oxide is a flux, since it's absent the thing didn't melt, and since Tin Oxide is an opacifier, it isn't transparent. I wonder what caused the graphite-look which can be seen on the second and third layer, and a little bit on the first.</db:para>
     </sample>
 
     <sample date="2008-02-16">
