@@ -224,13 +224,13 @@
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words."/>
    <glaze xml:id="WhiterLeach"
            manufacturer="Frans Englich"
-           name="White Leach"
-           productID="WhiteLeach"
+           name="Whiter Leach"
+           productID="WhiterLeach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words."/>
        <glaze xml:id="BlueWhiterLeach"
            manufacturer="Frans Englich"
-           name="White Leach"
-           productID="WhiteLeach"
+           name="Blue Whiter Leach"
+           productID="BlueWhiterLeach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words."/>
 
    <glaze xml:id="CandaceBlack"
