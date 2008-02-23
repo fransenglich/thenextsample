@@ -550,7 +550,7 @@
         <brick xml:id="T104"/>
         <glazing sieved="false" hydrometerGravity="40" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Wrote with oxyde pen, HC Hobbyceram Sottosmalto NERO 606.</db:para>
+        <db:para>Wrote with oxide pen, HC Hobbyceram Sottosmalto NERO 606.</db:para>
     </sample>
 
     <sample date="2008-02-16">
