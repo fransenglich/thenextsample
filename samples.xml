@@ -534,7 +534,7 @@
 
     <sample date="2008-02-16">
         <brick xml:id="T107"/>
-        <glazing sieved="true" hydrometerGravity="52" idref="WhiteLeach"/>
+        <glazing sieved="true" hydrometerGravity="52" idref="WhiterLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconium oxide added but twice as much as T105. Think it has a small contamination of Candace Black.</db:para>
     </sample>
@@ -543,7 +543,7 @@
         <brick xml:id="T102"/>
         <glazing sieved="true" hydrometerGravity="52" idref="BlueWhiterLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para></db:para>
+        <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in <db:xref xlink:href="#T107"/>.</db:para>
     </sample>
 
     <sample date="2008-02-16">

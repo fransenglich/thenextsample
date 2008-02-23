@@ -214,35 +214,29 @@
    <glaze xml:id="RawBaseLeach"
            manufacturer="Frans Englich"
            name="Leach Base Glaze"
-           productID="Leach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319)."/>
 
    <glaze xml:id="WhiteLeach"
            manufacturer="Frans Englich"
            name="White Leach"
-           productID="WhiteLeach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words."/>
    <glaze xml:id="WhiterLeach"
            manufacturer="Frans Englich"
            name="Whiter Leach"
-           productID="WhiterLeach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words."/>
        <glaze xml:id="BlueWhiterLeach"
            manufacturer="Frans Englich"
            name="Blue Whiter Leach"
-           productID="BlueWhiterLeach"
            description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words."/>
 
    <glaze xml:id="CandaceBlack"
            manufacturer="Frans Englich"
            name="Candace Black(not oil spot)"
-           productID="CandaceBlack"
            description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
 
    <glaze xml:id="ModifiedTransparentGreen"
            manufacturer="Frans Englich"
            name="Transparent Green"
-           productID="CandaceBlack"
            description='Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but using Tin Oxide instead of Zinc Oxide. 70 Cornwall Stone, Whiting 10, Grolleg Kaolin 10, Tin Oxide 10, Copper Carbonate 4. Instead of Grolleg Kaolin(whatever that is) was Aluminium Oxide(P3300) used.'/>
 
    <glaze xml:id="WillsOribe"
@@ -254,13 +248,11 @@
    <glaze xml:id="ModifiedMamo"
            manufacturer="Frans Englich"
            name="ModifiedMamo"
-           productID="ModifiedMamo"
            description="Mamo from The Complete Guide to High-Fire Glazes, p. 121. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20."/>
 
    <glaze xml:id="BlueModifiedMamo"
            manufacturer="Frans Englich"
            name="ModifiedMamo"
-           productID="ModifiedMamo"
            description="Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobolt. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20, 2 Cobolt Oxide."/>
 
    <!-- All for keramik, Cerama 6250. -->
