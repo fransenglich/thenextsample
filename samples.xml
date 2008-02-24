@@ -590,6 +590,20 @@
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
     </sample>
 
+    <sample date="2008-02-24">
+        <brick xml:id="T112"/>
+        <brushon idref="AmacoRedMatt"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Four layers.</db:para>
+    </sample>
+
+    <sample date="2008-02-24">
+        <brick xml:id="T110"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="ModifiedMamoRightAlumina"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Used mixer on a <db:constant>200</db:constant>g batch.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
     <!--

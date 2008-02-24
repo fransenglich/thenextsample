@@ -331,7 +331,7 @@
    <glaze xml:id="BlueModifiedMamo"
            manufacturer="Frans Englich"
            name="Blue Modified Mamo">
-           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt.</db:para>
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
@@ -344,6 +344,28 @@
                <component idref="CobaltOxide"       parts="2"/>
            </recipe>
     </glaze>
+
+   <glaze xml:id="AmacoRedMatt"
+           manufacturer="Amaco"
+           name="Red Matt, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
+           productID="HF-58"/>
+
+   <glaze xml:id="ModifiedMamoRightAlumina"
+           manufacturer="Frans Englich"
+           name="Modified Mamo">
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="F4Feldspar"/>
+               <component idref="Whiting"           parts="5"/>
+               <component idref="Alumina"           parts="10" replacementFor="Kaolin"/>
+               <component idref="Alumina"           parts="15" replacementFor="CalcinedKaolin"/>
+               <component idref="Dolomite"          parts="20"/>
+           </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
