@@ -157,18 +157,26 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazeType">
-        <xs:attribute ref="xml:id" use="required"/>
-        <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
-        <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
-        <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
-        <xs:attribute name="description"    type="xs:normalizedString"  use="optional"/>
-        <xs:attribute name="type" use="optional">
-            <xs:simpleType>
-                <xs:restriction base = "xs:string">
-                    <xs:enumeration value = "BrushOn"/>
-                </xs:restriction>
-            </xs:simpleType>
-        </xs:attribute>
+        <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+                <xs:sequence>
+                    <xs:element ref="db:para"
+                                minOccurs="1"
+                                maxOccurs="unbounded"/>
+                </xs:sequence>
+                <xs:attribute ref="xml:id"          use="required"/>
+                <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
+                <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
+                <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
+                <xs:attribute name="type"           use="optional">
+                    <xs:simpleType>
+                        <xs:restriction base = "xs:string">
+                            <xs:enumeration value = "BrushOn"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
+            </xs:restriction>
+        </xs:complexContent>
 
     </xs:complexType>
 

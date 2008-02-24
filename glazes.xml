@@ -30,22 +30,19 @@
     <glaze xml:id="ImagineGreen"
            manufacturer="Ceradel"
            name="Green, Imagine ELG 80, Vent 230 ML Green"
-           type="BrushOn"
-           description="Brush on."/>
+           type="BrushOn"/>
 
     <glaze xml:id="GreyAmaco"
            name="Grey, Sahara Liquid Glazes, HF series"
            productID="HF-18"
            manufacturer="Amaco"
-           type="BrushOn"
-           description="Brush on glaze."/>
+           type="BrushOn"/>
 
     <glaze xml:id="YellowBO"
            name="Yellow Brush-on glaze"
            productID="P2842"
            manufacturer="Potterycrafts Limited"
-           type="BrushOn"
-           description="Brush on glaze."/>
+           type="BrushOn"/>
 
     <glaze xml:id="AxnerBlackUnderGlazePen"
            name="Black underglaze pen"
@@ -98,8 +95,7 @@
        name="Red brush on"
        productID="P2840"
        manufacturer="Potterycrafts Limited"
-       type="BrushOn"
-       description="Red brush on"/>
+       type="BrushOn"/>
 
    <glaze xml:id="TurquoiseBO"
        name="Turquoise, Sahara Liquid Series"
@@ -147,8 +143,7 @@
       name="Noir, Imagine"
       productID="ELG 60"
       manufacturer="Ceradel"
-      type="BrushOn"
-      description="Brush on."/>
+      type="BrushOn"/>
 
    <glaze xml:id="AmacoWhiteUnderglaze"
       name="White, V Series, Velvet Underglaze"
