@@ -70,8 +70,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <title>Oven Programs</title>
 
                 <para>Unless otherwise stated, all burns were done with the following settings.</para>
-                <table>
-                    <title/>
+                <informaltable>
                     <tgroup cols="8">
                         <thead>
                             <row>
@@ -133,7 +132,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                             </row>
                         </tbody>
                     </tgroup>
-                </table>
+                </informaltable>
 
             </chapter>
 
@@ -219,6 +218,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </title>
 
             <xsl:apply-templates select="db:para"/>
+
+            <xsl:apply-templates select="p:recipe"/>
 
             <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
                 <xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>
@@ -369,6 +370,75 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="db:date">
         <emphasis><xsl:value-of select="."/></emphasis>
         <xsl:text> </xsl:text>
+    </xsl:template>
+
+    <xsl:template match="p:recipe">
+        <informaltable>
+            <tgroup cols="2">
+                <xsl:variable name="hasReplacement" select="p:component/@replacementFor"/>
+                <thead>
+                    <row>
+                        <entry>Component</entry>
+                        <xsl:if test="$hasReplacement">
+                            <entry>Source/Replacement For</entry>
+                        </xsl:if>
+                        <entry>Parts</entry>
+                    </row>
+                </thead>
+                <tfoot>
+                    <row>
+                        <entry/>
+                        <xsl:if test="sum(p:component/@parts) &lt; 100">
+                            <xsl:message terminate="yes">The components for glaze <xsl:value-of select="../@name"/> amount to less than 100 parts</xsl:message>
+                        </xsl:if>
+                        <xsl:if test="$hasReplacement">
+                            <entry/>
+                        </xsl:if>
+                        <entry>Total <xsl:value-of select="sum(p:component/@parts)"/></entry>
+                    </row>
+                </tfoot>
+                <tbody>
+                    <xsl:apply-templates select="p:component">
+                        <xsl:with-param name="hasReplacement" select="$hasReplacement"/>
+                    </xsl:apply-templates>
+                </tbody>
+            </tgroup>
+        </informaltable>
+    </xsl:template>
+
+    <xsl:template match="p:component">
+        <xsl:param name="hasReplacement"/>
+
+        <row>
+            <xsl:variable name="component" select="/p:pottery/p:components/p:component[@xml:id = current()/@idref]"/>
+            <xsl:call-template name="checkComponentRef">
+                <xsl:with-param name="component" select="$component"/>
+                <xsl:with-param name="name" select="@idref"/>
+            </xsl:call-template>
+            <entry><xsl:value-of select="$component"/></entry>
+            <xsl:if test="@replacementFor">
+                <xsl:variable name="replacement" select="/p:pottery/p:components/p:component[@xml:id = current()/@replacementFor]"/>
+                <xsl:call-template name="checkComponentRef">
+                    <xsl:with-param name="component" select="$replacement"/>
+                    <xsl:with-param name="name" select="@replacementFor"/>
+                </xsl:call-template>
+                <entry><xsl:value-of select="$replacement"/></entry>
+            </xsl:if>
+
+            <xsl:if test="$hasReplacement and not(@replacementFor)">
+                <entry/>
+            </xsl:if>
+            <entry><constant><xsl:value-of select="@parts"/></constant></entry>
+        </row>
+    </xsl:template>
+
+    <xsl:template name="checkComponentRef">
+        <xsl:param name="component"/>
+        <xsl:param name="name"/>
+
+        <xsl:if test="not($component)">
+            <xsl:message terminate="yes">Component for reference <xsl:value-of select="$name"/> couldn't be found.</xsl:message>
+        </xsl:if>
     </xsl:template>
 
     <!-- We don't use it directly. -->

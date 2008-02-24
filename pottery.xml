@@ -3,12 +3,13 @@
     xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
+    <xi:include href="components.xml"/>
     <xi:include href="pieces.xml"/>
     <xi:include href="samples.xml"/>
 
     <clays>
         <clay xml:id="SaintThomas"
-            name="White St. Thomas"
+              name="White St. Thomas"
               productID="1106"
               manufacturer="Potterycrafts Limited"/>
 

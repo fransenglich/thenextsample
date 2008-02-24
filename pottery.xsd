@@ -37,6 +37,12 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <xs:element name="components"
+                                minOccurs="1"
+                                maxOccurs="1"
+                                type="componentsType">
+                    </xs:element>
+
                     <xs:element name="pieces"
                                 minOccurs="1"
                                 maxOccurs="1"
@@ -124,18 +130,22 @@ A format for describing pottery glazes, samples and pieces.
         </xs:complexContent>
     </xs:complexType>
 
-    <xs:complexType name="noteType">
-        <xs:simpleContent>
-            <xs:extension base="xs:normalizedString">
-                <xs:attribute name="date" use="required" type="xs:date"/>
-            </xs:extension>
-        </xs:simpleContent>
-    </xs:complexType>
-
     <xs:complexType name="claysType">
         <xs:sequence>
-            <xs:element name="clay" type="clayType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="clay" type="clayType" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="recipeType">
+        <xs:sequence>
+            <xs:element name="component" type="componentRefType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="componentRefType">
+        <xs:attribute name="idref"          type="xs:IDREF" use="required"/>
+        <xs:attribute name="replacementFor" type="xs:IDREF" use="optional"/>
+        <xs:attribute name="parts"          type="xs:positiveInteger" use="required"/>
     </xs:complexType>
 
     <xs:complexType name="clayType">
@@ -163,6 +173,10 @@ A format for describing pottery glazes, samples and pieces.
                     <xs:element ref="db:para"
                                 minOccurs="0"
                                 maxOccurs="unbounded"/>
+                    <xs:element name="recipe"
+                                type="recipeType"
+                                minOccurs="0"
+                                maxOccurs="1"/>
                 </xs:sequence>
                 <xs:attribute ref="xml:id"          use="required"/>
                 <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
@@ -211,6 +225,21 @@ A format for describing pottery glazes, samples and pieces.
     <xs:simpleType name="hydrometerGravityType">
         <xs:restriction base="xs:integer"/>
     </xs:simpleType>
+
+    <xs:complexType name="componentType">
+        <xs:simpleContent>
+            <xs:extension base="xs:normalizedString">
+                <xs:attribute ref="xml:id" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="componentsType">
+        <xs:sequence>
+            <xs:element name="component" type="componentType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
 </xs:schema>
 <!--
 vim: et:ts=4:sw=4:sts=4

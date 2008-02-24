@@ -218,60 +218,132 @@
 
        <!-- WTF? TODO Aluminium Oxide as Silica??? -->
    <glaze xml:id="RawBaseLeach"
-           manufacturer="Frans Englich"
-           name="Leach Base Glaze">
-           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319).</db:para>
+          manufacturer="Frans Englich"
+          name="Leach Base Glaze">
+       <recipe>
+           <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
+           <component idref="Alumina"               parts="30" replacementFor="Silica"/>
+           <component idref="Whiting"               parts="20"/>
+           <component idref="Flint"                 parts="10" replacementFor="Kaolin"/>
+       </recipe>
+
    </glaze>
 
    <glaze xml:id="WhiteLeach"
-           manufacturer="Frans Englich"
-           name="White Leach">
-           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words.</db:para>
+          manufacturer="Frans Englich"
+          name="White Leach">
+       <recipe>
+           <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
+           <component idref="Alumina"               parts="30" replacementFor="Alumina"/>
+           <component idref="Whiting"               parts="20"/>
+           <component idref="Flint"                 parts="10" replacementFor="Kaolin"/>
+           <component idref="ZirconiumOxide"        parts="10"/>
+       </recipe>
    </glaze>
 
    <glaze xml:id="WhiterLeach"
-           manufacturer="Frans Englich"
-           name="Whiter Leach">
-           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words.</db:para>
+          manufacturer="Frans Englich"
+          name="Whiter Leach">
+
+       <recipe>
+           <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
+           <component idref="Alumina"               parts="30" replacementFor="Silica"/>
+           <component idref="Whiting"               parts="20"/>
+           <component idref="Flint"                 parts="10" replacementFor="Kaolin"/>
+           <component idref="ZirconiumOxide"        parts="20"/>
+       </recipe>
    </glaze>
 
    <glaze xml:id="BlueWhiterLeach"
           manufacturer="Frans Englich"
           name="Blue Whiter Leach">
-       <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words.</db:para>
+
+       <recipe>
+           <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
+           <component idref="Alumina"               parts="30" replacementFor="Silica"/>
+           <component idref="Whiting"               parts="20"/>
+           <component idref="Flint"                 parts="10" replacementFor="Kaolin"/>
+           <component idref="ZirconiumOxide"        parts="20"/>
+           <component idref="CobaltOxide"           parts="1"/>
+       </recipe>
     </glaze>
 
    <glaze xml:id="CandaceBlack"
            manufacturer="Frans Englich"
            name="Candace Black">
-           <db:para>Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar.</db:para>
+       <db:para>Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76.</db:para>
+
+       <recipe>
+           <component idref="FeldsparFFF"           parts="65" replacementFor="F4Feldspar"/>
+           <component idref="Whiting"               parts="5"/>
+           <component idref="Flint"                 parts="20" replacementFor="Silica"/>
+           <component idref="Alumina"               parts="5" replacementFor="Kaolin"/>
+           <component idref="Dolomite"              parts="5"/>
+           <component idref="SyntheticRedIronOxide" parts="5"/>
+           <component idref="CobaltOxide"           parts="5" replacementFor="CobaltCarbonate"/>
+       </recipe>
     </glaze>
 
    <glaze xml:id="ModifiedTransparentGreen"
            manufacturer="Frans Englich"
            name="Transparent Green">
-           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but using Tin Oxide instead of Zinc Oxide. 70 Cornwall Stone, Whiting 10, Grolleg Kaolin 10, Tin Oxide 10, Copper Carbonate 4. Instead of Grolleg Kaolin(whatever that is) was Aluminium Oxide(P3300) used.</db:para>
+           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98.</db:para>
+
+           <recipe>
+               <component idref="CornwallStone"     parts="70"/>
+               <component idref="Whiting"           parts="10"/>
+               <component idref="Alumina"           parts="10" replacementFor="GrollegKaolin"/>
+               <component idref="TinOxide"          parts="10" replacementFor="TinOxide"/>
+               <component idref="CobberCarbonate"   parts="4"/>
+           </recipe>
     </glaze>
 
    <glaze xml:id="WillsOribe"
            manufacturer="Frans Englich"
            name="Will's Oribe">
-           <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Custer Feldspar 50, Whiting 15, Silica 30, Kaolin 5, Copper Carbonate 5. Used Flint(P3319) as Silica, and Aluminium Oxide(P3300) instead of Kaolin, and Feldspar FFF(P3316) as Custer Feldspar.</db:para>
+           <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Whiting"           parts="15"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Alumina"           parts="5" replacementFor="Kaolin"/>
+               <component idref="CobberCarbonate"   parts="5"/>
+           </recipe>
     </glaze>
 
    <glaze xml:id="ModifiedMamo"
            manufacturer="Frans Englich"
            name="Modified Mamo">
-           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20.</db:para>
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="F4Feldspar"/>
+               <component idref="Whiting"           parts="5"/>
+               <component idref="Alumina"           parts="10" replacementFor="Kaolin"/>
+               <component idref="Alumina"           parts="15" replacementFor="CalcinedKaolin"/>
+               <component idref="Alumina"           parts="10"/>
+               <component idref="Dolomite"          parts="20"/>
+           </recipe>
     </glaze>
 
    <glaze xml:id="BlueModifiedMamo"
            manufacturer="Frans Englich"
            name="Blue Modified Mamo">
-           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobolt. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20, 2 Cobolt Oxide.</db:para>
-    </glaze>
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt.</db:para>
 
-   <!-- All for keramik, Cerama 6250. -->
+           <recipe>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
+               <component idref="FeldsparFFF"       parts="25" replacementFor="F4Feldspar"/>
+               <component idref="Whiting"           parts="5"/>
+               <component idref="Alumina"           parts="10" replacementFor="Kaolin"/>
+               <component idref="Alumina"           parts="15" replacementFor="CalcinedKaolin"/>
+               <component idref="Alumina"           parts="10"/>
+               <component idref="Dolomite"          parts="20"/>
+               <component idref="CobaltOxide"       parts="2"/>
+           </recipe>
+    </glaze>
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4

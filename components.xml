@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns="tag:fenglich.fastmail.fm,2007:Pottery">
+    <component xml:id="Alumina">Aluminium Oxide, P3300</component>
+    <component xml:id="FeldsparFFF">Kalifeltspat Feldspar, P3316</component>
+    <component xml:id="CobaltOxide">Cobalt Oxide, P3403</component>
+    <component xml:id="Whiting">Whiting, P3346</component>
+    <component xml:id="Dolomite">Dolomite, P3315</component>
+    <component xml:id="CobberCarbonate">Cobber Carbonate, P3403</component>
+    <component xml:id="TinOxide">Tin Oxide, P3361</component>
+    <component xml:id="SyntheticRedIronOxide">Synthetic Red Iron Oxide, P3441</component>
+    <component xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
+    <component xml:id="Flint">Flint, P3319</component>
+    <component xml:id="F4Feldspar">F4 Feldspar</component>
+    <component xml:id="CusterFeldspar">Custer Feldspar</component>
+    <component xml:id="Silica">Silica</component>
+    <component xml:id="GrollegKaolin">Grolleg Kaolin</component>
+    <component xml:id="Kaolin">Kaolin</component>
+    <component xml:id="CalcinedKaolin">Calcined Kaolin</component>
+    <component xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
+    <component xml:id="CornwallStone">Cornwall Stone, P3314</component>
+</components>
+<!--
+vim: et:ts=4:sw=4:sts=4
+-->
