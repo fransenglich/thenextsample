@@ -440,6 +440,51 @@
         <db:para><db:date>2008-02-16</db:date></db:para>
     </piece>
 
+    <piece xml:id="P48">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P10">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P11">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P12">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P20">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P23">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P46">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P44">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
+    <piece xml:id="P45">
+        <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+    </piece>
+
     <!--
     2007-12-09 900, poorly thrown Aladin in the lamp
     2007-12-09 900, small piece for oval experiments. Trimmed of tons
