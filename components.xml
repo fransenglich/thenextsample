@@ -10,10 +10,10 @@
     <component xml:id="SyntheticRedIronOxide">Synthetic Red Iron Oxide, P3441</component>
     <component xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
     <component xml:id="Flint">Flint, P3319</component>
-    <component xml:id="F4Feldspar">F4 Feldspar</component>
-    <component xml:id="CusterFeldspar">Custer Feldspar</component>
+    <component xml:id="F4Feldspar">F4 Feldspar(Soda Feldspar), P3317</component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
+    <component xml:id="CusterFeldspar">Custer/NC-4 Feldspar(Potash Feldspar), P3296</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
     <component xml:id="Silica">Silica</component>
-    <component xml:id="GrollegKaolin">Grolleg Kaolin</component>
+    <component xml:id="GrollegKaolin">Grolleg Kaolin, P3298</component>
     <component xml:id="Kaolin">Kaolin</component>
     <component xml:id="CalcinedKaolin">Calcined Kaolin</component>
     <component xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
