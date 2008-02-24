@@ -146,7 +146,7 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="clayrefType">
-        <xs:attribute name="idref"          type="xs:NCName"            use="required"/>
+        <xs:attribute name="idref"          type="xs:IDREF"            use="required"/>
         <xs:attribute name="weightWhenWet"  type="xs:positiveInteger"   use="optional"/>
     </xs:complexType>
 
@@ -199,13 +199,13 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazingType">
-        <xs:attribute name="idref"    use="required" type="xs:NCName"/>
+        <xs:attribute name="idref"    use="required" type="xs:IDREF"/>
         <xs:attribute name="hydrometerGravity"  use="optional" type="hydrometerGravityType"/>
         <xs:attribute name="sieved"   use="required" type="xs:boolean"/>
     </xs:complexType>
 
     <xs:complexType name="brushonType">
-        <xs:attribute name="idref"      use="required" type="xs:NCName"/>
+        <xs:attribute name="idref"      use="required" type="xs:IDREF"/>
     </xs:complexType>
 
     <xs:simpleType name="hydrometerGravityType">
