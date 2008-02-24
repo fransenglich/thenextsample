@@ -161,7 +161,7 @@ A format for describing pottery glazes, samples and pieces.
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
                     <xs:element ref="db:para"
-                                minOccurs="1"
+                                minOccurs="0"
                                 maxOccurs="unbounded"/>
                 </xs:sequence>
                 <xs:attribute ref="xml:id"          use="required"/>

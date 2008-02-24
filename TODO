@@ -3,10 +3,5 @@
 * Make clayref mandatory for pieces.
 * Add uniqueness key on @name/@productID
 * Add images
-* Make descripition a DB element.
-
-Buy:
-    * Pimpett
-    * Ingredients for making a slip.
 
 vim: et:ts=4:sw=4:sts=4

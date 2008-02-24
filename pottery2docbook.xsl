@@ -218,11 +218,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:if test="@type = 'BrushOn'"> (brush-on)</xsl:if>
             </title>
 
-            <xsl:if test="@description">
-                <para>
-                    <xsl:value-of select="@description"/>
-                </para>
-            </xsl:if>
+            <xsl:apply-templates select="db:para"/>
 
             <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
                 <xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>

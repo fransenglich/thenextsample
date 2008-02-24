@@ -1,6 +1,6 @@
 <glazes
     xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
-    xmlns:xi="http://www.w3.org/2001/XInclude">
+    xmlns:db="http://docbook.org/ns/docbook">
     <glaze xml:id="GreenHue"
            manufacturer="Potterycrafts Limited"
            name="Green Hue"
@@ -48,48 +48,59 @@
            name="Black underglaze pen"
            productID="P4001"
            manufacturer="AXNER"
-           type="BrushOn"
-           description="Pre-mixed on bottle, to 1280C."/>
+           type="BrushOn">
+           <db:para>Pre-mixed on bottle, to 1280C.</db:para>
+   </glaze>
 
     <glaze xml:id="Transparent"
            name="Transparent"
            productID="P1091"
-           manufacturer="Unknown"
-           description="Can't be found in Waldermar Ellefesen's price catalog from 2003, nor does the number show up in Potterycrafts' info. Is a porcelain glaze, according to Sissel."/>
+           manufacturer="Unknown">
+           <db:para>
+               Can't be found in Waldermar Ellefesen's price catalog from 2003, nor does the number show up in Potterycrafts' info. Is a porcelain glaze, according to Sissel.</db:para>
+   </glaze>
 
     <glaze xml:id="TransparentCobberCarbonate"
            name="Cobber Carbonate oxide in transparent glaze"
-           manufacturer="Mixture"
-           description="To 200 ml transparent glaze, P1091, was 20 g Cobber carbonate, P3404, added." />
+           manufacturer="Mixture">
+           <db:para>To 200 ml transparent glaze, P1091, was 20 g Cobber carbonate, P3404, added.</db:para>
+   </glaze>
 
     <glaze xml:id="TransparentYellowStain"
            name="Yellow stain in transparent glaze"
            manufacturer="Mixture"
-           description="To 200 ml transparent glaze, P1091 was 20 g Canary/Golden Yellow, P4140, added." />
+           >
+           <db:para>To 200 ml transparent glaze, P1091 was 20 g Canary/Golden Yellow, P4140, added.</db:para>
+   </glaze>
 
    <glaze xml:id="Chocolate"
-       name="Black stain in transparent glaze"
-       manufacturer="Mixture"
-       description="To 200 ml transparent glaze, P1091 was 20 g Black stain, P4130, added." />
+          name="Black stain in transparent glaze"
+          manufacturer="Mixture">
+       <db:para>200 ml transparent glaze, P1091 was 20 g Black stain, P4130, added.</db:para>
+   </glaze>
 
    <glaze xml:id="GreenHueAndFrostedJade"
        name="Green Hue mixed with Frosted jade"
        manufacturer="Mixture"
-       description="100 ml Green Hue at gravity 45 mixed with 100 ml Frosted Jade at gravity 44." />
+       >
+       <db:para>100 ml Green Hue at gravity 45 mixed with 100 ml Frosted Jade at gravity 44.</db:para>
+   </glaze>
 
    <glaze xml:id="AmacoWhiteBO"
        name="White"
        productID="HF-11A White"
        manufacturer="Amaco"
-       type="BrushOn"
-       description="Sahara Liquid Glazes, HF-11 White. Brush-on."/>
+       type="BrushOn">
+       <db:para>Sahara Liquid Glazes, HF-11 White. Brush-on.</db:para>
+   </glaze>
 
    <glaze xml:id="AmacoWaxyWhite"
        name="Waxy White"
        productID="HF-17"
        manufacturer="Amaco"
-       type="BrushOn"
-       description="Sahara Liquid Glazes, HF-17 Waxy White. Brush-on."/>
+       type="BrushOn">
+       <db:para>Sahara Liquid Glazes, HF-17 Waxy White. Brush-on.</db:para>
+   </glaze>
 
    <glaze xml:id="RedBO"
        name="Red brush on"
@@ -208,46 +219,57 @@
        <!-- WTF? TODO Aluminium Oxide as Silica??? -->
    <glaze xml:id="RawBaseLeach"
            manufacturer="Frans Englich"
-           name="Leach Base Glaze"
-           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319)."/>
+           name="Leach Base Glaze">
+           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319).</db:para>
+   </glaze>
 
    <glaze xml:id="WhiteLeach"
            manufacturer="Frans Englich"
-           name="White Leach"
-           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words."/>
+           name="White Leach">
+           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 10 zirconium oxide(R1026). 110 parts in total, in other words.</db:para>
+   </glaze>
+
    <glaze xml:id="WhiterLeach"
            manufacturer="Frans Englich"
-           name="Whiter Leach"
-           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words."/>
-       <glaze xml:id="BlueWhiterLeach"
-           manufacturer="Frans Englich"
-           name="Blue Whiter Leach"
-           description="40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words."/>
+           name="Whiter Leach">
+           <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026). 120 parts in total, in other words.</db:para>
+   </glaze>
+
+   <glaze xml:id="BlueWhiterLeach"
+          manufacturer="Frans Englich"
+          name="Blue Whiter Leach">
+       <db:para>40 Custer Feldspar(Kalifeltspat, P3316), Silica 30(Aluminium oxide, P3300), Whiting 20(P3346), Kaolin 10(Flint P3319), and 20 zirconium oxide(R1026), 1 Cobolt Oxide. 121 parts in total, in other words.</db:para>
+    </glaze>
 
    <glaze xml:id="CandaceBlack"
            manufacturer="Frans Englich"
-           name="Candace Black"
-           description="Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar."/>
+           name="Candace Black">
+           <db:para>Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76. 65 F-4 Feldspar, 5 Whiting, 20 Silica, 5 Kaolin, 5 Dolomite, 8 Red Iron Oxide, 5 Cobalt Carbonate. Used instead Carbonate Oxide(P3403), Aluminium Oxide(P3300) as Kaolin, Red Synthetic Iron Oxide(P3441), Flint(P3319) as Silica, Feldspar FFF(P3316) as F-4 Feldspar.</db:para>
+    </glaze>
 
    <glaze xml:id="ModifiedTransparentGreen"
            manufacturer="Frans Englich"
-           name="Transparent Green"
-           description='Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but using Tin Oxide instead of Zinc Oxide. 70 Cornwall Stone, Whiting 10, Grolleg Kaolin 10, Tin Oxide 10, Copper Carbonate 4. Instead of Grolleg Kaolin(whatever that is) was Aluminium Oxide(P3300) used.'/>
+           name="Transparent Green">
+           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but using Tin Oxide instead of Zinc Oxide. 70 Cornwall Stone, Whiting 10, Grolleg Kaolin 10, Tin Oxide 10, Copper Carbonate 4. Instead of Grolleg Kaolin(whatever that is) was Aluminium Oxide(P3300) used.</db:para>
+    </glaze>
 
    <glaze xml:id="WillsOribe"
            manufacturer="Frans Englich"
-           name="Will's Oribe"
-           description="Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Custer Feldspar 50, Whiting 15, Silica 30, Kaolin 5, Copper Carbonate 5. Used Flint(P3319) as Silica, and Aluminium Oxide(P3300) instead of Kaolin, and Feldspar FFF(P3316) as Custer Feldspar."/>
+           name="Will's Oribe">
+           <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Custer Feldspar 50, Whiting 15, Silica 30, Kaolin 5, Copper Carbonate 5. Used Flint(P3319) as Silica, and Aluminium Oxide(P3300) instead of Kaolin, and Feldspar FFF(P3316) as Custer Feldspar.</db:para>
+    </glaze>
 
    <glaze xml:id="ModifiedMamo"
            manufacturer="Frans Englich"
-           name="Modified Mamo"
-           description="Mamo from The Complete Guide to High-Fire Glazes, p. 121. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20."/>
+           name="Modified Mamo">
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20.</db:para>
+    </glaze>
 
    <glaze xml:id="BlueModifiedMamo"
            manufacturer="Frans Englich"
-           name="Blue Modified Mamo"
-           description="Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobolt. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20, 2 Cobolt Oxide."/>
+           name="Blue Modified Mamo">
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobolt. Custer Feldspar 25, F-4 Feldspar 25, Whiting 5, Kaolin 10, Calcined Kaolin 15, Dolomite 20. Due to lacking ingredients it was instead: Feldspar(P3316) 50, Whiting 5, Aluminium Oxide 35, Dolomite 20, 2 Cobolt Oxide.</db:para>
+    </glaze>
 
    <!-- All for keramik, Cerama 6250. -->
 </glazes>
