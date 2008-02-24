@@ -580,14 +580,14 @@
         <brick xml:id="T109"/>
         <glazing sieved="true" hydrometerGravity="47" idref="ModifiedMamo"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Right after mxing, so lots of air bubbles. From 200 g batch.</db:para>
+        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-02-16">
         <brick xml:id="T101"/>
         <glazing sieved="true" hydrometerGravity="54" idref="BlueModifiedMamo"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Right after mxing, so lots of air bubbles. From 200 g batch.</db:para>
+        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
     </sample>
 
     <!-- Made samples 101-112. Made samples 130 - 15? -->
