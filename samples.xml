@@ -282,7 +282,7 @@
         <brick xml:id="T72"/>
         <glazing sieved="false" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait. The glazed part is brown, tilitng towards (khaki) green.</db:para>
+        <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait. The glazed part is brown, tilting towards (khaki) green.</db:para>
     </sample>
 
     <sample date="2007-11-27">
@@ -611,6 +611,20 @@
         <db:para>Three long dips, 5-6 secs, across whole in order to get a really large thick layer. A noticble increase in weight, before firing the brick weights <db:constant>TODO</db:constant>g.</db:para>
     </sample>
 
+    <sample date="2008-02-28">
+        <brick xml:id="T156"/>
+        <glazing sieved="true" hydrometerGravity="55" idref="TitanedHardingOxblood"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
+    </sample>
+
+    <sample date="2008-02-28">
+        <brick xml:id="T144"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="TitanedHardingOxblood"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
     <!--
@@ -641,6 +655,7 @@
     What's the big difference between a carbonate and an oxide?
     How does a flux work, really?
 
+    What is a /secondar/ flux
     -->
 </samples>
 <!--

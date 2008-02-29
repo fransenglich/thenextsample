@@ -11,13 +11,18 @@
     <component xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
     <component xml:id="Flint">Flint, P3319</component>
     <component xml:id="F4Feldspar">F4 Feldspar(Soda Feldspar), P3317</component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
-    <component xml:id="CusterFeldspar">Custer/NC-4 Feldspar(Potash Feldspar), P3296</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
+    <component xml:id="CusterFeldspar">Custer Feldspar</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
     <component xml:id="Silica">Silica</component>
     <component xml:id="GrollegKaolin">Grolleg Kaolin, P3298</component>
     <component xml:id="Kaolin">Kaolin</component>
     <component xml:id="CalcinedKaolin">Calcined Kaolin</component>
     <component xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
     <component xml:id="CornwallStone">Cornwall Stone, P3314</component>
+    <component xml:id="Bentonite">Bentonite, P3304</component>
+    <component xml:id="ZincOxide">Zinc Oxide, P3350</component>
+    <component xml:id="FerroFrit">Ferro Frit, P3110</component>
+    <component xml:id="NC4Feldspar">NC-4 Feldspar</component>
+    <component xml:id="TitaniumDioxide">Titanium Dioxide, P3362</component>
 </components>
 <!--
 vim: et:ts=4:sw=4:sts=4

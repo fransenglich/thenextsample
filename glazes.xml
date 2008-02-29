@@ -366,6 +366,23 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="TitanedHardingOxblood"
+           manufacturer="Frans Englich"
+           name="Titaned Harding Oxblood">
+           <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. Mixed up Titanium Dioxide and Tin Oxide.</db:para>
+
+           <recipe>
+               <component idref="Flint"             parts="20" replacementFor="Silica"/>
+               <component idref="FeldsparFFF"       parts="55" replacementFor="NC4Feldspar"/>
+               <component idref="Whiting"           parts="6"/>
+               <component idref="FerroFrit"         parts="15"/>
+               <component idref="ZincOxide"         parts="4"/>
+               <component idref="TinOxide"          parts="1" replacementFor="TitaniumDioxide"/>
+               <component idref="CobberCarbonate"   parts="0.5"/>
+               <component idref="Bentonite"         parts="2"/>
+           </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
