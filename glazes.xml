@@ -293,7 +293,7 @@
                <component idref="CornwallStone"     parts="70"/>
                <component idref="Whiting"           parts="10"/>
                <component idref="Alumina"           parts="10" replacementFor="GrollegKaolin"/>
-               <component idref="TinOxide"          parts="10" replacementFor="TinOxide"/>
+               <component idref="TinOxide"          parts="10" replacementFor="ZincOxide"/>
                <component idref="CobberCarbonate"   parts="4"/>
            </recipe>
     </glaze>
