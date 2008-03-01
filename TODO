@@ -1,6 +1,8 @@
 * Make clayref mandatory for samples.
 * Add measurements
 * Make clayref mandatory for pieces.
+* Uniqueness constraint on components
+* Uniqueness constraint on recipe/component
 * Add uniqueness key on @name/@productID
 * Add images
 

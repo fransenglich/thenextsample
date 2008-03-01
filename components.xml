@@ -23,6 +23,10 @@
     <component xml:id="FerroFrit">Ferro Frit, P3110</component>
     <component xml:id="NC4Feldspar">NC-4 Feldspar</component>
     <component xml:id="TitaniumDioxide">Titanium Dioxide, P3362</component>
+    <component xml:id="ChromeOxide">Chrome Oxide, P3401</component>
+    <component xml:id="SodaAsh">Sodium Ash, P3342</component>
+    <component xml:id="RedIronOxide">Sodium Ash, P3342</component>
+    <component xml:id="ChinaClay">China Clay, P3309</component>
 </components>
 <!--
 vim: et:ts=4:sw=4:sts=4

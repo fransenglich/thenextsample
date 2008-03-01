@@ -587,7 +587,7 @@
         <brick xml:id="T101"/>
         <glazing sieved="true" hydrometerGravity="54" idref="BlueModifiedMamo"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
+        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para><!-- TODO comment on these two guys. -->
     </sample>
 
     <sample date="2008-02-24">
@@ -738,6 +738,41 @@
         <db:para>To about 10 ml water was about 2 gram Magnesium Carbonate(P3331) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
+    <sample date="2008-03-01">
+        <brick xml:id="T137"/>
+        <glazing sieved="false" hydrometerGravity="60" idref="TransparentGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Very high gravity, didn't get a stable reading, somewhere about 60-70.</db:para>
+    </sample>
+
+    <sample date="2008-03-01">
+        <brick xml:id="T148"/>
+        <glazing sieved="false" hydrometerGravity="40" idref="TransparentGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-01">
+        <brick xml:id="T143"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="HardingOxblood"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-01">
+        <brick xml:id="T150"/>
+        <glazing sieved="false" hydrometerGravity="53" idref="PerfectBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-01">
+        <brick xml:id="T149"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="PerfectBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Feels like this one can be much thinner but still work.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? -->
 
     <!--
@@ -768,7 +803,13 @@
     What's the big difference between a carbonate and an oxide?
     How does a flux work, really?
 
+    Mail John Britt, suggest feldspar article
     What is a /secondar/ flux
+
+
+    BUY 
+    Barium Carbonate
+    Ball Clay
     -->
 </samples>
 <!--
