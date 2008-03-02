@@ -41,6 +41,7 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="componentsType">
+                        <!-- TODO How do I put a uniqueness constraint on string(component)?. -->
                     </xs:element>
 
                     <xs:element name="pieces"
@@ -69,9 +70,16 @@ A format for describing pottery glazes, samples and pieces.
                                 minOccurs="1"
                                 maxOccurs="1"
                                 type="glazesType">
-                        <xs:unique name="unique-glazes-name">
+                        <xs:unique name="unique-glaze-name">
+                            <!-- TODO Why doesn't this work? -->
                             <xs:selector xpath="glaze"/>
                             <xs:field xpath="@name"/>
+                        </xs:unique>
+
+                        <xs:unique name="unique-glaze-productID">
+                            <!-- TODO Why doesn't this work? -->
+                            <xs:selector xpath="glaze"/>
+                            <xs:field xpath="@productID"/>
                         </xs:unique>
 
                     </xs:element>
@@ -176,7 +184,14 @@ A format for describing pottery glazes, samples and pieces.
                     <xs:element name="recipe"
                                 type="recipeType"
                                 minOccurs="0"
-                                maxOccurs="1"/>
+                                maxOccurs="1">
+                        <xs:unique name="unique-componentref">
+                            <!-- TODO Why doesn't this work? -->
+                            <xs:selector xpath="component"/>
+                            <xs:field xpath="@idref"/>
+                            <xs:field xpath="@replacementFor"/>
+                        </xs:unique>
+                    </xs:element>
                 </xs:sequence>
                 <xs:attribute ref="xml:id"          use="required"/>
                 <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
