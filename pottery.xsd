@@ -113,6 +113,16 @@ A format for describing pottery glazes, samples and pieces.
         <xs:complexContent>
             <xs:restriction base="xs:anyType">
                 <xs:sequence>
+                    <xs:element name="measurementsWhenDone"
+                                minOccurs="0"
+                                maxOccurs="1">
+                        <!-- HWD, Measurements are in millimeters. -->
+                        <xs:complexType>
+                            <xs:attribute name="height" type="xs:positiveInteger"/>
+                            <xs:attribute name="width" type="xs:positiveInteger"/>
+                            <xs:attribute name="depth" type="xs:positiveInteger"/>
+                        </xs:complexType>
+                    </xs:element>
                     <xs:element name="image"
                                 type="imageType"
                                 minOccurs="0"

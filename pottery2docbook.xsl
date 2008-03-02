@@ -180,14 +180,14 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
     <xsl:template match="p:clayref">
         <para><emphasis>Clay</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@idref]/@name"/></phrase><xsl:apply-templates select="@weightWhenWet"/></para>
-    
-    </xsl:template> 
+
+    </xsl:template>
 
     <xsl:template match="@weightWhenWet">
         <xsl:text>, weight </xsl:text>
         <emphasis>when wet</emphasis>:
         <constant><xsl:value-of select="."/></constant> g
-    </xsl:template> 
+    </xsl:template>
 
     <xsl:template match="p:note">
         <formalpara>
@@ -211,7 +211,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
             <title>
                 <xsl:value-of select="@name"/>
-                <xsl:if test="@productID">, 
+                <xsl:if test="@productID">,
                     <xsl:value-of select="@productID"/>
                 </xsl:if>
                 <xsl:if test="@type = 'BrushOn'"> (brush-on)</xsl:if>
@@ -250,7 +250,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <xsl:param name="mainGlaze"/>
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
-            
+
             <para>
                 <xsl:apply-templates select="(p:glazing | p:brushon)[@idref = $mainGlaze]" mode="lowKeyGlazing"/>
             </para>
@@ -281,7 +281,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:glazing">
-        <para><phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>, 
+        <para><phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:glazes/p:glaze[@xml:id = current()/@idref]/@name"/></phrase>,
             <xsl:apply-templates select="." mode="lowKeyGlazing"/>
         </para>
     </xsl:template>
@@ -301,7 +301,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <constant><xsl:value-of select="."/></constant>
     </xsl:template>
 
-    <xsl:template match="@sieved">, 
+    <xsl:template match="@sieved">,
         <emphasis>
             <xsl:choose>
                 <xsl:when test=". = 'true'">
@@ -353,7 +353,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
             <title>
                 <xsl:value-of select="@name"/>
-                <xsl:if test="@productID">, 
+                <xsl:if test="@productID">,
                     <xsl:value-of select="@productID"/>
                 </xsl:if>
             </title>
@@ -430,6 +430,20 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </xsl:if>
             <entry><constant><xsl:value-of select="@parts"/></constant></entry>
         </row>
+    </xsl:template>
+
+    <xsl:template match="p:measurementsWhenDone">
+        <para>Measurements: height <constant><xsl:value-of select="@height"/></constant> mm,
+            <xsl:choose>
+                <xsl:when test="@width = @depth">
+                    diameter <constant><xsl:value-of select="@width"/></constant> mm
+                </xsl:when>
+                <xsl:otherwise>
+                    width <constant><xsl:value-of select="@width"/></constant> mm,
+                    depth <constant><xsl:value-of select="@depth"/></constant> mm
+                </xsl:otherwise>
+            </xsl:choose>
+        </para>
     </xsl:template>
 
     <xsl:template name="checkComponentRef">

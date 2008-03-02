@@ -198,6 +198,7 @@
     </piece>
 
     <piece xml:id="P41">
+        <measurementsWhenDone height="130" width="260" depth="260"/>
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
         <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="41"/>
         <db:para><db:date>2007-11-12</db:date>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</db:para>
@@ -255,6 +256,7 @@
     </piece>
 
     <piece xml:id="P2">
+        <measurementsWhenDone height="140" width="100" depth="95"/>
         <clayref idref="SaintThomas"/>
         <glazing idref="FrostedJade" hydrometerGravity="44" sieved="false"/>
 
