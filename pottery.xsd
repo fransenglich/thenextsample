@@ -153,7 +153,14 @@ A format for describing pottery glazes, samples and pieces.
     <xs:complexType name="componentRefType">
         <xs:attribute name="idref"          type="xs:IDREF" use="required"/>
         <xs:attribute name="replacementFor" type="xs:IDREF" use="optional"/>
-        <xs:attribute name="parts"          type="xs:decimal" use="required"/><!-- TODO constrain -->
+        <xs:attribute name="parts"          use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:decimal">
+                    <xs:minExclusive value="0"/>
+                    <xs:maxInclusive value="100"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:complexType>
 
     <xs:complexType name="clayType">
