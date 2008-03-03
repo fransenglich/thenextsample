@@ -259,6 +259,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <para>Additional glaze<xsl:if test="count($additionalGlazes) > 1">s</xsl:if>:</para>
                 <xsl:apply-templates select="(p:brushon | p:glazing)[@idref != $mainGlaze]"/>
             </xsl:if>
+            <xsl:apply-templates select="p:clayref"/>
             <xsl:apply-templates select="db:para"/>
             <xsl:apply-templates mode="doImage" select="p:brick"/>
         </section>
