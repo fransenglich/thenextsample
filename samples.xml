@@ -608,7 +608,7 @@
         <brick xml:id="T152"/>
         <glazing sieved="true" hydrometerGravity="45" idref="CandaceBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Three long dips, 5-6 secs, across whole in order to get a really large thick layer. A noticble increase in weight, before firing the brick weights <db:constant>TODO</db:constant>g.</db:para>
+        <db:para>Three long dips, 5-6 secs, across whole in order to get a really large thick layer. A noticable increase in weight.</db:para>
     </sample>
 
     <sample date="2008-02-28">
