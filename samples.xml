@@ -5,71 +5,134 @@
 
     <sample date="2007-09-28">
         <brick xml:id="W1"/>
+        <brushon idref="SandBrown"/>
+        <clayref idref="WSW"/>
+        <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="T5"/>
         <brushon idref="SandBrown"/>
+        <clayref idref="SaintThomas"/>
         <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W10"/>
+        <brushon idref="ImagineGreen"/>
+        <clayref idref="WSW"/>
+        <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="T8"/>
         <brushon idref="ImagineGreen"/>
+        <clayref idref="SaintThomas"/>
         <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W12"/>
+        <glazing sieved="false" idref="FrostedJade" hydrometerGravity="53"/>
+        <clayref idref="WSW"/>
+        <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="T41"/>
         <glazing sieved="false" idref="FrostedJade" hydrometerGravity="53"/>
+        <clayref idref="SaintThomas"/>
         <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W6"/>
-        <brick xml:id="T4"/>
         <brick xml:id="W11"/>
         <brushon idref="GreyAmaco"/>
+        <clayref idref="WSW"/>
         <db:para>W11 had an extra layer on the second level.</db:para>
     </sample>
 
     <sample date="2007-09-28">
+        <brick xml:id="T4"/>
+        <brushon idref="GreyAmaco"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="T17"/>
+        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="46"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Dipped, three seconds.</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="W2"/>
         <glazing idref="FrostedJade" sieved="true" hydrometerGravity="46"/>
+        <clayref idref="WSW"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T9"/>
-        <brick xml:id="W3"/>
         <glazing idref="GreenHue" sieved="true" hydrometerGravity="40"/>
+        <clayref idref="SaintThomas"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
 
     <sample date="2007-09-28">
-        <brick xml:id="W8"/>
+        <brick xml:id="W3"/>
+        <glazing idref="GreenHue" sieved="true" hydrometerGravity="40"/>
+        <clayref idref="WSW"/>
+        <db:para>Dipped, three seconds.</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
         <brick xml:id="T34"/><!-- Although my paper note said T31 -->
 
         <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
         <glazing idref="GreenHue" sieved="true" hydrometerGravity="41"/>
+        <clayref idref="SaintThomas"/>
+
+        <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
+    </sample>
+
+    <sample date="2007-09-28">
+        <brick xml:id="W8"/>
+
+        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
+        <glazing idref="GreenHue" sieved="true" hydrometerGravity="41"/>
+        <clayref idref="WSW"/>
 
         <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="W13"/>
-        <brick xml:id="T32"/>
-
         <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="35"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-09-28">
+        <brick xml:id="T32"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="35"/>
+        <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-09-28">
         <brick xml:id="T6"/>
-        <brick xml:id="W5"/>
-
         <brushon idref="YellowBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
 
+    <sample date="2007-09-28">
+        <brick xml:id="W5"/>
+        <brushon idref="YellowBO"/>
+        <clayref idref="WSW"/>
         <db:para/>
     </sample>
 
@@ -77,6 +140,7 @@
         <brick xml:id="T7"/>
 
         <glazing sieved="false" idref="FrostedJade" hydrometerGravity="46"/>
+        <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
@@ -84,6 +148,7 @@
         <brick xml:id="T12"/>
 
         <glazing sieved="false" idref="FrostedJade" hydrometerGravity="46"/>
+        <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
@@ -91,6 +156,7 @@
         <brick xml:id="T13"/>
 
         <glazing sieved="false" idref="GreenHue" hydrometerGravity="46"/>
+        <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
@@ -98,6 +164,7 @@
         <brick xml:id="T10"/>
 
         <glazing sieved="false" idref="GreenHue" hydrometerGravity="46"/>
+        <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
@@ -105,6 +172,7 @@
         <brick xml:id="T3"/>
 
         <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="45"/>
+        <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
 
@@ -112,6 +180,7 @@
         <brick xml:id="T2"/>
 
         <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="45"/>
+        <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
 
@@ -133,6 +202,7 @@
         <brick xml:id="W9"/>
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="false" idref="GreenHue"/>
+        <clayref idref="WSW"/>
         <db:para/>
     </sample>
 
@@ -140,26 +210,42 @@
         <brick xml:id="T19"/>
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="false" idref="GreenHue"/>
+        <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T40"/>
+        <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="50"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
+    </sample>
+
+    <sample date="2007-10-29">
         <brick xml:id="W7"/>
         <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="50"/>
+        <clayref idref="WSW"/>
         <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
     </sample>
 
     <sample date="2007-10-29">
         <brick xml:id="T31"/>
         <glazing sieved="false" idref="WhiteGloss" hydrometerGravity="44"/>
+        <clayref idref="SaintThomas"/>
         <db:para>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</db:para>
     </sample>
 
     <sample date="2007-10-29">
-        <brick xml:id="W4"/>
         <brick xml:id="T36"/>
         <glazing sieved="false" idref="IntenseBlack" hydrometerGravity="50"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
+    </sample>
+
+    <sample date="2007-10-29">
+        <brick xml:id="W4"/>
+        <glazing sieved="false" idref="IntenseBlack" hydrometerGravity="50"/>
+        <clayref idref="WSW"/>
         <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
     </sample>
 
