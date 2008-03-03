@@ -222,7 +222,9 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:apply-templates select="p:recipe"/>
 
             <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
-                <xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>
+                <!-- TODO This just doesn't seem to work. -->
+                <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
+                <!--<xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>-->
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
         </section>
