@@ -129,7 +129,7 @@ A format for describing pottery glazes, samples and pieces.
                                 maxOccurs="unbounded"/>
                     <xs:element name="clayref"
                                 type="clayrefType"
-                                minOccurs="0"
+                                minOccurs="1"
                                 maxOccurs="unbounded"/>
                     <xs:element name="glazing"
                                 type="glazingType"

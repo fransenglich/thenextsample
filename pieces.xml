@@ -4,6 +4,7 @@
         xmlns:db="http://docbook.org/ns/docbook">
 
     <piece xml:id="P36">
+        <clayref idref="WSW"/>
         <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
         <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="44"/>
         <brushon idref="YellowBO"/>
@@ -11,6 +12,7 @@
     </piece>
 
     <piece xml:id="P37">
+        <clayref idref="WSW"/>
         <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
         <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="50"/>
         <brushon idref="YellowBO"/>
@@ -18,6 +20,7 @@
     </piece>
 
     <piece xml:id="P38">
+        <clayref idref="WSW"/>
         <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
         <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
@@ -58,26 +61,31 @@
     -->
 
     <piece xml:id="P5">
+        <clayref idref="WSW"/>
         <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</db:para>
     </piece>
 
     <piece xml:id="P6">
+        <clayref idref="WSW"/>
         <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Had hand inside when glazing the outside.</db:para>
     </piece>
 
     <piece xml:id="P7">
+        <clayref idref="WSW"/>
         <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Polished the glaze edges. Same as 6, but better techniques.</db:para>
     </piece>
 
     <piece xml:id="P8">
+        <clayref idref="WSW"/>
         <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</db:para>
     </piece>
 
     <piece xml:id="P9">
+        <clayref idref="WSW"/>
         <glazing sieved="false" idref="WhiteGloss"/>
         <db:para><db:date>2007-10-02</db:date>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</db:para>
     </piece>
