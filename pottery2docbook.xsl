@@ -9,6 +9,7 @@
                 xmlns:ex="http://exslt.org/dates-and-times"
                 xmlns:em="http://exslt.org/math"
                 xmlns:es="http://exslt.org/sets"
+                xmlns:ec="http://exslt.org/common"
                 xmlns:p="tag:fenglich.fastmail.fm,2007:Pottery">
 
 
@@ -386,6 +387,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                             <entry>Source/Replacement For</entry>
                         </xsl:if>
                         <entry>Parts</entry>
+                        <entry>Price/kg, MVA</entry>
                     </row>
                 </thead>
                 <tfoot>
@@ -398,6 +400,13 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                             <entry/>
                         </xsl:if>
                         <entry>Total <xsl:value-of select="sum(p:component/@parts)"/></entry>
+                        <entry>
+                            <xsl:variable name="componentPrices">
+                                <xsl:apply-templates mode="computePrice" select="p:component"/>
+                            </xsl:variable>
+
+                            Kilo price: TODO <xsl:value-of select="sum(ec:node-set($componentPrices)/.)"/>
+                        </entry>
                     </row>
                 </tfoot>
                 <tbody>
@@ -432,7 +441,20 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <entry/>
             </xsl:if>
             <entry><constant><xsl:value-of select="@parts"/></constant></entry>
+
+            <entry>
+                <xsl:apply-templates mode="computePrice" select="."/>
+            </entry>
         </row>
+    </xsl:template>
+
+    <xsl:template mode="computePrice" match="p:component">
+        <constant>
+            <xsl:variable name="price" select="number(/p:pottery/p:components/p:component[@xml:id = current()/@idref]/@price)"/>
+            <xsl:variable name="priceIsFor" select="number(/p:pottery/p:components/p:component[@xml:id = current()/@idref]/@priceIsFor)"/>
+
+            <xsl:value-of select="round((($price div ($priceIsFor div 1000)) * (@parts div 100)) * 1.25)"/>
+        </constant>
     </xsl:template>
 
     <xsl:template match="p:measurementsWhenDone">
