@@ -468,6 +468,26 @@
            </recipe>
     </glaze>
 
+    <!-- We have no samples of this glaze. -->
+    <glaze xml:id="NewGrassGreen"
+           manufacturer="Frans Englich"
+           name="New Grass Green">
+           <db:para>New Grass Green from The Complete Guide to High-Fire Glazes, p. 102.</db:para>
+
+           <recipe>
+               <component idref="NephelineSyenite"  parts="25" replacementFor="CusterFeldspar"/>
+               <component idref="CornwallStone"     parts="25"/>
+               <component idref="Flint"             parts="20" replacementFor="Silica"/>
+               <component idref="ChinaClay"         parts="7" replacementFor="Kaolin"/>
+               <component idref="BariumCarbonate"   parts="5.8"/>
+               <component idref="Wollastonite"      parts="19"/>
+               <component idref="LithiumCarbonate"  parts="1"/>
+               <component idref="ChromeOxide"       parts="2"/>
+               <component idref="TinOxide"          parts="4"/>
+               <component idref="Bentonite"         parts="2"/>
+           </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4

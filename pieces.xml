@@ -484,12 +484,16 @@
 
     <piece xml:id="P46">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="WhiteGloss" sieved="true" hydrometerGravity="50"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Glazed it. Perceived as thick. Pinholes on the surface. Sieved the glaze a four times. Glazed it by hold/rotating it in plenty of glaze.</db:para>
     </piece>
 
     <piece xml:id="P44">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="FrostedJade" sieved="false" hydrometerGravity="45"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-03-08</db:date> The edge has black iron oxide burned into it from bisque firing. The piece was stacked with pieces with that oxide. Glazing wasn't very even, so small runs on the side.</db:para>
     </piece>
 
     <piece xml:id="P45">
