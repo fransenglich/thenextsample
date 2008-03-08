@@ -228,7 +228,22 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <!--<xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>-->
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
+            
+            
+            <xsl:if test="//p:piece[(p:glazing | p:brushon)/@idref = current()/@xml:id]">
+                <section>
+                    <title>Pieces</title>
+                    <para>The following pieces are using this glaze:</para>
+                    <!-- TODO Why the heck does this generate text nodes? xsltproc bug? Test with Saxon.
+                    <xsl:apply-templates mode="pieceref" match="//p:piece[(p:glazing | p:brushon)/@idref = current()/@xml:id]"/>
+                    -->
+                </section>
+            </xsl:if>
         </section>
+    </xsl:template>
+
+    <xsl:template mode="pieceref" match="p:piece">
+        <para><xref xlink:href="#{@xml:id}"/></para>
     </xsl:template>
 
     <xsl:template name="imageForSample">
@@ -486,7 +501,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <!-- Flag things we miss. -->
     <xsl:template match="* | @*">
         <xsl:message terminate="yes">
-            Unmatched node: <xsl:value-of select="name()"/>
+            Unmatched node: <xsl:value-of select="name()"/> <xsl:value-of select="string()"/>
         </xsl:message>
     </xsl:template>
 

@@ -29,6 +29,11 @@
     <component                                  xml:id="GrollegKaolin">Grolleg Kaolin, P3298</component>
     <component                                  xml:id="Kaolin">Kaolin</component>
     <component                                  xml:id="CalcinedKaolin">Calcined Kaolin</component>
+    <component                                  xml:id="NephelineSyenite">Nepheline Syenite, P3332</component>
+    <component                                  xml:id="BariumCarbonate">Barium Carbonate, P3303</component>
+    <component                                  xml:id="Wollastonite">Wollastonite, P3348</component>
+    <component                                  xml:id="LithiumCarbonate">Lithium Carbonate, R1063</component>
+    <component                                  xml:id="CalciumBorateFrit">Calcium Borate Frit, P2954</component>
 
 </components>
 <!--
