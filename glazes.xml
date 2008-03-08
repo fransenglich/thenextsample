@@ -192,6 +192,12 @@
            type="BrushOn"
            productID="HF-30"/>
 
+   <glaze xml:id="AmacoClear"
+           manufacturer="Amaco"
+           name="Clear, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
+           productID="HF-10"/>
+
    <glaze xml:id="YellowOatMetal"
            manufacturer="Amaco"
            name="Matt Yellow Oat Metal, Sahara Liquid Series, HF-Series"
@@ -215,6 +221,24 @@
            name="Transparent brush-on"
            type="BrushOn"
            productID="P2793"/>
+
+   <glaze xml:id="TivoliRed"
+           manufacturer="Potterycrafts Limited"
+           name="Tivoli Red"
+           type="BrushOn"
+           productID="P2818"/>
+
+    <glaze xml:id="AutumnShades"
+           manufacturer="Potterycrafts Limited"
+           name="Autumn Shades"
+           type="BrushOn"
+           productID="P2804"/>
+
+    <glaze xml:id="CrystalBlue"
+           manufacturer="Potterycrafts Limited"
+           name="Crystal Blue"
+           type="BrushOn"
+           productID="P2843"/>
 
        <!-- WTF? TODO Aluminium Oxide as Silica??? -->
    <glaze xml:id="RawBaseLeach"
@@ -364,6 +388,18 @@
            name="Red Matt, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-58"/>
+
+   <glaze xml:id="AmacoHazyPink"
+           manufacturer="Amaco"
+           name="Hazy Pink, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
+           productID="HF-52A"/>
+
+   <glaze xml:id="AmacoLavender"
+           manufacturer="Amaco"
+           name="Lavender, Sahara Liquid Series, HF-Series"
+           type="BrushOn"
+           productID="HF-53A"/>
 
    <glaze xml:id="ModifiedMamoRightAlumina"
            manufacturer="Frans Englich"

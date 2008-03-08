@@ -859,6 +859,106 @@
         <db:para>Feels like this one can be much thinner but still work.</db:para>
     </sample>
 
+    <sample date="2008-03-08">
+        <brick xml:id="T166"/>
+        <brushon idref="TivoliRed"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T199"/>
+        <brushon idref="TivoliRed"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T153"/>
+        <brushon idref="AutumnShades"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T201"/>
+        <brushon idref="AutumnShades"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T145"/>
+        <brushon idref="CrystalBlue"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T189"/>
+        <brushon idref="CrystalBlue"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T187"/>
+        <brushon idref="AmacoClear"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T146"/>
+        <brushon idref="AmacoClear"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T162"/>
+        <brushon idref="AmacoHazyPink"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T192"/>
+        <brushon idref="AmacoHazyPink"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T171"/>
+        <brushon idref="AmacoLavender"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T196"/>
+        <brushon idref="AmacoLavender"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T161"/>
+        <glazing sieved="false" hydrometerGravity="49" idref="ModifiedMamoRightAlumina"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Batch has been standing for a week or so, shaked it thoroughly. Fucked up the right bottom corner by touching with a finger while it was wet.</db:para>
+    </sample>
+
+    <sample date="2008-03-08">
+        <brick xml:id="T181"/>
+        <glazing sieved="false" hydrometerGravity="49" idref="ModifiedMamoRightAlumina"/>
+        <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>Batch has been standing for a week or so, shaked it thoroughly.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201 . -->
 
     <!--
@@ -875,11 +975,14 @@
 
     Mail John Britt, suggest feldspar article
     What is a /secondary/ flux
+    Seger UMF?
+    What is wollastonite? replacement?
 
     BUY 
     Barium Carbonate
     Ball Clay
     P3317, Natriumfeltspat
+    Wollastonite
     -->
 </samples>
 <!--

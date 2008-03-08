@@ -405,7 +405,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                                 <xsl:apply-templates mode="computePrice" select="p:component"/>
                             </xsl:variable>
 
-                            Kilo price: TODO <xsl:value-of select="sum(ec:node-set($componentPrices)/.)"/>
+                            Kilo price: TODO <xsl:value-of select="sum(ec:node-set($componentPrices))"/>
                         </entry>
                     </row>
                 </tfoot>
