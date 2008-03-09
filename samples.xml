@@ -623,13 +623,14 @@
         <glazing sieved="true" hydrometerGravity="52" idref="WhiterLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconium oxide added but twice as much as T105. Think it has a small contamination of Candace Black.</db:para>
+        <db:para><db:date>2008-03-09</db:date> Crawling/contractions. Can't be the Zirconium Oxide, since John Britt writes it "has a low expansion and contraction rate." The mixture is completely wrong, it seem to be missing glass body(too little silica, too much alumina), but that doesn't explain why T108 looks ok. I suspect documentation error, that I haven't used Alumina for Silica in the case of T108, maybe.</db:para>
     </sample>
 
     <sample date="2008-02-16">
         <brick xml:id="T102"/>
         <glazing sieved="true" hydrometerGravity="52" idref="BlueWhiterLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in <db:xref xlink:href="#T107"/>.</db:para>
+        <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in T107.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -643,7 +644,7 @@
         <brick xml:id="T103"/>
         <glazing sieved="true" hydrometerGravity="52" idref="CandaceBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt dispersed unevenly, small black spots at the tops. Sealed of with fixativ. <db:constant>100</db:constant>ml weighted <db:constant>178</db:constant>g.</db:para>
+        <db:para>Used mconsidering a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt dispersed unevenly, small black spots at the tops. Sealed of with fixativ. <db:constant>100</db:constant>ml weighted <db:constant>178</db:constant>g.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -653,6 +654,7 @@
         <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
 
         <db:para><db:date>2008-02-23</db:date> It's sort of obvious why this turned out as it did. Zinc oxide is a flux, since it's absent the thing didn't melt, and since Tin Oxide is an opacifier, it isn't transparent. I wonder what caused the graphite-look which can be seen on the second and third layer, and a little bit on the first.</db:para>
+        <db:para><db:date>2008-03-09</db:date> Crawling. Could possibly caused by be the Tin oxide, since it has a high contaction rate. Yes, John Britt writes: ""Pinhols, matte surfaces, and rawling sometimes result due to its high viscosity and surface tension, [...]". So that also explains why it's matte. Probably also completely oversaturated with something, considering the graphite-like blackness.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -667,13 +669,15 @@
         <glazing sieved="true" hydrometerGravity="47" idref="ModifiedMamo"/>
         <clayref idref="SaintThomas"/>
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
+        <db:para><db:date>2008-03-09</db:date> Alumina is very effective, doesn't require much to fuck things up. T110 is ok. T137 also have issues caused by Alumina, it seems.</db:para>
     </sample>
 
     <sample date="2008-02-16">
         <brick xml:id="T101"/>
         <glazing sieved="true" hydrometerGravity="54" idref="BlueModifiedMamo"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para><!-- TODO comment on these two guys. -->
+        <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
+        <db:para><db:date>2008-03-09</db:date> See T109.</db:para>
     </sample>
 
     <sample date="2008-02-24">
@@ -702,6 +706,7 @@
         <glazing sieved="true" hydrometerGravity="55" idref="TitanedHardingOxblood"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
     </sample>
 
     <sample date="2008-02-28">
@@ -709,6 +714,7 @@
         <glazing sieved="true" hydrometerGravity="42" idref="TitanedHardingOxblood"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -716,6 +722,7 @@
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Titanium Dioxide(P3362) added, added and painted ontop of the glazed, unfired surface(majolica). Flowed very evenly from the brush, compared to for instance Cobber Cabonate.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Why yellow? John Britt writes "Titanium dioxide accentuates the color of the clay body and in the presence of iron gives cream colors". Most likely that.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -730,7 +737,7 @@
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on T136 and T131 were mixed. So this is Cobber Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
-        <db:para/>
+        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Cobber has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -752,6 +759,7 @@
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on T135 and T130 were mixed. So this is Tinn Oxide(P3404) and Titanium Dioxide(P3362) mixed.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Why the strong contractions? Tin oxide has a high expansion and contraction which could be why, but that doesn't explain why it's less on T135. These two dudes are fiddling with something together, or is it simply due to an increased amount of these toxides?</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -779,7 +787,8 @@
         <brick xml:id="T138"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T151 and T141 were mixed. So this is Synthetic Red Iron Oxide(P3441) and  Crome Oxide(P3401).</db:para>
+        <db:para>The batches used on T151 and T141 were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
+        <db:para><db:date>2008-03-08</db:date> I can swear that the surrounding transparent is tinted towards green. Crome is a super strong colorant, but did it really manage to walk over there? Can't find anything supporting that chrome should have strong fluxing properties but considering that it is coloring rather evenly, that might be the case.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -787,6 +796,7 @@
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on T138 and T154 were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Cobber Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Cobber has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -822,6 +832,7 @@
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Magnesium Carbonate(P3331) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
+        <db:para><db:date>2008-03-09</db:date> A nice demonstration to why there exists such a thing as "Magnesium Matte Glazes."</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -829,13 +840,14 @@
         <glazing sieved="false" hydrometerGravity="60" idref="TransparentGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Very high gravity, didn't get a stable reading, somewhere about 60-70.</db:para>
+        <db:para><db:date>2008-03-08</db:date> The glaze is documented for oxidation, so how come it's speckled and opaque? Can the excessive alumina be really be blamed? Yes, seems so, John Britt: "The presence of aluminna in a glaze inhibits color response and produces dull colors and matte surfaces."</db:para>
     </sample>
 
     <sample date="2008-03-01">
         <brick xml:id="T148"/>
         <glazing sieved="false" hydrometerGravity="40" idref="TransparentGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
+        <db:para><db:date>2008-03-08</db:date> See T137</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -959,6 +971,48 @@
         <db:para>Batch has been standing for a week or so, shaked it thoroughly.</db:para>
     </sample>
 
+    <sample date="2008-03-09">
+        <brick xml:id="T169"/>
+        <glazing sieved="true" hydrometerGravity="46" idref="HamadaBase"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T180"/>
+        <glazing sieved="true" hydrometerGravity="46" idref="HamadaBase"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T186"/>
+        <glazing sieved="true" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T167"/>
+        <glazing sieved="true" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T183"/>
+        <glazing sieved="true" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g batch, mixed it with mixer. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T163"/>
+        <glazing sieved="true" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch, mixed it with mixer. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201 . -->
 
     <!--
@@ -979,6 +1033,10 @@
     What is wollastonite? replacement?
     What does "precipitated" mean?
 
+    * Make /correct/ transparent green, redo with cobber carbonate and crom oxide, various amounts.
+    * Big batch of Mamo, high sp gr?
+    * Other white mattes?
+
     BUY 
     Barium Carbonate
     Ball Clay
@@ -986,6 +1044,10 @@
     Wollastonite
     lithium carbonatew
     Rutile
+
+
+    Camilla recommends: jaga jasist, jaga jasizt
+o
     -->
 </samples>
 <!--

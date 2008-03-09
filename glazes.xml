@@ -240,10 +240,10 @@
            type="BrushOn"
            productID="P2843"/>
 
-       <!-- WTF? TODO Aluminium Oxide as Silica??? -->
    <glaze xml:id="RawBaseLeach"
           manufacturer="Frans Englich"
           name="Leach Base Glaze">
+       <db:para>This mixture seems so wrong, alumina as silica.</db:para>
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
            <component idref="Alumina"               parts="30" replacementFor="Silica"/>
@@ -258,7 +258,7 @@
           name="White Leach">
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
-           <component idref="Alumina"               parts="30" replacementFor="Alumina"/>
+           <component idref="Alumina"               parts="30" replacementFor="Silica"/>
            <component idref="Whiting"               parts="20"/>
            <component idref="Flint"                 parts="10" replacementFor="Kaolin"/>
            <component idref="ZirconiumOxide"        parts="10"/>
@@ -269,6 +269,7 @@
           manufacturer="Frans Englich"
           name="Whiter Leach">
 
+       <db:para>This mixture seems so wrong, alumina as silica.</db:para>
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
            <component idref="Alumina"               parts="30" replacementFor="Silica"/>
@@ -282,6 +283,7 @@
           manufacturer="Frans Englich"
           name="Blue Whiter Leach">
 
+       <db:para>This mixture seems so wrong, alumina as silica. However, one could argue that it's countered a bit by Kaolin being sourced through Flint. Kaolin brings Alumina, but Flint is only Silica.</db:para>
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
            <component idref="Alumina"               parts="30" replacementFor="Silica"/>
@@ -419,7 +421,7 @@
     <glaze xml:id="TitanedHardingOxblood"
            manufacturer="Frans Englich"
            name="Titaned Harding Oxblood">
-           <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. Mixed up Titanium Dioxide and Tin Oxide.</db:para>
+           <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. Mixed up Titanium Dioxide and Tin Oxide. For reduction.</db:para>
 
            <recipe>
                <component idref="Flint"             parts="20" replacementFor="Silica"/>
@@ -436,7 +438,7 @@
     <glaze xml:id="HardingOxblood"
            manufacturer="Frans Englich"
            name="Harding Oxblood">
-           <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91.</db:para>
+           <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. For reduction.</db:para>
 
            <recipe>
                <component idref="Flint"             parts="20" replacementFor="Silica"/>
@@ -453,7 +455,7 @@
     <glaze xml:id="PerfectBlack"
            manufacturer="Frans Englich"
            name="Perfect Black">
-           <db:para>Perfect Black from The Complete Guide to High-Fire Glazes, p. 127.</db:para>
+           <db:para>Perfect Black from The Complete Guide to High-Fire Glazes, p. 127. For reduction.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="42" replacementFor="CusterFeldspar"/>
@@ -485,6 +487,44 @@
                <component idref="ChromeOxide"       parts="2"/>
                <component idref="TinOxide"          parts="4"/>
                <component idref="Bentonite"         parts="2"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="HamadaBase"
+           manufacturer="Frans Englich"
+           name="Hamada">
+           <db:para>Hamada from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="HamadaBase5Talc"
+           manufacturer="Frans Englich"
+           name="Hamada with 5 parts talc">
+           <db:para>Hamada with 5 parts talc, from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+               <component idref="Talc"              parts="5"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="HamadaBase20Talc"
+           manufacturer="Frans Englich"
+           name="Hamada with 20 parts talc">
+           <db:para>Hamada with 20 parts talc, from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+               <component idref="Talc"              parts="20"/>
            </recipe>
     </glaze>
 
