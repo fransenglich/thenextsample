@@ -1013,6 +1013,68 @@
         <db:para>From 200 g batch, mixed it with mixer. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
 
+    <sample date="2008-03-09">
+        <brick xml:id="T170"/>
+        <glazing sieved="true" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T185"/>
+        <glazing sieved="true" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, mixed with mixer. By mistake I brushed away a bit from the left bottom corner. Might well be that it will look like an expansion problem.</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T175"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3110, Ferro frit</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T175"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3110, Ferro frit</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T173"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3316, Feldspar FFF</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T177"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3342, Soda Ash</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T178"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3134, High Alcaline Ferro Frit</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T176"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3309, China Clay</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T172"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3317, Feldspar Soda</db:para>
+    </sample>
+
+    <sample date="2008-03-09">
+        <brick xml:id="T174"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3315, Dolomite</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201 . -->
 
     <!--
@@ -1044,10 +1106,19 @@
     Wollastonite
     lithium carbonatew
     Rutile
+    nepheline syentite
 
 
     Camilla recommends: jaga jasist, jaga jasizt
 o
+
+    Do not have melt tests for:
+        * Dolomite, P3315
+        * Talc, P3345
+        * Cornish Stone, P3314
+
+
+        The Next Sample
     -->
 </samples>
 <!--

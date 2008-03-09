@@ -528,6 +528,20 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="ChromeTransparentGreen"
+           manufacturer="Frans Englich"
+           name="Chrome Transparent Green">
+           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98. But instead of Cobber Carbonate, Chrome Oxide is used.</db:para>
+
+           <recipe>
+               <component idref="CornwallStone"     parts="70"/>
+               <component idref="Whiting"           parts="10"/>
+               <component idref="FeldsparFFF"       parts="10" replacementFor="GrollegKaolin"/>
+               <component idref="ZincOxide"         parts="10"/>
+               <component idref="ChromeOxide"       parts="2"/>
+           </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
