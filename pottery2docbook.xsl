@@ -45,7 +45,7 @@
     <xsl:template match="p:pottery">
         <book xml:lang="en">
             <info>
-                <title>Frans' Pottery Log</title>
+                <title>The Next Sample</title>
                 <author>
                     <personname>
                         <firstname>Frans</firstname>
