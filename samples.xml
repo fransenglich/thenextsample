@@ -1034,12 +1034,6 @@
     </sample>
 
     <sample date="2008-03-09">
-        <brick xml:id="T175"/>
-        <clayref idref="SaintThomas"/>
-        <db:para>Melt test of P3110, Ferro frit</db:para>
-    </sample>
-
-    <sample date="2008-03-09">
         <brick xml:id="T173"/>
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3316, Feldspar FFF</db:para>
