@@ -1076,6 +1076,18 @@
         <db:para>A pinch of Manganese Oxide was mixed with water and painted on top of the transparent.</db:para>
     </sample>
 
+    <sample date="2008-03-19">
+        <brick xml:id="T237"/>
+        <clayref idref="WSW"/>
+        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas.</db:para>
+    </sample>
+
+    <sample date="2008-03-19">
+        <brick xml:id="T235"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201 . -->
 
     <!--
