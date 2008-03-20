@@ -22,6 +22,7 @@
     <component priceIsFor="5000"    price="87"  xml:id="Flint">Flint, P3319</component>
     <component priceIsFor="5000"    price="93"  xml:id="F4Feldspar">F4 Feldspar(Soda Feldspar), P3317</component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
     <component priceIsFor="1000"    price="65"  xml:id="RedIronOxide">Red Synthetic Iron Oxide, P3441</component>
+    <component                                  xml:id="FeldsparSoda">Feldspar soda(natronfeldspat in Danish), P3317</component>
 
     <component                                  xml:id="NC4Feldspar">NC-4 Feldspar</component>
     <component                                  xml:id="CusterFeldspar">Custer Feldspar</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
@@ -35,6 +36,7 @@
     <component                                  xml:id="LithiumCarbonate">Lithium Carbonate, R1063</component>
     <component                                  xml:id="CalciumBorateFrit">Calcium Borate Frit, P2954</component>
     <component                                  xml:id="Talc">Talc, P3345</component>
+    <component                                  xml:id="BoneAsh">Bone ash, P3305</component>
 
 </components>
 <!--

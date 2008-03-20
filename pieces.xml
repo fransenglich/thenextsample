@@ -479,8 +479,10 @@
 
     <piece xml:id="P23">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="ModifiedMamoRightAlumina" sieved="true" hydrometerGravity="51"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
     </piece>
+    <!-- TODO enter the other one. -->
 
     <piece xml:id="P46">
         <clayref idref="SaintThomas" weightWhenWet="400"/>

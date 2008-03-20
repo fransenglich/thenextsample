@@ -542,6 +542,20 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="ClausCrystalGreenBlack"
+           manufacturer="Frans Englich"
+           name="Chrome Transparent Green">
+           <db:para>Green with black crystals, Handbook in Studio Ceramics, p. 184.</db:para>
+
+           <recipe>
+               <component idref="FeldsparSoda"      parts="50"/>
+               <component idref="ChinaClay"         replacementFor="Kaolin" parts="20"/>
+               <component idref="Dolomite"          parts="20"/>
+               <component idref="BoneAsh"           parts="10"/>
+               <component idref="CobberCarbonate"   parts="3"/>
+           </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4

@@ -1095,6 +1095,41 @@
         <db:para>To about 10 ml water was about 2 gram Rutile(from Alt For Keramikk) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
+    <sample date="2008-03-20">
+        <brick xml:id="T165"/>
+        <glazing sieved="false" hydrometerGravity="47" idref="ClausCrystalGreenBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch.</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T204"/>
+        <glazing sieved="false" hydrometerGravity="33" idref="ClausCrystalGreenBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch. The gravity is estimated. This hydrometer goes to 40, and it sunk to.. about 33?</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T220"/>
+        <glazing sieved="false" hydrometerGravity="39" idref="Transparent"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T213"/>
+        <glazing sieved="false" hydrometerGravity="39" idref="ModifiedMamoRightAlumina"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T203"/>
+        <glazing sieved="false" hydrometerGravity="51" idref="WhiteGloss"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->
 
     <!--
