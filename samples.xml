@@ -1130,6 +1130,12 @@
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
+    <sample date="2008-03-09">
+        <brick xml:id="T219"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of Bone Ash, P3305</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->
 
     <!--
