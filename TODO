@@ -8,4 +8,15 @@
 * Add measurements
 * Add images
 
+* Melt tests, have:
+    P3110, Ferro frit
+    P3316, Feldspar FFF
+    P3342, Soda ASh
+    P3134, High Alcaline Ferro Frit
+    P3309, China Clay
+    P3317, Feldspar Soda
+    P3315, Dolomite
+    P3305, Bone Ash
+    P3346, Whiting
+
 vim: et:ts=4:sw=4:sts=4

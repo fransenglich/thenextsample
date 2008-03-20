@@ -1130,10 +1130,36 @@
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
-    <sample date="2008-03-09">
+    <sample date="2008-03-20">
         <brick xml:id="T219"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Melt test of Bone Ash, P3305</db:para>
+        <db:para>Melt test of Bone Ash, P3305. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T202"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of Whiting, P3346. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T222"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of Talcum, P3345. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T217"/>
+        <glazing sieved="true" hydrometerGravity="41" idref="SatinBase"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-20">
+        <brick xml:id="T214"/>
+        <glazing sieved="true" hydrometerGravity="43" idref="GreenBlueSatin"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
     </sample>
 
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->

@@ -544,7 +544,7 @@
 
     <glaze xml:id="ClausCrystalGreenBlack"
            manufacturer="Frans Englich"
-           name="Chrome Transparent Green">
+           name="Claus' Crystal Green/Black">
            <db:para>Green with black crystals, Handbook in Studio Ceramics, p. 184.</db:para>
 
            <recipe>
@@ -555,6 +555,36 @@
                <component idref="CobberCarbonate"   parts="3"/>
            </recipe>
     </glaze>
+
+    <glaze xml:id="SatinBase"
+           manufacturer="Frans Englich"
+           name="Satin Base">
+           <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181. Should be opaque white in reduction.</db:para>
+
+           <recipe>
+               <component idref="ChinaClay"         replacementFor="Kaolin" parts="22"/>
+               <component idref="FeldsparSoda"      parts="53"/>
+               <component idref="Dolomite"          parts="22"/>
+               <component idref="Alumina"           parts="3"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="GreenBlueSatin"
+           manufacturer="Frans Englich"
+           name="Green Blue Satin">
+           <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181 with colorants. I think the colorants are too much, but my weight can't measure smaller amounts. Think they will burn out, or the glaze is unstable.</db:para>
+
+           <recipe>
+               <component idref="ChinaClay"         replacementFor="Kaolin" parts="22"/>
+               <component idref="FeldsparSoda"      parts="53"/>
+               <component idref="Dolomite"          parts="22"/>
+               <component idref="Alumina"           parts="3"/>
+               <component idref="CobaltOxide"       parts="1"/>
+               <component idref="ChromeOxide"       parts="3"/>
+           </recipe>
+    </glaze>
+
+
 
 </glazes>
 <!--
