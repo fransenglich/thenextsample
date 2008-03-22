@@ -1184,6 +1184,29 @@
         <db:para>From 200 g batch. Mixed with mixer.</db:para>
     </sample>
 
+    <sample date="2008-03-22">
+        <brick xml:id="T221"/>
+        <glazing sieved="true" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
+    <sample date="2008-03-22">
+        <brick xml:id="T211"/>
+        <glazing sieved="true" hydrometerGravity="44" idref="SatinGlossGreenBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer. Very thick and feel heavy.</db:para>
+    </sample>
+
+    <sample date="2008-03-22">
+        <brick xml:id="T164"/>
+        <glazing sieved="true" hydrometerGravity="28" idref="SatinGlossGreenBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer. Hydrometer is completely estimated. It sunk far away from the grading. Could easily be 20 or 32.</db:para>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->
 
     <!--

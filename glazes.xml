@@ -619,6 +619,21 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="SatinGlossGreenBlack"
+           manufacturer="Frans Englich"
+           name="Satin Gloss Green Black">
+           <db:para>From The Glaze Book, p. 175.</db:para>
+
+           <recipe>
+               <component idref="Flint"             replacementFor="Quartz" parts="41"/>
+               <component idref="ChinaClay"         parts="35"/>
+               <component idref="Whiting"           parts="24"/>
+               <component idref="CobberCarbonate"   parts="3"/>
+               <component idref="TitaniumDioxide"   parts="2"/>
+               <component idref="CobaltCarbonate"   parts="2"/>
+           </recipe>
+    </glaze>
+
 
 
 </glazes>
