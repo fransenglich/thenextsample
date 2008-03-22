@@ -37,6 +37,9 @@
     <component                                  xml:id="CalciumBorateFrit">Calcium Borate Frit, P2954</component>
     <component                                  xml:id="Talc">Talc, P3345</component>
     <component                                  xml:id="BoneAsh">Bone ash, P3305</component>
+    <component                                  xml:id="ZirconiumSilicate">Zirconium Silicate</component>
+    <component                                  xml:id="Feldspar">Zirconium Silicate</component>
+    <component                                  xml:id="Quartz">Quartz</component>
 
 </components>
 <!--

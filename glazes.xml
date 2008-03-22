@@ -1,5 +1,6 @@
 <glazes
     xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:db="http://docbook.org/ns/docbook">
     <glaze xml:id="GreenHue"
            manufacturer="Potterycrafts Limited"
@@ -581,6 +582,40 @@
                <component idref="Alumina"           parts="3"/>
                <component idref="CobaltOxide"       parts="1"/>
                <component idref="ChromeOxide"       parts="3"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="ModifiedSatinWhite"
+           manufacturer="Frans Englich"
+           name="Satin White">
+           <db:para>Satin White, from The Glaze Book, p. 183. Has a specified soak time of one hour at 1290 degree Celcius.</db:para>
+
+           <db:para>Modified the recipe by replacing the 11 parts of zirconium silicate with 5.5 parts flint, and 5.5 parts zirconium oxide.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="45"/>
+               <component idref="Dolomite"          parts="22"/>
+               <component idref="Flint"             replacementFor="Quartz" parts="16"/>
+               <component idref="Flint"             replacementFor="ZirconiumSilicate" parts="5.5"/>
+               <component idref="ZirconiumOxide"    replacementFor="ZirconiumSilicate" parts="5.5"/>
+               <component idref="ChinaClay"         parts="6"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="GreenModifiedSatinWhite"
+           manufacturer="Frans Englich"
+           name="Satin Green">
+           <db:para><db:xref xlink:href="#ModifiedSatinWhite"/> plus colorants.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="45"/>
+               <component idref="Dolomite"          parts="22"/>
+               <component idref="Flint"             replacementFor="Quartz" parts="16"/>
+               <component idref="Flint"             replacementFor="ZirconiumSilicate" parts="5.5"/>
+               <component idref="ZirconiumOxide"    replacementFor="ZirconiumSilicate" parts="5.5"/>
+               <component idref="ChinaClay"         parts="6"/>
+               <component idref="ChromeOxide"       parts="1.5"/>
+               <component idref="CobberCarbonate"   parts="1.5"/>
            </recipe>
     </glaze>
 

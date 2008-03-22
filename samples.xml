@@ -1162,6 +1162,28 @@
         <db:para>From 200 g batch. Mixed with mixer.</db:para>
     </sample>
 
+    <sample date="2008-03-22">
+        <brick xml:id="T207"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-03-22">
+        <brick xml:id="T160"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+    </sample>
+
+    <sample date="2008-03-22">
+        <brick xml:id="T224"/>
+        <glazing sieved="true" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->
 
     <!--
@@ -1189,7 +1211,6 @@
     BUY 
     Barium Carbonate
     Ball Clay
-    P3317, Natriumfeltspat
     Wollastonite
     lithium carbonatew
     Rutile
