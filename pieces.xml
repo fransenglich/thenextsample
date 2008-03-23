@@ -454,7 +454,9 @@
 
     <piece xml:id="P48">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="ModifiedMamoRightAlumina" sieved="true"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-02-23</db:date> Unbelievable. I forgot to write down the gravity of the glaze. But somewher between 40 and 50 I think.</db:para>
     </piece>
 
     <piece xml:id="P10">
