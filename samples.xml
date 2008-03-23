@@ -1207,7 +1207,13 @@
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
-    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 235-241. -->
+    <sample date="2008-03-23">
+        <brick xml:id="T212"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3314, Cornish Stone.</db:para>
+    </sample>
+
+    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
 
     <!--
     NC-4 Feldspar
