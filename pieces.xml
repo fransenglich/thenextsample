@@ -156,7 +156,6 @@
     <piece xml:id="P17">
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="IntenseBlack" sieved="false"/>
-        <!--- TODO What's the gravity? -->
         <db:para><db:date>2007-10-31</db:date>The edge sunk due to that the edge was too wetened when trimming.</db:para>
     </piece>
 
@@ -484,7 +483,6 @@
         <glazing idref="ModifiedMamoRightAlumina" sieved="true" hydrometerGravity="51"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
     </piece>
-    <!-- TODO enter the other one. -->
 
     <piece xml:id="P46">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
@@ -505,14 +503,50 @@
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
     </piece>
 
-    <!--
-    2007-12-09 900, poorly thrown Aladin in the lamp
-    2007-12-09 900, small piece for oval experiments. Trimmed of tons
-    2007-12-09 900, bigger, small bowl, for oval experiements.
+    <piece xml:id="P50">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
 
+    <piece xml:id="P51">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
 
-    2007-12-29 3500
-    -->
+    <piece xml:id="P52">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P53">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P54">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P55">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P56">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P57">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
+
+    <piece xml:id="P58">
+        <clayref idref="WSW"/>
+        <db:para><db:date>2008-03-24</db:date></db:para>
+    </piece>
 
 </pieces>
 
