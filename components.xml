@@ -40,6 +40,7 @@
     <component                                  xml:id="ZirconiumSilicate">Zirconium Silicate</component>
     <component                                  xml:id="Feldspar">Zirconium Silicate</component>
     <component                                  xml:id="Quartz">Quartz</component>
+    <component                                  xml:id="PotashFeldspar">Potash Feldspar(Kalifeltspat in Norwegian), P3296</component>
 
 </components>
 <!--
