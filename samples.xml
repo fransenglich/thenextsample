@@ -1128,6 +1128,7 @@
         <glazing sieved="false" hydrometerGravity="51" idref="WhiteGloss"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+        <db:para>The id has been corrected, clarified on the back side.</db:para>
     </sample>
 
     <sample date="2008-03-20">
@@ -1146,6 +1147,7 @@
         <brick xml:id="T222"/>
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of Talcum, P3345. An arbitrary amount.</db:para>
+        <db:para>Evidently, didn't melt at all.</db:para>
     </sample>
 
     <sample date="2008-03-20">
@@ -1160,6 +1162,7 @@
         <glazing sieved="true" hydrometerGravity="43" idref="GreenBlueSatin"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>The id looks like 219 but is 214, clarified on the back side.</db:para>
     </sample>
 
     <sample date="2008-03-22">
@@ -1190,6 +1193,7 @@
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. Mixed with mixer.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
+        <db:para><db:date>2008-03-29</db:date> The yellow stain is powder on the surface, it didn't mix with the glaze.</db:para>
     </sample>
 
     <sample date="2008-03-22">
