@@ -1079,12 +1079,14 @@
     <sample date="2008-03-19">
         <brick xml:id="T237"/>
         <clayref idref="WSW"/>
-        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas.</db:para>
+        <glazing sieved="false" hydrometerGravity="44" idref="Transparent"/>
+        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is T231.</db:para>
     </sample>
 
     <sample date="2008-03-19">
         <brick xml:id="T235"/>
         <clayref idref="SaintThomas"/>
+        <glazing sieved="false" hydrometerGravity="44" idref="Transparent"/>
         <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire.</db:para>
     </sample>
 
