@@ -61,10 +61,10 @@
                Can't be found in Waldermar Ellefesen's price catalog from 2003, nor does the number show up in Potterycrafts' info. Is a porcelain glaze, according to Sissel.</db:para>
    </glaze>
 
-    <glaze xml:id="TransparentCobberCarbonate"
-           name="Cobber Carbonate oxide in transparent glaze"
+    <glaze xml:id="TransparentCopperCarbonate"
+           name="Copper Carbonate oxide in transparent glaze"
            manufacturer="Mixture">
-           <db:para>To 200 ml transparent glaze, P1091, was 20 g Cobber carbonate, P3404, added.</db:para>
+           <db:para>To 200 ml transparent glaze, P1091, was 20 g Copper carbonate, P3404, added.</db:para>
    </glaze>
 
     <glaze xml:id="TransparentYellowStain"
@@ -321,7 +321,7 @@
                <component idref="Whiting"           parts="10"/>
                <component idref="Alumina"           parts="10" replacementFor="GrollegKaolin"/>
                <component idref="TinOxide"          parts="10" replacementFor="ZincOxide"/>
-               <component idref="CobberCarbonate"   parts="4"/>
+               <component idref="CopperCarbonate"   parts="4"/>
            </recipe>
     </glaze>
 
@@ -335,7 +335,7 @@
                <component idref="Whiting"           parts="10"/>
                <component idref="Alumina"           parts="10" replacementFor="GrollegKaolin"/>
                <component idref="TinOxide"          parts="10" replacementFor="ZincOxide"/>
-               <component idref="CobberCarbonate"   parts="4"/>
+               <component idref="CopperCarbonate"   parts="4"/>
            </recipe>
     </glaze>
 
@@ -349,7 +349,7 @@
                <component idref="Whiting"           parts="15"/>
                <component idref="Flint"             parts="30" replacementFor="Silica"/>
                <component idref="Alumina"           parts="5" replacementFor="Kaolin"/>
-               <component idref="CobberCarbonate"   parts="5"/>
+               <component idref="CopperCarbonate"   parts="5"/>
            </recipe>
     </glaze>
 
@@ -431,7 +431,7 @@
                <component idref="FerroFrit"         parts="15"/>
                <component idref="ZincOxide"         parts="4"/>
                <component idref="TinOxide"          parts="1" replacementFor="TitaniumDioxide"/>
-               <component idref="CobberCarbonate"   parts="0.5"/>
+               <component idref="CopperCarbonate"   parts="0.5"/>
                <component idref="Bentonite"         parts="2"/>
            </recipe>
     </glaze>
@@ -448,7 +448,7 @@
                <component idref="FerroFrit"         parts="15"/>
                <component idref="ZincOxide"         parts="4"/>
                <component idref="TinOxide"          parts="1" replacementFor="TitaniumDioxide"/>
-               <component idref="CobberCarbonate"   parts="0.5"/>
+               <component idref="CopperCarbonate"   parts="0.5"/>
                <component idref="Bentonite"         parts="2"/>
            </recipe>
     </glaze>
@@ -532,7 +532,7 @@
     <glaze xml:id="ChromeTransparentGreen"
            manufacturer="Frans Englich"
            name="Chrome Transparent Green">
-           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 101. But instead of Cobber Carbonate, Chrome Oxide is used.</db:para>
+           <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 101. But instead of Copper Carbonate, Chrome Oxide is used.</db:para>
 
            <recipe>
                <component idref="CornwallStone"     parts="70"/>
@@ -553,7 +553,7 @@
                <component idref="ChinaClay"         replacementFor="Kaolin" parts="20"/>
                <component idref="Dolomite"          parts="20"/>
                <component idref="BoneAsh"           parts="10"/>
-               <component idref="CobberCarbonate"   parts="3"/>
+               <component idref="CopperCarbonate"   parts="3"/>
            </recipe>
     </glaze>
 
@@ -615,7 +615,7 @@
                <component idref="ZirconiumOxide"    replacementFor="ZirconiumSilicate" parts="5.5"/>
                <component idref="ChinaClay"         parts="6"/>
                <component idref="ChromeOxide"       parts="1.5"/>
-               <component idref="CobberCarbonate"   parts="1.5"/>
+               <component idref="CopperCarbonate"   parts="1.5"/>
            </recipe>
     </glaze>
 
@@ -628,7 +628,7 @@
                <component idref="Flint"             replacementFor="Quartz" parts="41"/>
                <component idref="ChinaClay"         parts="35"/>
                <component idref="Whiting"           parts="24"/>
-               <component idref="CobberCarbonate"   parts="3"/>
+               <component idref="CopperCarbonate"   parts="3"/>
                <component idref="TitaniumDioxide"   parts="2"/>
                <component idref="CobaltCarbonate"   parts="2"/>
            </recipe>

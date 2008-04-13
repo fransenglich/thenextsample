@@ -11,7 +11,7 @@
     <component priceIsFor="500"     price="110"     xml:id="TinOxide">Tin Oxide, P3361</component>
     <component priceIsFor="500"     price="200"     xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
     <component priceIsFor="500"     price="83"      xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
-    <component priceIsFor="500"     price="83"      xml:id="CobberCarbonate">Cobber Carbonate, P3403</component>
+    <component priceIsFor="500"     price="83"      xml:id="CopperCarbonate">Copper Carbonate, P3403</component>
     <component priceIsFor="500"     price="97"      xml:id="ChromeOxide">Chrome Oxide, P3401</component>
     <component priceIsFor="5000"    price="110"     xml:id="ChinaClay">China Clay(Kaolin), P3309</component>
     <component priceIsFor="5000"    price="47"      xml:id="Alumina">Aluminium Oxide, P3300</component>

@@ -301,7 +301,7 @@
 
     <sample date="2007-11-07">
         <brick xml:id="T51"/>
-        <glazing idref="TransparentCobberCarbonate" hydrometerGravity="42" sieved="false"/>
+        <glazing idref="TransparentCopperCarbonate" hydrometerGravity="42" sieved="false"/>
         <clayref idref="SaintThomas"/>
         <db:para>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</db:para>
     </sample>
@@ -661,7 +661,7 @@
         <brick xml:id="T111"/>
         <glazing sieved="true" hydrometerGravity="51" idref="WillsOribeAlumina"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The middle layer had a lot less Cobber on its surface, for some reason. Hm, that's because the cobber settles quickly, quicker than the others. Bentonite needed.</db:para>
+        <db:para>The middle layer had a lot less Copper on its surface, for some reason. Hm, that's because the copper settles quickly, quicker than the others. Bentonite needed.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -721,7 +721,7 @@
         <brick xml:id="T130"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>To about 10 ml water was about 2 gram Titanium Dioxide(P3362) added, added and painted ontop of the glazed, unfired surface(majolica). Flowed very evenly from the brush, compared to for instance Cobber Cabonate.</db:para>
+        <db:para>To about 10 ml water was about 2 gram Titanium Dioxide(P3362) added, added and painted ontop of the glazed, unfired surface(majolica). Flowed very evenly from the brush, compared to for instance Copper Cabonate.</db:para>
         <db:para><db:date>2008-03-08</db:date> Why yellow? John Britt writes "Titanium dioxide accentuates the color of the clay body and in the presence of iron gives cream colors". Most likely that.</db:para>
     </sample>
 
@@ -729,15 +729,15 @@
         <brick xml:id="T131"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>To about 10 ml water was a "pinch" of Cobber Carbonate(P3404), probably 1-3 grams, added and painted ontop of the glazed, unfired surface(majolica).</db:para>
+        <db:para>To about 10 ml water was a "pinch" of Copper Carbonate(P3404), probably 1-3 grams, added and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
     <sample date="2008-03-01">
         <brick xml:id="T140"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T136 and T131 were mixed. So this is Cobber Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Cobber has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
+        <db:para>The batches used on T136 and T131 were mixed. So this is Copper Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -766,7 +766,7 @@
         <brick xml:id="T154"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T139 and T140 were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Cobber Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para>The batches used on T139 and T140 were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -795,8 +795,8 @@
         <brick xml:id="T133"/>
         <glazing sieved="false" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T138 and T154 were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Cobber Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
-        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Cobber has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
+        <db:para>The batches used on T138 and T154 were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
     <sample date="2008-03-01">
