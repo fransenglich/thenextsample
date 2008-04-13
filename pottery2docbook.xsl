@@ -227,8 +227,11 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <db:para>Used on:
                     <xsl:for-each select="$piecesUsing">
                         <db:xref xlink:href="#{@xml:id}"/>
-                        <xsl:if test="position() != last()">
-                            <xsl:text> </xsl:text>
+                        <xsl:if test="position() = last() - 1">
+                            <xsl:text> and </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="position() &lt; last() - 1">
+                            <xsl:text>, </xsl:text>
                         </xsl:if>
                         <xsl:if test="position() = last()">
                             <xsl:text>.</xsl:text>
