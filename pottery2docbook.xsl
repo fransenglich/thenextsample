@@ -246,7 +246,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <!--<xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>-->
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
-            
+
         </section>
     </xsl:template>
 
