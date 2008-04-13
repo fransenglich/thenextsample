@@ -339,10 +339,10 @@
            </recipe>
     </glaze>
 
-   <glaze xml:id="WillsOribe"
+   <glaze xml:id="WillsOribeAlumina"
            manufacturer="Frans Englich"
            name="Will's Oribe">
-           <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101.</db:para>
+           <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Note that Alumina was chosen as substitute for Kaolin.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
@@ -636,7 +636,7 @@
 
     <glaze xml:id="SatinBase5Zirconium"
            manufacturer="Frans Englich"
-           name="Satin Base">
+           name="Satin Base, with 5 parts Zirconium Oxide">
            <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181, plus 5 parts Zirconium Oxide.</db:para>
 
            <recipe>
@@ -645,6 +645,21 @@
                <component idref="Dolomite"          parts="22"/>
                <component idref="Alumina"           parts="3"/>
                <component idref="ZirconiumOxide"    parts="5"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="BlueFire"
+           manufacturer="Frans Englich"
+           name="Blue Fire">
+           <db:para>Blue, from The Glaze Book, p. 150. For oxidation, soak time 1 h.</db:para>
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="60"/>
+               <component idref="Dolomite"          parts="20"/>
+               <component idref="Flint"             parts="15" replacementFor="Quartz"/>
+               <component idref="ChinaClay"         parts="5"/>
+               <component idref="Rutile"            parts="3"/>
+               <component idref="CobaltOxide"       parts="1"/>
            </recipe>
     </glaze>
 

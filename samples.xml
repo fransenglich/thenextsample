@@ -659,7 +659,7 @@
 
     <sample date="2008-02-16">
         <brick xml:id="T111"/>
-        <glazing sieved="true" hydrometerGravity="51" idref="WillsOribe"/>
+        <glazing sieved="true" hydrometerGravity="51" idref="WillsOribeAlumina"/>
         <clayref idref="SaintThomas"/>
         <db:para>The middle layer had a lot less Cobber on its surface, for some reason. Hm, that's because the cobber settles quickly, quicker than the others. Bentonite needed.</db:para>
     </sample>
@@ -1266,6 +1266,34 @@
         <glazing sieved="true" hydrometerGravity="50" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>Perceived as very thick. Mixed with mixer. From 2000 g batch.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T242"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="SatinBase5Zirconium"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Mixed with mixer. From 2000 g batch.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T246"/>
+        <glazing sieved="true" hydrometerGravity="47" idref="WillsOribeAlumina"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Mixed with mixer. From 200 g batch.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T234"/>
+        <glazing sieved="true" hydrometerGravity="50" idref="BlueFire"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Mixed with mixer. From 200 g batch.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T243"/>
+        <glazing sieved="true" hydrometerGravity="35" idref="BlueFire"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Mixed with mixer. From 200 g batch. Gravity number is estimate. Below 40, that is known.</db:para>
     </sample>
 
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->

@@ -555,6 +555,12 @@
         <db:para><db:date>2008-03-24</db:date></db:para>
     </piece>
 
+    <piece xml:id="P59">
+        <clayref idref="WSW"/>
+        <glazing idref="SatinBase5Zirconium" sieved="true" hydrometerGravity="42"/>
+        <db:para><db:date>2008-03-24</db:date> 31 inscribed into the bisque, but it seems to be wrong. Has written 59 with oxide pen. Fairly thin glaze layer.</db:para>
+    </piece>
+
 </pieces>
 
 <!--
