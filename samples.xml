@@ -1226,6 +1226,48 @@
         <db:para>Melt test of P3314, Cornish Stone.</db:para>
     </sample>
 
+    <sample date="2008-04-13">
+        <brick xml:id="T205"/>
+        <glazing sieved="true" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Very thick at the bottom, the Bentonite surey is at work. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T215"/>
+        <glazing sieved="true" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Only one dip. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T198"/>
+        <glazing sieved="true" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <clayref idref="WSW"/>
+        <db:para>Only one dip. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T206"/>
+        <glazing sieved="true" hydrometerGravity="32" idref="NewGrassGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T248"/>
+        <glazing sieved="true" hydrometerGravity="57" idref="SatinBase"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Perceived as very thick. Didn't make it into the two bottom holes. Mixed with mixer. From 2000 g batch.</db:para>
+    </sample>
+
+    <sample date="2008-04-13">
+        <brick xml:id="T225"/>
+        <glazing sieved="true" hydrometerGravity="50" idref="SatinBase"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Perceived as very thick. Mixed with mixer. From 2000 g batch.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
 
     <!--

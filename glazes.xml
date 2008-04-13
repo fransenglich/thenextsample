@@ -482,7 +482,7 @@
                <component idref="CornwallStone"     parts="25"/>
                <component idref="Flint"             parts="20" replacementFor="Silica"/>
                <component idref="ChinaClay"         parts="7" replacementFor="Kaolin"/>
-               <component idref="BariumCarbonate"   parts="5.8"/>
+               <component idref="BariumCarbonate"   parts="3"/>
                <component idref="Wollastonite"      parts="19"/>
                <component idref="LithiumCarbonate"  parts="1"/>
                <component idref="ChromeOxide"       parts="2"/>
@@ -634,6 +634,19 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="SatinBase5Zirconium"
+           manufacturer="Frans Englich"
+           name="Satin Base">
+           <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181, plus 5 parts Zirconium Oxide.</db:para>
+
+           <recipe>
+               <component idref="ChinaClay"         parts="22" replacementFor="Kaolin"/>
+               <component idref="FeldsparSoda"      parts="53"/>
+               <component idref="Dolomite"          parts="22"/>
+               <component idref="Alumina"           parts="3"/>
+               <component idref="ZirconiumOxide"    parts="5"/>
+           </recipe>
+    </glaze>
 
 
 </glazes>

@@ -455,7 +455,7 @@
         <clayref idref="SaintThomas" weightWhenWet="400"/>
         <glazing idref="ModifiedMamoRightAlumina" sieved="true"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
-        <db:para><db:date>2008-02-23</db:date> Unbelievable. I forgot to write down the gravity of the glaze. But somewher between 40 and 50 I think.</db:para>
+        <db:para><db:date>2008-02-23</db:date> Unbelievable. I forgot to write down the gravity of the glaze. But somewhere between 40 and 50 I think.</db:para>
     </piece>
 
     <piece xml:id="P10">
@@ -532,12 +532,17 @@
 
     <piece xml:id="P55">
         <clayref idref="WSW"/>
-        <db:para><db:date>2008-03-24</db:date></db:para>
+        <glazing idref="SatinBase" sieved="true" hydrometerGravity="50"/>
+        <db:para><db:date>2008-04-13</db:date> Mixed with mixer. With the handle facing the viewer; the handle has a damge on the upper part on the left side, a run on the left outer side, and an imploded bubble on the inner left side.</db:para>
+        <db:para>The bottom says: "81x109 when wet".</db:para>
     </piece>
 
     <piece xml:id="P56">
         <clayref idref="WSW"/>
+        <glazing idref="SatinBase5Zirconium" sieved="true" hydrometerGravity="50"/>
+
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2008-04-13</db:date> Mixed with mixer. Turned it in normal position direcly after dipping so it ran downwards. Some random pooling in the buttom, and very shall runs on the outside.</db:para>
     </piece>
 
     <piece xml:id="P57">
