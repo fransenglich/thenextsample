@@ -67,6 +67,10 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 </legalnotice>
             </info>
 
+            <xsl:apply-templates select="p:pieces"/>
+            <xsl:apply-templates select="p:glazes"/>
+            <xsl:apply-templates select="p:clays"/>
+
             <chapter>
                 <title>Oven Programs</title>
 
@@ -136,10 +140,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 </informaltable>
 
             </chapter>
-
-            <xsl:apply-templates select="p:pieces"/>
-            <xsl:apply-templates select="p:glazes"/>
-            <xsl:apply-templates select="p:clays"/>
 
             <xsl:call-template name="sourcesAppendix"/>
         </book>
