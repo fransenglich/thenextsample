@@ -222,6 +222,21 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
             <xsl:apply-templates select="p:recipe"/>
 
+            <xsl:variable name="piecesUsing" select="//p:pieces/p:piece[p:glazing/@idref = current()/@xml:id]"/>
+            <xsl:if test="$piecesUsing">
+                <db:para>Used on:
+                    <xsl:for-each select="$piecesUsing">
+                        <db:xref xlink:href="#{@xml:id}"/>
+                        <xsl:if test="position() != last()">
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
+                        <xsl:if test="position() = last()">
+                            <xsl:text>.</xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
+                </db:para>
+            </xsl:if>
+
             <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
                 <!-- TODO This just doesn't seem to work. -->
                 <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
@@ -229,21 +244,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
             
-            
-            <xsl:if test="//p:piece[(p:glazing | p:brushon)/@idref = current()/@xml:id]">
-                <section>
-                    <title>Pieces</title>
-                    <para>The following pieces are using this glaze:</para>
-                    <!-- TODO Why the heck does this generate text nodes? xsltproc bug? Test with Saxon.
-                    <xsl:apply-templates mode="pieceref" match="//p:piece[(p:glazing | p:brushon)/@idref = current()/@xml:id]"/>
-                    -->
-                </section>
-            </xsl:if>
         </section>
-    </xsl:template>
-
-    <xsl:template mode="pieceref" match="p:piece">
-        <para><xref xlink:href="#{@xml:id}"/></para>
     </xsl:template>
 
     <xsl:template name="imageForSample">
