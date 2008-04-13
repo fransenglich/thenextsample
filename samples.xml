@@ -1230,7 +1230,7 @@
         <brick xml:id="T205"/>
         <glazing sieved="true" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Very thick at the bottom, the Bentonite surey is at work. Mixed with mixer.</db:para>
+        <db:para>Very thick at the bottom, the Bentonite surely is at work. Mixed with mixer.</db:para>
     </sample>
 
     <sample date="2008-04-13">
