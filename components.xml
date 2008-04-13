@@ -1,47 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <components xmlns="tag:fenglich.fastmail.fm,2007:Pottery">
 
-    <component priceIsFor="100"     price="110" xml:id="CobaltOxide">Cobalt Oxide, P3403</component>
-    <component priceIsFor="1000"    price="120" xml:id="TitaniumDioxide">Titanium Dioxide, P3362</component>
-    <component priceIsFor="1000"    price="130" xml:id="FerroFrit">Ferro Frit, P3110</component>
-    <component priceIsFor="1000"    price="28"  xml:id="Bentonite">Bentonite, P3304</component>
-    <component priceIsFor="1000"    price="65"  xml:id="SyntheticRedIronOxide">Synthetic Red Iron Oxide, P3441</component>
-    <component priceIsFor="1000"    price="66"  xml:id="ZincOxide">Zinc Oxide, P3350</component>
-    <component priceIsFor="500"     price="110" xml:id="TinOxide">Tin Oxide, P3361</component>
-    <component priceIsFor="500"     price="200" xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
-    <component priceIsFor="500"     price="83"  xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
-    <component priceIsFor="500"     price="83"  xml:id="CobberCarbonate">Cobber Carbonate, P3403</component>
-    <component priceIsFor="500"     price="97"  xml:id="ChromeOxide">Chrome Oxide, P3401</component>
-    <component priceIsFor="5000"    price="110" xml:id="ChinaClay">China Clay(Kaolin), P3309</component>
-    <component priceIsFor="5000"    price="47"  xml:id="Alumina">Aluminium Oxide, P3300</component>
-    <component priceIsFor="5000"    price="57"  xml:id="Whiting">Whiting, P3346</component>
-    <component priceIsFor="5000"    price="64"  xml:id="Dolomite">Dolomite, P3315</component>
-    <component priceIsFor="5000"    price="79"  xml:id="FeldsparFFF">Kalifeltspat Feldspar, P3316</component>
-    <component priceIsFor="5000"    price="79"  xml:id="SodaAsh">Sodium Ash, P3342</component>
-    <component priceIsFor="5000"    price="87"  xml:id="CornwallStone">Cornwall Stone, P3314</component>
-    <component priceIsFor="5000"    price="87"  xml:id="Flint">Flint, P3319</component>
-    <component priceIsFor="5000"    price="93"  xml:id="F4Feldspar">F4 Feldspar(Soda Feldspar), P3317</component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
-    <component priceIsFor="1000"    price="65"  xml:id="RedIronOxide">Red Synthetic Iron Oxide, P3441</component>
-    <component                                  xml:id="FeldsparSoda">Feldspar soda(natronfeldspat in Danish), P3317</component>
+    <!-- prices are non-MVA. -->
+    <component priceIsFor="100"     price="110"     xml:id="CobaltOxide">Cobalt Oxide, P3403</component>
+    <component priceIsFor="1000"    price="120"     xml:id="TitaniumDioxide">Titanium Dioxide, P3362</component>
+    <component priceIsFor="1000"    price="130"     xml:id="FerroFrit">Ferro Frit, P3110</component>
+    <component priceIsFor="1000"    price="28"      xml:id="Bentonite">Bentonite, P3304</component>
+    <component priceIsFor="1000"    price="65"      xml:id="SyntheticRedIronOxide">Synthetic Red Iron Oxide, P3441</component>
+    <component priceIsFor="1000"    price="66"      xml:id="ZincOxide">Zinc Oxide, P3350</component>
+    <component priceIsFor="500"     price="110"     xml:id="TinOxide">Tin Oxide, P3361</component>
+    <component priceIsFor="500"     price="200"     xml:id="ZirconiumOxide">Zirconium Oxide, R1026</component>
+    <component priceIsFor="500"     price="83"      xml:id="CobaltCarbonate">Cobalt Carbonate, P3402</component>
+    <component priceIsFor="500"     price="83"      xml:id="CobberCarbonate">Cobber Carbonate, P3403</component>
+    <component priceIsFor="500"     price="97"      xml:id="ChromeOxide">Chrome Oxide, P3401</component>
+    <component priceIsFor="5000"    price="110"     xml:id="ChinaClay">China Clay(Kaolin), P3309</component>
+    <component priceIsFor="5000"    price="47"      xml:id="Alumina">Aluminium Oxide, P3300</component>
+    <component priceIsFor="5000"    price="57"      xml:id="Whiting">Whiting, P3346</component>
+    <component priceIsFor="5000"    price="64"      xml:id="Dolomite">Dolomite, P3315</component>
+    <component priceIsFor="5000"    price="79"      xml:id="FeldsparFFF">Kalifeltspat Feldspar, P3316</component>
+    <component priceIsFor="5000"    price="79"      xml:id="SodaAsh">Sodium Ash, P3342</component>
+    <component priceIsFor="5000"    price="87"      xml:id="CornwallStone">Cornwall Stone, P3314</component>
+    <component priceIsFor="5000"    price="87"      xml:id="Flint">Flint, P3319</component>
+    <component priceIsFor="5000"    price="93"      xml:id="F4Feldspar">F4 Feldspar(Soda Feldspar), P3317</component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
+    <component priceIsFor="1000"    price="65"      xml:id="RedIronOxide">Red Synthetic Iron Oxide, P3441</component>
+    <component priceIsFor="5000"    price="93"      xml:id="FeldsparSoda">Feldspar soda(natronfeldspat in Danish), P3317</component>
+    <component priceIsFor="5000"    price="55"      xml:id="NephelineSyenite">Nepheline Syenite, P3332</component>
+    <component priceIsFor="1000"    price="55"      xml:id="BariumCarbonate">Barium Carbonate, P3303</component>
+    <component priceIsFor="5000"    price="140"     xml:id="Wollastonite">Wollastonite, P3348</component>
+    <component priceIsFor="500"     price="86"      xml:id="LithiumCarbonate">Lithium Carbonate, R1063</component>
+    <component priceIsFor="5000"    price="100"     xml:id="Talc">Talc, P3345</component>
+    <component priceIsFor="1000"    price="59"      xml:id="BoneAsh">Bone Ash, P3305</component>
+    <component priceIsFor="5000"    price="79"      xml:id="PotashFeldspar">Potash Feldspar(Kalifeltspat in Norwegian), P3296</component>
+    <component priceIsFor="1000"    price="75"      xml:id="Rutile">Rutile, P3338</component>
 
-    <component                                  xml:id="NC4Feldspar">NC-4 Feldspar</component>
-    <component                                  xml:id="CusterFeldspar">Custer Feldspar</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
-    <component                                  xml:id="Silica">Silica</component>
-    <component                                  xml:id="GrollegKaolin">Grolleg Kaolin, P3298</component>
-    <component                                  xml:id="Kaolin">Kaolin</component>
-    <component                                  xml:id="CalcinedKaolin">Calcined Kaolin</component>
-    <component                                  xml:id="NephelineSyenite">Nepheline Syenite, P3332</component>
-    <component                                  xml:id="BariumCarbonate">Barium Carbonate, P3303</component>
-    <component                                  xml:id="Wollastonite">Wollastonite, P3348</component>
-    <component                                  xml:id="LithiumCarbonate">Lithium Carbonate, R1063</component>
-    <component                                  xml:id="CalciumBorateFrit">Calcium Borate Frit, P2954</component>
-    <component                                  xml:id="Talc">Talc, P3345</component>
-    <component                                  xml:id="BoneAsh">Bone ash, P3305</component>
-    <component                                  xml:id="ZirconiumSilicate">Zirconium Silicate</component>
-    <component                                  xml:id="Feldspar">Zirconium Silicate</component>
-    <component                                  xml:id="Quartz">Quartz</component>
-    <component                                  xml:id="PotashFeldspar">Potash Feldspar(Kalifeltspat in Norwegian), P3296</component>
-    <component                                  xml:id="Rutile">Rutile, P3338</component>
+
+    <component                                      xml:id="NC4Feldspar">NC-4 Feldspar</component>
+    <component                                      xml:id="CusterFeldspar">Custer Feldspar</component><!-- http://www.potters.org/subject05767.htm , http://ceramic-materials.com/cermat/material/1068.html -->
+    <component                                      xml:id="Silica">Silica</component>
+    <component                                      xml:id="GrollegKaolin">Grolleg Kaolin, P3298</component>
+    <component                                      xml:id="Kaolin">Kaolin</component>
+    <component                                      xml:id="CalcinedKaolin">Calcined Kaolin</component>
+    <component                                      xml:id="CalciumBorateFrit">Calcium Borate Frit, P2954</component>
+    <component                                      xml:id="ZirconiumSilicate">Zirconium Silicate</component>
+    <component                                      xml:id="Feldspar">Feldspar</component>
+    <component                                      xml:id="Quartz">Quartz</component>
 
 </components>
 <!--
