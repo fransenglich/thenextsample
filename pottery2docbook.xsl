@@ -285,6 +285,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <section>
             <title><xsl:apply-templates select="p:brick"/></title>
 
+            <para><date><xsl:value-of select="@date"/></date></para>
             <para>
                 <xsl:apply-templates select="(p:glazing | p:brushon)[@idref = $mainGlaze]" mode="lowKeyGlazing"/>
             </para>
