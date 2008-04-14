@@ -72,9 +72,21 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:apply-templates select="p:clays"/>
 
             <chapter>
+                <title>Non-glaze Samples</title>
+                <para>This section contains samples which aren't of glazes,
+                    such as melt tests. See also the samples that have at least
+                    <phrase xlink:href="#Transparent">transparent
+                        glaze</phrase> as glazing, which contains similar kind
+                    samples.</para>
+
+                <xsl:apply-templates select="p:samples/p:sample[not(p:glazing | p:brushon)]"/>
+            </chapter>
+
+
+            <chapter>
                 <title>Oven Programs</title>
 
-                <para>Unless otherwise stated, all burns were done with the following settings.</para>
+                <para>Unless otherwise stated, all firings were done with the following settings.</para>
                 <informaltable>
                     <tgroup cols="8">
                         <thead>

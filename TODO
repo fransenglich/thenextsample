@@ -1,7 +1,6 @@
 * Add uniqueness constaint on sample/brick/@xml:id
 * Front image
 * Arrange glazes by color.
-* "Other Samples" section, for melt tests
 * Change link texts for pieces and samples.
 * Output date for samples in glazes.
 * Put clayref on brick.
