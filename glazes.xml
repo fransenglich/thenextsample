@@ -663,6 +663,20 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="OpaqueGlossWhite"
+           manufacturer="Frans Englich"
+           name="Opaque Gloss White">
+           <db:para>White, from The Glaze Book, p. 182. For oxidation, soak time 1 h. The base glaze is the same as <db:xref xlink:href="BlueFire"/>.</db:para>
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="60"/>
+               <component idref="Dolomite"          parts="20"/>
+               <component idref="Flint"             parts="15" replacementFor="Quartz"/>
+               <component idref="ChinaClay"         parts="5"/>
+               <component idref="TinOxide"          parts="10"/>
+           </recipe>
+    </glaze>
+
 
 </glazes>
 <!--

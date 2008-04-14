@@ -1317,6 +1317,27 @@
         <db:para>The batches used on T229 and T228 were mixed. So this is Lithium Carbonate(R1063) and Barium Carbonate(P3303) mixed.</db:para>
     </sample>
 
+    <sample date="2008-04-14">
+        <brick xml:id="T230"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The glaze flowed very thickly. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-14">
+        <brick xml:id="T194"/>
+        <glazing sieved="true" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
+        <clayref idref="WSW"/>
+        <db:para>The glaze flowed very thickly. Mixed with mixer.</db:para>
+    </sample>
+
+    <sample date="2008-04-14">
+        <brick xml:id="T193"/>
+        <glazing sieved="true" hydrometerGravity="36" idref="OpaqueGlossWhite"/>
+        <clayref idref="WSW"/>
+        <db:para>The gravity number is estimated, although fairly well. It's at least below 40. Glazed only one layer.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
 
     <!--
