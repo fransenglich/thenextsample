@@ -456,7 +456,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                             <entry>Source/Replacement For</entry>
                         </xsl:if>
                         <entry>Parts</entry>
-                        <entry>Price/kg, MVA</entry>
+                        <entry>Price/kg for <phrase xlink:href="http://www.we.no/">Waldm. Ellefsen AS</phrase>, MVA, NOK</entry>
                     </row>
                 </thead>
                 <tfoot>
@@ -468,13 +468,13 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                         <xsl:if test="$hasReplacement">
                             <entry/>
                         </xsl:if>
-                        <entry>Total <xsl:value-of select="sum(p:component/@parts)"/></entry>
+                        <entry><xsl:value-of select="sum(p:component/@parts)"/></entry>
                         <entry>
                             <xsl:variable name="componentPrices">
                                 <xsl:apply-templates mode="computePrice" select="p:component"/>
                             </xsl:variable>
 
-                            Kilo price: TODO <xsl:value-of select="sum(ec:node-set($componentPrices))"/>
+                            <xsl:value-of select="sum(ec:node-set($componentPrices)/*)"/>
                         </entry>
                     </row>
                 </tfoot>
@@ -522,7 +522,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:variable name="price" select="number(/p:pottery/p:components/p:component[@xml:id = current()/@idref]/@price)"/>
             <xsl:variable name="priceIsFor" select="number(/p:pottery/p:components/p:component[@xml:id = current()/@idref]/@priceIsFor)"/>
 
-            <xsl:value-of select="round((($price div ($priceIsFor div 1000)) * (@parts div 100)) * 1.25)"/>
+            <xsl:value-of select="((($price div ($priceIsFor div 1000.0)) * (@parts div 100.0)) * 1.25)"/>
         </constant>
     </xsl:template>
 
