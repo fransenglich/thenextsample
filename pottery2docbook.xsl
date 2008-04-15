@@ -161,38 +161,33 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <chapter>
             <title>Pieces</title>
 
-            <section>
-                <title>Statistics</title>
-                <para>A total of <xsl:value-of select="count(p:piece)"/> pieces.</para>
+            <para>A total of <xsl:value-of select="count(p:piece)"/> pieces.</para>
 
-                <!--<para><x, <xsl:value-of select="em:max(p:piece/@idref)"/> - </para>-->
-            </section>
+            <para>The IDs assigned to pieces are arbitrary and not sequential. They don't reflect cronologically
+                the creation. However, they are sorted numerically in this document for quick lookup.</para>
 
-            <section>
-                <title>Pieces</title>
-
-                <para>The IDs assigned to pieces are arbitrary and not sequential, reflects cronologically
-                      or anything like that. However, they are sorted numerically in this document for quick lookup.</para>
-
-                <xsl:apply-templates select="p:piece">
-                    <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
-                </xsl:apply-templates>
-            </section>
+            <xsl:apply-templates select="p:piece">
+                <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
+            </xsl:apply-templates>
         </chapter>
     </xsl:template>
 
     <xsl:template match="p:piece">
-            <section>
-                <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-               <title>
-                    <xsl:value-of select="substring(@xml:id, 2)"/>
-                </title>
-                <xsl:apply-templates/>
-            </section>
+        <section>
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+           <title>
+                <xsl:value-of select="substring(@xml:id, 2)"/>
+            </title>
+            <xsl:apply-templates/>
+        </section>
     </xsl:template>
 
     <xsl:template match="p:clayref">
-        <para><emphasis>Clay</emphasis>: <phrase xlink:href="#{@idref}"><xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@idref]/@name"/></phrase><xsl:apply-templates select="@weightWhenWet"/></para>
+        <para>
+            <emphasis>Clay</emphasis>: <phrase xlink:href="#{@idref}">
+                <xsl:value-of select="/p:pottery/p:clays/p:clay[@xml:id = current()/@idref]/@name"/></phrase>
+            <xsl:apply-templates select="@weightWhenWet"/>
+        </para>
 
     </xsl:template>
 
@@ -212,6 +207,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="p:glazes">
         <chapter>
             <title>Glazes</title>
+
+            <para>A total of <xsl:value-of select="count(//p:sample)"/> sample bricks.</para>
 
             <xsl:apply-templates select="p:glaze">
                 <xsl:sort select="@name"/>
