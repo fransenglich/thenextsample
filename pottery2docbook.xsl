@@ -1,5 +1,4 @@
 <?xml version='1.0' encoding="UTF-8"?>
-<!DOCTYPE book SYSTEM "-//OASIS//DTD DocBook V5.0//EN">
 <xsl:stylesheet version="1.0"
                 xml:lang="en"
                 xmlns="http://docbook.org/ns/docbook"
