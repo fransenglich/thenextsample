@@ -344,7 +344,7 @@
     </sample>
 
     <sample date="2007-11-24">
-        <tile xml:id="T02"/><!-- T32.. -->
+        <tile xml:id="T02"/><!-- T32. -->
         <glazing idref="GreenHueAndFrostedJade" hydrometerGravity="45" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Green Hue were on 45, Frosted Jade on 44.</db:para>
@@ -1115,7 +1115,7 @@
         <tile xml:id="T204"/>
         <glazing sieved="no" hydrometerGravity="33" idref="ClausCrystalGreenBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200g batch. The gravity is estimated. This hydrometer goes to 40, and it sunk to.. about 33?</db:para>
+        <db:para>From 200g batch. The gravity is estimated. This hydrometer goes to 40, and it sunk to... about 33?</db:para>
     </sample>
 
     <sample date="2008-03-20">
@@ -1237,21 +1237,21 @@
         <tile xml:id="T215"/>
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Only one dip..</db:para>
+        <db:para>Only one dip.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <tile xml:id="T198"/>
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="WSW"/>
-        <db:para>Only one dip..</db:para>
+        <db:para>Only one dip.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <tile xml:id="T206"/>
         <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure..</db:para>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure.</db:para>
     </sample>
 
     <sample date="2008-04-13">
