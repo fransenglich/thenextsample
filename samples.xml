@@ -644,7 +644,7 @@
         <brick xml:id="T103"/>
         <glazing sieved="60" hydrometerGravity="52" idref="CandaceBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Used mconsidering a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt dispersed unevenly, small black spots at the tops. Sealed of with fixativ. <db:constant>100</db:constant>ml weighted <db:constant>178</db:constant>g.</db:para>
+        <db:para>Used considering a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt dispersed unevenly, small black spots at the tops. Sealed of with fixativ. <db:constant>100</db:constant>ml weighted <db:constant>178</db:constant>g.</db:para>
     </sample>
 
     <sample date="2008-02-16">
