@@ -331,10 +331,10 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="@hydrometerGravity">
         <emphasis>hydrometer gravity</emphasis>
         <xsl:text> </xsl:text>
-        <constant><xsl:value-of select="."/></constant>
+        <constant><xsl:value-of select="."/></constant>,
     </xsl:template>
 
-    <xsl:template match="@sieved">,
+    <xsl:template match="@sieved">
         <emphasis>
             <xsl:choose>
                 <xsl:when test=". = 'WithMixer'">

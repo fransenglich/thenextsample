@@ -245,9 +245,9 @@ A format for describing pottery glazes, samples and pieces.
     </xs:complexType>
 
     <xs:complexType name="glazingType">
-        <xs:attribute name="idref"    use="required" type="xs:IDREF"/>
+        <xs:attribute name="idref"              use="required" type="xs:IDREF"/>
         <xs:attribute name="hydrometerGravity"  use="optional" type="hydrometerGravityType"/>
-        <xs:attribute name="sieved"   use="required">
+        <xs:attribute name="sieved"             use="required">
             <xs:simpleType>
                 <xs:union memberTypes="xs:integer withMixerType"/>
             </xs:simpleType>
