@@ -435,24 +435,24 @@
 
     <sample date="2007-12-09">
         <tile xml:id="T66"/>
-        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="VelourBlackBO"/>
+        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-09">
         <tile xml:id="T65"/>
-        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="CeradelNoir"/>
+        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. Extremely thick, like semi-dry tooth paste.</db:para>
     </sample>
 
     <sample date="2007-12-09">
         <tile xml:id="T68"/>
-        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <brushon idref="AmacoWhiteUnderglaze"/>
+        <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers.</db:para>
     </sample>
@@ -510,8 +510,8 @@
 
     <sample date="2007-12-15">
         <tile xml:id="T81"/>
-        <glazing sieved="no" hydrometerGravity="38" idref="Transparent"/>
         <brushon idref="JetBlack"/>
+        <glazing sieved="no" hydrometerGravity="38" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
@@ -536,8 +536,8 @@
 
     <sample date="2007-12-15">
         <tile xml:id="T97"/>
-        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="AmacoBrown"/>
+        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers</db:para>
     </sample>
@@ -552,16 +552,16 @@
 
     <sample date="2007-12-15">
         <tile xml:id="T86"/>
-        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="YellowOatMetal"/>
+        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
 
     <sample date="2007-12-15">
         <tile xml:id="T71"/>
-        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <brushon idref="JetBlack"/>
+        <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
     </sample>
