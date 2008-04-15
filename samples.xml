@@ -47,10 +47,16 @@
 
     <sample date="2007-09-28">
         <tile xml:id="W6"/>
+        <brushon idref="GreyAmaco"/>
+        <clayref idref="WSW"/>
+        <db:para/>
+    </sample>
+
+    <sample date="2007-09-28">
         <tile xml:id="W11"/>
         <brushon idref="GreyAmaco"/>
         <clayref idref="WSW"/>
-        <db:para>W11 had an extra layer on the second level.</db:para>
+        <db:para>Had an extra layer on the second level.</db:para>
     </sample>
 
     <sample date="2007-09-28">

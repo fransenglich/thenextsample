@@ -77,7 +77,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                     such as melt tests. See also the samples that have at least
                     <phrase xlink:href="#Transparent">transparent
                         glaze</phrase> as glazing, which contains similar kind
-                    samples.</para>
+                    of samples.</para>
 
                 <xsl:apply-templates select="p:samples/p:sample[not(p:glazing | p:brushon)]"/>
             </chapter>
@@ -233,7 +233,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
             <xsl:apply-templates select="p:recipe"/>
 
-            <xsl:variable name="piecesUsing" select="//p:pieces/p:piece[p:glazing/@idref = current()/@xml:id]"/>
+            <xsl:variable name="piecesUsing" select="//p:pieces/p:piece[p:glazing/@idref = current()/@xml:id]/@xml:id"/>
             <xsl:if test="$piecesUsing">
                 <db:para>Used on
                     <xsl:choose>
@@ -243,29 +243,55 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
                     <xsl:text> </xsl:text>
 
-                    <xsl:for-each select="$piecesUsing">
-                        <db:xref xrefstyle="template: %t" xlink:href="#{@xml:id}"/>
-                        <xsl:if test="position() = last() - 1">
-                            <xsl:text> and </xsl:text>
-                        </xsl:if>
-                        <xsl:if test="position() &lt; last() - 1">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                        <xsl:if test="position() = last()">
-                            <xsl:text>.</xsl:text>
-                        </xsl:if>
-                    </xsl:for-each>
+                    <xsl:call-template name="listItems">
+                        <xsl:with-param name="items" select="$piecesUsing"/>
+                    </xsl:call-template>
                 </db:para>
             </xsl:if>
 
-            <xsl:apply-templates select="//p:samples/p:sample[(p:brushon | p:glazing)[@idref = current()/@xml:id]]">
+            <db:para/>
+            <xsl:variable name="secondaryTiles" select="//p:samples/p:sample[(p:brushon | p:glazing)[position() > 1][@idref = current()/@xml:id]]/p:tile/@xml:id"/>
+
+            <xsl:if test="$secondaryTiles">
+                <para>Appears as a secondary glaze on
+                    <xsl:choose>
+                        <xsl:when test="count($piecesUsing) > 1">tiles</xsl:when>
+                        <xsl:otherwise>tile</xsl:otherwise>
+                    </xsl:choose>
+
+                    <xsl:text> </xsl:text>
+
+                    <xsl:call-template name="listItems">
+                        <xsl:with-param name="items" select="$secondaryTiles"/>
+                    </xsl:call-template>
+                </para>
+            </xsl:if>
+
+            <xsl:variable name="tiles" select="//p:samples/p:sample[(p:brushon | p:glazing)[1][@idref = current()/@xml:id]]"/>
+            <xsl:apply-templates select="$tiles">
                 <!-- TODO This just doesn't seem to work. -->
                 <xsl:sort data-type="number" select="number(substring(@xml:id, 2))"/>
                 <!--<xsl:sort data-type="number" select="number(p:glazing/@hydrometerGravity)"/>-->
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
-
         </section>
+    </xsl:template>
+
+    <xsl:template name="listItems">
+        <xsl:param name="items"/>
+
+        <xsl:for-each select="$items">
+            <db:xref xlink:href="#{.}"/>
+            <xsl:if test="position() = last() - 1">
+                <xsl:text> and </xsl:text>
+            </xsl:if>
+            <xsl:if test="position() &lt; last() - 1">
+                <xsl:text>, </xsl:text>
+            </xsl:if>
+                <xsl:if test="position() = last()">
+                    <xsl:text>.</xsl:text>
+                </xsl:if>
+        </xsl:for-each>
     </xsl:template>
 
     <xsl:template name="imageForSample">
@@ -289,6 +315,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="p:sample">
         <xsl:param name="mainGlaze"/>
         <section>
+            <xsl:attribute name="xml:id"><xsl:value-of select="p:tile/@xml:id"/></xsl:attribute>
+            <xsl:attribute name="xreflabel"><xsl:value-of select="p:tile/@xml:id"/></xsl:attribute>
             <title><xsl:apply-templates select="p:tile"/></title>
 
             <para><date><xsl:value-of select="@date"/></date></para>
