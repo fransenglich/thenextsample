@@ -220,6 +220,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="p:glaze">
         <section>
             <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="xreflabel"><xsl:value-of select="@name"/></xsl:attribute>
             <title>
                 <xsl:value-of select="@name"/>
                 <xsl:if test="@productID">,
