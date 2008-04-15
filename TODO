@@ -1,8 +1,6 @@
 * Add uniqueness constaint on sample/tile/@xml:id
 * Front image
 * Arrange glazes by color.
-* Change link texts for pieces and samples.
-* Put clayref on tile.
 * Add measurements
 * Add images
 
@@ -22,9 +20,5 @@
     - Nepheline
     - Potash feldspar
     - Talc
-
-* Colorants test:
-    - Lihium Carbonate
-    - Barium Carbonate
 
 vim: et:ts=4:sw=4:sts=4
