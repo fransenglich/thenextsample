@@ -532,17 +532,17 @@
 
     <piece xml:id="P55">
         <clayref idref="WSW"/>
-        <glazing idref="SatinBase" sieved="60" hydrometerGravity="50"/>
-        <db:para><db:date>2008-04-13</db:date> Mixed with mixer. With the handle facing the viewer; the handle has a damge on the upper part on the left side, a run on the left outer side, and an imploded bubble on the inner left side.</db:para>
+        <glazing idref="SatinBase" sieved="WithMixer" hydrometerGravity="50"/>
+        <db:para><db:date>2008-04-13</db:date> With the handle facing the viewer; the handle has a damge on the upper part on the left side, a run on the left outer side, and an imploded bubble on the inner left side.</db:para>
         <db:para>The bottom says: "81x109 when wet".</db:para>
     </piece>
 
     <piece xml:id="P56">
         <clayref idref="WSW"/>
-        <glazing idref="SatinBase5Zirconium" sieved="60" hydrometerGravity="50"/>
+        <glazing idref="SatinBase5Zirconium" sieved="WithMixer" hydrometerGravity="50"/>
 
         <db:para><db:date>2008-03-24</db:date></db:para>
-        <db:para><db:date>2008-04-13</db:date> Mixed with mixer. Turned it in normal position direcly after dipping so it ran downwards. Some random pooling in the buttom, and very shall runs on the outside.</db:para>
+        <db:para><db:date>2008-04-13</db:date> Turned it in normal position direcly after dipping so it ran downwards. Some random pooling in the buttom, and very shall runs on the outside.</db:para>
     </piece>
 
     <piece xml:id="P57">

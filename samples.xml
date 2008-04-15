@@ -649,9 +649,9 @@
 
     <sample date="2008-02-16">
         <brick xml:id="T106"/>
-        <glazing sieved="60" hydrometerGravity="40" idref="ModifiedTransparentGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="40" idref="ModifiedTransparentGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Used mixer for a long time, from a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
+        <db:para>From a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
 
         <db:para><db:date>2008-02-23</db:date> It's sort of obvious why this turned out as it did. Zinc oxide is a flux, since it's absent the thing didn't melt, and since Tin Oxide is an opacifier, it isn't transparent. I wonder what caused the graphite-look which can be seen on the second and third layer, and a little bit on the first.</db:para>
         <db:para><db:date>2008-03-09</db:date> Crawling. Could possibly caused by be the Tin oxide, since it has a high contaction rate. Yes, John Britt writes: ""Pinhols, matte surfaces, and rawling sometimes result due to its high viscosity and surface tension, [...]". So that also explains why it's matte. Probably also completely oversaturated with something, considering the graphite-like blackness.</db:para>
@@ -689,9 +689,9 @@
 
     <sample date="2008-02-24">
         <brick xml:id="T110"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="ModifiedMamoRightAlumina"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedMamoRightAlumina"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Used mixer on a <db:constant>200</db:constant>g batch.</db:para>
+        <db:para>From a <db:constant>200</db:constant>g batch.</db:para>
     </sample>
 
     <sample date="2008-02-24">
@@ -973,58 +973,58 @@
 
     <sample date="2008-03-09">
         <brick xml:id="T169"/>
-        <glazing sieved="60" hydrometerGravity="46" idref="HamadaBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T180"/>
-        <glazing sieved="60" hydrometerGravity="46" idref="HamadaBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
         <clayref idref="WSW"/>
-        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T186"/>
-        <glazing sieved="60" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
         <clayref idref="WSW"/>
-        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T167"/>
-        <glazing sieved="60" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T183"/>
-        <glazing sieved="60" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
         <clayref idref="WSW"/>
-        <db:para>From 200 g batch, mixed it with mixer. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
+        <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T163"/>
-        <glazing sieved="60" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch, mixed it with mixer. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
+        <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four bricks have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T170"/>
-        <glazing sieved="60" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch, mixed it with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-09">
         <brick xml:id="T185"/>
-        <glazing sieved="60" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
         <clayref idref="WSW"/>
-        <db:para>From 200g batch, mixed with mixer. By mistake I brushed away a bit from the left bottom corner. Might well be that it will look like an expansion problem.</db:para>
+        <db:para>From 200g batch. By mistake I brushed away a bit from the left bottom corner. Might well be that it will look like an expansion problem.</db:para>
     </sample>
 
     <sample date="2008-03-09">
@@ -1161,62 +1161,62 @@
 
     <sample date="2008-03-20">
         <brick xml:id="T217"/>
-        <glazing sieved="60" hydrometerGravity="41" idref="SatinBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="41" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-20">
         <brick xml:id="T214"/>
-        <glazing sieved="60" hydrometerGravity="43" idref="GreenBlueSatin"/>
+        <glazing sieved="WithMixer" hydrometerGravity="43" idref="GreenBlueSatin"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
         <db:para>The id looks like 219 but is 214, clarified on the back side.</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T207"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T160"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T224"/>
-        <glazing sieved="60" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T221"/>
-        <glazing sieved="60" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer.</db:para>
+        <db:para>From 200 g batch.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
         <db:para><db:date>2008-03-29</db:date> The yellow stain is powder on the surface, it didn't mix with the glaze.</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T211"/>
-        <glazing sieved="60" hydrometerGravity="44" idref="SatinGlossGreenBlack"/>
+        <glazing sieved="WithMixer" hydrometerGravity="44" idref="SatinGlossGreenBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer. Very thick and feel heavy.</db:para>
+        <db:para>From 200 g batch. Very thick and feel heavy.</db:para>
     </sample>
 
     <sample date="2008-03-22">
         <brick xml:id="T164"/>
-        <glazing sieved="60" hydrometerGravity="28" idref="SatinGlossGreenBlack"/>
+        <glazing sieved="WithMixer" hydrometerGravity="28" idref="SatinGlossGreenBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g batch. Mixed with mixer. Hydrometer is completely estimated. It sunk far away from the grading. Could easily be 20 or 32.</db:para>
+        <db:para>From 200 g batch. Hydrometer is completely estimated. It sunk far away from the grading. Could easily be 20 or 32.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
 
@@ -1228,72 +1228,72 @@
 
     <sample date="2008-04-13">
         <brick xml:id="T205"/>
-        <glazing sieved="60" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Very thick at the bottom, the Bentonite surely is at work. Mixed with mixer.</db:para>
+        <db:para>Very thick at the bottom, the Bentonite surely is at work.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T215"/>
-        <glazing sieved="60" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Only one dip. Mixed with mixer.</db:para>
+        <db:para>Only one dip..</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T198"/>
-        <glazing sieved="60" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="WSW"/>
-        <db:para>Only one dip. Mixed with mixer.</db:para>
+        <db:para>Only one dip..</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T206"/>
-        <glazing sieved="60" hydrometerGravity="32" idref="NewGrassGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Mixed with mixer.</db:para>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure..</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T248"/>
-        <glazing sieved="60" hydrometerGravity="57" idref="SatinBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="57" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Perceived as very thick. Didn't make it into the two bottom holes. Mixed with mixer. From 2000 g batch.</db:para>
+        <db:para>Perceived as very thick. Didn't make it into the two bottom holes. From 2000 g batch.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T225"/>
-        <glazing sieved="60" hydrometerGravity="50" idref="SatinBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Perceived as very thick. Mixed with mixer. From 2000 g batch.</db:para>
+        <db:para>Perceived as very thick. From 2000 g batch.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T242"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="SatinBase5Zirconium"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="SatinBase5Zirconium"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Mixed with mixer. From 2000 g batch.</db:para>
+        <db:para>From 2000 g batch.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T246"/>
-        <glazing sieved="60" hydrometerGravity="47" idref="WillsOribeAlumina"/>
+        <glazing sieved="WithMixer" hydrometerGravity="47" idref="WillsOribeAlumina"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Mixed with mixer. From 200 g batch.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T234"/>
-        <glazing sieved="60" hydrometerGravity="50" idref="BlueFire"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="BlueFire"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Mixed with mixer. From 200 g batch.</db:para>
+        <db:para>From 200 g batch.</db:para>
     </sample>
 
     <sample date="2008-04-13">
         <brick xml:id="T243"/>
-        <glazing sieved="60" hydrometerGravity="35" idref="BlueFire"/>
+        <glazing sieved="WithMixer" hydrometerGravity="35" idref="BlueFire"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Mixed with mixer. From 200 g batch. Gravity number is estimate. Below 40, that is known.</db:para>
+        <db:para>From 200 g batch. Gravity number is estimate. Below 40, that is known.</db:para>
     </sample>
 
     <sample date="2008-04-14">
@@ -1319,16 +1319,16 @@
 
     <sample date="2008-04-14">
         <brick xml:id="T230"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The glaze flowed very thickly. Mixed with mixer.</db:para>
+        <db:para>The glaze flowed very thickly.</db:para>
     </sample>
 
     <sample date="2008-04-14">
         <brick xml:id="T194"/>
-        <glazing sieved="60" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
+        <glazing sieved="WithMixer" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
         <clayref idref="WSW"/>
-        <db:para>The glaze flowed very thickly. Mixed with mixer.</db:para>
+        <db:para>The glaze flowed very thickly.</db:para>
     </sample>
 
     <sample date="2008-04-14">
