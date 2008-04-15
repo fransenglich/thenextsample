@@ -772,7 +772,7 @@
         <tile xml:id="T154"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on <db:xref xlink:href="#T139"/> and <db:xref xlink:href="140"/> were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T139"/> and <db:xref xlink:href="#T140"/> were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -793,7 +793,7 @@
         <tile xml:id="T138"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on <db:xref xlink:href="151"/> and <db:xref xlink:href="141"/> were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T151"/> and <db:xref xlink:href="#T141"/> were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
         <db:para><db:date>2008-03-08</db:date> I can swear that the surrounding transparent is tinted towards green. Crome is a super strong colorant, but did it really manage to walk over there? Can't find anything supporting that chrome should have strong fluxing properties but considering that it is coloring rather evenly, that might be the case.</db:para>
     </sample>
 
@@ -801,7 +801,7 @@
         <tile xml:id="T133"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on <db:xref xlink:href="138"/> and <db:xref xlink:href="154"/> were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T138"/> and <db:xref xlink:href="#T154"/> were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
         <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
@@ -1086,7 +1086,7 @@
         <tile xml:id="T237"/>
         <glazing sieved="no" hydrometerGravity="44" idref="Transparent"/>
         <clayref idref="WSW"/>
-        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is <db:xref xlink:href="#T231"/>.</db:para>
+        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is T231.</db:para>
     </sample>
 
     <sample date="2008-03-19">
