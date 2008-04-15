@@ -270,13 +270,18 @@ A format for describing pottery glazes, samples and pieces.
     </xs:simpleType>
 
     <xs:complexType name="componentType">
-        <xs:simpleContent>
-            <xs:extension base="xs:normalizedString">
+        <xs:complexContent>
+            <xs:restriction base="xs:anyType">
+                <xs:sequence>
+                    <xs:element ref="db:phrase"
+                                minOccurs="1"
+                                maxOccurs="1"/>
+                </xs:sequence>
                 <xs:attribute ref="xml:id" use="required"/>
                 <xs:attribute name="price" type="xs:positiveInteger" use="optional"/>
                 <xs:attribute name="priceIsFor" type="xs:positiveInteger" use="optional"/>
-            </xs:extension>
-        </xs:simpleContent>
+            </xs:restriction>
+        </xs:complexContent>
     </xs:complexType>
 
     <xs:complexType name="componentsType">

@@ -456,7 +456,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                             <entry>Source/Replacement For</entry>
                         </xsl:if>
                         <entry>Parts</entry>
-                        <entry>Price/kg for <phrase xlink:href="http://www.we.no/">Waldm. Ellefsen AS</phrase>, MVA, NOK</entry>
+                        <entry>Price/kg for <phrase xlink:href="http://www.we.no/">Waldm. Ellefsen AS</phrase> 2003, MVA, NOK</entry>
                     </row>
                 </thead>
                 <tfoot>
@@ -496,14 +496,14 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:with-param name="component" select="$component"/>
                 <xsl:with-param name="name" select="@idref"/>
             </xsl:call-template>
-            <entry><xsl:value-of select="$component"/></entry>
+            <entry><xsl:copy-of select="$component/node()"/></entry>
             <xsl:if test="@replacementFor">
                 <xsl:variable name="replacement" select="/p:pottery/p:components/p:component[@xml:id = current()/@replacementFor]"/>
                 <xsl:call-template name="checkComponentRef">
                     <xsl:with-param name="component" select="$replacement"/>
                     <xsl:with-param name="name" select="@replacementFor"/>
                 </xsl:call-template>
-                <entry><xsl:value-of select="$replacement"/></entry>
+                <entry><xsl:copy-of select="$replacement/node()"/></entry>
             </xsl:if>
 
             <xsl:if test="$hasReplacement and not(@replacementFor)">
