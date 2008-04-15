@@ -249,7 +249,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </xsl:if>
 
             <db:para/>
-            <xsl:variable name="secondaryTiles" select="//p:samples/p:sample[(p:brushon | p:glazing)[position() > 1][@idref = current()/@xml:id]]/p:tile/@xml:id"/>
+            <xsl:variable name="secondaryTiles" select="//p:samples/p:sample[(p:brushon | p:glazing)[position() > 1][@idref = current()/@xml:id]]/@xml:id"/>
 
             <xsl:if test="$secondaryTiles">
                 <para>Appears as a secondary glaze on
@@ -314,9 +314,9 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="p:sample">
         <xsl:param name="mainGlaze"/>
         <section>
-            <xsl:attribute name="xml:id"><xsl:value-of select="p:tile/@xml:id"/></xsl:attribute>
-            <xsl:attribute name="xreflabel"><xsl:value-of select="p:tile/@xml:id"/></xsl:attribute>
-            <title><xsl:apply-templates select="p:tile"/></title>
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="xreflabel"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <title><xsl:value-of select="@xml:id"/></title>
 
             <para><date><xsl:value-of select="@date"/></date></para>
             <para>
@@ -329,11 +329,11 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </xsl:if>
             <xsl:apply-templates select="p:clayref"/>
             <xsl:apply-templates select="db:para"/>
-            <xsl:apply-templates mode="doImage" select="p:tile"/>
+            <xsl:apply-templates mode="doImage" select="."/>
         </section>
     </xsl:template>
 
-    <xsl:template mode="doImage" match="p:tile">
+    <xsl:template mode="doImage" match="p:sample">
         <xsl:call-template name="imageForSample">
             <xsl:with-param name="sampleName" select="@xml:id"/>
             <xsl:with-param name="imageName" select="@xml:id"/>
@@ -384,11 +384,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 </xsl:otherwise>
             </xsl:choose>
         </emphasis>
-    </xsl:template>
-
-    <xsl:template match="p:tile">
-        <xsl:value-of select="@xml:id"/>
-        <xsl:text> </xsl:text>
     </xsl:template>
 
     <xsl:template name="sourcesAppendix">

@@ -1,195 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<samples xmlns="tag:fenglich.fastmail.fm,2007:Pottery"
-         xmlns:xlink="http://www.w3.org/1999/xlink"
-         xmlns:db="http://docbook.org/ns/docbook">
-
-    <sample date="2007-09-28">
-        <tile xml:id="W1"/>
+<samples xmlns="tag:fenglich.fastmail.fm,2007:Pottery" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:db="http://docbook.org/ns/docbook">
+    <sample date="2007-09-28" xml:id="W1">
         <brushon idref="SandBrown"/>
         <clayref idref="WSW"/>
         <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T5"/>
+    <sample date="2007-09-28" xml:id="T5">
         <brushon idref="SandBrown"/>
         <clayref idref="SaintThomas"/>
         <db:para>The glaze dried very quickly. Thick layer. As can be seen, a gold/lighter brown goes through, when thickness increases.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W10"/>
+    <sample date="2007-09-28" xml:id="W10">
         <brushon idref="ImagineGreen"/>
         <clayref idref="WSW"/>
         <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T8"/>
+    <sample date="2007-09-28" xml:id="T8">
         <brushon idref="ImagineGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Convenient thickness for brushing. Note the brown spots. Miss coloring, oven accident?</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W12"/>
+    <sample date="2007-09-28" xml:id="W12">
         <glazing sieved="no" idref="FrostedJade" hydrometerGravity="53"/>
         <clayref idref="WSW"/>
         <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T41"/>
+    <sample date="2007-09-28" xml:id="T41">
         <glazing sieved="no" idref="FrostedJade" hydrometerGravity="53"/>
         <clayref idref="SaintThomas"/>
         <db:para>Very thick. Very hard to stir, could it be the temperature?</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W6"/>
+    <sample date="2007-09-28" xml:id="W6">
         <brushon idref="GreyAmaco"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W11"/>
+    <sample date="2007-09-28" xml:id="W11">
         <brushon idref="GreyAmaco"/>
         <clayref idref="WSW"/>
         <db:para>Had an extra layer on the second level.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T4"/>
+    <sample date="2007-09-28" xml:id="T4">
         <brushon idref="GreyAmaco"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T17"/>
+    <sample date="2007-09-28" xml:id="T17">
         <glazing idref="FrostedJade" sieved="60" hydrometerGravity="46"/>
         <clayref idref="SaintThomas"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W2"/>
+    <sample date="2007-09-28" xml:id="W2">
         <glazing idref="FrostedJade" sieved="60" hydrometerGravity="46"/>
         <clayref idref="WSW"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T9"/>
+    <sample date="2007-09-28" xml:id="T9">
         <glazing idref="GreenHue" sieved="60" hydrometerGravity="40"/>
         <clayref idref="SaintThomas"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W3"/>
+    <sample date="2007-09-28" xml:id="W3">
         <glazing idref="GreenHue" sieved="60" hydrometerGravity="40"/>
         <clayref idref="WSW"/>
         <db:para>Dipped, three seconds.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T34"/><!-- Although my paper note said T31 -->
-
+    <sample date="2007-09-28" xml:id="T34">
+        <!-- Although my paper note said T31 -->
         <glazing idref="FrostedJade" sieved="60" hydrometerGravity="45"/>
         <glazing idref="GreenHue" sieved="60" hydrometerGravity="41"/>
         <clayref idref="SaintThomas"/>
-
         <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W8"/>
-
+    <sample date="2007-09-28" xml:id="W8">
         <glazing idref="FrostedJade" sieved="60" hydrometerGravity="45"/>
         <glazing idref="GreenHue" sieved="60" hydrometerGravity="41"/>
         <clayref idref="WSW"/>
-
         <db:para>Frosted Jade across whole, with Green Hue on top at the right corner, diagonal.</db:para>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W13"/>
+    <sample date="2007-09-28" xml:id="W13">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="35"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T32"/>
+    <sample date="2007-09-28" xml:id="T32">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="35"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="T6"/>
+    <sample date="2007-09-28" xml:id="T6">
         <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-28">
-        <tile xml:id="W5"/>
+    <sample date="2007-09-28" xml:id="W5">
         <brushon idref="YellowBO"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T7"/>
-
+    <sample date="2007-08-15" xml:id="T7">
         <glazing sieved="no" idref="FrostedJade" hydrometerGravity="46"/>
         <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T12"/>
-
+    <sample date="2007-08-15" xml:id="T12">
         <glazing sieved="no" idref="FrostedJade" hydrometerGravity="46"/>
         <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T13"/>
-
+    <sample date="2007-08-15" xml:id="T13">
         <glazing sieved="no" idref="GreenHue" hydrometerGravity="46"/>
         <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T10"/>
-
+    <sample date="2007-08-15" xml:id="T10">
         <glazing sieved="no" idref="GreenHue" hydrometerGravity="46"/>
         <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T3"/>
-
+    <sample date="2007-08-15" xml:id="T3">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="45"/>
         <clayref idref="SaintThomas"/>
         <db:para>2 seconds dipping.</db:para>
     </sample>
-
-    <sample date="2007-08-15">
-        <tile xml:id="T2"/>
-
+    <sample date="2007-08-15" xml:id="T2">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="45"/>
         <clayref idref="SaintThomas"/>
         <db:para>4 seconds dipping.</db:para>
     </sample>
-
     <!-- TODO these are weird, probably gone.
     <sample date="2007-09-25">
         <tile xml:id="T9"/>
@@ -203,1149 +140,847 @@
         <db:para/>
     </sample>
     -->
-
-    <sample date="2007-09-25">
-        <tile xml:id="W9"/>
+    <sample date="2007-09-25" xml:id="W9">
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="no" idref="GreenHue"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-09-25">
-        <tile xml:id="T19"/>
+    <sample date="2007-09-25" xml:id="T19">
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="no" idref="GreenHue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-10-29">
-        <tile xml:id="T40"/>
+    <sample date="2007-10-29" xml:id="T40">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="50"/>
         <clayref idref="SaintThomas"/>
         <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
     </sample>
-
-    <sample date="2007-10-29">
-        <tile xml:id="W7"/>
+    <sample date="2007-10-29" xml:id="W7">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="50"/>
         <clayref idref="WSW"/>
         <db:para>Even though the glaze is very thick, it looks sane. Only bad indication of thickness can be seen on W7 where a tiny empty spot can be seen. Maybe it could have been avoided by polishing.</db:para>
     </sample>
-
-    <sample date="2007-10-29">
-        <tile xml:id="T31"/>
+    <sample date="2007-10-29" xml:id="T31">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="44"/>
         <clayref idref="SaintThomas"/>
         <db:para>It's dipped three times but it doesn't really show. That's good, since it means dipping time is less of a factor.</db:para>
     </sample>
-
-    <sample date="2007-10-29">
-        <tile xml:id="T36"/>
+    <sample date="2007-10-29" xml:id="T36">
         <glazing sieved="no" idref="IntenseBlack" hydrometerGravity="50"/>
         <clayref idref="SaintThomas"/>
         <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
     </sample>
-
-    <sample date="2007-10-29">
-        <tile xml:id="W4"/>
+    <sample date="2007-10-29" xml:id="W4">
         <glazing sieved="no" idref="IntenseBlack" hydrometerGravity="50"/>
         <clayref idref="WSW"/>
         <db:para>Despite being very thick, it is very elegant. Doesn't move at all, when judging from other pieces.</db:para>
     </sample>
-
-    <sample date="2007-11-04">
-        <tile xml:id="T43"/>
+    <sample date="2007-11-04" xml:id="T43">
         <clayref idref="SaintThomas"/>
         <db:para>No glaze, used pens. Top, top left, and left side is with a ballpoint pen, while the bottom right is with a black lead pencil. As the tile shows there's no trace, except for the mechanical marks that the ball pen did.</db:para>
     </sample>
-
-    <sample date="2007-11-04">
-        <tile xml:id="T46"/>
+    <sample date="2007-11-04" xml:id="T46">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="44"/>
         <clayref idref="SaintThomas"/>
         <db:para>Drew with black lead graphite pencil, and then glazed on top of that. As the tile shows there's not a single trace, so using pen is ok.</db:para>
     </sample>
-
-    <sample date="2007-11-04">
-        <tile xml:id="T44"/>
+    <sample date="2007-11-04" xml:id="T44">
         <glazing sieved="no" idref="IntenseBlack" hydrometerGravity="42"/>
         <clayref idref="SaintThomas"/>
         <db:para>Too thin.</db:para>
     </sample>
-
-    <sample date="2007-11-04">
-        <tile xml:id="T55"/>
+    <sample date="2007-11-04" xml:id="T55">
         <glazing sieved="no" idref="IntenseBlack" hydrometerGravity="42"/>
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="44"/>
         <clayref idref="SaintThomas"/>
         <db:para>White black diagonally across the tile. Both glazes to thin, or at least to quick dipping.</db:para>
     </sample>
-
-    <sample date="2007-11-07">
-        <tile xml:id="T54"/>
+    <sample date="2007-11-07" xml:id="T54">
         <brushon idref="AxnerBlackUnderGlazePen"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-11-07">
-        <tile xml:id="T33"/>
+    <sample date="2007-11-07" xml:id="T33">
         <glazing idref="Transparent" sieved="no" hydrometerGravity="42"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-11-07">
-        <tile xml:id="T30"/>
+    <sample date="2007-11-07" xml:id="T30">
         <glazing idref="TransparentYellowStain" hydrometerGravity="42" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Kinda ok, but it's a pity that the yellow is cold, even though Saint Thomas has a tad of iron.</db:para>
         <db:para>Dropped it in the floor on <db:date>2007-11-17</db:date>, glued it with cyanoacrylate glue.</db:para>
     </sample>
-
-    <sample date="2007-11-07">
-        <tile xml:id="T51"/>
+    <sample date="2007-11-07" xml:id="T51">
         <glazing idref="TransparentCopperCarbonate" hydrometerGravity="42" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Visible white spots on the sample. As if the transparent hadn't dissolved. Looks cool, annoying small spots, caused by gas extrusion? The clear metal feel to it might be avoided with less oxide, maybe.</db:para>
     </sample>
-
-    <sample date="2007-11-10">
-        <tile xml:id="T47"/>
+    <sample date="2007-11-10" xml:id="T47">
         <glazing idref="Chocolate" hydrometerGravity="42" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>This is traditional dark chocolate, both in texture and color. Doubt more stain will turn this black.</db:para>
     </sample>
-
-    <sample date="2007-11-22">
-        <tile xml:id="T35"/>
+    <sample date="2007-11-22" xml:id="T35">
         <glazing idref="FrostedJade" hydrometerGravity="50" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Maybe mixed up with T42.</db:para>
     </sample>
-
-    <sample date="2007-11-22">
-        <tile xml:id="T92"/>
+    <sample date="2007-11-22" xml:id="T92">
         <glazing idref="FrostedJade" hydrometerGravity="44" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Maybe mixed up with T35. The backside reads 92.</db:para>
     </sample>
-
-    <sample date="2007-11-22">
-        <tile xml:id="T39"/>
+    <sample date="2007-11-22" xml:id="T39">
         <glazing idref="FrostedJade" hydrometerGravity="44" sieved="no"/>
         <glazing idref="GreenHue" hydrometerGravity="45" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Green Hue is on top, at the bottom. So Frosted Jade was applied first, in other words. Frosted Jade was dried a bit first, but not completely, since the bisque was a tad cold.</db:para>
     </sample>
-
-    <sample date="2007-11-22">
-        <tile xml:id="T42"/>
+    <sample date="2007-11-22" xml:id="T42">
         <glazing idref="FrostedJade" hydrometerGravity="44" sieved="no"/>
         <glazing idref="GreenHue" hydrometerGravity="45" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>The opposite of T39. Frosted Jade is on top, at the bottom. So Green Hue was applied first, in other words. Green Hue was thoroughly dried with hot air gun.</db:para>
     </sample>
-
-    <sample date="2007-11-24">
-        <tile xml:id="T02"/><!-- T32. -->
+    <sample date="2007-11-24" xml:id="T02">
+        <!-- T32. -->
         <glazing idref="GreenHueAndFrostedJade" hydrometerGravity="45" sieved="no"/>
         <clayref idref="SaintThomas"/>
         <db:para>Green Hue were on 45, Frosted Jade on 44.</db:para>
     </sample>
-
-    <sample date="2007-11-24">
-        <tile xml:id="T37"/>
+    <sample date="2007-11-24" xml:id="T37">
         <brushon idref="AmacoWhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Convenient thickness. Brushed three different thickness.</db:para>
     </sample>
-
-    <sample date="2007-11-24">
-        <tile xml:id="T50"/>
+    <sample date="2007-11-24" xml:id="T50">
         <brushon idref="RedBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Brushed three different thickness.</db:para>
     </sample>
-
-    <sample date="2007-11-27">
-        <tile xml:id="T72"/>
+    <sample date="2007-11-27" xml:id="T72">
         <glazing sieved="no" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Applied is a slip consisting only of dilluted clay, namely, PRNF 4005 from Cerama Collet S.a, WBB Fuchs GmbH &amp; Co. Applied the slip directly after having cut out the sample, didn't wait. The glazed part is brown, tilting towards (khaki) green.</db:para>
     </sample>
-
-    <sample date="2007-11-27">
-        <tile xml:id="T63"/>
+    <sample date="2007-11-27" xml:id="T63">
         <glazing sieved="no" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Applied is a porcelain slip. Except for the last layer, the slip was applied directly after having cut out the sample, didn't wait. The transparent glaze turned out really well, think I dipped it for a long time.</db:para>
     </sample>
-
-    <sample date="2007-11-27">
-        <tile xml:id="T56"/>
+    <sample date="2007-11-27" xml:id="T56">
         <brushon idref="AmacoWaxyWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>Easy to brush with. The last layer was thoroughly dried before applying. 56 is scratched on the back.</db:para>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T61"/>
+    <sample date="2007-12-05" xml:id="T61">
         <brushon idref="TurquoiseBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T70"/>
+    <sample date="2007-12-05" xml:id="T70">
         <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T60"/>
+    <sample date="2007-12-05" xml:id="T60">
         <brushon idref="IndigoBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T62"/>
+    <sample date="2007-12-05" xml:id="T62">
         <brushon idref="OilSpot"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T69"/>
+    <sample date="2007-12-05" xml:id="T69">
         <brushon idref="TexturedBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-05">
-        <tile xml:id="T67"/>
+    <sample date="2007-12-05" xml:id="T67">
         <brushon idref="GoldBrownBO"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-09">
-        <tile xml:id="T66"/>
+    <sample date="2007-12-09" xml:id="T66">
         <brushon idref="VelourBlackBO"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
-
-    <sample date="2007-12-09">
-        <tile xml:id="T65"/>
+    <sample date="2007-12-09" xml:id="T65">
         <brushon idref="CeradelNoir"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. Extremely thick, like semi-dry tooth paste.</db:para>
     </sample>
-
-    <sample date="2007-12-09">
-        <tile xml:id="T68"/>
+    <sample date="2007-12-09" xml:id="T68">
         <brushon idref="AmacoWhiteUnderglaze"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T84"/>
+    <sample date="2007-12-15" xml:id="T84">
         <brushon idref="WhiteBO"/>
         <brushon idref="LichenGreenBO"/>
         <brushon idref="BlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The first layer has three vertical stripes which from left to right are white, black and green. The second layer has three horizontal stripes which from top to bottom are white, black, and green. All was done with tape masking, and each stripe had two even coats. This gives a range of a combinations. For instance, in the top right corner one finds white on top of green, and in the left bottom corner green on top of white.</db:para>
-
         <db:para>The black leaked into the white in the first layer and white leaked onto black at the top on the second layer. There was another leakage, not noted down, as well. Basically, the tape for flexible curves couldn't hold it out.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T100"/>
+    <sample date="2007-12-15" xml:id="T100">
         <brushon idref="BlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. The number in the top right corner is drawn over with black AXNER underglaze, and the back says 100. Oops.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T96"/>
+    <sample date="2007-12-15" xml:id="T96">
         <brushon idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T90"/>
+    <sample date="2007-12-15" xml:id="T90">
         <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T95"/>
+    <sample date="2007-12-15" xml:id="T95">
         <brushon idref="OrangeBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five layers, I think. This brush-on acts quite thin.</db:para>
     </sample>
-
-    <sample date="2007-12-16">
-        <tile xml:id="T88"/>
+    <sample date="2007-12-16" xml:id="T88">
         <glazing sieved="no" hydrometerGravity="45" idref="FrostedJade"/>
         <brushon idref="LichenGreenBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The left corner has Lichen Green brushed on top in one thorough layer. In the middle there was a drop of water which gave a visible texture, maybe it shows up after firing. On the right was sprayed, which flooded in a bit under the tape, a fixativ. It prevents the surface from being powderish, but doesn't repell water, athough slows down suction a bit. Not that that is of any use. However, it makes handling a glazed piece with ones hands less destructive. Assuming it doesn't have an effect on after glaze burn. The fixativ was Winsor &amp; Newton Artists' Fixativ, transparent, non removable.</db:para>
-
         <db:para>The frosted jade was one long even dip.</db:para>
-
-        <db:para><db:date>2007-12-21</db:date> So the Lichen Green area turned into as graphite, and no sign at all from the fixativ. Top right corner is cool, the one below a bit too.</db:para>
+        <db:para>
+            <db:date>2007-12-21</db:date> So the Lichen Green area turned into as graphite, and no sign at all from the fixativ. Top right corner is cool, the one below a bit too.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T81"/>
+    <sample date="2007-12-15" xml:id="T81">
         <brushon idref="JetBlack"/>
         <glazing sieved="no" hydrometerGravity="38" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-17">
-        <tile xml:id="T87"/>
+    <sample date="2007-12-17" xml:id="T87">
         <brushon idref="OrangeBO"/>
         <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>First, three layers of orange was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of orange and and three layers of yellow, and at the bottom three layers of orange and three layers of yellow.</db:para>
     </sample>
-
-    <sample date="2007-12-17">
-        <tile xml:id="T83"/>
+    <sample date="2007-12-17" xml:id="T83">
         <brushon idref="RedBO"/>
         <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>First, three layers of red was applied with the usual stair case approach. That is, at the top one layer, and at the bottom three layers. On top of that was three layers of yellow coated over the whole. That is, at the top one finds one layer of red and and three layers of yellow, and at the bottom three layers of red and three layers of yellow.</db:para>
-
-        <db:para><db:date>2007-12-21</db:date> Hilarious. Blue and green. I have to have mixed something up.</db:para>
+        <db:para>
+            <db:date>2007-12-21</db:date> Hilarious. Blue and green. I have to have mixed something up.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T97"/>
+    <sample date="2007-12-15" xml:id="T97">
         <brushon idref="AmacoBrown"/>
         <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T94"/>
+    <sample date="2007-12-15" xml:id="T94">
         <brushon idref="TransparentBO"/>
         <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Three layers of black.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T86"/>
+    <sample date="2007-12-15" xml:id="T86">
         <brushon idref="YellowOatMetal"/>
         <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
-
-    <sample date="2007-12-15">
-        <tile xml:id="T71"/>
+    <sample date="2007-12-15" xml:id="T71">
         <brushon idref="JetBlack"/>
         <glazing sieved="no" hydrometerGravity="41" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers. It was hard to get a thick layer of transparent glaze on top even though the piece was a bit warm. The black prevented suction.</db:para>
     </sample>
-
-    <sample date="2007-12-20">
-        <tile xml:id="T82"/>
+    <sample date="2007-12-20" xml:id="T82">
         <brushon idref="TexturedTan"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-20">
-        <tile xml:id="T89"/>
+    <sample date="2007-12-20" xml:id="T89">
         <brushon idref="AmacoYellow"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2007-12-20">
-        <tile xml:id="T85"/>
+    <sample date="2007-12-20" xml:id="T85">
         <brushon idref="AmacoWhiteUnderglaze"/>
         <brushon idref="LichenGreenBO"/>
         <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>At the bottom, vertically, from left to right: white, black and green. On top, horizontally, from top to bottom: white, black and green. Each strip had two layers, so in total there's four layers on each square.</db:para>
-
     </sample>
-
-    <sample date="2007-12-29">
-        <tile xml:id="T93"/>
+    <sample date="2007-12-29" xml:id="T93">
         <brushon idref="RedBO"/>
         <brushon idref="JetBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Five solid layers. Should be fired standing vertically, for testing viscosity.</db:para>
-        <db:para><db:date>2008-01-03</db:date> Loaded it standing more than vertically: maybe 15 degrees "forward."</db:para>
-
+        <db:para>
+            <db:date>2008-01-03</db:date> Loaded it standing more than vertically: maybe 15 degrees "forward."</db:para>
         <db:para>Obviously the bottle have been incorrectly labeled. This is not the red spot iron glaze, this is a glossy dark blue. Whatever it is, it didn't run.</db:para>
     </sample>
-
-    <sample date="2008-01-20">
-        <tile xml:id="T91"/>
+    <sample date="2008-01-20" xml:id="T91">
         <glazing sieved="no" hydrometerGravity="45" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Slight pink shade(before fired at least) due to the Flint. Very large particles, very powderish. Saturated it with fixativ for that reason. Don't think the third layer is any thicker, due to that it solved away the underlying layers, because of them being too moist. From a <db:constant>200</db:constant>g test batch. </db:para>
-
         <db:para>Looks like porridge. Hilarious, the glaze is for Cone 10, about 1300 C, so the glaze probably didn't melt.</db:para>
     </sample>
-
-    <sample date="2008-01-28">
-        <tile xml:id="T105"/>
+    <sample date="2008-01-28" xml:id="T105">
         <glazing sieved="60" hydrometerGravity="46" idref="RawBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water. Beyond the mixing, another reason to it being vastly different could be that it had been mixed in water for a couple of days, and hence dissolved better.</db:para>
     </sample>
-
-    <sample date="2008-01-28">
-        <tile xml:id="T108"/>
+    <sample date="2008-01-28" xml:id="T108">
         <glazing sieved="60" hydrometerGravity="49" idref="WhiteLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconium oxide added.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T107"/>
+    <sample date="2008-02-16" xml:id="T107">
         <glazing sieved="60" hydrometerGravity="52" idref="WhiterLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Leach base with zirconium oxide added but twice as much as <db:xref xlink:href="#T105"/>. Think it has a small contamination of Candace Black.</db:para>
-        <db:para><db:date>2008-03-09</db:date> Crawling/contractions. Can't be the Zirconium Oxide, since John Britt writes it "has a low expansion and contraction rate." The mixture is completely wrong, it seem to be missing glass body(too little silica, too much alumina), but that doesn't explain why <db:xref xlink:href="#T108"/> looks ok. I suspect documentation error, that I haven't used Alumina for Silica in the case of T108, maybe.</db:para>
+        <db:para>
+            <db:date>2008-03-09</db:date> Crawling/contractions. Can't be the Zirconium Oxide, since John Britt writes it "has a low expansion and contraction rate." The mixture is completely wrong, it seem to be missing glass body(too little silica, too much alumina), but that doesn't explain why <db:xref xlink:href="#T108"/> looks ok. I suspect documentation error, that I haven't used Alumina for Silica in the case of T108, maybe.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T102"/>
+    <sample date="2008-02-16" xml:id="T102">
         <glazing sieved="60" hydrometerGravity="52" idref="BlueWhiterLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in <db:xref xlink:href="#T107"/>.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T104"/>
+    <sample date="2008-02-16" xml:id="T104">
         <glazing sieved="no" hydrometerGravity="40" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Wrote with oxide pen, HC Hobbyceram Sottosmalto NERO 606.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T103"/>
+    <sample date="2008-02-16" xml:id="T103">
         <glazing sieved="60" hydrometerGravity="52" idref="CandaceBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Used considering a long time, from a <db:constant>200</db:constant> g batch. After the second step, heated with hot air gun. It is so powderish that one layer flaked off. Needs bentonite/CMC for production. Seems the cobolt dispersed unevenly, small black spots at the tops. Sealed of with fixativ. <db:constant>100</db:constant>ml weighted <db:constant>178</db:constant>g.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T106"/>
+    <sample date="2008-02-16" xml:id="T106">
         <glazing sieved="WithMixer" hydrometerGravity="40" idref="ModifiedTransparentGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>From a <db:constant>200</db:constant> g batch. Despite only having a gravity of 40, it was extremely thick. The hydrometer moved slowly and the layers were perceived as very thick.</db:para>
-
-        <db:para><db:date>2008-02-23</db:date> It's sort of obvious why this turned out as it did. Zinc oxide is a flux, since it's absent the thing didn't melt, and since Tin Oxide is an opacifier, it isn't transparent. I wonder what caused the graphite-look which can be seen on the second and third layer, and a little bit on the first.</db:para>
-        <db:para><db:date>2008-03-09</db:date> Crawling. Could possibly caused by be the Tin oxide, since it has a high contaction rate. Yes, John Britt writes: ""Pinhols, matte surfaces, and rawling sometimes result due to its high viscosity and surface tension, [...]". So that also explains why it's matte. Probably also completely oversaturated with something, considering the graphite-like blackness.</db:para>
+        <db:para>
+            <db:date>2008-02-23</db:date> It's sort of obvious why this turned out as it did. Zinc oxide is a flux, since it's absent the thing didn't melt, and since Tin Oxide is an opacifier, it isn't transparent. I wonder what caused the graphite-look which can be seen on the second and third layer, and a little bit on the first.</db:para>
+        <db:para>
+            <db:date>2008-03-09</db:date> Crawling. Could possibly caused by be the Tin oxide, since it has a high contaction rate. Yes, John Britt writes: ""Pinhols, matte surfaces, and rawling sometimes result due to its high viscosity and surface tension, [...]". So that also explains why it's matte. Probably also completely oversaturated with something, considering the graphite-like blackness.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T111"/>
+    <sample date="2008-02-16" xml:id="T111">
         <glazing sieved="60" hydrometerGravity="51" idref="WillsOribeAlumina"/>
         <clayref idref="SaintThomas"/>
         <db:para>The middle layer had a lot less Copper on its surface, for some reason. Hm, that's because the copper settles quickly, quicker than the others. Bentonite needed.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T109"/>
+    <sample date="2008-02-16" xml:id="T109">
         <glazing sieved="60" hydrometerGravity="47" idref="ModifiedMamo"/>
         <clayref idref="SaintThomas"/>
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
-        <db:para><db:date>2008-03-09</db:date> Alumina is very effective, doesn't require much to fuck things up. <db:xref xlink:href="#T110"/> is ok. <db:xref xlink:href="#T137"/> also have issues caused by Alumina, it seems.</db:para>
+        <db:para>
+            <db:date>2008-03-09</db:date> Alumina is very effective, doesn't require much to fuck things up. <db:xref xlink:href="#T110"/> is ok. <db:xref xlink:href="#T137"/> also have issues caused by Alumina, it seems.</db:para>
     </sample>
-
-    <sample date="2008-02-16">
-        <tile xml:id="T101"/>
+    <sample date="2008-02-16" xml:id="T101">
         <glazing sieved="60" hydrometerGravity="54" idref="BlueModifiedMamo"/>
         <clayref idref="SaintThomas"/>
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
-        <db:para><db:date>2008-03-09</db:date> See <db:xref xlink:href="#T109"/>.</db:para>
+        <db:para>
+            <db:date>2008-03-09</db:date> See <db:xref xlink:href="#T109"/>.</db:para>
     </sample>
-
-    <sample date="2008-02-24">
-        <tile xml:id="T112"/>
+    <sample date="2008-02-24" xml:id="T112">
         <brushon idref="AmacoRedMatt"/>
         <clayref idref="SaintThomas"/>
         <db:para>Four layers.</db:para>
     </sample>
-
-    <sample date="2008-02-24">
-        <tile xml:id="T110"/>
+    <sample date="2008-02-24" xml:id="T110">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedMamoRightAlumina"/>
         <clayref idref="SaintThomas"/>
         <db:para>From a <db:constant>200</db:constant>g batch.</db:para>
     </sample>
-
-    <sample date="2008-02-24">
-        <tile xml:id="T152"/>
+    <sample date="2008-02-24" xml:id="T152">
         <glazing sieved="60" hydrometerGravity="45" idref="CandaceBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Three long dips, 5-6 secs, across whole in order to get a really large thick layer. A noticable increase in weight.</db:para>
     </sample>
-
-    <sample date="2008-02-28">
-        <tile xml:id="T156"/>
+    <sample date="2008-02-28" xml:id="T156">
         <glazing sieved="60" hydrometerGravity="55" idref="TitanedHardingOxblood"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
     </sample>
-
-    <sample date="2008-02-28">
-        <tile xml:id="T144"/>
+    <sample date="2008-02-28" xml:id="T144">
         <glazing sieved="60" hydrometerGravity="42" idref="TitanedHardingOxblood"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. The weight of the 1-2 parts components probably has a usual error margin of one to two grams.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Well, that's how oxblood looks in oxidation, as opposed to reduction. Completely transparent.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T130"/>
+    <sample date="2008-03-01" xml:id="T130">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Titanium Dioxide(P3362) added, and painted ontop of the glazed, unfired surface(majolica). Flowed very evenly from the brush, compared to for instance Copper Cabonate.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Why yellow? John Britt writes "Titanium dioxide accentuates the color of the clay body and in the presence of iron gives cream colors". Most likely that.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Why yellow? John Britt writes "Titanium dioxide accentuates the color of the clay body and in the presence of iron gives cream colors". Most likely that.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T131"/>
+    <sample date="2008-03-01" xml:id="T131">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was a "pinch" of Copper Carbonate(P3404), probably 1-3 grams added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T140"/>
+    <sample date="2008-03-01" xml:id="T140">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T136"/> and <db:xref xlink:href="#T131"/> were mixed. So this is Copper Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T136"/>
+    <sample date="2008-03-01" xml:id="T136">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 g of Zinc Oxide(P3350) added and painted ontop of the glazed, unfired surface(majolica). The volume of oxide was coparatively high, so the layer is thick.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T135"/>
+    <sample date="2008-03-01" xml:id="T135">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Tinn Oxide(P3361) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T139"/>
+    <sample date="2008-03-01" xml:id="T139">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T135"/> and <db:xref xlink:href="#T130"/> were mixed. So this is Tinn Oxide(P3404) and Titanium Dioxide(P3362) mixed.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Why the strong contractions? Tin oxide has a high expansion and contraction which could be why, but that doesn't explain why it's less on <db:xref xlink:href="#T135"/>. These two dudes are fiddling with something together, or is it simply due to an increased amount of these toxides?</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Why the strong contractions? Tin oxide has a high expansion and contraction which could be why, but that doesn't explain why it's less on <db:xref xlink:href="#T135"/>. These two dudes are fiddling with something together, or is it simply due to an increased amount of these toxides?</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T154"/>
+    <sample date="2008-03-01" xml:id="T154">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T139"/> and <db:xref xlink:href="#T140"/> were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T141"/>
+    <sample date="2008-03-01" xml:id="T141">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Synthetic Red Iron Oxide(P3441) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T151"/>
+    <sample date="2008-03-01" xml:id="T151">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 3 gram Crome Oxide(P3401) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T138"/>
+    <sample date="2008-03-01" xml:id="T138">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T151"/> and <db:xref xlink:href="#T141"/> were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
-        <db:para><db:date>2008-03-08</db:date> I can swear that the surrounding transparent is tinted towards green. Crome is a super strong colorant, but did it really manage to walk over there? Can't find anything supporting that chrome should have strong fluxing properties but considering that it is coloring rather evenly, that might be the case.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> I can swear that the surrounding transparent is tinted towards green. Crome is a super strong colorant, but did it really manage to walk over there? Can't find anything supporting that chrome should have strong fluxing properties but considering that it is coloring rather evenly, that might be the case.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T133"/>
+    <sample date="2008-03-01" xml:id="T133">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T138"/> and <db:xref xlink:href="#T154"/> were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
-        <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T132"/>
+    <sample date="2008-03-01" xml:id="T132">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Black Iron Oxide(P3408) added, and painted ontop of the glazed, unfired surface(majolica). Large particles, dispersing unevenly with the brush.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T157"/>
+    <sample date="2008-03-01" xml:id="T157">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Cobalt Carbonate(P3402) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T155"/>
+    <sample date="2008-03-01" xml:id="T155">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T132"/> and <db:xref xlink:href="#T157"/> were mixed. So this is Black Iron Oxide(P3408) and Cobalt Carbonate(P3402).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T134"/>
+    <sample date="2008-03-01" xml:id="T134">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Cobalt Oxide(P3403) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T147"/>
+    <sample date="2008-03-01" xml:id="T147">
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Magnesium Carbonate(P3331) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
-        <db:para><db:date>2008-03-09</db:date> A nice demonstration to why there exists such a thing as "Magnesium Matte Glazes."</db:para>
+        <db:para>
+            <db:date>2008-03-09</db:date> A nice demonstration to why there exists such a thing as "Magnesium Matte Glazes."</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T137"/>
+    <sample date="2008-03-01" xml:id="T137">
         <glazing sieved="no" hydrometerGravity="60" idref="TransparentGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Very high gravity, didn't get a stable reading, somewhere about 60-70.</db:para>
-        <db:para><db:date>2008-03-08</db:date> The glaze is documented for oxidation, so how come it's speckled and opaque? Can the excessive alumina be really be blamed? Yes, seems so, John Britt: "The presence of alumina in a glaze inhibits color response and produces dull colors and matte surfaces."</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> The glaze is documented for oxidation, so how come it's speckled and opaque? Can the excessive alumina be really be blamed? Yes, seems so, John Britt: "The presence of alumina in a glaze inhibits color response and produces dull colors and matte surfaces."</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T148"/>
+    <sample date="2008-03-01" xml:id="T148">
         <glazing sieved="no" hydrometerGravity="40" idref="TransparentGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para><db:date>2008-03-08</db:date> See T137</db:para>
+        <db:para>
+            <db:date>2008-03-08</db:date> See T137</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T143"/>
+    <sample date="2008-03-01" xml:id="T143">
         <glazing sieved="no" hydrometerGravity="42" idref="HardingOxblood"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T150"/>
+    <sample date="2008-03-01" xml:id="T150">
         <glazing sieved="no" hydrometerGravity="53" idref="PerfectBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T149"/>
+    <sample date="2008-03-01" xml:id="T149">
         <glazing sieved="no" hydrometerGravity="42" idref="PerfectBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Feels like this one can be much thinner but still work.</db:para>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T166"/>
+    <sample date="2008-03-08" xml:id="T166">
         <brushon idref="TivoliRed"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T199"/>
+    <sample date="2008-03-08" xml:id="T199">
         <brushon idref="TivoliRed"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T153"/>
+    <sample date="2008-03-08" xml:id="T153">
         <brushon idref="AutumnShades"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T201"/>
+    <sample date="2008-03-08" xml:id="T201">
         <brushon idref="AutumnShades"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T145"/>
+    <sample date="2008-03-08" xml:id="T145">
         <brushon idref="CrystalBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T189"/>
+    <sample date="2008-03-08" xml:id="T189">
         <brushon idref="CrystalBlue"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T187"/>
+    <sample date="2008-03-08" xml:id="T187">
         <brushon idref="AmacoClear"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T146"/>
+    <sample date="2008-03-08" xml:id="T146">
         <brushon idref="AmacoClear"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T162"/>
+    <sample date="2008-03-08" xml:id="T162">
         <brushon idref="AmacoHazyPink"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T192"/>
+    <sample date="2008-03-08" xml:id="T192">
         <brushon idref="AmacoHazyPink"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T171"/>
+    <sample date="2008-03-08" xml:id="T171">
         <brushon idref="AmacoLavender"/>
         <clayref idref="SaintThomas"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T196"/>
+    <sample date="2008-03-08" xml:id="T196">
         <brushon idref="AmacoLavender"/>
         <clayref idref="WSW"/>
         <db:para/>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T161"/>
+    <sample date="2008-03-08" xml:id="T161">
         <glazing sieved="no" hydrometerGravity="49" idref="ModifiedMamoRightAlumina"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Batch has been standing for a week or so, shaked it thoroughly. Fucked up the right bottom corner by touching with a finger while it was wet.</db:para>
     </sample>
-
-    <sample date="2008-03-08">
-        <tile xml:id="T181"/>
+    <sample date="2008-03-08" xml:id="T181">
         <glazing sieved="no" hydrometerGravity="49" idref="ModifiedMamoRightAlumina"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="WSW"/>
         <db:para>Batch has been standing for a week or so, shaked it thoroughly.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T169"/>
+    <sample date="2008-03-09" xml:id="T169">
         <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T180"/>
+    <sample date="2008-03-09" xml:id="T180">
         <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T186"/>
+    <sample date="2008-03-09" xml:id="T186">
         <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T167"/>
+    <sample date="2008-03-09" xml:id="T167">
         <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T183"/>
+    <sample date="2008-03-09" xml:id="T183">
         <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four tiles have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T163"/>
+    <sample date="2008-03-09" xml:id="T163">
         <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four tiles have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T170"/>
+    <sample date="2008-03-09" xml:id="T170">
         <glazing sieved="WithMixer" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T185"/>
+    <sample date="2008-03-09" xml:id="T185">
         <glazing sieved="WithMixer" hydrometerGravity="39" idref="ChromeTransparentGreen"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch. By mistake I brushed away a bit from the left bottom corner. Might well be that it will look like an expansion problem.</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T175"/>
+    <sample date="2008-03-09" xml:id="T175">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3110, Ferro frit</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T173"/>
+    <sample date="2008-03-09" xml:id="T173">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3316, Feldspar FFF</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T177"/>
+    <sample date="2008-03-09" xml:id="T177">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3342, Soda Ash</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T178"/>
+    <sample date="2008-03-09" xml:id="T178">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3134, High Alcaline Ferro Frit</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T176"/>
+    <sample date="2008-03-09" xml:id="T176">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3309, China Clay</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T172"/>
+    <sample date="2008-03-09" xml:id="T172">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3317, Feldspar Soda</db:para>
     </sample>
-
-    <sample date="2008-03-09">
-        <tile xml:id="T174"/>
+    <sample date="2008-03-09" xml:id="T174">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3315, Dolomite</db:para>
     </sample>
-
-    <sample date="2008-03-17">
-        <tile xml:id="T191"/>
+    <sample date="2008-03-17" xml:id="T191">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="WSW"/>
         <db:para>A pinch of Manganese Oxide(from Alt For Keramikk) was mixed with water and painted on top of the transparent.</db:para>
     </sample>
-
-    <sample date="2008-03-19">
-        <tile xml:id="T237"/>
+    <sample date="2008-03-19" xml:id="T237">
         <glazing sieved="no" hydrometerGravity="44" idref="Transparent"/>
         <clayref idref="WSW"/>
         <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is T231.</db:para>
     </sample>
-
-    <sample date="2008-03-19">
-        <tile xml:id="T235"/>
+    <sample date="2008-03-19" xml:id="T235">
         <glazing sieved="no" hydrometerGravity="44" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire.</db:para>
     </sample>
-
-    <sample date="2008-03-01">
-        <tile xml:id="T209"/>
+    <sample date="2008-03-01" xml:id="T209">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Rutile(from Alt For Keramikk) added, and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T165"/>
+    <sample date="2008-03-20" xml:id="T165">
         <glazing sieved="no" hydrometerGravity="47" idref="ClausCrystalGreenBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-29">
-        <tile xml:id="T218"/>
+    <sample date="2008-03-29" xml:id="T218">
         <glazing sieved="no" hydrometerGravity="39" idref="ClausCrystalGreenBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. Three second dips.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T204"/>
+    <sample date="2008-03-20" xml:id="T204">
         <glazing sieved="no" hydrometerGravity="33" idref="ClausCrystalGreenBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch. The gravity is estimated. This hydrometer goes to 40, and it sunk to... about 33?</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T220"/>
+    <sample date="2008-03-20" xml:id="T220">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T213"/>
+    <sample date="2008-03-20" xml:id="T213">
         <glazing sieved="no" hydrometerGravity="39" idref="ModifiedMamoRightAlumina"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T203"/>
+    <sample date="2008-03-20" xml:id="T203">
         <glazing sieved="no" hydrometerGravity="51" idref="WhiteGloss"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
         <db:para>The id has been corrected, clarified on the back side.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T219"/>
+    <sample date="2008-03-20" xml:id="T219">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of Bone Ash, P3305. An arbitrary amount.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T202"/>
+    <sample date="2008-03-20" xml:id="T202">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of Whiting, P3346. An arbitrary amount.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T222"/>
+    <sample date="2008-03-20" xml:id="T222">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of Talcum, P3345. An arbitrary amount.</db:para>
         <db:para>Evidently, didn't melt at all.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T217"/>
+    <sample date="2008-03-20" xml:id="T217">
         <glazing sieved="WithMixer" hydrometerGravity="41" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-20">
-        <tile xml:id="T214"/>
+    <sample date="2008-03-20" xml:id="T214">
         <glazing sieved="WithMixer" hydrometerGravity="43" idref="GreenBlueSatin"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
         <db:para>The id looks like 219 but is 214, clarified on the back side.</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T207"/>
+    <sample date="2008-03-22" xml:id="T207">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T160"/>
+    <sample date="2008-03-22" xml:id="T160">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="ModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T224"/>
+    <sample date="2008-03-22" xml:id="T224">
         <glazing sieved="WithMixer" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T221"/>
+    <sample date="2008-03-22" xml:id="T221">
         <glazing sieved="WithMixer" hydrometerGravity="44" idref="GreenModifiedSatinWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
-        <db:para><db:date>2008-03-29</db:date> The yellow stain is powder on the surface, it didn't mix with the glaze.</db:para>
+        <db:para>
+            <db:date>2008-03-29</db:date> The yellow stain is powder on the surface, it didn't mix with the glaze.</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T211"/>
+    <sample date="2008-03-22" xml:id="T211">
         <glazing sieved="WithMixer" hydrometerGravity="44" idref="SatinGlossGreenBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. Very thick and feel heavy.</db:para>
     </sample>
-
-    <sample date="2008-03-22">
-        <tile xml:id="T164"/>
+    <sample date="2008-03-22" xml:id="T164">
         <glazing sieved="WithMixer" hydrometerGravity="28" idref="SatinGlossGreenBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. Hydrometer is completely estimated. It sunk far away from the grading. Could easily be 20 or 32.</db:para>
         <db:para>To about 10 ml water was about 2 gram yellow stain(P4140) mixed and painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-03-23">
-        <tile xml:id="T212"/>
+    <sample date="2008-03-23" xml:id="T212">
         <clayref idref="SaintThomas"/>
         <db:para>Melt test of P3314, Cornish Stone.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T205"/>
+    <sample date="2008-04-13" xml:id="T205">
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Very thick at the bottom, the Bentonite surely is at work.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T215"/>
+    <sample date="2008-04-13" xml:id="T215">
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Only one dip.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T198"/>
+    <sample date="2008-04-13" xml:id="T198">
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="WSW"/>
         <db:para>Only one dip.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T206"/>
+    <sample date="2008-04-13" xml:id="T206">
         <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>The gravity number is estimated. Somewhere below 40, that's for sure.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T248"/>
+    <sample date="2008-04-13" xml:id="T248">
         <glazing sieved="WithMixer" hydrometerGravity="57" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>Perceived as very thick. Didn't make it into the two bottom holes. From 2000 g batch.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T225"/>
+    <sample date="2008-04-13" xml:id="T225">
         <glazing sieved="WithMixer" hydrometerGravity="50" idref="SatinBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>Perceived as very thick. From 2000 g batch.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T242"/>
+    <sample date="2008-04-13" xml:id="T242">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="SatinBase5Zirconium"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 2000 g batch.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T246"/>
+    <sample date="2008-04-13" xml:id="T246">
         <glazing sieved="WithMixer" hydrometerGravity="47" idref="WillsOribeAlumina"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T234"/>
+    <sample date="2008-04-13" xml:id="T234">
         <glazing sieved="WithMixer" hydrometerGravity="50" idref="BlueFire"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
-
-    <sample date="2008-04-13">
-        <tile xml:id="T243"/>
+    <sample date="2008-04-13" xml:id="T243">
         <glazing sieved="WithMixer" hydrometerGravity="35" idref="BlueFire"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. Gravity number is estimate. Below 40, that is known.</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T228"/>
+    <sample date="2008-04-14" xml:id="T228">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Barium Carbonate(P3303) added, painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T229"/>
+    <sample date="2008-04-14" xml:id="T229">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>To about 10 ml water was about 2 gram Lithium Carbonate(R1063) added, painted ontop of the glazed, unfired surface(majolica).</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T227"/>
+    <sample date="2008-04-14" xml:id="T227">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>The batches used on <db:xref xlink:href="#T229"/> and <db:xref xlink:href="#T228"/> were mixed. So this is Lithium Carbonate(R1063) and Barium Carbonate(P3303) mixed.</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T230"/>
+    <sample date="2008-04-14" xml:id="T230">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
         <clayref idref="SaintThomas"/>
         <db:para>The glaze flowed very thickly.</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T194"/>
+    <sample date="2008-04-14" xml:id="T194">
         <glazing sieved="WithMixer" hydrometerGravity="42" idref="OpaqueGlossWhite"/>
         <clayref idref="WSW"/>
         <db:para>The glaze flowed very thickly.</db:para>
     </sample>
-
-    <sample date="2008-04-14">
-        <tile xml:id="T193"/>
+    <sample date="2008-04-14" xml:id="T193">
         <glazing sieved="60" hydrometerGravity="36" idref="OpaqueGlossWhite"/>
         <clayref idref="WSW"/>
         <db:para>The gravity number is estimated, although fairly well. It's at least below 40. Glazed only one layer.</db:para>
     </sample>
-
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
-
     <!--
 
     Questions:
