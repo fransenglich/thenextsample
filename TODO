@@ -1,8 +1,8 @@
-* Add uniqueness constaint on sample/brick/@xml:id
+* Add uniqueness constaint on sample/tile/@xml:id
 * Front image
 * Arrange glazes by color.
 * Change link texts for pieces and samples.
-* Put clayref on brick.
+* Put clayref on tile.
 * Add measurements
 * Add images
 

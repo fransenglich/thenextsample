@@ -229,7 +229,7 @@ A format for describing pottery glazes, samples and pieces.
     <xs:complexType name="sampleType">
         <xs:sequence>
             <xs:element name="image" type="imageType" minOccurs="0" maxOccurs="unbounded"/>
-            <xs:element name="brick" type="brickType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="tile" type="tileType" minOccurs="1" maxOccurs="unbounded"/>
             <xs:element name="glazing" type="glazingType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="brushon" type="brushonType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="clayref" type="clayrefType" minOccurs="1" maxOccurs="unbounded"/>
@@ -240,7 +240,7 @@ A format for describing pottery glazes, samples and pieces.
         <xs:attribute name="date" type="xs:date" use="required"/>
     </xs:complexType>
 
-    <xs:complexType name="brickType">
+    <xs:complexType name="tileType">
         <xs:attribute ref="xml:id" use="required"/>
     </xs:complexType>
 

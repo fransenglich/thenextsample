@@ -208,7 +208,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <chapter>
             <title>Glazes</title>
 
-            <para>A total of <xsl:value-of select="count(//p:sample)"/> sample bricks.</para>
+            <para>A total of <xsl:value-of select="count(//p:sample)"/> sample tiles.</para>
 
             <xsl:apply-templates select="p:glaze">
                 <xsl:sort select="@name"/>
@@ -287,7 +287,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="p:sample">
         <xsl:param name="mainGlaze"/>
         <section>
-            <title><xsl:apply-templates select="p:brick"/></title>
+            <title><xsl:apply-templates select="p:tile"/></title>
 
             <para><date><xsl:value-of select="@date"/></date></para>
             <para>
@@ -300,11 +300,11 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             </xsl:if>
             <xsl:apply-templates select="p:clayref"/>
             <xsl:apply-templates select="db:para"/>
-            <xsl:apply-templates mode="doImage" select="p:brick"/>
+            <xsl:apply-templates mode="doImage" select="p:tile"/>
         </section>
     </xsl:template>
 
-    <xsl:template mode="doImage" match="p:brick">
+    <xsl:template mode="doImage" match="p:tile">
         <xsl:call-template name="imageForSample">
             <xsl:with-param name="sampleName" select="@xml:id"/>
             <xsl:with-param name="imageName" select="@xml:id"/>
@@ -357,7 +357,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         </emphasis>
     </xsl:template>
 
-    <xsl:template match="p:brick">
+    <xsl:template match="p:tile">
         <xsl:value-of select="@xml:id"/>
         <xsl:text> </xsl:text>
     </xsl:template>
