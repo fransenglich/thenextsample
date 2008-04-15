@@ -628,15 +628,15 @@
         <tile xml:id="T107"/>
         <glazing sieved="60" hydrometerGravity="52" idref="WhiterLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Leach base with zirconium oxide added but twice as much as T105. Think it has a small contamination of Candace Black.</db:para>
-        <db:para><db:date>2008-03-09</db:date> Crawling/contractions. Can't be the Zirconium Oxide, since John Britt writes it "has a low expansion and contraction rate." The mixture is completely wrong, it seem to be missing glass body(too little silica, too much alumina), but that doesn't explain why T108 looks ok. I suspect documentation error, that I haven't used Alumina for Silica in the case of T108, maybe.</db:para>
+        <db:para>Leach base with zirconium oxide added but twice as much as <db:xref xlink:href="#T105"/>. Think it has a small contamination of Candace Black.</db:para>
+        <db:para><db:date>2008-03-09</db:date> Crawling/contractions. Can't be the Zirconium Oxide, since John Britt writes it "has a low expansion and contraction rate." The mixture is completely wrong, it seem to be missing glass body(too little silica, too much alumina), but that doesn't explain why <db:xref xlink:href="#T108"/> looks ok. I suspect documentation error, that I haven't used Alumina for Silica in the case of T108, maybe.</db:para>
     </sample>
 
     <sample date="2008-02-16">
         <tile xml:id="T102"/>
         <glazing sieved="60" hydrometerGravity="52" idref="BlueWhiterLeach"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in T107.</db:para>
+        <db:para>The shrinking is not caused by the Cobolt oxide, since it's also present in <db:xref xlink:href="#T107"/>.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -675,7 +675,7 @@
         <glazing sieved="60" hydrometerGravity="47" idref="ModifiedMamo"/>
         <clayref idref="SaintThomas"/>
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
-        <db:para><db:date>2008-03-09</db:date> Alumina is very effective, doesn't require much to fuck things up. T110 is ok. T137 also have issues caused by Alumina, it seems.</db:para>
+        <db:para><db:date>2008-03-09</db:date> Alumina is very effective, doesn't require much to fuck things up. <db:xref xlink:href="#T110"/> is ok. <db:xref xlink:href="#T137"/> also have issues caused by Alumina, it seems.</db:para>
     </sample>
 
     <sample date="2008-02-16">
@@ -683,7 +683,7 @@
         <glazing sieved="60" hydrometerGravity="54" idref="BlueModifiedMamo"/>
         <clayref idref="SaintThomas"/>
         <db:para>Right after mixing, so lots of air bubbles. From 200 g batch.</db:para>
-        <db:para><db:date>2008-03-09</db:date> See T109.</db:para>
+        <db:para><db:date>2008-03-09</db:date> See <db:xref xlink:href="#T109"/>.</db:para>
     </sample>
 
     <sample date="2008-02-24">
@@ -742,7 +742,7 @@
         <tile xml:id="T140"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T136 and T131 were mixed. So this is Copper Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T136"/> and <db:xref xlink:href="#T131"/> were mixed. So this is Copper Carbonate(P3404) and Zinc Oxide(P3350) mixed.</db:para>
         <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
@@ -764,15 +764,15 @@
         <tile xml:id="T139"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T135 and T130 were mixed. So this is Tinn Oxide(P3404) and Titanium Dioxide(P3362) mixed.</db:para>
-        <db:para><db:date>2008-03-08</db:date> Why the strong contractions? Tin oxide has a high expansion and contraction which could be why, but that doesn't explain why it's less on T135. These two dudes are fiddling with something together, or is it simply due to an increased amount of these toxides?</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T135"/> and <db:xref xlink:href="#T130"/> were mixed. So this is Tinn Oxide(P3404) and Titanium Dioxide(P3362) mixed.</db:para>
+        <db:para><db:date>2008-03-08</db:date> Why the strong contractions? Tin oxide has a high expansion and contraction which could be why, but that doesn't explain why it's less on <db:xref xlink:href="#T135"/>. These two dudes are fiddling with something together, or is it simply due to an increased amount of these toxides?</db:para>
     </sample>
 
     <sample date="2008-03-01">
         <tile xml:id="T154"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T139 and T140 were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T139"/> and <db:xref xlink:href="140"/> were mixed. So this is Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -793,7 +793,7 @@
         <tile xml:id="T138"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T151 and T141 were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="151"/> and <db:xref xlink:href="141"/> were mixed. So this is Synthetic Red Iron Oxide(P3441) and Crome Oxide(P3401).</db:para>
         <db:para><db:date>2008-03-08</db:date> I can swear that the surrounding transparent is tinted towards green. Crome is a super strong colorant, but did it really manage to walk over there? Can't find anything supporting that chrome should have strong fluxing properties but considering that it is coloring rather evenly, that might be the case.</db:para>
     </sample>
 
@@ -801,7 +801,7 @@
         <tile xml:id="T133"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T138 and T154 were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="138"/> and <db:xref xlink:href="154"/> were mixed. So this is Synthetic Red Iron Oxide(P3441), Crome Oxide(P3401), Tinn Oxide(P3404), Titanium Dioxide(P3362), Copper Carbonate(P3404) and Zinc Oxide(P3350).</db:para>
         <db:para><db:date>2008-03-08</db:date> Interesting to see how quickly the Copper has crept out into the surrounding transparent glaze. Its strong fluxing property at work.</db:para>
     </sample>
 
@@ -823,7 +823,7 @@
         <tile xml:id="T155"/>
         <glazing sieved="no" hydrometerGravity="42" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T132 and T157 were mixed. So this is Black Iron Oxide(P3408) and Cobalt Carbonate(P3402).</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T132"/> and <db:xref xlink:href="#T157"/> were mixed. So this is Black Iron Oxide(P3408) and Cobalt Carbonate(P3402).</db:para>
     </sample>
 
     <sample date="2008-03-01">
@@ -1086,7 +1086,7 @@
         <tile xml:id="T237"/>
         <glazing sieved="no" hydrometerGravity="44" idref="Transparent"/>
         <clayref idref="WSW"/>
-        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is T231.</db:para>
+        <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is <db:xref xlink:href="#T231"/>.</db:para>
     </sample>
 
     <sample date="2008-03-19">
@@ -1320,7 +1320,7 @@
         <tile xml:id="T227"/>
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The batches used on T229 and T228 were mixed. So this is Lithium Carbonate(R1063) and Barium Carbonate(P3303) mixed.</db:para>
+        <db:para>The batches used on <db:xref xlink:href="#T229"/> and <db:xref xlink:href="#T228"/> were mixed. So this is Lithium Carbonate(R1063) and Barium Carbonate(P3303) mixed.</db:para>
     </sample>
 
     <sample date="2008-04-14">
