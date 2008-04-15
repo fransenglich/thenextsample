@@ -5,23 +5,23 @@
 
     <piece xml:id="P36">
         <clayref idref="WSW"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
-        <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="44"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="50"/>
+        <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="44"/>
         <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>White was not fully dry when dipping. Yellow was brushed on top before firing. Doesn't work at all, it physically moves the underlying glaze and is unpredictable. Even though there was an overlap between the white and black, it doesnt' create any visible problems, which is a bit thought provoking when compared to the damage seen on piece 37. Seems as if the black overlapped the white. As long as the overlap is small, it is ok?</db:para>
     </piece>
 
     <piece xml:id="P37">
         <clayref idref="WSW"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
-        <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="50"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="50"/>
+        <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="50"/>
         <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>Both glazes are very thick as the gravity numbers reveals, and they appear thick too. Especially the white, it has characteristic dots. The white was across the whole. The white was still wet/cold, when dipping the black. Black on top of white doesn't work at all. I can't recall the crack on the edge before bisque firing, so it probably appeared in glaze firing. The white was glazed uneven, as can be seen on the inside. Dropped it in the floor while photofgraphing.</db:para>
     </piece>
 
     <piece xml:id="P38">
         <clayref idref="WSW"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="50"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="50"/>
         <brushon idref="YellowBO"/>
         <db:para><db:date>2007-10-29</db:date>The edge is a bit rough, partly due to lack of glaze. Apart from careful handling when loading the oven, maybe it would be of help to slightly dip the edge only, once the first full dip has dried. Depends on how strong difference in thickness shows, which I suspect is very little. Shows well off the glaze. The yellow brush on glaze was dripped on before glaze firing.</db:para>
     </piece>
@@ -62,38 +62,38 @@
 
     <piece xml:id="P5">
         <clayref idref="WSW"/>
-        <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
+        <glazing idref="WhiteGloss"  sieved="no" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Dropped it in the glaze bucket. Fingerprints on one side.  The edge has been repared from the finger print. Dipped it in one go.</db:para>
     </piece>
 
     <piece xml:id="P6">
         <clayref idref="WSW"/>
-        <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
+        <glazing idref="WhiteGloss"  sieved="no" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Had hand inside when glazing the outside.</db:para>
     </piece>
 
     <piece xml:id="P7">
         <clayref idref="WSW"/>
-        <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
+        <glazing idref="WhiteGloss"  sieved="no" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date>Polished the glaze edges. Same as 6, but better techniques.</db:para>
     </piece>
 
     <piece xml:id="P8">
         <clayref idref="WSW"/>
-        <glazing idref="WhiteGloss"  sieved="false" hydrometerGravity="42"/>
+        <glazing idref="WhiteGloss"  sieved="no" hydrometerGravity="42"/>
         <db:para><db:date>2007-10-02</db:date> Small glaze edges, not polished. One smal unglazed spot on the outside, about 1mm2.</db:para>
     </piece>
 
     <piece xml:id="P9">
         <clayref idref="WSW"/>
-        <glazing sieved="false" idref="WhiteGloss"/>
+        <glazing sieved="no" idref="WhiteGloss"/>
         <db:para><db:date>2007-10-02</db:date>Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</db:para>
     </piece>
 
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <glazing sieved="false" hydrometerGravity="50" idref="WhiteGloss"/>
-        <glazing sieved="false" hydrometerGravity="48" idref="IntenseBlack"/>
+        <glazing sieved="no" hydrometerGravity="50" idref="WhiteGloss"/>
+        <glazing sieved="no" hydrometerGravity="48" idref="IntenseBlack"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
 
         <db:para><db:date>2007-12-02</db:date>With tape, permanent wax and Mask&amp;Peel wax, the two halfs of white and black were painted out. First the black outside, then the black inside, the white inside, white outside. Time consuming, error prone process. Wouldn't surprise me if the white or black comes out contaminated. The black outside was double glazed, though it had pin holes both before and after. The white outside was glazed three times(although without full drying inbetween) in order to try to tackle pinholes. The white inside was done by filling up(yes, on top of the black with wax on top) and rolling around three times. The top edge became very thick and uneven at the end. Hard to find a masking mechanism that sticks on top of glaze.</db:para>
@@ -101,14 +101,14 @@
 
     <piece xml:id="P33">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <glazing idref="FrostedJade" hydrometerGravity="52" sieved="true"/>
-        <glazing idref="GreenHue" hydrometerGravity="59" sieved="true"/>
+        <glazing idref="FrostedJade" hydrometerGravity="52" sieved="60"/>
+        <glazing idref="GreenHue" hydrometerGravity="59" sieved="60"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
 
         <db:para><db:date>2007-12-16</db:date> Glazed the whole in Frosted Jade first. This went quite well, I had such a large quantity that I simply filled up the whole inside up to the rim. After, strips with "stamp"-tape that was activated with water was applied to form the T. A sewing-strip was used to ensure the tape was somewhat centered in the middle.</db:para>
 
         <db:para>Once done, the whole thing was waxed with permanent wax, the strips removed, and glazed with Green Hue. I think glue from the strips sticked to the glaze(or was it water, or had the wax flown in beneath? Doubt the latter), so it will be interesting to see how Green Hue will deal with that. Green Hue was extremely thick. Like an old man in acid.</db:para>
-        
+
         <db:para>As usual this was messy, due to the strips pulling off the wax a bit(had to repair by hand with brush), glaze staying on top of the wax(had to wipe off). Both glaze batches had been extend and therefore remixed/sieved and were creamy and ran easy. Have no clue how this will turn out.</db:para>
 
         <db:para><db:date>2007-12-22-20</db:date> Issues: tons of blister in Frosted Jade, Green Hue not gripping at the very bottom on the outside. Slight orange skin on the Green Hue here and there, perhaps caused by thickness. Beyond the problems the general idea works and it looks ok.</db:para>
@@ -118,7 +118,7 @@
 
     <piece xml:id="P34">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <glazing idref="GreenHue" hydrometerGravity="55" sieved="true"/>
+        <glazing idref="GreenHue" hydrometerGravity="55" sieved="60"/>
         <brushon idref="JetBlack"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
 
@@ -138,8 +138,8 @@
 
     <piece xml:id="P15">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="49"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="42"/>
+        <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="49"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="42"/>
         <db:para><db:date>2007-11-05</db:date>Threw it</db:para>
         <db:para><db:date>2007-11-07</db:date>Masked with tape, glazed with white, waxed on top, removed tape, glazed with black, removed wax. First the wax went off when removing the tape, so I had to rewax without tape. I doubt waxing works with tape on, even if the overlap is very small. The black glaze was spectacularly uneven, lots of rinning going on. The cuts were added to hide edge damage caused when trimming, and the glaze patterns, acting as practice, accompanied the style.</db:para>
 
@@ -147,22 +147,22 @@
 
     <piece xml:id="P16">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing idref="Chocolate" hydrometerGravity="42" sieved="false"/>
-        <glazing idref="TransparentYellowStain" hydrometerGravity="42" sieved="false"/>
+        <glazing idref="Chocolate" hydrometerGravity="42" sieved="no"/>
+        <glazing idref="TransparentYellowStain" hydrometerGravity="42" sieved="no"/>
         <db:para><db:date>2007-10-31</db:date></db:para>
         <db:para><db:date>2007-11-23</db:date>Tried brushing on the Chocolate glaze while it was spinning. The bisque sucks too strongly. Same case with the yellow. Inbetween was a brushed on wax, while rotating. Same problem again, the bisque is sucking too strongly. Well thrown though, thin and even. Inside is knocked though. Interesting perl at the bottom that are the yellow glaze.</db:para>
     </piece>
 
     <piece xml:id="P17">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing idref="IntenseBlack" sieved="false"/>
+        <glazing idref="IntenseBlack" sieved="no"/>
         <db:para><db:date>2007-10-31</db:date>The edge sunk due to that the edge was too wetened when trimming.</db:para>
     </piece>
 
     <piece xml:id="P18">
         <clayref idref="WSW" weightWhenWet="800"/>
-        <glazing idref="WhiteGloss" hydrometerGravity="44" sieved="false"/>
-        <glazing idref="IntenseBlack" hydrometerGravity="44" sieved="false"/>
+        <glazing idref="WhiteGloss" hydrometerGravity="44" sieved="no"/>
+        <glazing idref="IntenseBlack" hydrometerGravity="44" sieved="no"/>
         <brushon idref="YellowBO"/>
         <db:para><db:date>2007-11-24</db:date>Glazed the whole in white. The top white edge was done by using soaked news paper, and then paint resistive wax on top of the white. Then the news paper was removed. Compared to using tape, the soaked paper stick much better. The other five with stripes were done by spinning the piece on an iron whirler and apply resistive wax(P3384). The white glazed was first genly brushed with water, such that the glaze would suck less, and hence not jam/drain the wax-brush. Due to rythm, the stripes come out uneven as they did.</db:para>
     </piece>
@@ -198,7 +198,7 @@
 
     <piece xml:id="P22">
         <clayref idref="SaintThomas" weightWhenWet="600"/>
-        <glazing idref="WhiteGloss" sieved="false" hydrometerGravity="49"/>
+        <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="49"/>
         <db:para><db:date>2007-10-29</db:date></db:para>
         <db:para><db:date>2007-11-07</db:date>Glazing went ok. I expect it to come out sane.</db:para>
         <db:para><db:date>2007-11-24</db:date>But it didn't. Pinholes, and runs dragging off.</db:para>
@@ -207,7 +207,7 @@
     <piece xml:id="P41">
         <measurementsWhenDone height="130" width="260" depth="260"/>
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="41"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="41"/>
         <db:para><db:date>2007-11-12</db:date>Well balanced, no rythm. Though the upper part sunk down a bit, spoiling the nice curve on the inside. Maybe I should trimm it from within.</db:para>
         <db:para><db:date>2007-11-18</db:date>Well thrown, no rythm at all. Trimmed off 1700 g at high speed. Clean. Forgot to consider trimming from the inside.</db:para>
 
@@ -224,7 +224,7 @@
 
     <piece xml:id="P40">
         <clayref idref="SaintThomas" weightWhenWet="4300"/>
-        <glazing idref="IntenseBlack" sieved="false" hydrometerGravity="48"/>
+        <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="48"/>
         <db:para><db:date>2007-11-18</db:date>The clay was too wet. It collapsed slightly so I trimmed it from the inside in order to keep the inside sane.</db:para>
         <db:para>Glazed it by filling up the inside and then tilting the glaze around. Hence very long time of glazing on the inside. The outside was glazed twice by pooring while spinning. Probably thick too.</db:para>
 
@@ -250,8 +250,8 @@
 
     <piece xml:id="P31">
         <clayref idref="SaintThomas" weightWhenWet="2200"/>
-        <glazing idref="WhiteGloss" hydrometerGravity="44" sieved="false"/>
-        <glazing idref="IntenseBlack" hydrometerGravity="42" sieved="false"/>
+        <glazing idref="WhiteGloss" hydrometerGravity="44" sieved="no"/>
+        <glazing idref="IntenseBlack" hydrometerGravity="42" sieved="no"/>
         <brushon idref="YellowBO"/>
 
         <db:para><db:date>2007-11-22</db:date>Masking escapades. First the inside and outside was completely glazed in white. The inside went well -- easy when it's big and plenty of glaze. The outside as well. Had it standing on two rulers that sat on the edge of a bucket, which was spinning with the help of a iron whirler. Taped on the outside, on top of the white glaze. The tape won't stick on top of the glaze, but it will to itself if one goes all the way around. However, it's still not enough for creating a non-leaking edge, as the fired piece will demonstrate. Though, it helps if one has an overlapping, reinforcing layer at the opposite side of what is being masked.</db:para>
@@ -265,7 +265,7 @@
     <piece xml:id="P2">
         <measurementsWhenDone height="140" width="100" depth="95"/>
         <clayref idref="SaintThomas"/>
-        <glazing idref="FrostedJade" hydrometerGravity="44" sieved="false"/>
+        <glazing idref="FrostedJade" hydrometerGravity="44" sieved="no"/>
 
         <db:para><db:date>2007-11-22</db:date>The piece was thrown, dried, cut up, folded, and once completely dried, sanded and polished to remove rough edges and touch up the shape. The glazing was done by just putting it in the glaze bucket and roll it around a bit. The result was better than with more old fashioned approaches.</db:para>
     </piece>
@@ -290,7 +290,7 @@
 
     <piece xml:id="P91">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
-        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
+        <glazing idref="FrostedJade" sieved="60" hydrometerGravity="45"/>
 
         <db:para><db:date>2007-12-08</db:date> Another prototype piece. Bottom trimmed too thin. Cut three feet from the stem.</db:para>
         <db:para><db:date>2008-01-03</db:date> Glazed it. Noticed the bottom was thin by that the glaze took a long time to dry in the bottom. The outside was glazed twice. It didn't dry completely inbetween.</db:para>
@@ -312,7 +312,7 @@
 
     <piece xml:id="P97">
         <clayref idref="SaintThomas" weightWhenWet="500"/>
-        <glazing idref="Transparent" sieved="false" hydrometerGravity="45"/>
+        <glazing idref="Transparent" sieved="no" hydrometerGravity="45"/>
         <brushon idref="JetBlack"/>
 
         <db:para><db:date>2007-12-08</db:date> Oval experiment. After throwing, I ran my finger on the inside. Too crappy for burning.</db:para>
@@ -322,7 +322,7 @@
 
     <piece xml:id="P92">
         <clayref idref="SaintThomas" weightWhenWet="1100"/>
-        <glazing idref="FrostedJade" sieved="false" hydrometerGravity="51"/>
+        <glazing idref="FrostedJade" sieved="no" hydrometerGravity="51"/>
 
         <db:para><db:date>2007-12-08</db:date> Simple but effectful trick of trimming clean and mounting a separate stem on the side. It's balance. Lousy throwing though, crack on side, will crack in bisque firing. This is maybe fancy on a big piece.</db:para>
 
@@ -341,7 +341,7 @@
 
     <piece xml:id="P98">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
-        <glazing idref="Transparent" sieved="false" hydrometerGravity="45"/>
+        <glazing idref="Transparent" sieved="no" hydrometerGravity="45"/>
         <brushon idref="JetBlack"/>
 
         <db:para><db:date>2007-12-09</db:date> High, thin cylinder</db:para>
@@ -364,7 +364,7 @@
 
     <piece xml:id="P24">
         <clayref idref="SaintThomas" weightWhenWet="3500"/>
-        <glazing idref="IntenseBlack" sieved="true" hydrometerGravity="55"/>
+        <glazing idref="IntenseBlack" sieved="60" hydrometerGravity="55"/>
         <db:para><db:date>2007-12-31</db:date> Trimmed it and burnished the outside up to about 5 cm to the rim. Lots of rythm, asymmetric rim, but looks like it will give an ok impression anyway. Threw the stem too; this will be a big tilting one.</db:para>
 
         <db:para><db:date>2008-01-21</db:date> Glazed outside twice, the inside in the usual circulating/tilting way. Cracks, pin holes(before glaze fire), big variations in thickness due to too little glaze for pouring. Perceived as extremely thick, about 2.5 mm, pieces fell of in flakes around the rim.</db:para>
@@ -374,7 +374,7 @@
 
     <piece xml:id="P25">
         <clayref idref="SaintThomas"/>
-        <glazing idref="GreenHue" sieved="false" hydrometerGravity="55"/>
+        <glazing idref="GreenHue" sieved="no" hydrometerGravity="55"/>
         <brushon idref="JetBlack"/>
 
         <db:para>Threw that piece quite some months ago. Although it for the recent time have been covered with a plastic bag, it may have collected dust. Heavy bottom, wasn't trimmed, and that was a mistake.</db:para>
@@ -386,7 +386,7 @@
 
     <piece xml:id="P26">
         <clayref idref="SaintThomas" weightWhenWet="700"/>
-        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
+        <glazing idref="FrostedJade" sieved="60" hydrometerGravity="45"/>
 
         <db:para><db:date>2008-01-13</db:date> The clay was new, straight from the bag. In other words, this is not re-used clay.</db:para>
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
@@ -397,7 +397,7 @@
 
     <piece xml:id="P27">
         <clayref idref="SaintThomas" weightWhenWet="700"/>
-        <glazing idref="FrostedJade" sieved="true" hydrometerGravity="45"/>
+        <glazing idref="FrostedJade" sieved="60" hydrometerGravity="45"/>
 
         <db:para><db:date>2008-01-13</db:date> Used re-weidged clay, as I usually do.</db:para>
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
@@ -421,7 +421,7 @@
 
     <piece xml:id="P30">
         <clayref idref="SaintThomas" weightWhenWet="3600"/>
-        <glazing idref="IntenseBlack" sieved="true" hydrometerGravity="55"/>
+        <glazing idref="IntenseBlack" sieved="60" hydrometerGravity="55"/>
         <db:para><db:date>2008-01-13</db:date> Collapsed, used hot air gun to pull it up.</db:para>
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside as well as the inside, in order to compensate for the collapse.</db:para>
         <db:para><db:date>2008-01-21</db:date> Glazed outside twice, the inside in the usual circulating/tilting way. Cracks, pin holes(before glaze fire), big variations in thickness due to too little glaze for pouring. Perceived as extremely thick, about 2.5 mm, pieces fell of in flakes around the rim.</db:para>
@@ -433,7 +433,7 @@
 
     <piece xml:id="P14">
         <clayref idref="SaintThomas" weightWhenWet="3600"/>
-        <db:para><db:date>2008-02-16</db:date> When looking from the side, it's not well compositioned. The reason being that the bottom is not round, slightly flat, and therefore the stem sits on the side. Ifit was round the stem wouldn't be able to sit on the side, because the cirlcle would only have rotated. For the same reason the stem is not level across. A circle, which the stem is, can't keep its shape on a non-circle.</db:para>
+        <db:para><db:date>2008-02-16</db:date> When looking from the side, it's not well compositioned. The reason being that the bottom is not round, slightly flat, and therefore the stem sits on the side. If it was round the stem wouldn't be able to sit on the side, because the cirlcle would only have rotated. For the same reason the stem is not level across. A circle, which the stem is, can't keep its shape on a non-circle.</db:para>
     </piece>
 
     <piece xml:id="P3">
@@ -453,7 +453,7 @@
 
     <piece xml:id="P48">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
-        <glazing idref="ModifiedMamoRightAlumina" sieved="true"/>
+        <glazing idref="ModifiedMamoRightAlumina" sieved="60"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
         <db:para><db:date>2008-02-23</db:date> Unbelievable. I forgot to write down the gravity of the glaze. But somewhere between 40 and 50 I think.</db:para>
     </piece>
@@ -480,7 +480,7 @@
 
     <piece xml:id="P23">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
-        <glazing idref="ModifiedMamoRightAlumina" sieved="true" hydrometerGravity="51"/>
+        <glazing idref="ModifiedMamoRightAlumina" sieved="60" hydrometerGravity="51"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
         <db:para><db:date>2008-03-29</db:date> The black spots on the outside is due to that the green ware was contaimnated with black iron oxide in bisque firing.</db:para>
         <db:para><db:date>2008-03-29</db:date> The glaze feels like sand paper. Obviously this cone 10 glaze doesn't work for regular stoneware temperature.</db:para>
@@ -488,14 +488,14 @@
 
     <piece xml:id="P46">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
-        <glazing idref="WhiteGloss" sieved="true" hydrometerGravity="50"/>
+        <glazing idref="WhiteGloss" sieved="60" hydrometerGravity="50"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
         <db:para><db:date>2008-03-08</db:date> Glazed it. Perceived as thick. Pinholes on the surface. Sieved the glaze a four times. Glazed it by hold/rotating it in plenty of glaze.</db:para>
     </piece>
 
     <piece xml:id="P44">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
-        <glazing idref="FrostedJade" sieved="false" hydrometerGravity="45"/>
+        <glazing idref="FrostedJade" sieved="no" hydrometerGravity="45"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
         <db:para><db:date>2008-03-08</db:date> The edge has black iron oxide burned into it from bisque firing. The piece was stacked with pieces with that oxide. Glazing wasn't very even, so small runs on the side.</db:para>
     </piece>
@@ -532,14 +532,14 @@
 
     <piece xml:id="P55">
         <clayref idref="WSW"/>
-        <glazing idref="SatinBase" sieved="true" hydrometerGravity="50"/>
+        <glazing idref="SatinBase" sieved="60" hydrometerGravity="50"/>
         <db:para><db:date>2008-04-13</db:date> Mixed with mixer. With the handle facing the viewer; the handle has a damge on the upper part on the left side, a run on the left outer side, and an imploded bubble on the inner left side.</db:para>
         <db:para>The bottom says: "81x109 when wet".</db:para>
     </piece>
 
     <piece xml:id="P56">
         <clayref idref="WSW"/>
-        <glazing idref="SatinBase5Zirconium" sieved="true" hydrometerGravity="50"/>
+        <glazing idref="SatinBase5Zirconium" sieved="60" hydrometerGravity="50"/>
 
         <db:para><db:date>2008-03-24</db:date></db:para>
         <db:para><db:date>2008-04-13</db:date> Mixed with mixer. Turned it in normal position direcly after dipping so it ran downwards. Some random pooling in the buttom, and very shall runs on the outside.</db:para>
@@ -557,7 +557,7 @@
 
     <piece xml:id="P59">
         <clayref idref="WSW"/>
-        <glazing idref="SatinBase5Zirconium" sieved="true" hydrometerGravity="42"/>
+        <glazing idref="SatinBase5Zirconium" sieved="60" hydrometerGravity="42"/>
         <db:para><db:date>2008-03-24</db:date> 31 inscribed into the bisque, but it seems to be wrong. Has written 59 with oxide pen. Fairly thin glaze layer.</db:para>
     </piece>
 

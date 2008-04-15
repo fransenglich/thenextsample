@@ -247,7 +247,11 @@ A format for describing pottery glazes, samples and pieces.
     <xs:complexType name="glazingType">
         <xs:attribute name="idref"    use="required" type="xs:IDREF"/>
         <xs:attribute name="hydrometerGravity"  use="optional" type="hydrometerGravityType"/>
-        <xs:attribute name="sieved"   use="required" type="xs:boolean"/>
+        <xs:attribute name="sieved"   use="required">
+            <xs:simpleType>
+                <xs:union memberTypes="xs:integer withMixerType"/>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:complexType>
 
     <xs:complexType name="brushonType">
@@ -256,6 +260,13 @@ A format for describing pottery glazes, samples and pieces.
 
     <xs:simpleType name="hydrometerGravityType">
         <xs:restriction base="xs:integer"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="withMixerType">
+        <xs:restriction base = "xs:string">
+            <xs:enumeration value = "WithMixer"/>
+            <xs:enumeration value = "no"/>
+        </xs:restriction>
     </xs:simpleType>
 
     <xs:complexType name="componentType">

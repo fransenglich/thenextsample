@@ -340,11 +340,14 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     <xsl:template match="@sieved">,
         <emphasis>
             <xsl:choose>
-                <xsl:when test=". = 'true'">
-                    sieved
+                <xsl:when test=". = 'WithMixer'">
+                    with mixer
+                </xsl:when>
+                <xsl:when test=". = 'no'">
+                    not sieved
                 </xsl:when>
                 <xsl:otherwise>
-                    not sieved
+                    sieved with mesh size <constant><xsl:value-of select="."/></constant>
                 </xsl:otherwise>
             </xsl:choose>
         </emphasis>
