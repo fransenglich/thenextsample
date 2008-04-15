@@ -233,9 +233,16 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
             <xsl:variable name="piecesUsing" select="//p:pieces/p:piece[p:glazing/@idref = current()/@xml:id]"/>
             <xsl:if test="$piecesUsing">
-                <db:para>Used on:
+                <db:para>Used on
+                    <xsl:choose>
+                        <xsl:when test="count($piecesUsing) > 1">pieces</xsl:when>
+                        <xsl:otherwise>piece</xsl:otherwise>
+                    </xsl:choose>
+
+                    <xsl:text> </xsl:text>
+
                     <xsl:for-each select="$piecesUsing">
-                        <db:xref xlink:href="#{@xml:id}"/>
+                        <db:xref xrefstyle="template: %t" xlink:href="#{@xml:id}"/>
                         <xsl:if test="position() = last() - 1">
                             <xsl:text> and </xsl:text>
                         </xsl:if>
