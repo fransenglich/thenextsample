@@ -918,7 +918,7 @@
     <sample date="2008-04-13" xml:id="T206">
         <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure.</db:para>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin.</db:para>
     </sample>
     <sample date="2008-04-13" xml:id="T248">
         <glazing sieved="WithMixer" hydrometerGravity="57" idref="SatinBase"/>
@@ -986,6 +986,14 @@
         <db:para>Melt test of P3332, Nepheline Syenite</db:para>
     </sample>
 
+    <sample date="2008-04-20" xml:id="T249">
+        <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
+        <brushon idref="VelourBlackBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin.</db:para>
+        <db:para>The underglaze dramatically inhibited the suction. The glaze ontop floated around like water, more or less. Possibly one could dillute the underglaze. One idea could also be to spray the underglaze on before bisque firing, both things could improve suction. Though I think all <db:xref xlink:href="#NewGrassGreen"/> will come out as crap, since it's for cone 10.</db:para>
+    </sample>
+
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
     <!--
 
@@ -994,16 +1002,13 @@
     - What does UMF mean?
     - Where shall one throw glaze slurries? Paining oxides?
     - What's the mesh size on the sieve at liv i leire?
+    - How should one lowering the melting point of a glaze? Say NewGrassGreen.
 
     Do not have melt tests for:
         * Talc, P3345
         * Wollastonite, P3348
         * Potash Feldspar, P3296
         * Ball clay, P3352
-
-    Do not have oxide test of:
-        * Barium Carbonate
-        * Lithium Carbonate
     -->
 </samples>
 <!--
