@@ -996,7 +996,6 @@
 
     <sample date="2008-04-20" xml:id="T233">
         <glazing sieved="no" hydrometerGravity="34" idref="GlossBlackBreakingBrown"/>
-        <brushon idref="VelourBlackBO"/>
         <clayref idref="SaintThomas"/>
         <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin. Mixed it a bit, but the mixer is broken. Settles quickly due to the heavy and large iron oxide particles. Seems to be dispersing unevenly for the same reason. Won't pass a 100 mesh sieve.</db:para>
     </sample>
@@ -1037,10 +1036,10 @@
         <db:para/>
     </sample>
 
-    <!-- TODO 251 Velour black 
+    <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
-    
+
     -->
 
     <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249, 250-151. -->

@@ -33,7 +33,7 @@
     <component priceIsFor="1000"    price="59"      xml:id="BoneAsh"><db:phrase>Bone Ash, <db:constant>P3305</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="79"      xml:id="PotashFeldspar"><db:phrase>Potash Feldspar(Kalifeltspat in Norwegian), <db:constant>P3296</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="75"      xml:id="Rutile"><db:phrase>Rutile, <db:constant>P3338</db:constant></db:phrase></component>
-    <component priceIsFor="1000"    price="300"    xml:id="BlackIronOxide"><db:phrase>Black Iron Oxide, <db:constant>P3408</db:constant></db:phrase></component>
+    <component priceIsFor="1000"    price="50"    xml:id="BlackIronOxide"><db:phrase>Black Iron Oxide, <db:constant>P3408</db:constant></db:phrase></component>
 
 
     <component                                      xml:id="NC4Feldspar"><db:phrase>NC-4 Feldspar</db:phrase></component>
