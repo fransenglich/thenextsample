@@ -994,7 +994,56 @@
         <db:para>The underglaze dramatically inhibited the suction. The glaze ontop floated around like water, more or less. Possibly one could dillute the underglaze. One idea could also be to spray the underglaze on before bisque firing, both things could improve suction. Though I think all <db:xref xlink:href="#NewGrassGreen"/> will come out as crap, since it's for cone 10.</db:para>
     </sample>
 
-    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249. -->
+    <sample date="2008-04-20" xml:id="T233">
+        <glazing sieved="no" hydrometerGravity="34" idref="GlossBlackBreakingBrown"/>
+        <brushon idref="VelourBlackBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin. Mixed it a bit, but the mixer is broken. Settles quickly due to the heavy and large iron oxide particles. Seems to be dispersing unevenly for the same reason. Won't pass a 100 mesh sieve.</db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T231">
+        <glazing sieved="100" hydrometerGravity="39" idref="BlankBaseWithNewGrass"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Was fairly clumsy when dipping. There's three layers.</db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T250">
+        <glazing sieved="100" hydrometerGravity="39" idref="BlankBaseWithNewGrass"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>One layer. Id has been corrected, from 203 to 250.</db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T190">
+        <glazing sieved="100" hydrometerGravity="47" idref="BlankBaseWithNewGrass"/>
+        <clayref idref="WSW"/>
+        <db:para>One layer. Felt failry thick</db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T210">
+        <glazing sieved="100" hydrometerGravity="40" idref="GlossRutiledBlue"/>
+        <clayref idref="SaintThomas"/>
+        <db:para></db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T182">
+        <glazing sieved="100" hydrometerGravity="40" idref="GlossRutiledBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>One layer.</db:para>
+    </sample>
+
+    <sample date="2008-04-20" xml:id="T232">
+        <glazing sieved="100" hydrometerGravity="43" idref="GlossBlackBreakingBrown"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
+    <!-- TODO 251 Velour black 
+        Intended for newgrassgreen.
+        <db:para>Id has been corrected. From 224 to 251.</db:para>
+    
+    -->
+
+    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249, 250-151. -->
     <!--
 
     Questions:
@@ -1004,11 +1053,16 @@
     - What's the mesh size on the sieve at liv i leire?
     - How should one lowering the melting point of a glaze? Say NewGrassGreen.
 
+
     Do not have melt tests for:
         * Talc, P3345
         * Wollastonite, P3348
         * Potash Feldspar, P3296
         * Ball clay, P3352
+
+
+        ilmenita
+        Emanuel Cooper
     -->
 </samples>
 <!--

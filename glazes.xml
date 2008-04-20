@@ -677,6 +677,49 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="GlossBlackBreakingBrown"
+           manufacturer="Frans Englich"
+           name="Gloss Black Breaking Brown">
+           <db:para>From The Glaze Book, p. 185. For oxidation, soak time 1 h.</db:para>
+
+           <recipe>
+               <component idref="Flint"             parts="41" replacementFor="Quartz"/>
+               <component idref="PotashFeldspar"    parts="34"/>
+               <component idref="Whiting"           parts="16"/>
+               <component idref="ChinaClay"         parts="9"/>
+               <component idref="BlackIronOxide"    parts="10"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="BlankBaseWithNewGrass"
+           manufacturer="Frans Englich"
+           name="Gloss Black Breaking Brown">
+           <db:para>The colorants from New Grass Green, The Complete Guide to High-Fire Glazes, p. 102. with blank base from Handbook in Studio Ceramics, p. 177, in order to get New Grass Green in temperature suitable for traditional stoneware. According to John Brit(p. 20, Complete Guide) zinc turns chrome dull, so avoid a base that doesn't have that. By mistake I used 5 parts tin oxide, instead of 4.</db:para>
+
+           <recipe>
+               <component idref="FeldsparFFF"       parts="55"/>
+               <component idref="ChinaClay"         parts="8" replacementFor="Kaolin"/>
+               <component idref="Flint"             parts="20" replacementFor="Quartz"/>
+               <component idref="Whiting"           parts="17"/>
+               <component idref="ChromeOxide"       parts="2"/>
+               <component idref="TinOxide"          parts="5"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="GlossRutiledBlue"
+           manufacturer="Frans Englich"
+           name="Gloss Rutiled Blue">
+           <db:para>From The Glaze Book, p. 156. Has a specified soak time of one hour at 1290 degree Celcius. The book says rutile oxide, but since rutile isn't a specific oxide but a mixture of them, I wonder how that makes sense.</db:para>
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="60"/>
+               <component idref="Dolomite"          parts="20"/>
+               <component idref="Flint"             parts="15" replacementFor="Quartz"/>
+               <component idref="ChinaClay"         parts="5"/>
+               <component idref="Rutile"            parts="4"/>
+               <component idref="CobaltOxide"       parts="1"/>
+           </recipe>
+    </glaze>
 
 </glazes>
 <!--
