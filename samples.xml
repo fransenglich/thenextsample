@@ -919,6 +919,8 @@
         <glazing sieved="WithMixer" hydrometerGravity="32" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin.</db:para>
+        <db:para>It melted, but the color is wrong.</db:para>
+
     </sample>
     <sample date="2008-04-13" xml:id="T248">
         <glazing sieved="WithMixer" hydrometerGravity="57" idref="SatinBase"/>
@@ -958,7 +960,7 @@
     <sample date="2008-04-14" xml:id="T229">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>To about 10 ml water was about 2 gram Lithium Carbonate(R1063) added, painted ontop of the glazed, unfired surface(majolica).</db:para>
+        <db:para>To about 10 ml water was about 2 gram Lithium Carbonate(R1063) added, painted ontop of the glazed, unfired surface(majolica). The orange(iron?) flashes at the top is strong, also seen on <db:xref xlink:href="T227"/>, and not seen on anything else in the same kiln firing, so probably the Lithium did that, somehow. The glaze has crazed, but isn't it outside of where the lithium was brushed on?</db:para>
     </sample>
     <sample date="2008-04-14" xml:id="T227">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
@@ -992,6 +994,7 @@
         <clayref idref="SaintThomas"/>
         <db:para>The gravity number is estimated. Somewhere below 40, that's for sure. Fairly thin.</db:para>
         <db:para>The underglaze dramatically inhibited the suction. The glaze ontop floated around like water, more or less. Possibly one could dillute the underglaze. One idea could also be to spray the underglaze on before bisque firing, both things could improve suction. Though I think all <db:xref xlink:href="#NewGrassGreen"/> will come out as crap, since it's for cone 10.</db:para>
+
     </sample>
 
     <sample date="2008-04-20" xml:id="T233">
@@ -1051,6 +1054,9 @@
     - Where shall one throw glaze slurries? Paining oxides?
     - What's the mesh size on the sieve at liv i leire?
     - How should one lowering the melting point of a glaze? Say NewGrassGreen.
+    - What is the black stuff on T246?
+    - Why did 182 come out as it did?
+    - Why did 234/243 come out as it did?
 
 
     Do not have melt tests for:
