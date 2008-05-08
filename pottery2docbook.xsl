@@ -522,8 +522,15 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
     <xsl:template match="p:measurementsWhenDone">
         <para>Measurements: height <constant><xsl:value-of select="@height"/></constant> mm,
+
+            <xsl:if test="@width = @depth">
+                <xsl:message>If the depth is the same as the width, the
+                    depth shouldn't be specified. Detected for
+                    <xsl:value-of select="../@xml:id"/></xsl:message>
+            </xsl:if>
+
             <xsl:choose>
-                <xsl:when test="@width = @depth">
+                <xsl:when test="not(@depth)">
                     diameter <constant><xsl:value-of select="@width"/></constant> mm
                 </xsl:when>
                 <xsl:otherwise>
