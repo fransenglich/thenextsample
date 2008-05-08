@@ -223,6 +223,7 @@
     </piece>
 
     <piece xml:id="P40">
+        <measurementsWhenDone height="127" width="275"/>
         <clayref idref="SaintThomas" weightWhenWet="4300"/>
         <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="48"/>
         <db:para><db:date>2007-11-18</db:date>The clay was too wet. It collapsed slightly so I trimmed it from the inside in order to keep the inside sane.</db:para>
