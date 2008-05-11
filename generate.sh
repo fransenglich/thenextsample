@@ -30,6 +30,8 @@ xsltproc -o pottery.docbook pottery2docbook.xsl $withIncludesResolved || exit 3
 xmllint --xinclude --noout --schema docbook.xsd pottery.docbook || exit 4
 
 cd xhtml/
-xsltproc ../../docbook-xsl-1.73.2/xhtml/chunk.xsl ../pottery.docbook || exit 5
+xsltproc --stringparam use.id.as.filename 1         \
+         ../../docbook-xsl-1.73.2/xhtml/chunk.xsl   \
+         ../pottery.docbook || exit 5
 
 # vim: et:ts=4:sw=4:sts=4
