@@ -18,7 +18,7 @@
     <component priceIsFor="5000"    price="47"      xml:id="Alumina"><db:phrase>Aluminium Oxide, <db:constant>P3300</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="57"      xml:id="Whiting"><db:phrase>Whiting, <db:constant>P3346</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="64"      xml:id="Dolomite"><db:phrase>Dolomite, <db:constant>P3315</db:constant></db:phrase></component>
-    <component priceIsFor="5000"    price="79"      xml:id="FeldsparFFF"><db:phrase>Feldspar<db:constant>P3316</db:constant></db:phrase></component>
+    <component priceIsFor="5000"    price="79"      xml:id="FeldsparFFF"><db:phrase>Feldspar, <db:constant>P3316</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="79"      xml:id="SodaAsh"><db:phrase>Sodium Ash, <db:constant>P3342</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="87"      xml:id="CornwallStone"><db:phrase>Cornwall Stone, <db:constant>P3314</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="87"      xml:id="Flint"><db:phrase>Flint, <db:constant>P3319</db:constant></db:phrase></component>
