@@ -279,14 +279,22 @@
 
     <piece xml:id="P95">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="WithMixer" hydrometerGravity="49"/>
+        <brushon idref="VelourBlackBO"/>
+        <brushon idref="WhiteBO"/>
 
-        <db:para><db:date>2007-12-08</db:date>Trimmed into a cone.</db:para>
+        <db:para><db:date>2007-12-08</db:date> Trimmed into a cone.</db:para>
+        <db:para><db:date>2008-05-17</db:date> Green glaze is from 2000 g slurry, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P96">
         <clayref idref="SaintThomas" weightWhenWet="900"/>
+        <glazing idref="WillsOribeAlumina" sieved="WithMixer" hydrometerGravity="49"/>
+        <brushon idref="VelourBlackBO"/>
+        <brushon idref="WhiteBO"/>
 
-        <db:para><db:date>2007-12-08</db:date>Trimmed into a cone.</db:para>
+        <db:para><db:date>2007-12-08</db:date> Trimmed into a cone.</db:para>
+        <db:para><db:date>2008-05-17</db:date> Green glaze is from 2000 g slurry, just mixed. Similar in approach to <db:xref xlink:href="P95"/>. The green layer is very thin, waterish, and air bubbles here and there. Was a lot of small air bubbles in the slurry. It also ran here and there.</db:para>
     </piece>
 
     <piece xml:id="P91">
@@ -464,12 +472,17 @@
 
     <piece xml:id="P11">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="Transparent" sieved="no" hydrometerGravity="42"/>
+        <glazing idref="WillsOribeAlumina" sieved="WithMixer" hydrometerGravity="49"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-05-17</db:date> Glazed with green on fairly warm bisque -- had dried it it in kiln during its 100 C cooldown. Very powerdish glaze, bubbles on the surface. Used wax(P3384) on the inside to get a clean rim. Gave the rim an extra dip.</db:para>
     </piece>
 
     <piece xml:id="P12">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="WhiteGloss" sieved="WithMixer" hydrometerGravity="51"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-05-17</db:date> Glazed with green on fairly warm bisque -- had dried it it in kiln during its 100 C cooldown. Very powerdish glaze, bubbles on the surface. Used wax(P3384) on the inside to get a clean rim. Gave the rim an extra dip, with uneveness.</db:para>
     </piece>
 
     <piece xml:id="P20">
@@ -506,7 +519,10 @@
 
     <piece xml:id="P50">
         <clayref idref="WSW"/>
+        <glazing idref="Transparent" sieved="WithMixer" hydrometerGravity="43"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="WithMixer" hydrometerGravity="49"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2008-05-17</db:date> Transparent on the inside. Lots of pieces in the transparent, it really should be sieved. The piece dried a little bit in the sun after having glazed the inside, but the outside was still a bit cold when glazing. The green ran in one place on the outside, and on the handle. Green was from a 2000 g slurry, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P51">
@@ -526,7 +542,9 @@
 
     <piece xml:id="P54">
         <clayref idref="WSW"/>
+        <glazing idref="WhiteGloss" sieved="WithMixer" hydrometerGravity="51"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2008-05-17</db:date> White on the inside. The piece dried a little bit in the sun after having glazed the inside, but the outside was still cold when glazing. Droplets on the inside, messed with a finger at the bottom on the outside. Layer perceived as thick. Green was from a 2000 g slurry, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P55">

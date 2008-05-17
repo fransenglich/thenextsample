@@ -1042,6 +1042,18 @@
         <db:para/>
     </sample>
 
+    <sample date="2008-05-17" xml:id="T200">
+        <glazing sieved="WithMixer" hydrometerGravity="49" idref="ClausCrystalGreenBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>From 2000 g slurry, just mixed. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-05-17" xml:id="T188">
+        <glazing sieved="WithMixer" hydrometerGravity="49" idref="WillsOribeAlumina"/>
+        <clayref idref="WSW"/>
+        <db:para>From 2000 g slurry, just mixed. One layer.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
