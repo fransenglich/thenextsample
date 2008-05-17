@@ -214,6 +214,24 @@ A format for describing pottery glazes, samples and pieces.
                 <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
                 <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
                 <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
+                <xs:attribute name="category"        use="required">
+                    <xs:simpleType>
+                        <xs:restriction base = "xs:string">
+                            <xs:enumeration value = "Black"/>
+                            <xs:enumeration value = "Blue"/>
+                            <xs:enumeration value = "Brown"/>
+                            <xs:enumeration value = "Colorless"/>
+                            <xs:enumeration value = "Green"/>
+                            <xs:enumeration value = "Grey"/>
+                            <xs:enumeration value = "Orange"/>
+                            <xs:enumeration value = "Pink"/>
+                            <xs:enumeration value = "Red"/>
+                            <xs:enumeration value = "Turquoise"/>
+                            <xs:enumeration value = "White"/>
+                            <xs:enumeration value = "Yellow"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:attribute>
                 <xs:attribute name="type"           use="optional">
                     <xs:simpleType>
                         <xs:restriction base = "xs:string">

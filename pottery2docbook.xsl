@@ -9,6 +9,7 @@
                 xmlns:em="http://exslt.org/math"
                 xmlns:es="http://exslt.org/sets"
                 xmlns:ec="http://exslt.org/common"
+                xmlns:esets="http://exslt.org/sets"
                 xmlns:p="tag:fenglich.fastmail.fm,2007:Pottery">
 
 
@@ -68,7 +69,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
             <xsl:apply-templates select="p:pieces"/>
             <xsl:apply-templates select="p:glazes"/>
-            <xsl:apply-templates select="p:clays"/>
 
             <chapter>
                 <title>Non-glaze Samples</title>
@@ -80,7 +80,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
                 <xsl:apply-templates select="p:samples/p:sample[not(p:glazing | p:brushon)]"/>
             </chapter>
-
 
             <chapter>
                 <title>Oven Programs</title>
@@ -152,6 +151,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
             </chapter>
 
+            <xsl:apply-templates select="p:clays"/>
+
             <xsl:call-template name="sourcesAppendix"/>
         </book>
     </xsl:template>
@@ -206,13 +207,20 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
     <xsl:template match="p:glazes">
         <chapter>
-            <title>Glazes</title>
+            <title>Glazes by Color</title>
 
             <para>A total of <xsl:value-of select="count(//p:sample)"/> sample tiles.</para>
 
-            <xsl:apply-templates select="p:glaze">
-                <xsl:sort select="@name"/>
-            </xsl:apply-templates>
+            <xsl:for-each select="esets:distinct(p:glaze/@category)">
+                <xsl:sort select="."/>
+
+                <section>
+                    <title><xsl:value-of select="."/></title>
+                    <xsl:apply-templates select="(/)//p:glaze[@category = current()]">
+                        <xsl:sort select="@name"/>
+                    </xsl:apply-templates>
+                </section>
+            </xsl:for-each>
         </chapter>
     </xsl:template>
 

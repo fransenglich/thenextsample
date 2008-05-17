@@ -3,49 +3,58 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:db="http://docbook.org/ns/docbook">
     <glaze xml:id="GreenHue"
+           category="Green"
            manufacturer="Potterycrafts Limited"
            name="Green Hue"
            productID="P2579"/>
 
     <glaze xml:id="FrostedJade"
+           category="Green"
            manufacturer="Potterycrafts Limited"
            name="Frosted Jade"
            productID="P2540"/>
 
     <glaze xml:id="IntenseBlack"
+           category="Black"
            manufacturer="Potterycrafts Limited"
            name="Intense Black"
            productID="P3555"/>
 
     <glaze xml:id="WhiteGloss"
+           category="White"
            manufacturer="Potterycrafts Limited"
            name="White Gloss"
            productID="P3550"/>
 
     <glaze xml:id="SandBrown"
+           category="Brown"
            manufacturer="Potterycrafts Limited"
            name="Sand Brown, B/O"
            type="BrushOn"
            productID="P2845.5"/>
 
     <glaze xml:id="ImagineGreen"
+           category="Green"
            manufacturer="Ceradel"
            name="Green, Imagine ELG 80, Vent 230 ML Green"
            type="BrushOn"/>
 
     <glaze xml:id="GreyAmaco"
+           category="Grey"
            name="Grey, Sahara Liquid Glazes, HF series"
            productID="HF-18"
            manufacturer="Amaco"
            type="BrushOn"/>
 
     <glaze xml:id="YellowBO"
+           category="Yellow"
            name="Yellow Brush-on glaze"
            productID="P2842"
            manufacturer="Potterycrafts Limited"
            type="BrushOn"/>
 
     <glaze xml:id="AxnerBlackUnderGlazePen"
+           category="Black"
            name="Black underglaze pen"
            productID="P4001"
            manufacturer="AXNER"
@@ -54,6 +63,7 @@
    </glaze>
 
     <glaze xml:id="Transparent"
+           category="Colorless"
            name="Transparent"
            productID="P1091"
            manufacturer="Unknown">
@@ -62,12 +72,14 @@
    </glaze>
 
     <glaze xml:id="TransparentCopperCarbonate"
+           category="Green"
            name="Copper Carbonate oxide in transparent glaze"
            manufacturer="Mixture">
            <db:para>To 200 ml transparent glaze, P1091, was 20 g Copper carbonate, P3404, added.</db:para>
    </glaze>
 
     <glaze xml:id="TransparentYellowStain"
+           category="Green"
            name="Yellow stain in transparent glaze"
            manufacturer="Mixture"
            >
@@ -75,12 +87,14 @@
    </glaze>
 
    <glaze xml:id="Chocolate"
+          category="Black"
           name="Black stain in transparent glaze"
           manufacturer="Mixture">
        <db:para>200 ml transparent glaze, P1091 was 20 g Black stain, P4130, added.</db:para>
    </glaze>
 
    <glaze xml:id="GreenHueAndFrostedJade"
+          category="Green"
        name="Green Hue mixed with Frosted jade"
        manufacturer="Mixture"
        >
@@ -88,6 +102,7 @@
    </glaze>
 
    <glaze xml:id="AmacoWhiteBO"
+       category="White"
        name="White"
        productID="HF-11A White"
        manufacturer="Amaco"
@@ -96,6 +111,7 @@
    </glaze>
 
    <glaze xml:id="AmacoWaxyWhite"
+       category="White"
        name="Waxy White"
        productID="HF-17"
        manufacturer="Amaco"
@@ -104,144 +120,168 @@
    </glaze>
 
    <glaze xml:id="RedBO"
+       category="Red"
        name="Red brush on"
        productID="P2840"
        manufacturer="Potterycrafts Limited"
        type="BrushOn"/>
 
    <glaze xml:id="TurquoiseBO"
+       category="Turquoise"
        name="Turquoise, Sahara Liquid Series"
        productID="HF-26"
        type="BrushOn"
        manufacturer="Amaco"/>
 
    <glaze xml:id="WhiteBO"
+       category="White"
       name="White Brush-on"
       productID="2850.5"
       type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="IndigoBlue"
+       category="Blue"
       name="Indigo Blue"
       productID="2844.5"
       type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="OilSpot"
+       category="Black"
       name="Oil Spot, Potter's Choice Liquid Glazes"
       productID="PC-35"
       type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="TexturedBlue"
+       category="Blue"
       name="Textured Blue, Sahara Liquid Glaze"
       productID="HF-22"
       type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="GoldBrownBO"
+       category="Brown"
       name="Gold Brown Brush-on"
       productID="2847.5"
       type="BrushOn"
       manufacturer="Potterycrafts Limited"/>
 
    <glaze xml:id="VelourBlackBO"
+       category="Black"
       name="Velour Black, V Series, Velvet Underglaze"
       productID="V-370"
       type="BrushOn"
       manufacturer="Amaco"/>
 
    <glaze xml:id="CeradelNoir"
+       category="Black"
       name="Noir, Imagine"
       productID="ELG 60"
       manufacturer="Ceradel"
       type="BrushOn"/>
 
    <glaze xml:id="AmacoWhiteUnderglaze"
+       category="White"
       name="White, V Series, Velvet Underglaze"
       productID="V-360"
       type="BrushOn"
       manufacturer="Ceradel"/>
 
    <glaze xml:id="BlackBO"
+           category="Black"
            manufacturer="Potterycrafts Limited"
            name="Black Brush-on"
            type="BrushOn"
            productID="P2851"/>
 
    <glaze xml:id="LichenGreenBO"
+           category="Green"
            manufacturer="Potterycrafts Limited"
            name="Lichen Green"
            type="BrushOn"
            productID="P2822"/>
 
    <glaze xml:id="OrangeBO"
+           category="Orange"
            manufacturer="Potterycrafts Limited"
            name="Orange brush-on"
            type="BrushOn"
            productID="P2841"/>
 
    <glaze xml:id="JetBlack"
+           category="Black"
            manufacturer="Amaco"
            name="Jet Black, Velvet Underglaze, V Series"
            type="BrushOn"
            productID="V-361"/>
 
    <glaze xml:id="AmacoBrown"
+           category="Brown"
            manufacturer="Amaco"
            name="Brown, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-30"/>
 
    <glaze xml:id="AmacoClear"
+           category="Colorless"
            manufacturer="Amaco"
            name="Clear, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-10"/>
 
    <glaze xml:id="YellowOatMetal"
+           category="Yellow"
            manufacturer="Amaco"
            name="Matt Yellow Oat Metal, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-62"/>
 
    <glaze xml:id="TexturedTan"
+           category="Brown"
            manufacturer="Amaco"
            name="Textured Tan, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-32"/>
 
    <glaze xml:id="AmacoYellow"
+           category="Yellow"
            manufacturer="Amaco"
            name="Yellow, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-60"/>
 
    <glaze xml:id="TransparentBO"
+           category="Colorless"
            manufacturer="Potterycrafts Limited"
            name="Transparent brush-on"
            type="BrushOn"
            productID="P2793"/>
 
    <glaze xml:id="TivoliRed"
+            category="Red"
            manufacturer="Potterycrafts Limited"
            name="Tivoli Red"
            type="BrushOn"
            productID="P2818"/>
 
     <glaze xml:id="AutumnShades"
+        category="Brown"
            manufacturer="Potterycrafts Limited"
            name="Autumn Shades"
            type="BrushOn"
            productID="P2804"/>
 
     <glaze xml:id="CrystalBlue"
+        category="Blue"
            manufacturer="Potterycrafts Limited"
            name="Crystal Blue"
            type="BrushOn"
            productID="P2843"/>
 
    <glaze xml:id="RawBaseLeach"
+        category="White"
           manufacturer="Frans Englich"
           name="Leach Base Glaze">
        <db:para>This mixture seems so wrong, alumina as silica.</db:para>
@@ -255,6 +295,7 @@
    </glaze>
 
    <glaze xml:id="WhiteLeach"
+          category="White"
           manufacturer="Frans Englich"
           name="White Leach">
        <recipe>
@@ -267,6 +308,7 @@
    </glaze>
 
    <glaze xml:id="WhiterLeach"
+          category="White"
           manufacturer="Frans Englich"
           name="Whiter Leach">
 
@@ -281,6 +323,7 @@
    </glaze>
 
    <glaze xml:id="BlueWhiterLeach"
+       category="Blue"
           manufacturer="Frans Englich"
           name="Blue Whiter Leach">
 
@@ -296,6 +339,7 @@
     </glaze>
 
    <glaze xml:id="CandaceBlack"
+       category="Black"
            manufacturer="Frans Englich"
            name="Candace Black">
        <db:para>Candace Black from The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76.</db:para>
@@ -312,6 +356,7 @@
     </glaze>
 
    <glaze xml:id="ModifiedTransparentGreen"
+       category="Green"
            manufacturer="Frans Englich"
            name="Modified Transparent Green">
            <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98, but Tin Oxide instead of Zinc Oxide.</db:para>
@@ -326,6 +371,7 @@
     </glaze>
 
    <glaze xml:id="TransparentGreen"
+       category="Green"
            manufacturer="Frans Englich"
            name="Transparent Green">
            <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 98. Alumina surely is a poor replacement for Grolleg Kaolin, it's too much Alumina.</db:para>
@@ -340,6 +386,7 @@
     </glaze>
 
    <glaze xml:id="WillsOribeAlumina"
+       category="Green"
            manufacturer="Frans Englich"
            name="Will's Oribe">
            <db:para>Will's Oribe from The Complete Guide to High-Fire Glazes, p. 101. Note that Alumina was chosen as substitute for Kaolin.</db:para>
@@ -354,6 +401,7 @@
     </glaze>
 
    <glaze xml:id="ModifiedMamo"
+       category="White"
            manufacturer="Frans Englich"
            name="Modified Mamo">
            <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
@@ -370,6 +418,7 @@
     </glaze>
 
    <glaze xml:id="BlueModifiedMamo"
+       category="Blue"
            manufacturer="Frans Englich"
            name="Blue Modified Mamo">
            <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
@@ -387,24 +436,28 @@
     </glaze>
 
    <glaze xml:id="AmacoRedMatt"
+       category="Red"
            manufacturer="Amaco"
            name="Red Matt, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-58"/>
 
    <glaze xml:id="AmacoHazyPink"
+       category="Pink"
            manufacturer="Amaco"
            name="Hazy Pink, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-52A"/>
 
    <glaze xml:id="AmacoLavender"
+       category="Turquoise"
            manufacturer="Amaco"
            name="Lavender, Sahara Liquid Series, HF-Series"
            type="BrushOn"
            productID="HF-53A"/>
 
    <glaze xml:id="ModifiedMamoRightAlumina"
+       category="White"
            manufacturer="Frans Englich"
            name="Modified Mamo, Right Alumina">
            <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121.</db:para>
@@ -420,6 +473,7 @@
     </glaze>
 
     <glaze xml:id="TitanedHardingOxblood"
+       category="Red"
            manufacturer="Frans Englich"
            name="Titaned Harding Oxblood">
            <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. Mixed up Titanium Dioxide and Tin Oxide. For reduction.</db:para>
@@ -437,6 +491,7 @@
     </glaze>
 
     <glaze xml:id="HardingOxblood"
+       category="Red"
            manufacturer="Frans Englich"
            name="Harding Oxblood">
            <db:para>Harding Oxblood from The Complete Guide to High-Fire Glazes, p. 91. For reduction.</db:para>
@@ -454,6 +509,7 @@
     </glaze>
 
     <glaze xml:id="PerfectBlack"
+        category="Black"
            manufacturer="Frans Englich"
            name="Perfect Black">
            <db:para>Perfect Black from The Complete Guide to High-Fire Glazes, p. 127. For reduction.</db:para>
@@ -473,6 +529,7 @@
 
     <!-- We have no samples of this glaze. -->
     <glaze xml:id="NewGrassGreen"
+        category="Green"
            manufacturer="Frans Englich"
            name="New Grass Green">
            <db:para>New Grass Green from The Complete Guide to High-Fire Glazes, p. 102.</db:para>
@@ -492,6 +549,7 @@
     </glaze>
 
     <glaze xml:id="HamadaBase"
+        category="White"
            manufacturer="Frans Englich"
            name="Hamada">
            <db:para>Hamada from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
@@ -504,6 +562,7 @@
     </glaze>
 
     <glaze xml:id="HamadaBase5Talc"
+        category="White"
            manufacturer="Frans Englich"
            name="Hamada with 5 parts talc">
            <db:para>Hamada with 5 parts talc, from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
@@ -517,6 +576,7 @@
     </glaze>
 
     <glaze xml:id="HamadaBase20Talc"
+        category="White"
            manufacturer="Frans Englich"
            name="Hamada with 20 parts talc">
            <db:para>Hamada with 20 parts talc, from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
@@ -530,6 +590,7 @@
     </glaze>
 
     <glaze xml:id="ChromeTransparentGreen"
+        category="Green"
            manufacturer="Frans Englich"
            name="Chrome Transparent Green">
            <db:para>Transparent Green "base" from The Complete Guide to High-Fire Glazes, p. 101. But instead of Copper Carbonate, Chrome Oxide is used.</db:para>
@@ -544,6 +605,7 @@
     </glaze>
 
     <glaze xml:id="ClausCrystalGreenBlack"
+        category="Green"
            manufacturer="Frans Englich"
            name="Claus' Crystal Green/Black">
            <db:para>Green with black crystals, Handbook in Studio Ceramics, p. 184.</db:para>
@@ -558,6 +620,7 @@
     </glaze>
 
     <glaze xml:id="SatinBase"
+        category="White"
            manufacturer="Frans Englich"
            name="Satin Base">
            <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181. Should be opaque white in reduction.</db:para>
@@ -571,6 +634,7 @@
     </glaze>
 
     <glaze xml:id="GreenBlueSatin"
+        category="Green"
            manufacturer="Frans Englich"
            name="Green Blue Satin">
            <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181 with colorants. I think the colorants are too much, but my weight can't measure smaller amounts. Think they will burn out, or the glaze is unstable.</db:para>
@@ -586,6 +650,7 @@
     </glaze>
 
     <glaze xml:id="ModifiedSatinWhite"
+        category="White"
            manufacturer="Frans Englich"
            name="Satin White">
            <db:para>Satin White, from The Glaze Book, p. 183. Has a specified soak time of one hour at 1290 degree Celcius.</db:para>
@@ -603,6 +668,7 @@
     </glaze>
 
     <glaze xml:id="GreenModifiedSatinWhite"
+        category="Green"
            manufacturer="Frans Englich"
            name="Satin Green">
            <db:para><db:xref xlink:href="#ModifiedSatinWhite"/> plus colorants.</db:para>
@@ -620,6 +686,7 @@
     </glaze>
 
     <glaze xml:id="SatinGlossGreenBlack"
+        category="Green"
            manufacturer="Frans Englich"
            name="Satin Gloss Green Black">
            <db:para>From The Glaze Book, p. 175.</db:para>
@@ -635,6 +702,7 @@
     </glaze>
 
     <glaze xml:id="SatinBase5Zirconium"
+        category="White"
            manufacturer="Frans Englich"
            name="Satin Base, with 5 parts Zirconium Oxide">
            <db:para>Satin Base, Handbook in Studio Ceramics,  p. 181, plus 5 parts Zirconium Oxide.</db:para>
@@ -649,6 +717,7 @@
     </glaze>
 
     <glaze xml:id="BlueFire"
+        category="Blue"
            manufacturer="Frans Englich"
            name="Blue Fire">
            <db:para>Blue, from The Glaze Book, p. 150. For oxidation, soak time 1 h.</db:para>
@@ -664,6 +733,7 @@
     </glaze>
 
     <glaze xml:id="OpaqueGlossWhite"
+        category="White"
            manufacturer="Frans Englich"
            name="Opaque Gloss White">
            <db:para>White, from The Glaze Book, p. 182. For oxidation, soak time 1 h. The base glaze is the same as <db:xref xlink:href="#BlueFire"/>.</db:para>
@@ -678,6 +748,7 @@
     </glaze>
 
     <glaze xml:id="GlossBlackBreakingBrown"
+        category="Black"
            manufacturer="Frans Englich"
            name="Gloss Black Breaking Brown">
            <db:para>From The Glaze Book, p. 185. For oxidation, soak time 1 h.</db:para>
@@ -692,6 +763,7 @@
     </glaze>
 
     <glaze xml:id="BlankBaseWithNewGrass"
+        category="Green"
            manufacturer="Frans Englich"
            name="Blank Base With New Grass">
            <db:para>The colorants from New Grass Green, The Complete Guide to High-Fire Glazes, p. 102. with blank base from Handbook in Studio Ceramics, p. 177, in order to get New Grass Green in temperature suitable for traditional stoneware. According to John Brit(p. 20, Complete Guide) zinc turns chrome dull, so avoid a base that doesn't have that. By mistake I used 5 parts tin oxide, instead of 4.</db:para>
@@ -707,6 +779,7 @@
     </glaze>
 
     <glaze xml:id="GlossRutiledBlue"
+                category="Green"
            manufacturer="Frans Englich"
            name="Gloss Rutiled Blue">
            <db:para>From The Glaze Book, p. 156. Has a specified soak time of one hour at 1290 degree Celcius. The book says rutile oxide, but since rutile isn't a specific oxide but a mixture of them, I wonder how that makes sense.</db:para>
