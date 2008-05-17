@@ -294,7 +294,7 @@
         <brushon idref="WhiteBO"/>
 
         <db:para><db:date>2007-12-08</db:date> Trimmed into a cone.</db:para>
-        <db:para><db:date>2008-05-17</db:date> Green glaze is from 2000 g slurry, just mixed. Similar in approach to <db:xref xlink:href="P95"/>. The green layer is very thin, waterish, and air bubbles here and there. Was a lot of small air bubbles in the slurry. It also ran here and there.</db:para>
+        <db:para><db:date>2008-05-17</db:date> Green glaze is from 2000 g slurry, just mixed. Similar in approach to <db:xref xlink:href="#P95"/>. The green layer is very thin, waterish, and air bubbles here and there. Was a lot of small air bubbles in the slurry. It also ran here and there.</db:para>
     </piece>
 
     <piece xml:id="P91">

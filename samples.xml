@@ -963,7 +963,7 @@
     <sample date="2008-04-14" xml:id="T229">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para>To about 10 ml water was about 2 gram Lithium Carbonate(R1063) added, painted ontop of the glazed, unfired surface(majolica). The orange(iron?) flashes at the top is strong, also seen on <db:xref xlink:href="T227"/>, and not seen on anything else in the same kiln firing, so probably the Lithium did that, somehow. The glaze has crazed, but isn't it outside of where the lithium was brushed on?</db:para>
+        <db:para>To about 10 ml water was about 2 gram Lithium Carbonate(R1063) added, painted ontop of the glazed, unfired surface(majolica). The orange(iron?) flashes at the top is strong, also seen on <db:xref xlink:href="#T227"/>, and not seen on anything else in the same kiln firing, so probably the Lithium did that, somehow. The glaze has crazed, but isn't it outside of where the lithium was brushed on?</db:para>
     </sample>
     <sample date="2008-04-14" xml:id="T227">
         <glazing sieved="no" hydrometerGravity="39" idref="Transparent"/>
