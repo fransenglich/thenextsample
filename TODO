@@ -1,5 +1,7 @@
 * Front image
 * Arrange glazes by color.
+* Do "referenced from" insertions
+* Don't treat db:date specially.
 * Add measurements
 * Add images
 * Add W226
