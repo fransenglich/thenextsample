@@ -180,6 +180,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:value-of select="substring(@xml:id, 2)"/>
             </title>
             <xsl:apply-templates/>
+            <xsl:call-template name="createReferences"/>
         </section>
     </xsl:template>
 
@@ -239,6 +240,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:apply-templates select="db:para"/>
 
             <xsl:apply-templates select="p:recipe"/>
+
+            <xsl:call-template name="createReferences"/>
 
             <xsl:variable name="piecesUsing" select="//p:pieces/p:piece[p:glazing/@idref = current()/@xml:id]/@xml:id"/>
             <xsl:if test="$piecesUsing">
@@ -336,9 +339,26 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:apply-templates select="(p:brushon | p:glazing)[@idref != $mainGlaze]"/>
             </xsl:if>
             <xsl:apply-templates select="p:clayref"/>
+
+            <xsl:call-template name="createReferences"/>
+
             <xsl:apply-templates select="db:para"/>
             <xsl:apply-templates mode="doImage" select="."/>
         </section>
+    </xsl:template>
+
+    <xsl:template name="createReferences">
+        <xsl:variable name="id" select="@xml:id"/>
+        <xsl:variable name="referencedFrom" select="(/)//@xml:id[parent::node()//@xlink:href[substring-after(., '#') = $id]]"/>
+
+        <xsl:if test="$referencedFrom">
+            <para>
+                <xsl:text>Referenced by: </xsl:text>
+                <xsl:call-template name="listItems">
+                    <xsl:with-param name="items" select="$referencedFrom"/>
+                </xsl:call-template>
+            </para>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template mode="doImage" match="p:sample">
