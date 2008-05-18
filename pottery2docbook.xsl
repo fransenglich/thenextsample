@@ -291,6 +291,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         <xsl:param name="items"/>
 
         <xsl:for-each select="$items">
+            <xsl:sort select="."/>
             <db:xref xlink:href="#{.}"/>
             <xsl:if test="position() = last() - 1">
                 <xsl:text> and </xsl:text>
