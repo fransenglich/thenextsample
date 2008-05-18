@@ -462,11 +462,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="db:date">
-        <emphasis><xsl:value-of select="."/></emphasis>
-        <xsl:text> </xsl:text>
-    </xsl:template>
-
     <xsl:template match="p:recipe">
         <informaltable>
             <tgroup cols="2">
