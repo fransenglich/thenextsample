@@ -404,7 +404,7 @@
        category="White"
            manufacturer="Frans Englich"
            name="Modified Mamo">
-           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121. Note that a mistake was done: there was way too much Alumina.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
@@ -421,7 +421,7 @@
        category="Blue"
            manufacturer="Frans Englich"
            name="Blue Modified Mamo">
-           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt. Note that a mistake was done: there was 10 parts of Alumina in excess.</db:para>
+           <db:para>Mamo from The Complete Guide to High-Fire Glazes, p. 121, with Cobalt. Note that a mistake was done: there was way too much Alumina.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="25" replacementFor="CusterFeldspar"/>
