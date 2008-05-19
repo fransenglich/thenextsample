@@ -1049,9 +1049,25 @@
     </sample>
 
     <sample date="2008-05-17" xml:id="T188">
-        <glazing sieved="WithMixer" hydrometerGravity="49" idref="WillsOribeAlumina"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="WillsOribeAlumina"/>
         <clayref idref="WSW"/>
         <db:para>From 2000 g slurry, just mixed. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="T197">
+        <glazing sieved="no" hydrometerGravity="46" idref="ClausCrystalGreenBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>From 2000 g slurry, stirred up with spoon. Should be the same
+            as <db:xref xlink:href="#T200"/> with the difference that the
+            slurry has been standing for about three days. Wonder why the hydrometer reading was lower, 46 as opposed to 49 a couple of days ago.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="T195">
+        <glazing sieved="no" hydrometerGravity="50" idref="WillsOribeAlumina"/>
+        <clayref idref="WSW"/>
+        <db:para>From 2000 g slurry, stirred up with spoon. Should be the same
+            as <db:xref xlink:href="#T188"/> with the difference that the
+            slurry has been standing for about three days.</db:para>
     </sample>
 
     <!-- TODO 251 Velour black
