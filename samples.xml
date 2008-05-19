@@ -907,6 +907,20 @@
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>Very thick at the bottom, the Bentonite surely is at work.</db:para>
+        <db:para><db:date>2008-05-19</db:date> So this batch of <db:xref
+                xlink:href="#NewGrassGreen"/> went madly wrong: chrome brown
+            instead of chrome green. What could have been the cause? The keys
+            is likely in what John Britt writes about Chrome: "In a glaze that
+            contains tin oxide, the chronium oxide encourages some pink
+            coloration; in one that contains zinc oxide, adding chronium oxide
+            will produce browns. In high barium or sodium glazes, less than 1
+            percent chronium oxide will produce intense <db:phrase
+                xlink:href="http://en.wikipedia.org/wiki/Chartreuse_%28color%29">chartreuse</db:phrase>
+            yellow/green colors. Chrome oxide is unaffected by oxidation and
+            reduction."(The Complete Guide to High-Fire Glazes, p. 22). Hence,
+            relevant questions are: was barium carbonate forgotten? Was Zinc
+            confused with Tin? Is Nepheline Syenite a Custer Feldspar? What
+            provides sodium?</db:para>
     </sample>
     <sample date="2008-04-13" xml:id="T215">
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
@@ -1069,6 +1083,41 @@
             as <db:xref xlink:href="#T188"/> with the difference that the
             slurry has been standing for about three days.</db:para>
     </sample>
+
+    <sample date="2008-05-19" xml:id="W197">
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. </db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="T244">
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <brushon idref="VelourBlackBO"/>
+        <brushon idref="WhiteBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Black on the right, white on the left. One layer with green.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="T247">
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Three layers. The left bottom corner has a stain from <db:xref xlink:href="#WhiteGloss"/> and some damage from trying to remove it.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="W179">
+        <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
+        <glazing sieved="WithMixer" hydrometerGravity="49" idref="WhiteGloss"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Three layers. White was on top.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="T245">
+        <glazing sieved="WithMixer" hydrometerGravity="40" idref="NewGrassGreen"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. One layer.</db:para>
+    </sample>
+
+
 
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
