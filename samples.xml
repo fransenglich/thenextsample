@@ -1060,6 +1060,7 @@
         <glazing sieved="WithMixer" hydrometerGravity="49" idref="ClausCrystalGreenBlack"/>
         <clayref idref="WSW"/>
         <db:para>From 2000 g slurry, just mixed. One layer.</db:para>
+        <db:para><db:date>2008-05-24</db:date> All the pieces with glaze in this firing, <db:xref xlink:href="#T197"/>, <db:xref xlink:href="#P50"/>, <db:xref xlink:href="#P54"/>, has one thing in common: they all have small white elevates dots over them. Looks like accumuations of... calcium? Looks like small melt tests, reminds of <db:xref xlink:href="#T216"/>.</db:para>
     </sample>
 
     <sample date="2008-05-17" xml:id="T188">
@@ -1095,13 +1096,16 @@
         <brushon idref="VelourBlackBO"/>
         <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g slurry, direct after mixing, second batch. Black on the right, white on the left. One layer with green.</db:para>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Black on the right, white on the left. One layer with green, on top of the other.</db:para>
+        <db:para><db:date>2008-05-24</db:date> Interestingly the green turns brown when appearing on top of the white, which suggests that the commercial white brush-on contains Zinc. And its Material Safety Data Sheet(cosh438) confirms this, 2.5-24% of ZnO.</db:para>
     </sample>
 
     <sample date="2008-05-19" xml:id="T247">
         <glazing sieved="WithMixer" hydrometerGravity="45" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
-        <db:para>From 200 g slurry, direct after mixing, second batch. Three layers. The left bottom corner has a stain from <db:xref xlink:href="#WhiteGloss"/> and some damage from trying to remove it.</db:para>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Three layers. The left bottom corner has a stain from <db:xref xlink:href="#WhiteGloss"/> and some damage from trying to remove it. Which doesn't show at all after firing.</db:para>
+
+        <db:para>Seems the reasoning for <db:xref xlink:href="#T205"/> was correct, since these tiles, including <db:xref xlink:href="#T245"/> <db:xref xlink:href="#W184"/>, are green. But still very boring, probably too much Chrome and something's missing to making it speckle.</db:para>
     </sample>
 
     <sample date="2008-05-19" xml:id="W179">
@@ -1115,6 +1119,12 @@
         <glazing sieved="WithMixer" hydrometerGravity="40" idref="NewGrassGreen"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g slurry, direct after mixing, second batch. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-05-19" xml:id="W184">
+        <glazing sieved="WithMixer" idref="NewGrassGreen"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200 g slurry, direct after mixing, second batch. Forgot to write this one down, hydrometer reading unknown, somewhere between 40 and 50.</db:para>
     </sample>
 
 
@@ -1138,6 +1148,18 @@
     - Why did 234/243 come out as it did?
     - How should one lowering the melting point of a glaze? A cone or two. Say NewGrassGreen.
     - How should one approach food safety? Should one only use liner glazes? When is a glaze food safe?
+
+    Do:
+    - Transparent on Crystal Claus, vertically standing
+    - Crystal Claus on Transparent, vertically standing
+    - Black black black
+    - green
+    - 0.2 chorm + 0.2 + 0.5 Cobolt gives strong yellow/green. Pending new weight. Pending new weight.
+
+    BUY:
+    - Manganese
+    - Nikkel
+    - Red stain
 
 
     Do not have melt tests for:

@@ -138,7 +138,9 @@
       name="White Brush-on"
       productID="2850.5"
       type="BrushOn"
-      manufacturer="Potterycrafts Limited"/>
+      manufacturer="Potterycrafts Limited">
+      <db:para>Contains ZnO, according to the MSDS, see <db:xref xlink:href="#T244"/>.</db:para>
+   </glaze>
 
    <glaze xml:id="IndigoBlue"
        category="Blue"
