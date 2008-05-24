@@ -1127,6 +1127,19 @@
         <db:para>From 200 g slurry, direct after mixing, second batch. Forgot to write this one down, hydrometer reading unknown, somewhere between 40 and 50.</db:para>
     </sample>
 
+    <sample date="2008-05-24" xml:id="W429">
+        <glazing hydrometerGravity="45" sieved="no" idref="ClausCrystalGreenBlack"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>Green on top of transparent. Fired standing vertically.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W411">
+        <glazing hydrometerGravity="45" sieved="no" idref="ClausCrystalGreenBlack"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>Transparent on top of green. Fired standing vertically.</db:para>
+    </sample>
 
 
     <!-- TODO 251 Velour black
