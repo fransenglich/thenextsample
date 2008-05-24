@@ -1141,6 +1141,69 @@
         <db:para>Transparent on top of green. Fired standing vertically.</db:para>
     </sample>
 
+    <sample date="2008-05-24" xml:id="W448">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="SatinBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>Either I did something wrong, or this glaze is very "light". For having a gravity of 40, very little water is used.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W410">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="SatinBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>Either I did something wrong, or this glaze is very "light". For having a gravity of 40, very little water is used. Hence probably expensive. Three layers.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W423">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="DaphnesBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers. Dropped a lid in the third layer, causing tracks.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W406">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="DaphnesBlack"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W443">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. The amount of cobalt is arbitrary, two grams divided visually.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W417">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers. The third layer was with hydrometer gravity 40. The amount of cobalt is arbitrary, two grams divided visually. Accidently touched the middle layer with a sponge. The sponge has traces of Synthetic Red Iron Oxide.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W437">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="MarketBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. The amount of cobalt is arbitrary, two grams divided visually.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W415">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
+        <glazing hydrometerGravity="40" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. The amount of cobalt is arbitrary, two grams divided visually. Transparent on top of blue, overlapping with about 6 mm.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W408">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="SatinBlack"/>
+        <glazing hydrometerGravity="40" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Black overlapping transparent.</db:para>
+    </sample>
+
+    <sample date="2008-05-24" xml:id="W436">
+        <glazing hydrometerGravity="40" sieved="WithMixer" idref="DaphnesBlack"/>
+        <glazing hydrometerGravity="40" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Black overlapping transparent.</db:para>
+    </sample>
+
 
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
@@ -1163,11 +1226,13 @@
     - How should one approach food safety? Should one only use liner glazes? When is a glaze food safe?
 
     Do:
-    - Transparent on Crystal Claus, vertically standing
-    - Crystal Claus on Transparent, vertically standing
-    - Black black black
+    - Black
     - green
-    - 0.2 chorm + 0.2 + 0.5 Cobolt gives strong yellow/green. Pending new weight. Pending new weight.
+    - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
+    - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
+    - Investigate Gloss Black Breaking Brown
+    - Investigate Barnard Slip, why does it cause wrinkles?
+    custer == potash
 
     BUY:
     - Manganese

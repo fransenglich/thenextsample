@@ -10,7 +10,6 @@
     <component priceIsFor="1000"    price="50"      xml:id="BlackIronOxide"><db:phrase>Black Iron Oxide, <db:constant>P3408</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="55"      xml:id="BariumCarbonate"><db:phrase>Barium Carbonate, <db:constant>P3303</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="59"      xml:id="BoneAsh"><db:phrase>Bone Ash, <db:constant>P3305</db:constant></db:phrase></component>
-    <component priceIsFor="1000"    price="65"      xml:id="RedIronOxide"><db:phrase>Red Synthetic Iron Oxide, <db:constant>P3441</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="65"      xml:id="SyntheticRedIronOxide"><db:phrase>Synthetic Red Iron Oxide, <db:constant>P3441</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="66"      xml:id="ZincOxide"><db:phrase>Zinc Oxide, <db:constant>P3350</db:constant></db:phrase></component>
     <component priceIsFor="1000"    price="75"      xml:id="Rutile"><db:phrase>Rutile, <db:constant>P3338</db:constant></db:phrase></component>
@@ -32,7 +31,7 @@
     <component priceIsFor="5000"    price="79"      xml:id="SodaAsh"><db:phrase>Sodium Ash, <db:constant>P3342</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="87"      xml:id="CornwallStone"><db:phrase>Cornwall Stone, <db:constant>P3314</db:constant></db:phrase></component>
     <component priceIsFor="5000"    price="87"      xml:id="Flint"><db:phrase>Flint, <db:constant>P3319</db:constant></db:phrase></component>
-    <component priceIsFor="5000"    price="93"      xml:id="F4Feldspar"><db:phrase>F4 Feldspar(Soda Feldspar), <db:constant>P3317</db:constant></db:phrase></component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
+    <component priceIsFor="5000"    price="93"      xml:id="F4Feldspar"><db:phrase>F4 Feldspar</db:phrase></component><!-- TODO is there a difference between F4 and NC-4 feldspar? NC-4 is Soda feldspar, not sure about F4. -->
     <component priceIsFor="5000"    price="93"      xml:id="FeldsparSoda"><db:phrase>Feldspar soda(natronfeldspat in Danish), <db:constant>P3317</db:constant></db:phrase></component>
 
     <component                                      xml:id="NC4Feldspar"><db:phrase>NC-4 Feldspar</db:phrase></component>
@@ -46,6 +45,7 @@
 
     <component                                      xml:id="CalciumBorateFrit"><db:phrase>Calcium Borate Frit, <db:constant>P2954</db:constant></db:phrase></component>
     <component                                      xml:id="GrollegKaolin"><db:phrase>Grolleg Kaolin, <db:constant>P3298</db:constant></db:phrase></component>
+    <component                                      xml:id="RedIronOxide"><db:phrase>Red Iron Oxide</db:phrase></component>
 
 </components>
 <!--

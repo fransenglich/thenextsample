@@ -796,6 +796,53 @@
            </recipe>
     </glaze>
 
+    <glaze xml:id="SatinBlack"
+           category="Black"
+           manufacturer="Frans Englich"
+           name="Satin Black">
+           <db:para>From The Glaze Book, p. 185. Has a soak time of one hour at 1290 degree Celcius.</db:para>
+
+           <recipe>
+               <component idref="Flint"                 parts="41" replacementFor="Quartz"/>
+               <component idref="PotashFeldspar"        parts="34"/>
+               <component idref="Whiting"               parts="16"/>
+               <component idref="ChinaClay"             parts="9"/>
+               <component idref="SyntheticRedIronOxide" parts="12" replacementFor="RedIronOxide"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="DaphnesBlack"
+           category="Black"
+           manufacturer="Frans Englich"
+           name="Daphne's Black">
+        <db:para>Daphne's Black, from The Complete Guide To High-Fire Glazes, p. 126.</db:para>
+
+           <recipe>
+               <component idref="FeldsparSoda"          parts="65" replacementFor="F4Feldspar"/>
+               <component idref="Whiting"               parts="5"/>
+               <component idref="Flint"                 parts="20" replacementFor="Silica"/>
+               <component idref="ChinaClay"             parts="5" replacementFor="Kaolin"/>
+               <component idref="Dolomite"              parts="5"/>
+               <component idref="SyntheticRedIronOxide" parts="5" replacementFor="RedIronOxide"/>
+               <component idref="CobaltCarbonate"       parts="3"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="MarketBlue"
+           category="Blue"
+           manufacturer="Frans Englich"
+           name="Market Blue">
+        <db:para>From The Complete Guide To High-Fire Glazes, p. 108.</db:para>
+
+       <recipe>
+           <component idref="PotashFeldspar"        parts="50" replacementFor="CusterFeldspar"/>
+           <component idref="Whiting"               parts="4"/>
+           <component idref="ChinaClay"             parts="24" replacementFor="Kaolin"/>
+           <component idref="Dolomite"              parts="22"/>
+           <component idref="CobaltCarbonate"       parts="0.5"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
