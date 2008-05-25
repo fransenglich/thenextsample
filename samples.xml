@@ -432,13 +432,13 @@
         <db:para>Obviously the bottle have been incorrectly labeled. This is not the red spot iron glaze, this is a glossy dark blue. Whatever it is, it didn't run.</db:para>
     </sample>
     <sample date="2008-01-20" xml:id="T91">
-        <glazing sieved="no" hydrometerGravity="45" idref="RawBaseLeach"/>
+        <glazing sieved="no" hydrometerGravity="45" idref="IncorrectBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Slight pink shade(before fired at least) due to the Flint. Very large particles, very powderish. Saturated it with fixativ for that reason. Don't think the third layer is any thicker, due to that it solved away the underlying layers, because of them being too moist. From a <db:constant>200</db:constant>g test batch. </db:para>
-        <db:para>Looks like porridge. Hilarious, the glaze is for Cone 10, about 1300 C, so the glaze probably didn't melt.</db:para>
+        <db:para>Looks like porridge.</db:para>
     </sample>
     <sample date="2008-01-28" xml:id="T105">
-        <glazing sieved="60" hydrometerGravity="46" idref="RawBaseLeach"/>
+        <glazing sieved="60" hydrometerGravity="46" idref="IncorrectBaseLeach"/>
         <clayref idref="SaintThomas"/>
         <db:para>Hence, the only difference to <db:xref xlink:href="#T91"/> is that this one was sieved. Used mixer first, and the substance ran through the sieve as water. Beyond the mixing, another reason to it being vastly different could be that it had been mixed in water for a couple of days, and hence dissolved better.</db:para>
     </sample>

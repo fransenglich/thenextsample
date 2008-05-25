@@ -282,11 +282,11 @@
            type="BrushOn"
            productID="P2843"/>
 
-   <glaze xml:id="RawBaseLeach"
+    <glaze xml:id="IncorrectBaseLeach"
         category="White"
           manufacturer="Frans Englich"
-          name="Leach Base Glaze">
-       <db:para>This mixture seems so wrong, alumina as silica.</db:para>
+          name="Incorrect Leach Base Glaze">
+       <db:para>This mixture is so wrong, alumina as silica.</db:para>
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
            <component idref="Alumina"               parts="30" replacementFor="Silica"/>
