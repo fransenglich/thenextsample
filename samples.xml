@@ -1206,14 +1206,41 @@
 
     <sample date="2008-05-25" xml:id="W440">
         <glazing hydrometerGravity="45" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
         <clayref idref="WSW"/>
-        <db:para>From 200g batch, just mixed.</db:para>
+        <db:para>From 200g batch, just mixed. Transparent was on top. Spectacular how the transparent lifted. The transparent was applied with no drying time in between.</db:para>
     </sample>
 
     <sample date="2008-05-25" xml:id="W426">
         <glazing hydrometerGravity="45" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers. Last layer is fairly thin, didn't realize this glaze settles quickly.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W445">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="SodaFeldsparGlaze"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W407">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="SodaFeldsparGlaze"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Transparent was on top. Spectacular how the transparent lifted. The transparent was applied with no drying time in between.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W422">
+        <glazing hydrometerGravity="41" sieved="WithMixer" idref="NephelineSyeniteGlaze"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. I let the tile dry a bit in the sun before applying the transparent, but it still lifted, as seen on <db:xref xlink:href="#W407"/> and <db:xref xlink:href="#W407"/>.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W432">
+        <glazing hydrometerGravity="41" sieved="WithMixer" idref="NephelineSyeniteGlaze"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
     </sample>
 
     <!-- TODO 251 Velour black

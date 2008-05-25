@@ -854,6 +854,28 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="NephelineSyeniteGlaze"
+           category="White"
+           manufacturer="Frans Englich"
+           name="Nepheline Syenite">
+       <db:para>Only Nepheline Syenite.</db:para>
+
+       <recipe>
+           <component idref="NephelineSyenite"      parts="100"/>
+       </recipe>
+    </glaze>
+
+    <glaze xml:id="SodaFeldsparGlaze"
+           category="White"
+           manufacturer="Frans Englich"
+           name="Soda Feldspar Glaze">
+       <db:para>Only Soda Feldspar.</db:para>
+
+       <recipe>
+           <component idref="FeldsparSoda"          parts="100"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
