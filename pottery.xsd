@@ -212,7 +212,7 @@ A format for describing pottery glazes, samples and pieces.
                 </xs:sequence>
                 <xs:attribute ref="xml:id"          use="required"/>
                 <xs:attribute name="name"           type="xs:normalizedString"  use="required"/>
-                <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="required"/>
+                <xs:attribute name="manufacturer"   type="xs:normalizedString"  use="optional"/>
                 <xs:attribute name="productID"      type="xs:normalizedString"  use="optional"/>
                 <xs:attribute name="category"        use="required">
                     <xs:simpleType>

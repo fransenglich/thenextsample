@@ -238,6 +238,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:if test="@type = 'BrushOn'"> (brush-on)</xsl:if>
             </title>
 
+            <xsl:apply-templates select="@manufacturer"/>
             <xsl:apply-templates select="db:para"/>
 
             <xsl:apply-templates select="p:recipe"/>
@@ -286,6 +287,10 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:with-param name="mainGlaze" select="@xml:id"/>
             </xsl:apply-templates>
         </section>
+    </xsl:template>
+
+    <xsl:template match="p:glaze/@manufacturer">
+        <db:para>From: <xsl:value-of select="."/>.</db:para>
     </xsl:template>
 
     <xsl:template name="listItems">

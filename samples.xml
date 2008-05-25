@@ -1023,19 +1023,19 @@
     <sample date="2008-04-20" xml:id="T231">
         <glazing sieved="100" hydrometerGravity="39" idref="BlankBaseWithNewGrass"/>
         <clayref idref="SaintThomas"/>
-        <db:para>Was fairly clumsy when dipping. There's three layers.</db:para>
+        <db:para>Was fairly clumsy when dipping. There's three layers. By mistake I used 5 parts tin oxide, instead of 4.</db:para>
     </sample>
 
     <sample date="2008-04-20" xml:id="T250">
         <glazing sieved="100" hydrometerGravity="39" idref="BlankBaseWithNewGrass"/>
         <clayref idref="SaintThomas"/>
-        <db:para>One layer. Id has been corrected, from 203 to 250.</db:para>
+        <db:para>One layer. Id has been corrected, from 203 to 250. By mistake I used 5 parts tin oxide, instead of 4.</db:para>
     </sample>
 
     <sample date="2008-04-20" xml:id="T190">
         <glazing sieved="100" hydrometerGravity="47" idref="BlankBaseWithNewGrass"/>
         <clayref idref="WSW"/>
-        <db:para>One layer. Felt failry thick</db:para>
+        <db:para>One layer. Felt fairly thick. By mistake I used 5 parts tin oxide, instead of 4.</db:para>
     </sample>
 
     <sample date="2008-04-20" xml:id="T210">
