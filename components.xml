@@ -46,6 +46,7 @@
     <component                                      xml:id="CalciumBorateFrit"><db:phrase>Calcium Borate Frit, <db:constant>P2954</db:constant></db:phrase></component>
     <component                                      xml:id="GrollegKaolin"><db:phrase>Grolleg Kaolin, <db:constant>P3298</db:constant></db:phrase></component>
     <component                                      xml:id="RedIronOxide"><db:phrase>Red Iron Oxide</db:phrase></component>
+    <component                                      xml:id="Zircopax"><db:phrase>Zircopax</db:phrase></component>
 
 </components>
 <!--

@@ -876,6 +876,23 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="ChineseCrackle"
+           category="White"
+           manufacturer="Frans Englich"
+           name="Chinese Crackle">
+           <db:para>From The Complete Guide To High-Fire Glazes, p. 62. The
+               recipe uses Zirconium Oxide as replacement for Zircopax. The
+               latter is a Zirconium Silicate, so this recipe should be whiter and have
+               less silica than the original.</db:para>
+
+       <recipe>
+           <component idref="PotashFeldspar"        parts="83" replacementFor="CusterFeldspar"/>
+           <component idref="Flint"                 parts="8" replacementFor="Silica"/>
+           <component idref="Whiting"               parts="9"/>
+           <component idref="ZirconiumOxide"        parts="10" replacementFor="Zircopax"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
