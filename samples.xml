@@ -1204,6 +1204,17 @@
         <db:para>From 200g batch, just mixed. Black overlapping transparent.</db:para>
     </sample>
 
+    <sample date="2008-05-25" xml:id="W440">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W426">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers. Last layer is fairly thin, didn't realize this glaze settles quickly.</db:para>
+    </sample>
 
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
@@ -1232,6 +1243,7 @@
     - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
     - Investigate Gloss Black Breaking Brown
     - Investigate Barnard Slip, why does it cause wrinkles?
+    - White crackle?
     custer == potash
 
     BUY:

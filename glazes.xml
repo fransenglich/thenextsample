@@ -843,6 +843,17 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="PotashFeldsparGlaze"
+           category="White"
+           manufacturer="Frans Englich"
+           name="Potash Feldspar">
+       <db:para>Only Potash Feldspar.</db:para>
+
+       <recipe>
+           <component idref="PotashFeldspar"        parts="100"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
