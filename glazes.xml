@@ -555,6 +555,7 @@
            manufacturer="Frans Englich"
            name="Hamada">
            <db:para>Hamada from The Complete Guide to High-Fire Glazes, p. 61.</db:para>
+           <db:para><db:date>2008-05-26</db:date> Feldspar FFF is probably a poor replacement for Custer Feldspar, Potash Feldspar would probably be better.</db:para>
 
            <recipe>
                <component idref="FeldsparFFF"       parts="50" replacementFor="CusterFeldspar"/>
