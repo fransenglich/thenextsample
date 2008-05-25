@@ -6,7 +6,6 @@
 * Add W226
 * Separate base glaze.
 * Reference glazes that have the same base glaze.
-* Format hydrometer gravity unknown, W184
 * T232 is sieved but T233 isn't?
 * Maybe manufacturer, can be used for the book?
 
@@ -25,5 +24,8 @@
     - Wollastonite
     - Potash feldspar
     - Talc
+    - Green glass
+    - White glass
+    - Blue glass
 
 vim: et:ts=4:sw=4:sts=4

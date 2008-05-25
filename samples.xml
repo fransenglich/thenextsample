@@ -1124,7 +1124,7 @@
     <sample date="2008-05-19" xml:id="W184">
         <glazing sieved="WithMixer" idref="NewGrassGreen"/>
         <clayref idref="WSW"/>
-        <db:para>From 200 g slurry, direct after mixing, second batch. Forgot to write this one down, hydrometer reading unknown, somewhere between 40 and 50.</db:para>
+        <db:para>From 200 g slurry, direct after mixing, second batch. I estimate the hydrometer gravity is between 40 and 50.</db:para>
     </sample>
 
     <sample date="2008-05-24" xml:id="W429">

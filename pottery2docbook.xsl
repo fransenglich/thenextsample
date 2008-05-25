@@ -70,7 +70,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:apply-templates select="p:pieces"/>
             <xsl:apply-templates select="p:glazes"/>
 
-            <chapter>
+            <chapter xml:id="NonGlazeSamples">
                 <title>Non-glaze Samples</title>
                 <para>This section contains samples which aren't of glazes,
                     such as melt tests. See also the samples that have at least
@@ -81,7 +81,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:apply-templates select="p:samples/p:sample[not(p:glazing | p:brushon)]"/>
             </chapter>
 
-            <chapter>
+            <chapter xml:id="OvenPrograms">
                 <title>Oven Programs</title>
 
                 <para>Unless otherwise stated, all firings were done with the following settings.</para>
@@ -158,7 +158,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:pieces">
-        <chapter>
+        <chapter xml:id="Pieces">
             <title>Pieces</title>
 
             <para>A total of <xsl:value-of select="count(p:piece)"/> pieces.</para>
@@ -207,7 +207,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:glazes">
-        <chapter>
+        <chapter xml:id="Glazes">
             <title>Glazes by Color</title>
 
             <para>A total of <xsl:value-of select="count(//p:sample)"/> sample tiles.</para>
@@ -216,6 +216,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
                 <xsl:sort select="."/>
 
                 <section>
+                    <xsl:attribute name="xml:id"><xsl:value-of select="."/></xsl:attribute>
                     <title><xsl:value-of select="."/></title>
                     <xsl:apply-templates select="(/)//p:glaze[@category = current()]">
                         <xsl:sort select="@name"/>
@@ -299,9 +300,9 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
             <xsl:if test="position() &lt; last() - 1">
                 <xsl:text>, </xsl:text>
             </xsl:if>
-                <xsl:if test="position() = last()">
-                    <xsl:text>.</xsl:text>
-                </xsl:if>
+            <xsl:if test="position() = last()">
+                <xsl:text>.</xsl:text>
+            </xsl:if>
         </xsl:for-each>
     </xsl:template>
 
@@ -389,7 +390,14 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:glazing" mode="lowKeyGlazing">
-            <xsl:apply-templates select="@hydrometerGravity"/>
+            <xsl:choose>
+                <xsl:when test="@hydrometerGravity">
+                    <xsl:apply-templates select="@hydrometerGravity"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <emphasis>hydrometer gravity unknown</emphasis>,
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:apply-templates select="@sieved"/>
     </xsl:template>
 
@@ -416,7 +424,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template name="sourcesAppendix">
-        <appendix>
+        <appendix xml:id="SourceFiles">
             <title>Sources</title>
             <para>This document was generated from the following sources. The string following the file date is the git SHA1 checksum.</para>
             <itemizedlist>
@@ -438,7 +446,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template match="p:clays">
-        <chapter>
+        <chapter xml:id="Clays">
             <title>Clays</title>
             <xsl:apply-templates/>
         </chapter>
