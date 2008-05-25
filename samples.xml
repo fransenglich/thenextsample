@@ -1281,29 +1281,23 @@
     - green
     - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
     - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
-    - Investigate Gloss Black Breaking Brown
     - Investigate Barnard Slip, why does it cause wrinkles?
-    - White crackle?
     - Check MSDN for black stain
     - How much does glaze binder, R1036 cost?
     - What is peptapon?
     custer == potash
+    - Do porcelain test tiles.
 
     BUY:
     - Manganese
-    - Nikkel
+    - Nikkel?
     - Red stain
-
 
     Do not have melt tests for:
         * Talc, P3345
         * Wollastonite, P3348
         * Potash Feldspar, P3296
         * Ball clay, P3352
-
-
-        ilmenita
-        Emanuel Cooper
     -->
 </samples>
 <!--
