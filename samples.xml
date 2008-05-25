@@ -1243,13 +1243,26 @@
         <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
     </sample>
 
+    <sample date="2008-05-25" xml:id="W418">
+        <glazing hydrometerGravity="42" sieved="WithMixer" idref="ChineseCrackle"/>
+        <glazing hydrometerGravity="41" sieved="no" idref="Transparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Transparent was on top.</db:para>
+    </sample>
+
+    <sample date="2008-05-25" xml:id="W449">
+        <glazing hydrometerGravity="42" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
 
     -->
 
-    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249, 250-251, 400-450. -->
+    <!-- Made samples 101-112. Made samples 130 - 15? , 160-201, 202-222, 223-234, 235-241, 242 - 249, 250-251, 252-255, 400-450, 451-500. -->
     <!--
 
     Questions:
@@ -1272,6 +1285,8 @@
     - Investigate Barnard Slip, why does it cause wrinkles?
     - White crackle?
     - Check MSDN for black stain
+    - How much does glaze binder, R1036 cost?
+    - What is peptapon?
     custer == potash
 
     BUY:
