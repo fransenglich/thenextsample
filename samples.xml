@@ -1256,6 +1256,37 @@
         <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
     </sample>
 
+    <sample date="2008-05-28" xml:id="W404">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing three days. The layer is
+            very thin, it simply sucks slowly. Also thin on <db:xref xlink:href="#W401"/>, <db:xref xlink:href="#W431"/> and <db:xref xlink:href="#W416"/>.</db:para>
+    </sample>
+
+    <sample date="2008-05-28" xml:id="W431">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing three days.</db:para>
+    </sample>
+
+    <sample date="2008-05-28" xml:id="W416">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing three days.</db:para>
+    </sample>
+
+    <sample date="2008-05-28" xml:id="W434">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing three days. Three layers across hole.</db:para>
+    </sample>
+
+    <sample date="2008-05-28" xml:id="W401">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing three days.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
@@ -1275,8 +1306,11 @@
     - Why did 234/243 come out as it did?
     - How should one lowering the melting point of a glaze? A cone or two. Say NewGrassGreen.
     - How should one approach food safety? Should one only use liner glazes? When is a glaze food safe?
+    - Check MSDN for white gloss
+    - Document the tin one
 
     Do:
+    - Comment P176.
     - Black
     - green
     - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
@@ -1287,7 +1321,6 @@
     - What is peptapon?
     custer == potash
     - Do porcelain test tiles.
-    - More crackle for the various stages.
     - Make tea cup with green on outside and trans all over? P50.
     - Do thick wills oribe, or do we have that already? Or one very thin? 40
 
@@ -1295,6 +1328,7 @@
     - Manganese
     - Nikkel?
     - Red stain
+    - Porcelain
 
     Do not have melt tests for:
         * Talc, P3345

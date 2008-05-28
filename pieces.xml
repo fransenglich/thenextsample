@@ -541,7 +541,9 @@
 
     <piece xml:id="P53">
         <clayref idref="WSW"/>
+        <glazing idref="Transparent" sieved="no" hydrometerGravity="41"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2008-05-28</db:date> Investigating mistake on <db:xref xlink:href="#P50"/>. Transparent across whole, and then green on top. The green bubbled up on several places, due to the double layer of glaze. Fairly good cut on the rim, except from one section. Didn't wait a signficant time between the two dips.</db:para>
     </piece>
 
     <piece xml:id="P54">

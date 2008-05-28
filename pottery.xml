@@ -17,6 +17,10 @@
               name="White Stoneware"
               productID="1145"
               manufacturer="Potterycrafts Limited"/>
+        <clay xml:id="Porcelain"
+              name="Limoges Porcelain, PT010B"
+              productID="R3012"
+              manufacturer="Imerys Tableware, KPCL"/>
     </clays>
 
     <xi:include href="glazes.xml"/>
