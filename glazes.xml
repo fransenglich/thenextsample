@@ -284,7 +284,7 @@
 
     <glaze xml:id="IncorrectBaseLeach"
            category="White"
-           manufacturer="Frans Englich"
+           manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
            name="Incorrect Leach Base Glaze">
        <db:para>This mixture is so wrong, alumina as silica.</db:para>
        <recipe>
@@ -298,7 +298,7 @@
 
    <glaze xml:id="WhiteLeach"
           category="White"
-          manufacturer="Frans Englich"
+           manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
           name="White Leach">
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>
@@ -311,7 +311,7 @@
 
    <glaze xml:id="WhiterLeach"
           category="White"
-          manufacturer="Frans Englich"
+           manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
           name="Whiter Leach">
 
        <db:para>This mixture seems so wrong, alumina as silica.</db:para>
@@ -325,8 +325,8 @@
    </glaze>
 
    <glaze xml:id="BlueWhiterLeach"
-       category="Blue"
-          manufacturer="Frans Englich"
+          category="Blue"
+          manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
           name="Blue Whiter Leach">
 
        <db:para>This mixture seems so wrong, alumina as silica. However, one could argue that it's countered a bit by Kaolin being sourced through Flint. Kaolin brings Alumina, but Flint is only Silica.</db:para>
@@ -884,6 +884,7 @@
 
     <glaze xml:id="HaynesWhite"
            category="White"
+           manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
            name="Haynes White">
 
        <recipe>
