@@ -882,6 +882,19 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="HaynesWhite"
+           category="White"
+           name="Haynes White">
+
+       <recipe>
+           <component idref="NephelineSyenite"          parts="45"/>
+           <component idref="Flint"                     parts="30" replacementFor="Silica"/>
+           <component idref="Whiting"                   parts="8"/>
+           <component idref="Dolomite"                  parts="10"/>
+           <component idref="Talc"                      parts="7"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
