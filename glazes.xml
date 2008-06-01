@@ -139,7 +139,7 @@
       productID="2850.5"
       type="BrushOn"
       manufacturer="Potterycrafts Limited">
-      <db:para>Contains ZnO, according to the MSDS, see <db:xref xlink:href="#T244"/>.</db:para>
+      <db:para>Based on ZnO, 2.5-24%, according to the MSDS, see <db:xref xlink:href="#T244"/>.</db:para>
    </glaze>
 
    <glaze xml:id="IndigoBlue"
