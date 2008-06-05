@@ -1163,6 +1163,7 @@
         <glazing hydrometerGravity="40" sieved="WithMixer" idref="DaphnesBlack"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed.</db:para>
+        <db:para><db:date>2008-06-05</db:date> Is coloring very strongly, despite being thin. A metallic shimmering is present. This glaze hits out into oil spots when thick, as seen with <db:xref xlink:href="#W423"/>. <db:xref xlink:href="#IntenseBlack"/> doesn't have that, suggesting they're not using iron oxide.</db:para>
     </sample>
 
     <sample date="2008-05-24" xml:id="W443">
@@ -1175,6 +1176,7 @@
         <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers. The third layer was with hydrometer gravity 40. The amount of cobalt is arbitrary, two grams divided visually. Accidently touched the middle layer with a sponge. The sponge has traces of Synthetic Red Iron Oxide.</db:para>
+        <db:para><db:date>2008-06-05</db:date> Ok, something went seriously wrong with this batch: <db:xref xlink:href="#W443"/>, <db:xref xlink:href="#W415"/> and <db:xref xlink:href="#W437"/> are matte lavendel, instead of squeaky gloss blue. Probably the Cobalt oxide was wrong, so the cobalt didn't flux nor color sufficiently. A pity the color is so uneven, wonder why, poor mixing?</db:para>
     </sample>
 
     <sample date="2008-05-24" xml:id="W437">
@@ -1215,12 +1217,14 @@
         <glazing hydrometerGravity="45" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers. Last layer is fairly thin, didn't realize this glaze settles quickly.</db:para>
+        <db:para><db:date>2008-06-05</db:date> The last layer has serious issues, I can peel off the whole of that layer, have on the left side. A crunchy sound appears when pressing. Might work better with a single layer, with high gravity -- 60 or so.</db:para>
     </sample>
 
     <sample date="2008-05-25" xml:id="W445">
         <glazing hydrometerGravity="48" sieved="WithMixer" idref="SodaFeldsparGlaze"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers.</db:para>
+        <db:para><db:date>2008-06-05</db:date> Seems to stick to the clay, as opposed to <db:xref xlink:href="#W426"/>. The edges at the bottom layer are worrying though, seems they have blown off. However, multiple layers are regularly problematic, and the underlying layer hasn't blown off. One homogen layer likely doesn't have this.</db:para>
     </sample>
 
     <sample date="2008-05-25" xml:id="W407">
@@ -1241,6 +1245,7 @@
         <glazing hydrometerGravity="41" sieved="WithMixer" idref="NephelineSyeniteGlaze"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
+        <db:para><db:date>2008-06-05</db:date> Could peel off on the left edge.</db:para>
     </sample>
 
     <sample date="2008-05-25" xml:id="W418">
@@ -1254,6 +1259,9 @@
         <glazing hydrometerGravity="42" sieved="WithMixer" idref="ChineseCrackle"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Three layers. No clear boundary between the second and third layer.</db:para>
+        <db:para><db:date>2008-06-06</db:date> Had a crack in the clay, which,
+            yes, could be cracked by hand. Glued up with cyanoacrylate
+            glue.</db:para>
     </sample>
 
     <sample date="2008-05-28" xml:id="W404">
@@ -1285,12 +1293,14 @@
         <glazing hydrometerGravity="48" sieved="WithMixer" idref="ChineseCrackle"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, had been standing three days.</db:para>
+        <db:para><db:date>2008-06-06</db:date> Not a single crack on the tiles in this batch: <db:xref xlink:href="#W449"/>, <db:xref xlink:href="#W434"/>, <db:xref xlink:href="#W418"/>, <db:xref xlink:href="#W416"/> and <db:xref xlink:href="#W431"/>. Amazing. White Stoneware is shrinking fairly well, Potterycrafts Ltd claims: 3-5% from dry, and 11-13% when fired. Maybe they shrunk together, and it won't appear on a less vivid body, such as <db:xref xlink:href="#SaintThomas"/>. However, <db:xref xlink:href="#W434"/> shows clear issues with fitting, seems as if melting too well.</db:para>
     </sample>
 
     <sample date="2008-05-28" xml:id="W421">
         <glazing hydrometerGravity="41" sieved="WithMixer" idref="HaynesWhite"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, just mixed. Messed up the lower part with a sponge a bit.</db:para>
+        <db:para><db:date>2008-06-05</db:date> Vertical crazings can be seen, when studying closely. Can be caused by multiple layers.</db:para>
     </sample>
 
     <sample date="2008-05-28" xml:id="W420">
@@ -1312,14 +1322,35 @@
     - What's the mesh size on the sieve at liv i leire?
 
     Do:
-    - Comment P176.
-    - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
-    - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
     - Investigate Barnard Slip, why does it cause wrinkles?
     - How much does glaze binder, R1036 cost?
-    - Do Claus Crystal on porcelain
-    - What is peptapon?
-    custer == potash
+
+    1. Thin Claus Crystal on porcelain
+    2. Thick Claus Crystal on porcelain
+    3. Soda with high gravity 60(W445), on ST
+    4. Soda with high gravity 60(W445), on WSW
+    5. Potash with high gravity 60, on ST
+    6. Potash with high gravity 60, on WSW
+    7. Nepheline with high gravity 60, on ST
+    8. Nepheline with high gravity 60, on WSW
+    9. Haynes white with high gravity 60(W420), on ST
+    10. Haynes white with high gravity 60(W420), on WSW
+    11. Chinese Crackle with 60 on Saint Thomas.
+    12. TT symbols on big bowl.
+    ??. More Chinese Crackle on ST?
+    13. Document market blue - should it be really blue?
+    14. Need a transparent base. Claus?
+    15. Redo market blue with proper cobalt amount.
+    16. - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
+    17. - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
+    18. Daphne's Black at gravity 60(W423)
+    19. Daphne's Black at gravity 50(W436)
+    20. Satin Black at gravity 50 (third layer on W410)
+    21. Satin Black at gravity 60
+    22. Melt test Talc
+    23. Melt test Wollastonite
+    24. Melt test Potash feldspar
+    25. Do Satin/Daphnes with manganese and cobalt combo. Check existing recipes.
 
     BUY:
     - Manganese
@@ -1331,7 +1362,6 @@
         * Talc, P3345
         * Wollastonite, P3348
         * Potash Feldspar, P3296
-        * Ball clay, P3352
     -->
 </samples>
 <!--
