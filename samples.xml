@@ -1414,6 +1414,18 @@
         <db:para>From 200g batch, second batch, measured 1.00g Cobalt Carbonate.</db:para>
     </sample>
 
+    <sample date="2008-06-07" xml:id="T497">
+        <glazing hydrometerGravity="53" sieved="WithMixer" idref="KaliTransparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch. Might be I only added 10 parts flint, to hot here.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T486">
+        <glazing hydrometerGravity="42" sieved="WithMixer" idref="KaliTransparent"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch. Might be I only added 10 parts flint, to hot here. Fired standing vertically.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
@@ -1446,15 +1458,15 @@
     DONE 23. Melt test Wollastonite
     DONE 24. Melt test Potash feldspar
     DONE 13. Document market blue - should it be really blue?
+    DONE 14. Need a transparent base. Claus?
+    DONE 15. Redo market blue with proper cobalt amount.
+    21. Satin Black at gravity 60
     7. Nepheline with high gravity 60, on ST
     8. Nepheline with high gravity 60, on WSW
     ??. More Chinese Crackle on ST?
     12. TT symbols on big bowl. Suggested gravity: slighly below 49, maybe 47.
-    14. Need a transparent base. Claus?
-    15. Redo market blue with proper cobalt amount.
     16. - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
     17. - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
-    21. Satin Black at gravity 60
     25. Do Satin/Daphnes with manganese and cobalt combo. Check existing recipes.
 
     BUY:
@@ -1462,6 +1474,9 @@
     - Nikkel?
     - Red stain
     - Porcelain?
+
+    Almadovar
+    Almodovar
 
     Do not have melt tests for:
         * Talc, P3345

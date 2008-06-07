@@ -896,6 +896,19 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="KaliTransparent"
+           category="Colorless"
+           manufacturer="Handbook in Studio Ceramics,  p. 176"
+           name="Kali Transparent">
+
+       <recipe>
+           <component idref="PotashFeldspar"            parts="55"/>
+           <component idref="ChinaClay"                 parts="8" replacementFor="Kaolin"/>
+           <component idref="Flint"                     parts="20" replacementFor="Quartz"/>
+           <component idref="Whiting"                   parts="17"/>
+       </recipe>
+    </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4
