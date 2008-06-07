@@ -1351,6 +1351,18 @@
         <db:para>One second dip. One layer. Hydrometer gravity is estimated, somewhere below 40.</db:para>
     </sample>
 
+    <sample date="2008-06-07" xml:id="P253">
+        <glazing hydrometerGravity="70" sieved="WithMixer" idref="DaphnesBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>One second dip. One layer. Hydrometer gravity is estimated, somewhere above 60.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="P255">
+        <glazing hydrometerGravity="46" sieved="WithMixer" idref="DaphnesBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Three seconds dip. One layer.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
@@ -1385,8 +1397,8 @@
     15. Redo market blue with proper cobalt amount.
     16. - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
     17. - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
-    18. Daphne's Black at gravity 60(W423)
-    19. Daphne's Black at gravity 50(W436)
+    DONE 18. Daphne's Black at gravity 60(W423)
+    DONE 19. Daphne's Black at gravity 50(W436)
     20. Satin Black at gravity 50 (third layer on W410)
     21. Satin Black at gravity 60
     22. Melt test Talc
