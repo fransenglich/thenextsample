@@ -1309,6 +1309,18 @@
         <db:para>From 200g batch, just mixed. Three layers.</db:para>
     </sample>
 
+    <sample date="2008-06-07" xml:id="W400">
+        <glazing hydrometerGravity="55" sieved="no" idref="HaynesWhite"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, had been standing for a week or two. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T452">
+        <glazing hydrometerGravity="55" sieved="no" idref="HaynesWhite"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch, had been standing for a week or two. One layer.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
