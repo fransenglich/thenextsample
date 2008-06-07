@@ -1351,16 +1351,67 @@
         <db:para>One second dip. One layer. Hydrometer gravity is estimated, somewhere below 40.</db:para>
     </sample>
 
-    <sample date="2008-06-07" xml:id="P253">
+    <sample date="2008-06-07" xml:id="T253">
         <glazing hydrometerGravity="70" sieved="WithMixer" idref="DaphnesBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>One second dip. One layer. Hydrometer gravity is estimated, somewhere above 60.</db:para>
     </sample>
 
-    <sample date="2008-06-07" xml:id="P255">
+    <sample date="2008-06-07" xml:id="T255">
         <glazing hydrometerGravity="46" sieved="WithMixer" idref="DaphnesBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>Three seconds dip. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T484">
+        <glazing hydrometerGravity="46" sieved="WithMixer" idref="PotashFeldsparGlaze"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Three seconds dip. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T500">
+        <glazing hydrometerGravity="50" sieved="WithMixer" idref="SodaFeldsparGlaze"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Three seconds dip. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="W446">
+        <glazing hydrometerGravity="50" sieved="WithMixer" idref="SodaFeldsparGlaze"/>
+        <clayref idref="WSW"/>
+        <db:para>Three seconds dip. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T490">
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3296, Potash Feldspar. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T487">
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3345, Talc. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T488">
+        <clayref idref="SaintThomas"/>
+        <db:para>Melt test of P3348, Wollastonite. An arbitrary amount.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T499">
+        <glazing hydrometerGravity="50" sieved="WithMixer" idref="SatinBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Three seconds dip, one layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="T470">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>From 200g batch, second batch, measured 1.00g Cobalt Carbonate.</db:para>
+    </sample>
+
+    <sample date="2008-06-07" xml:id="W444">
+        <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>From 200g batch, second batch, measured 1.00g Cobalt Carbonate.</db:para>
     </sample>
 
     <!-- TODO 251 Velour black
@@ -1381,29 +1432,29 @@
 
     DONE 1. Thin Claus Crystal on porcelain
     DONE 2. Thick Claus Crystal on porcelain
-    3. Soda with high gravity 60(W445), on ST
-    4. Soda with high gravity 60(W445), on WSW
-    5. Potash with high gravity 60, on ST
-    6. Potash with high gravity 60, on WSW
-    7. Nepheline with high gravity 60, on ST
-    8. Nepheline with high gravity 60, on WSW
+    DONE 3. Soda with high gravity 60(W445), on ST
+    DONE 4. Soda with high gravity 60(W445), on WSW
+    DONE 5. Potash with high gravity 60, on ST
+    DONE 6. Potash with high gravity 60, on WSW
     DONE 9. Haynes white with high gravity 60(W420), on ST
     DONE 10. Haynes white with high gravity 60(W420), on WSW
     DONE 11. Chinese Crackle with 60 on Saint Thomas.
+    DONE 18. Daphne's Black at gravity 60(W423)
+    DONE 19. Daphne's Black at gravity 50(W436)
+    DONE 20. Satin Black at gravity 50 (third layer on W410)
+    DONE 22. Melt test Talc
+    DONE 23. Melt test Wollastonite
+    DONE 24. Melt test Potash feldspar
+    DONE 13. Document market blue - should it be really blue?
+    7. Nepheline with high gravity 60, on ST
+    8. Nepheline with high gravity 60, on WSW
     ??. More Chinese Crackle on ST?
     12. TT symbols on big bowl. Suggested gravity: slighly below 49, maybe 47.
-    13. Document market blue - should it be really blue?
     14. Need a transparent base. Claus?
     15. Redo market blue with proper cobalt amount.
     16. - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
     17. - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
-    DONE 18. Daphne's Black at gravity 60(W423)
-    DONE 19. Daphne's Black at gravity 50(W436)
-    20. Satin Black at gravity 50 (third layer on W410)
     21. Satin Black at gravity 60
-    22. Melt test Talc
-    23. Melt test Wollastonite
-    24. Melt test Potash feldspar
     25. Do Satin/Daphnes with manganese and cobalt combo. Check existing recipes.
 
     BUY:
