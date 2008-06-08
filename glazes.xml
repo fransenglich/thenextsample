@@ -927,13 +927,29 @@
       <db:para>Says it's for Cone 5/6.</db:para>
   </glaze>
 
-    <glaze xml:id="TexturedGreyBO"
+  <glaze xml:id="TexturedGreyBO"
            category="Grey"
            name="Textured Grey, Sahara Liquid Glazes, HF series"
            productID="HF-23"
            manufacturer="Amaco"
            type="BrushOn">
   </glaze>
+
+    <glaze xml:id="CopperKaliTransparent"
+           category="Green"
+           manufacturer="Handbook in Studio Ceramics,  p. 176"
+           name="Copper Kali Transparent">
+           <db:para><db:xref xlink:href="#KaliTransparent"/> as base, combined with Copper Carbonate.</db:para>
+
+       <recipe>
+           <component idref="PotashFeldspar"            parts="55"/>
+           <component idref="ChinaClay"                 parts="8" replacementFor="Kaolin"/>
+           <component idref="Flint"                     parts="20" replacementFor="Quartz"/>
+           <component idref="Whiting"                   parts="17"/>
+           <component idref="CopperCarbonate"           parts="2"/>
+       </recipe>
+    </glaze>
+
 
 </glazes>
 <!--

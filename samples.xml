@@ -1449,6 +1449,12 @@
         <db:para/>
     </sample>
 
+    <sample date="2008-06-08" xml:id="T458">
+        <glazing hydrometerGravity="45" sieved="no" idref="ClausCrystalGreenBlack"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Quickly down, and then pulled slowly up, in an attempt to get a gradient effect. Think it went too quickly though, for having a satisfiable effect.</db:para>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
@@ -1502,11 +1508,6 @@
 
     Almadovar
     Almodovar
-
-    Do not have melt tests for:
-        * Talc, P3345
-        * Wollastonite, P3348
-        * Potash Feldspar, P3296
     -->
 </samples>
 <!--
