@@ -909,6 +909,32 @@
        </recipe>
     </glaze>
 
+   <glaze xml:id="SaturationMetallicBO"
+          category="Black"
+          name="Saturation Metallic, Potter's Choice Liquid Glazes"
+          productID="PC-1"
+          type="BrushOn"
+          manufacturer="Amaco">
+      <db:para>Says it's for Cone 5/6.</db:para>
+  </glaze>
+
+   <glaze xml:id="TemmokuBO"
+          category="Brown"
+          name="Temmoku, Potter's Choice Liquid Glazes"
+          productID="PC-30"
+          type="BrushOn"
+          manufacturer="Amaco">
+      <db:para>Says it's for Cone 5/6.</db:para>
+  </glaze>
+
+    <glaze xml:id="TexturedGreyBO"
+           category="Grey"
+           name="Textured Grey, Sahara Liquid Glazes, HF series"
+           productID="HF-23"
+           manufacturer="Amaco"
+           type="BrushOn">
+  </glaze>
+
 </glazes>
 <!--
 vim: et:ts=4:sw=4:sts=4

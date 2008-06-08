@@ -1426,6 +1426,29 @@
         <db:para>From 200g batch. Might be I only added 10 parts flint, to hot here. Fired standing vertically.</db:para>
     </sample>
 
+    <sample date="2008-06-08" xml:id="T477">
+        <clayref idref="SaintThomas"/>
+        <db:para>A pice of white transparent glass, slightly bent downwards, from a broken beer glass. Carlsberg.</db:para>
+    </sample>
+
+    <sample date="2008-06-08" xml:id="T454">
+        <brushon idref="SaturationMetallicBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The glaze was fairly thin. Don't know if someone has dilluted it, or if it's supposed to be like that.</db:para>
+    </sample>
+
+    <sample date="2008-06-08" xml:id="T453">
+        <brushon idref="TemmokuBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>The glaze was fairly thin. Don't know if someone has dilluted it, or if it's supposed to be like that. Big drop on the first layer.</db:para>
+    </sample>
+
+    <sample date="2008-06-08" xml:id="T475">
+        <brushon idref="TexturedGreyBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para/>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
@@ -1460,6 +1483,7 @@
     DONE 13. Document market blue - should it be really blue?
     DONE 14. Need a transparent base. Claus?
     DONE 15. Redo market blue with proper cobalt amount.
+    DONE     Transparent glass
     21. Satin Black at gravity 60
     7. Nepheline with high gravity 60, on ST
     8. Nepheline with high gravity 60, on WSW
@@ -1468,6 +1492,7 @@
     16. - 0.2 chrome + 0.2 - 0.5 Cobber => gives strong yellow/green. Pending new weight.
     17. - 0.25 - 0.50 chrome + 0.2 - 0.5-1.5 Cobber => gives strong green. Pending new weight.
     25. Do Satin/Daphnes with manganese and cobalt combo. Check existing recipes.
+    26. Green glass
 
     BUY:
     - Manganese
