@@ -32,7 +32,6 @@
     <sample date="2007-09-28" xml:id="W6">
         <brushon idref="GreyAmaco"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-28" xml:id="W11">
         <brushon idref="GreyAmaco"/>
@@ -42,7 +41,6 @@
     <sample date="2007-09-28" xml:id="T4">
         <brushon idref="GreyAmaco"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-28" xml:id="T17">
         <glazing idref="FrostedJade" sieved="60" hydrometerGravity="46"/>
@@ -80,22 +78,18 @@
     <sample date="2007-09-28" xml:id="W13">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="35"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-28" xml:id="T32">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="35"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-28" xml:id="T6">
         <brushon idref="YellowBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-28" xml:id="W5">
         <brushon idref="YellowBO"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2007-08-15" xml:id="T7">
         <glazing sieved="no" idref="FrostedJade" hydrometerGravity="46"/>
@@ -131,26 +125,22 @@
     <sample date="2007-09-25">
         <tile xml:id="T9"/>
         <glazing sieved="no" idref="FrostedJade"/>
-        <db:para/>
     </sample>
 
     <sample date="2007-09-25">
         <tile xml:id="W3"/>
         <glazing sieved="no" idref="FrostedJade"/>
-        <db:para/>
     </sample>
     -->
     <sample date="2007-09-25" xml:id="W9">
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="no" idref="GreenHue"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2007-09-25" xml:id="T19">
         <!-- TODO where's the note for this sample? -->
         <glazing sieved="no" idref="GreenHue"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-10-29" xml:id="T40">
         <glazing sieved="no" idref="WhiteGloss" hydrometerGravity="50"/>
@@ -200,12 +190,10 @@
     <sample date="2007-11-07" xml:id="T54">
         <brushon idref="AxnerBlackUnderGlazePen"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-11-07" xml:id="T33">
         <glazing idref="Transparent" sieved="no" hydrometerGravity="42"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-11-07" xml:id="T30">
         <glazing idref="TransparentYellowStain" hydrometerGravity="42" sieved="no"/>
@@ -279,32 +267,26 @@
     <sample date="2007-12-05" xml:id="T61">
         <brushon idref="TurquoiseBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-05" xml:id="T70">
         <brushon idref="WhiteBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-05" xml:id="T60">
         <brushon idref="IndigoBlue"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-05" xml:id="T62">
         <brushon idref="OilSpot"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-05" xml:id="T69">
         <brushon idref="TexturedBlue"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-05" xml:id="T67">
         <brushon idref="GoldBrownBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-09" xml:id="T66">
         <brushon idref="VelourBlackBO"/>
@@ -365,7 +347,6 @@
         <brushon idref="JetBlack"/>
         <glazing sieved="no" hydrometerGravity="38" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-17" xml:id="T87">
         <brushon idref="OrangeBO"/>
@@ -408,12 +389,10 @@
     <sample date="2007-12-20" xml:id="T82">
         <brushon idref="TexturedTan"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-20" xml:id="T89">
         <brushon idref="AmacoYellow"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2007-12-20" xml:id="T85">
         <brushon idref="AmacoWhiteUnderglaze"/>
@@ -634,12 +613,10 @@
     <sample date="2008-03-01" xml:id="T143">
         <glazing sieved="no" hydrometerGravity="42" idref="HardingOxblood"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-01" xml:id="T150">
         <glazing sieved="no" hydrometerGravity="53" idref="PerfectBlack"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-01" xml:id="T149">
         <glazing sieved="no" hydrometerGravity="42" idref="PerfectBlack"/>
@@ -649,62 +626,50 @@
     <sample date="2008-03-08" xml:id="T166">
         <brushon idref="TivoliRed"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T199">
         <brushon idref="TivoliRed"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T153">
         <brushon idref="AutumnShades"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T201">
         <brushon idref="AutumnShades"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T145">
         <brushon idref="CrystalBlue"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T189">
         <brushon idref="CrystalBlue"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T187">
         <brushon idref="AmacoClear"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T146">
         <brushon idref="AmacoClear"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T162">
         <brushon idref="AmacoHazyPink"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T192">
         <brushon idref="AmacoHazyPink"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T171">
         <brushon idref="AmacoLavender"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T196">
         <brushon idref="AmacoLavender"/>
         <clayref idref="WSW"/>
-        <db:para/>
     </sample>
     <sample date="2008-03-08" xml:id="T161">
         <glazing sieved="no" hydrometerGravity="49" idref="ModifiedMamoRightAlumina"/>
@@ -1053,7 +1018,6 @@
     <sample date="2008-04-20" xml:id="T232">
         <glazing sieved="100" hydrometerGravity="43" idref="GlossBlackBreakingBrown"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
 
     <sample date="2008-05-17" xml:id="T200">
@@ -1446,7 +1410,6 @@
     <sample date="2008-06-08" xml:id="T475">
         <brushon idref="TexturedGreyBO"/>
         <clayref idref="SaintThomas"/>
-        <db:para/>
     </sample>
 
     <sample date="2008-06-08" xml:id="T458">

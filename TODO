@@ -8,7 +8,6 @@
 * Reference glazes that have the same base glaze.
 * T232 is sieved but T233 isn't?
 * Download Docbook sources
-* Make db:para optional and remove <db:para/>
 
 * Melt tests, have:
     P3110, Ferro frit
