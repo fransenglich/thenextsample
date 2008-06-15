@@ -1277,6 +1277,7 @@
         <glazing hydrometerGravity="55" sieved="no" idref="HaynesWhite"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, had been standing for a week or two. One layer.</db:para>
+        <db:para>Has crazings, if one look closely, <db:xref xlink:href="#T452"/> has too..</db:para>
     </sample>
 
     <sample date="2008-06-07" xml:id="T452">
@@ -1295,6 +1296,7 @@
         <glazing hydrometerGravity="60" sieved="WithMixer" idref="ChineseCrackle"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch, had been standing for a week or two. One layer.</db:para>
+        <db:para>Not a single freakin crack.</db:para>
     </sample>
 
     <sample date="2008-06-07" xml:id="P265">
@@ -1393,7 +1395,8 @@
 
     <sample date="2008-06-08" xml:id="T477">
         <clayref idref="SaintThomas"/>
-        <db:para>A pice of white transparent glass, slightly bent downwards, from a broken beer glass. Carlsberg.</db:para>
+        <db:para>A piece of white transparent glass, slightly bent downwards, from a broken beer glass. Carlsberg.</db:para>
+        <db:para>Looks like air is trapped inside, causing that crystal-like look.</db:para>
     </sample>
 
     <sample date="2008-06-08" xml:id="T454">
