@@ -1388,6 +1388,7 @@
         <glazing hydrometerGravity="42" sieved="WithMixer" idref="KaliTransparent"/>
         <clayref idref="WSW"/>
         <db:para>From 200g batch. Might be I only added 10 parts flint, to hot here. Fired standing vertically.</db:para>
+        <db:para>As even more evident on <db:xref xlink:href="#T497"/>, it is not transparent, it's tinted towards brown.</db:para>
     </sample>
 
     <sample date="2008-06-08" xml:id="T477">
