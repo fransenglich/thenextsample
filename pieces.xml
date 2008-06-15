@@ -467,7 +467,10 @@
 
     <piece xml:id="P10">
         <clayref idref="SaintThomas" weightWhenWet="400"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="no" hydrometerGravity="45"/>
+        <glazing idref="Transparent" sieved="no" hydrometerGravity="43"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
+        <db:para><db:date>2008-06-15</db:date> Dipped it slowly up side down in green to create a gradient effect, as attempted also on <db:xhref xlink:href="#T458"/>. Dipped the lip an extra time, since it was so thin. Used wax ontop of the transparent to get a clean cut. The outside had one droplet, slightly sanded down, and a couple of dots where I had accidently pressed a finger with wax.</db:para>
     </piece>
 
     <piece xml:id="P11">
