@@ -133,7 +133,9 @@
 
     <piece xml:id="P35">
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
+        <glazing idref="WhiteGloss" hydrometerGravity="41" sieved="60"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
+        <db:para><db:date>2008-06-15</db:date> Glazed the inside with white, but it went totally wrong. It wasn't sieved, so big and small chunks of glaze sat on the inside. Basically, the amount was maybe 3-4 liters, and it's insufficient to stir such an amount up with a spoon, one must sieve it. I washed out the whole thing with warm water and a dish brush. So, probably it has traces of gloss over the whole piece.</db:para>
     </piece>
 
     <piece xml:id="P15">
@@ -445,7 +447,10 @@
 
     <piece xml:id="P3">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
-        <db:para><db:date>2008-02-16</db:date> One problem with these tilted ones so far has been that the stem has been too high and therefore appeared clumpsy and not poroprtional to the body. Corrected this by trimming the selected stem(it being up side down) since it in that way can be exactly adapted to the particular body.</db:para>
+        <glazing idref="ClausCrystalGreenBlack" sieved="no" hydrometerGravity="45"/>
+        <glazing idref="WhiteGloss" sieved="60" hydrometerGravity="41"/>
+        <db:para><db:date>2008-02-16</db:date> One problem with these tilted ones so far has been that the stem has been too high and therefore appeared clumpsy and not proportional to the body. Corrected this by trimming the selected stem(it being up side down) since it in that way can be exactly adapted to the particular body.</db:para>
+        <db:para><db:date>2008-06-15</db:date> Glazed it. Uneven edge on the outside, lots of droplets and shit that was attempted to be corrected. The white inside likely also got polluted by the green; had waxed the whole inside but there was small spots where the green stuck and I subsequently tried to wipe off. The stem is uneven, the piece can't stand still on a plane surface.</db:para>
     </piece>
 
     <piece xml:id="P1">
@@ -470,7 +475,7 @@
         <glazing idref="ClausCrystalGreenBlack" sieved="no" hydrometerGravity="45"/>
         <glazing idref="Transparent" sieved="no" hydrometerGravity="43"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
-        <db:para><db:date>2008-06-15</db:date> Dipped it slowly up side down in green to create a gradient effect, as attempted also on <db:xhref xlink:href="#T458"/>. Dipped the lip an extra time, since it was so thin. Used wax ontop of the transparent to get a clean cut. The outside had one droplet, slightly sanded down, and a couple of dots where I had accidently pressed a finger with wax.</db:para>
+        <db:para><db:date>2008-06-15</db:date> Dipped it slowly up side down in green to create a gradient effect, as attempted also on <db:xref xlink:href="#T458"/>. Dipped the lip an extra time, since it was so thin. Used wax ontop of the transparent to get a clean cut. The outside had one droplet, slightly sanded down, and a couple of dots where I had accidently pressed a finger with wax.</db:para>
     </piece>
 
     <piece xml:id="P11">
