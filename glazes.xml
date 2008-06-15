@@ -950,6 +950,19 @@
        </recipe>
     </glaze>
 
+    <glaze xml:id="CeladonBO"
+           category="Green"
+           manufacturer="Potterycrafts Limited"
+           name="Celadon B/O"
+           type="BrushOn"
+           productID="P2849.5"/>
+
+    <glaze xml:id="SeaGreenBO"
+           category="Green"
+           manufacturer="Potterycrafts Limited"
+           name="See Green B/O"
+           type="BrushOn"
+           productID="P2813.5"/>
 
 </glazes>
 <!--

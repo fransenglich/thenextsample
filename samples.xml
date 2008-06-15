@@ -1422,6 +1422,22 @@
         <db:para>Quickly down, and then pulled slowly up, in an attempt to get a gradient effect. Think it went too quickly though, for having a satisfiable effect.</db:para>
     </sample>
 
+    <sample date="2008-06-15" xml:id="P258">
+        <glazing hydrometerGravity="43" sieved="no" idref="Transparent"/>
+        <clayref idref="Porcelain"/>
+    </sample>
+
+    <sample date="2008-06-16" xml:id="T483">
+        <brushon idref="CeladonBO"/>
+        <clayref idref="SaintThomas"/>
+        <db:para>Very thick to brush with, and the layers are subsequently thick.</db:para>
+    </sample>
+
+    <sample date="2008-06-16" xml:id="T469">
+        <brushon idref="SeaGreenBO"/>
+        <clayref idref="SaintThomas"/>
+    </sample>
+
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
