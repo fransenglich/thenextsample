@@ -136,6 +136,8 @@
         <glazing idref="WhiteGloss" hydrometerGravity="41" sieved="60"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
         <db:para><db:date>2008-06-15</db:date> Glazed the inside with white, but it went totally wrong. It wasn't sieved, so big and small chunks of glaze sat on the inside. Basically, the amount was maybe 3-4 liters, and it's insufficient to stir such an amount up with a spoon, one must sieve it. I washed out the whole thing with warm water and a dish brush. So, probably it has traces of gloss over the whole piece.</db:para>
+
+        <db:para><db:date>2008-06-22</db:date> Failure. What kind of focus do I lack? Work in, poop out, this is a great trade. The outside is ok, but the inside is unevenly glazed and the "cut" between the inside and the outside is doped. It should have been waxed somehow. But nevertheless this will always be difficult since copper flows into other glazes so easily. The green crazed for some reason. The rim moves towards brown/red green. Because the rim had a very thick layer of glaze, the copper was probably subject to reduction.</db:para>
     </piece>
 
     <piece xml:id="P15">
@@ -451,6 +453,7 @@
         <glazing idref="WhiteGloss" sieved="60" hydrometerGravity="41"/>
         <db:para><db:date>2008-02-16</db:date> One problem with these tilted ones so far has been that the stem has been too high and therefore appeared clumpsy and not proportional to the body. Corrected this by trimming the selected stem(it being up side down) since it in that way can be exactly adapted to the particular body.</db:para>
         <db:para><db:date>2008-06-15</db:date> Glazed it. Uneven edge on the outside, lots of droplets and shit that was attempted to be corrected. The white inside likely also got polluted by the green; had waxed the whole inside but there was small spots where the green stuck and I subsequently tried to wipe off. The stem is uneven, the piece can't stand still on a plane surface.</db:para>
+        <db:para><db:date>2008-06-22</db:date> Failure as usual. Uneven on the inside. Uneven on the outside. The outside had too little glaze, most likely because it was burnished and therefore absorbed less glaze, partly due to that <db:xref xlink:href="#P35"/> was glazed in the same manner but absorbed more and isn't burnished.</db:para>
     </piece>
 
     <piece xml:id="P1">
