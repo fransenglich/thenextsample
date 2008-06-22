@@ -87,7 +87,7 @@
     <piece xml:id="P9">
         <clayref idref="WSW"/>
         <glazing sieved="no" idref="WhiteGloss"/>
-        <db:para><db:date>2007-10-02</db:date> Dropped the note for this. Similar to pieces with ID 8, 7, 6 and 5.</db:para>
+        <db:para><db:date>2007-10-02</db:date> Dropped the note for this. Similar to pieces <db:xref xlink:href="#P8"/>, <db:xref xlink:href="#P7"/>, <db:xref xlink:href="#P6"/> and <db:xref xlink:href="#P5"/>.</db:para>
     </piece>
 
     <piece xml:id="P32">
