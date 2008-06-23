@@ -18,7 +18,9 @@
            category="Black"
            manufacturer="Potterycrafts Limited"
            name="Intense Black"
-           productID="P3555"/>
+           productID="P3555">
+           <db:para>A very nice high gloss black which doesn't tilt in any direction such as brown, red, blue or metallic. It's an opaque, gloss, black, simply. Its MSDS doesn't mention anything in particular about its colorants, "inorganic pigments". Ulf Anonsen theorized it was ot cobalt, because it would have to be listed due to its toxicity. Instead it could likely be a Complex Inorganic Colour(CIC) pigment, he said. ANFFECC / CERAMICCOLOR / EPSOM / VdMi, produced <db:phrase xlink:href="http://www.vdmi.de/gb/index.php?page=1231816732&amp;f=2&amp;i=99416383&amp;s=1580542676&amp;ss=1231816732">Ceramic Decorating Materials</db:phrase>, Aspects of Product Stewardship, is of help.</db:para>
+   </glaze>
 
     <glaze xml:id="WhiteGloss"
            category="White"
