@@ -684,32 +684,32 @@
         <db:para>Batch has been standing for a week or so, shaked it thoroughly.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T169">
-        <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="46" idref="IncorrectHamadaBase"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T180">
-        <glazing sieved="WithMixer" hydrometerGravity="46" idref="HamadaBase"/>
+        <glazing sieved="WithMixer" hydrometerGravity="46" idref="IncorrectHamadaBase"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T186">
-        <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="IncorrectHamadaBase5Talc"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T167">
-        <glazing sieved="WithMixer" hydrometerGravity="50" idref="HamadaBase5Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="50" idref="IncorrectHamadaBase5Talc"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T183">
-        <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="53" idref="IncorrectHamadaBase20Talc"/>
         <clayref idref="WSW"/>
         <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four tiles have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
     <sample date="2008-03-09" xml:id="T163">
-        <glazing sieved="WithMixer" hydrometerGravity="53" idref="HamadaBase20Talc"/>
+        <glazing sieved="WithMixer" hydrometerGravity="53" idref="IncorrectHamadaBase20Talc"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200 g batch. To the 5 parts batch, which was already extended from 0% talc, was added 15 parts talc. Since four tiles have already been dipped, the amount of talc is probably a bit higher than 20.</db:para>
     </sample>
@@ -1437,6 +1437,42 @@
     <sample date="2008-06-16" xml:id="T469">
         <brushon idref="SeaGreenBO"/>
         <clayref idref="SaintThomas"/>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W425">
+        <glazing hydrometerGravity="47" sieved="WithMixer" idref="Hamada"/>
+        <clayref idref="WSW"/>
+        <db:para>Three layers.</db:para>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W430">
+        <glazing hydrometerGravity="47" sieved="WithMixer" idref="ChromedHamada"/>
+        <clayref idref="WSW"/>
+        <db:para>Three layers, from 200g batch, 1.00 chrome. Continued on batch used in <db:xref xlink:href="#W425"/>.</db:para>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W414">
+        <glazing hydrometerGravity="48" sieved="WithMixer" idref="RutiledChromedHamada"/>
+        <clayref idref="WSW"/>
+        <db:para>Three layers, from 200g batch, 1.00 chrome, 4.00 rutile. Continued on batch used in <db:xref xlink:href="#W430"/>.</db:para>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W441">
+        <glazing hydrometerGravity="41" sieved="WithMixer" idref="OpaqueWhiteBase"/>
+        <clayref idref="WSW"/>
+        <db:para>Three layers, from 200g batch. Hard to get a stable gravity reading, the glaze was perceived as very thick despite being only as low as it is.</db:para>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W412">
+        <glazing hydrometerGravity="42" sieved="WithMixer" idref="GlossBlackBreakingBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>Continued on the batch used in <db:xref xlink:href="#W441"/>. All colorants with an exactness of 0.00 grams. One layer.</db:para>
+    </sample>
+
+    <sample date="2008-07-18" xml:id="W450">
+        <glazing hydrometerGravity="42" sieved="WithMixer" idref="GlossBlackBreakingBlue"/>
+        <clayref idref="WSW"/>
+        <db:para>Continued on the batch used in <db:xref xlink:href="#W441"/>. All colorants with an exactness of 0.00 grams. Three layers.</db:para>
     </sample>
 
     <!-- TODO 251 Velour black

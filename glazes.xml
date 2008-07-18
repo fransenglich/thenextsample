@@ -19,14 +19,16 @@
            manufacturer="Potterycrafts Limited"
            name="Intense Black"
            productID="P3555">
-           <db:para>A very nice high gloss black which doesn't tilt in any direction such as brown, red, blue or metallic. It's an opaque, gloss, black, simply. Its MSDS doesn't mention anything in particular about its colorants, "inorganic pigments". Ulf Anonsen theorized it was ot cobalt, because it would have to be listed due to its toxicity. Instead it could likely be a Complex Inorganic Colour(CIC) pigment, he said. ANFFECC / CERAMICCOLOR / EPSOM / VdMi, produced <db:phrase xlink:href="http://www.vdmi.de/gb/index.php?page=1231816732&amp;f=2&amp;i=99416383&amp;s=1580542676&amp;ss=1231816732">Ceramic Decorating Materials</db:phrase>, Aspects of Product Stewardship, is of help.</db:para>
+           <db:para>A very nice high gloss black which doesn't tilt in any direction such as brown, red, blue or metallic. It's an opaque, gloss, black, simply. Its MSDS doesn't mention anything in particular about its colorants, "inorganic pigments". Ulf Anonsen theorized it was not cobalt, because it would have to be listed due to its toxicity. Instead it could likely be a Complex Inorganic Colour(CIC) pigment, he said. ANFFECC / CERAMICCOLOR / EPSOM / VdMi, produced <db:phrase xlink:href="http://www.vdmi.de/gb/index.php?page=1231816732&amp;f=2&amp;i=99416383&amp;s=1580542676&amp;ss=1231816732">Ceramic Decorating Materials</db:phrase>, Aspects of Product Stewardship, is of help.</db:para>
    </glaze>
 
     <glaze xml:id="WhiteGloss"
            category="White"
            manufacturer="Potterycrafts Limited"
            name="White Gloss"
-           productID="P3550"/>
+           productID="P3550">
+           <db:para>I suspect this glaze is tin based. Gives regularly pin holes and is milky/warm. Could easily be tested by mixing with chrome.</db:para>
+   </glaze>
 
     <glaze xml:id="SandBrown"
            category="Brown"
@@ -549,10 +551,10 @@
            </recipe>
     </glaze>
 
-    <glaze xml:id="HamadaBase"
-        category="White"
+    <glaze xml:id="IncorrectHamadaBase"
+           category="White"
            manufacturer="The Complete Guide to High-Fire Glazes, p. 61"
-           name="Hamada">
+           name="Incorrect Hamada">
            <db:para><db:date>2008-05-26</db:date> Feldspar FFF is probably a poor replacement for Custer Feldspar, Potash Feldspar would probably be better.</db:para>
 
            <recipe>
@@ -562,10 +564,10 @@
            </recipe>
     </glaze>
 
-    <glaze xml:id="HamadaBase5Talc"
-        category="White"
+    <glaze xml:id="IncorrectHamadaBase5Talc"
+           category="White"
            manufacturer="The Complete Guide to High-Fire Glazes, p. 61"
-           name="Hamada with 5 parts talc">
+           name="Incorrect Hamada with 5 parts talc">
            <db:para>Hamada with 5 parts talc.</db:para>
 
            <recipe>
@@ -576,10 +578,10 @@
            </recipe>
     </glaze>
 
-    <glaze xml:id="HamadaBase20Talc"
-        category="White"
+    <glaze xml:id="IncorrectHamadaBase20Talc"
+           category="White"
            manufacturer="The Complete Guide to High-Fire Glazes, p. 61"
-           name="Hamada with 20 parts talc">
+           name="Incorrect Hamada with 20 parts talc">
            <db:para>Hamada with 20 parts talc.</db:para>
 
            <recipe>
@@ -965,6 +967,74 @@
            name="See Green B/O"
            type="BrushOn"
            productID="P2813.5"/>
+
+    <glaze xml:id="Hamada"
+           category="White"
+           manufacturer="The Complete Guide to High-Fire Glazes, p. 61"
+           name="Hamada">
+           <db:para>Trying to make a sane version of Hamada, instead of <db:xref xlink:href="#IncorrectHamadaBase"/>.</db:para>
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="ChromedHamada"
+           category="Green"
+           name="Hamada with Chrome">
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+               <component idref="ChromeOxide"       parts="0.5"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="RutiledChromedHamada"
+           category="Green"
+           name="Hamada with Chrome and Rutile">
+
+           <recipe>
+               <component idref="PotashFeldspar"    parts="50" replacementFor="CusterFeldspar"/>
+               <component idref="Flint"             parts="30" replacementFor="Silica"/>
+               <component idref="Whiting"           parts="20"/>
+               <component idref="ChromeOxide"       parts="0.5"/>
+               <component idref="Rutile"            parts="2"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="GlossBlackBreakingBlue"
+           category="Black"
+           name="Gloss Black Breaking Blue">
+
+           <recipe>
+               <component idref="PotashFeldspar"        parts="45"/>
+               <component idref="Flint"                 parts="20" replacementFor="Quartz"/>
+               <component idref="Whiting"               parts="20"/>
+               <component idref="ChinaClay"             parts="10"/>
+               <component idref="TinOxide"              parts="5"/>
+               <component idref="FineManganeseDioxide"  parts="2" replacementFor="ManganeseDioxide"/>
+               <component idref="BlackIronOxide"        parts="2"/>
+               <component idref="CobaltOxide"           parts="2"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="OpaqueWhiteBase"
+           category="White"
+           name="Opaque White Base">
+           <db:para>The base of <db:xref xlink:href="#GlossBlackBreakingBlue"/>.</db:para>
+
+           <recipe>
+               <component idref="PotashFeldspar"        parts="45"/>
+               <component idref="Flint"                 parts="20" replacementFor="Quartz"/>
+               <component idref="Whiting"               parts="20"/>
+               <component idref="ChinaClay"             parts="10"/>
+               <component idref="TinOxide"              parts="5"/>
+           </recipe>
+    </glaze>
 
 </glazes>
 <!--
