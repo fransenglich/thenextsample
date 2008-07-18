@@ -360,7 +360,7 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
 
         <xsl:if test="$referencedFrom">
             <para>
-                <xsl:text>Referenced by: </xsl:text>
+                <xsl:text>Referenced by </xsl:text>
                 <xsl:call-template name="listItems">
                     <xsl:with-param name="items" select="$referencedFrom"/>
                 </xsl:call-template>
