@@ -311,16 +311,6 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
         </xsl:for-each>
     </xsl:template>
 
-    <xsl:template name="imageForSample">
-        <xsl:param name="sampleName"/>
-        <xsl:param name="imageName"/>
-        <mediaobject>
-            <imageobject>
-                <imagedata align="right" format="JPG" fileref="../Images/Samples/{$sampleName}/{$imageName}.jpg"/>
-            </imageobject>
-        </mediaobject>
-    </xsl:template>
-
     <xsl:template match="p:piece/p:image">
         <mediaobject>
             <imageobject>
@@ -369,10 +359,8 @@ Texts.  A copy of the license can be obtained at the <phrase xlink:href="http://
     </xsl:template>
 
     <xsl:template mode="doImage" match="p:sample">
-        <xsl:call-template name="imageForSample">
-            <xsl:with-param name="sampleName" select="@xml:id"/>
-            <xsl:with-param name="imageName" select="@xml:id"/>
-        </xsl:call-template>
+        <xsl:variable name="id" select="string(@xml:id)"/>
+        <xsl:copy-of select="document('imageMetaData.xml')//db:mediaobject[@xml:id = concat('TileImage_', $id)]"/>
     </xsl:template>
 
     <xsl:template match="p:sample/p:para">

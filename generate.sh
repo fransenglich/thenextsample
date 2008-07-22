@@ -2,6 +2,9 @@ withIncludesResolved="`tempfile`"
 sourceFile="sources.xml"
 tempFiles="$sourceFile $withIncludesResolved"
 
+# Generate the images.
+./images.sh
+
 xmllint --xinclude --output $withIncludesResolved --schema pottery.xsd pottery.xml || exit 1
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' > $sourceFile
