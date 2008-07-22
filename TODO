@@ -19,13 +19,13 @@
     P3315, Dolomite
     P3305, Bone Ash
     P3346, Whiting
+    White glass
+    Wollastonite
+    Potash feldspar
+    Talc
 
 * Missing:
-    - Wollastonite
-    - Potash feldspar
-    - Talc
     - Green glass
-    - White glass
     - Blue glass
 
 vim: et:ts=4:sw=4:sts=4
