@@ -27,7 +27,7 @@ for raw in $rawImages; do
     pathOfExport="$path/$nameOfExport"
 
     pushd `dirname $raw`
-    convert $basename $nameOfExport
+    convert -rotate -90 $basename $nameOfExport
     popd
 
     echo "<d:mediaobject xml:id=\"TileImage_$idTag\"><d:imageobject>" >> $outXMLFile
