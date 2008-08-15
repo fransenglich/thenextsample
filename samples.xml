@@ -1322,6 +1322,7 @@
         <glazing hydrometerGravity="70" sieved="WithMixer" idref="DaphnesBlack"/>
         <clayref idref="SaintThomas"/>
         <db:para>One second dip. One layer. Hydrometer gravity is estimated, somewhere above 60.</db:para>
+        <db:para><db:date>2008-08-16</db:date> Tiny oil spots. Ulf Anonsen talked about that mangnetism is the explanation to the iron clogging together in oil spots. And oxygen drags the iron to the surface, John Britt writes.</db:para>
     </sample>
 
     <sample date="2008-06-07" xml:id="T255">
@@ -1373,6 +1374,7 @@
         <glazing hydrometerGravity="45" sieved="WithMixer" idref="MarketBlue"/>
         <clayref idref="SaintThomas"/>
         <db:para>From 200g batch, second batch, measured 1.00g Cobalt Carbonate.</db:para>
+        <db:para><db:date>2008-08-16</db:date> It's very speckled. I suspect it's because of the short soak time: only ten minutes, while the recipe specifies one hour. Could even be shorter/lower, considering the age of the oven. Simply, the cobalt doesn't  manage to disperse. Think the same reasoning can be applied to <db:xref xlink:href="#W412"/> or <db:xref xlink:href="#W412"/>, which have black particles. It's manganese perhaps, considering how easily iron usually melts.</db:para>
     </sample>
 
     <sample date="2008-06-07" xml:id="W444">
