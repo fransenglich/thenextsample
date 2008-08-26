@@ -442,6 +442,7 @@
         <glazing sieved="no" hydrometerGravity="40" idref="Transparent"/>
         <clayref idref="SaintThomas"/>
         <db:para>Wrote with oxide pen, HC Hobbyceram Sottosmalto NERO 606.</db:para>
+        <db:para><db:date>2008-08-26</db:para> Dropped it in the floor, glued right bottom corner with cyanoacrylate glue.</db:para>
     </sample>
     <sample date="2008-02-16" xml:id="T103">
         <glazing sieved="60" hydrometerGravity="52" idref="CandaceBlack"/>
