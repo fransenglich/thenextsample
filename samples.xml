@@ -759,7 +759,7 @@
         <clayref idref="WSW"/>
         <db:para>A pinch of Manganese Oxide(from Alt For Keramikk) was mixed with water and painted on top of the transparent.</db:para>
     </sample>
-    <sample date="2008-03-19" xml:id="T237">
+    <sample date="2008-03-19" xml:id="W237">
         <glazing sieved="no" hydrometerGravity="44" idref="Transparent"/>
         <clayref idref="WSW"/>
         <db:para>The right side has a slip consisting of "Puraflo", UK Origin, WBB Minerals. Probably pipleire. The clay is spot-wise contaminated with Saint Thomas. Might be that the id is T231.</db:para>
@@ -1012,7 +1012,7 @@
         <db:para></db:para>
     </sample>
 
-    <sample date="2008-04-20" xml:id="T182">
+    <sample date="2008-04-20" xml:id="W182">
         <glazing sieved="100" hydrometerGravity="40" idref="GlossRutiledBlue"/>
         <clayref idref="WSW"/>
         <db:para>One layer.</db:para>
