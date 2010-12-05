@@ -36,8 +36,9 @@
 
     <!--
     <piece xml:id="P20"><db:date>2007-10-29</db:date>
-        <glazing idref="" hydrometerGravity="46"/>
-        <db:para/>
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, mixed the day before.</db:para>
     </piece>
 
     <piece xml:id="P23"><db:date>2007-10-29</db:date>
@@ -90,6 +91,13 @@
         <db:para><db:date>2007-10-02</db:date> Dropped the note for this. Similar to pieces <db:xref xlink:href="#P8"/>, <db:xref xlink:href="#P7"/>, <db:xref xlink:href="#P6"/> and <db:xref xlink:href="#P5"/>.</db:para>
     </piece>
 
+    <piece xml:id="H9">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2008</db:date> Wasn't in my notes. Tilted design. Well-thrown, outside brimmed.</db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, mixed the day before.</db:para>
+    </piece>
+
     <piece xml:id="P32">
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <glazing sieved="no" hydrometerGravity="50" idref="WhiteGloss"/>
@@ -117,6 +125,7 @@
     </piece>
 
     <piece xml:id="P34">
+        <measurementsWhenDone height="140" width="250"/>
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <glazing idref="GreenHue" hydrometerGravity="55" sieved="60"/>
         <brushon idref="JetBlack"/>
@@ -132,6 +141,7 @@
     </piece>
 
     <piece xml:id="P35">
+        <measurementsWhenDone height="190 width="250"/>
         <clayref idref="SaintThomas" weightWhenWet="4100"/>
         <glazing idref="WhiteGloss" hydrometerGravity="41" sieved="60"/>
         <db:para><db:date>2007-10-27</db:date></db:para>
@@ -241,8 +251,10 @@
     </piece>
 
     <piece xml:id="P43">
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
         <clayref idref="SaintThomas" weightWhenWet="4600"/>
         <db:para><db:date>2007-11-18</db:date> The clay was too wet.</db:para>
+        <db:para><db:date>2010-08-27</db:date> Glazed. Very thick. Strong runs on outside.</db:para>
     </piece>
 
     <!--
@@ -348,8 +360,10 @@
 
     <piece xml:id="P99">
         <clayref idref="SaintThomas" weightWhenWet="1200"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
 
         <db:para><db:date>2007-12-09</db:date> Poorly thrown vase like thing. Looks like a rapper from the eighties.</db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P98">
@@ -420,14 +434,48 @@
 
     <piece xml:id="P28">
         <clayref idref="SaintThomas" weightWhenWet="3200"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-01-13</db:date> Threw it.</db:para>
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed the inside with Claus Crystal Green Black. Spilled on the outside, wiped it off. Batch mixed the day before.</db:para>
+	<db:para><db:date>2010-08-27</db:date> Glazed the outside with black. Droplets on the inside unfortunately, don't know how it will end up looking. The rim is rather damaged.</db:para>
+    </piece>
+
+    <piece xml:id="P62">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2008</db:date> Threw it.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed the inside with Claus Crystal Green Black. Spilled on the outside, wiped it off. Batch mixed the day before.</db:para>
+        <db:para><db:date>2010-08-27</db:date> Glazed outside with black.</db:para>
+    </piece>
+
+    <piece xml:id="P64">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <db:para><db:date>2008</db:date> Threw it. Cylinder.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed the inside with Claus Crystal Green Black. Spilled on the outside, wiped it off. Batch mixed the day before.</db:para>
+	<db:para><db:date>2010-08-27</db:date> Glazed the outside with black. Uneven rim.</db:para>
+    </piece>
+
+    <piece xml:id="P63">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2008</db:date> Threw it. Cylinder.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed the inside with Claus Crystal Green Black. Spilled on the outside, wiped it off. Batch mixed the day before.</db:para>
+	<db:para><db:date>2010-08-27</db:date> Glazed the outside with finger/hand prints.</db:para>
     </piece>
 
     <piece xml:id="P29">
         <clayref idref="SaintThomas" weightWhenWet="2700"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-01-13</db:date> No rythm at all. Except for that the rim has some patterns, this one is probably the best one I've thrown.</db:para>
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed it. Poored and tilted
+	around on the inside, hence thick layer. Poored over outside. Fixed up brim and
+	runs.</db:para>
     </piece>
 
     <piece xml:id="P30">
@@ -443,8 +491,10 @@
     </piece>
 
     <piece xml:id="P14">
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
         <clayref idref="SaintThomas" weightWhenWet="3600"/>
         <db:para><db:date>2008-02-16</db:date> When looking from the side, it's not well compositioned. The reason being that the bottom is not round, slightly flat, and therefore the stem sits on the side. If it was round the stem wouldn't be able to sit on the side, because the cirlcle would only have rotated. For the same reason the stem is not level across. A circle, which the stem is, can't keep its shape on a non-circle.</db:para>
+        <db:para><db:date>2010-08-27</db:date> Glazed. </db:para>
     </piece>
 
     <piece xml:id="P3">
@@ -458,12 +508,31 @@
 
     <piece xml:id="P1">
         <clayref idref="SaintThomas" weightWhenWet="2500"/>
-        <db:para><db:date>2008-02-16</db:date></db:para>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2008-02-16</db:date> Threw it. Tilted.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed it. Poored and tilted
+	around on the inside, hence thick layer. Poored over outside. Fixed up brim and
+	runs.</db:para>
+    </piece>
+
+    <piece xml:id="P1">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2007</db:date> Threw it and built it. An ugly flower.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Inspection after bisque firing shows crak and it can also be heard from resonance. Also dusty from being stored during some time uncovered. It won't hold, but fun experiment.</db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed it. Poored and tilted
+	around on the inside, hence thick layer. Poored over outside. Fixed up brim and
+	runs.</db:para>
+	<db:para>ERROR: is marked as 1 but another piece is as well
     </piece>
 
     <piece xml:id="P49">
         <clayref idref="SaintThomas" weightWhenWet="3200"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-02-16</db:date></db:para>
+	<db:para><db:date>2010-08-25</db:date> Glazed it. Poored and tilted
+	around on the inside, hence thick layer. Poored over outside. Fixed up brim and
+	runs.</db:para>
     </piece>
 
     <piece xml:id="P48">
@@ -527,6 +596,7 @@
     </piece>
 
     <piece xml:id="P45">
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
         <clayref idref="SaintThomas" weightWhenWet="400"/>
         <db:para><db:date>2008-02-24</db:date> Weight is estimated.</db:para>
     </piece>
@@ -542,12 +612,44 @@
 
     <piece xml:id="P51">
         <clayref idref="WSW"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P52">
         <clayref idref="WSW"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
+    </piece>
+
+    <piece xml:id="P65">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para>Probably thrown around <db:date>2008-03</db:date>. High straight cylinder, about 200x90 mm.</db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed. Was hard to glaze. Repaird manually from fingergrips with brush, and scraped glaze even afterwards.</db:para>
+    </piece>
+
+    <piece xml:id="P110">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <db:para><db:date>2008-06-30</db:date>. Threw it.</db:para>
+        <db:para><db:date>2010-08-27</db:date> Glazed it.</db:para>
+    </piece>
+
+    <piece xml:id="P110">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <db:para><db:date>2008-06-30</db:date>. Threw it.</db:para>
+        <db:para><db:date>2010-08-27</db:date> Glazed it.</db:para>
+    </piece>
+
+    <piece xml:id="P112">
+        <clayref idref="SaintThomas"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para>Probably thrown around <db:date>2008-03</db:date>. Cup-like bowl without handle. 110x145 mm.</db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P53">
@@ -584,12 +686,15 @@
 
     <piece xml:id="P57">
         <clayref idref="WSW"/>
-        <db:para><db:date>2008-03-24</db:date></db:para>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
     <piece xml:id="P58">
         <clayref idref="WSW"/>
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, mixed the day before.</db:para>
     </piece>
 
     <piece xml:id="P59">
@@ -600,6 +705,14 @@
 
 </pieces>
 
+<!--
+This current batch set is sieved with 40, not 60.
+-->
+
+<!-- P34 is the second I took photos off, dark green with black Trolltech exploded on it
+     P35 is the other one, white inside, white Trolltech on outside, with crystal green around.
+
+	TODO: if a component has an unknown price, should the price be NaN then?
 <!--
 vim: et:ts=4:sw=4:sts=4
 -->

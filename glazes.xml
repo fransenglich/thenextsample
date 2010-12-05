@@ -346,7 +346,7 @@
 
    <glaze xml:id="CandaceBlack"
           category="Black"
-          manufacturer="The Complete Guide to High-Fire Glazes, p. 127, alsolisted on p. 76"
+          manufacturer="The Complete Guide to High-Fire Glazes, p. 127, also listed on p. 76"
            name="Candace Black">
 
        <recipe>
@@ -822,6 +822,22 @@
                <component idref="Dolomite"              parts="5"/>
                <component idref="SyntheticRedIronOxide" parts="5" replacementFor="RedIronOxide"/>
                <component idref="CobaltCarbonate"       parts="3"/>
+           </recipe>
+    </glaze>
+
+    <glaze xml:id="DaphnesBlackFeldspar"
+           category="Black"
+           manufacturer="The Complete Guide To High-Fire Glazes, p. 126, but uses Feldspar(P3316) instead of P3316 and black iron oxide as replacement for cobalt"
+           name="Daphne's Black">
+
+           <recipe>
+               <component idref="FeldsparFFF"          	parts="65" replacementFor="FeldsparSoda"/>
+               <component idref="Whiting"               parts="5"/>
+               <component idref="Flint"                 parts="20" replacementFor="Silica"/>
+               <component idref="ChinaClay"             parts="5" replacementFor="Kaolin"/>
+               <component idref="Dolomite"              parts="5"/>
+               <component idref="SyntheticRedIronOxide" parts="5" replacementFor="RedIronOxide"/>
+               <component idref="BlackIronOxide"        parts="5" replacementFor="CobaltCarbonate"/>
            </recipe>
     </glaze>
 

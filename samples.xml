@@ -1481,6 +1481,24 @@
         <db:para>Continued on the batch used in <db:xref xlink:href="#W441"/>. All colorants with an exactness of 0.00 grams. Three layers.</db:para>
     </sample>
 
+    <sample date="2010-08-24" xml:id="T460">
+        <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
+        <clayref idref="SaintThomas"/>
+        <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed. Three layers. 1-3 second dips.</db:para>
+    </sample>
+
+    <sample date="2010-08-27" xml:id="T473">
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <clayref idref="SaintThomas"/>
+        <db:para><db:date>2010-09-27</db:date> Glazed. From 3 kg batch, just mixed. Three layers.</db:para>
+    </sample>
+
+
+    <sample date="2010-08-27" xml:id="T479">
+        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
+        <clayref idref="SaintThomas"/>
+        <db:para><db:date>2010-09-27</db:date> Glazed. From 3 kg batch, just mixed. One layer.</db:para>
+    </sample>
     <!-- TODO 251 Velour black
         Intended for newgrassgreen.
         <db:para>Id has been corrected. From 224 to 251.</db:para>
