@@ -108,6 +108,7 @@
     </piece>
 
     <piece xml:id="P33">
+        <measurementsWhenDone height="150" width="175"/>
         <clayref idref="SaintThomas" weightWhenWet="2000"/>
         <glazing idref="FrostedJade" hydrometerGravity="52" sieved="60"/>
         <glazing idref="GreenHue" hydrometerGravity="59" sieved="60"/>
@@ -399,6 +400,7 @@
     </piece>
 
     <piece xml:id="P25">
+        <measurementsWhenDone height="140" width="185"/>
         <clayref idref="SaintThomas"/>
         <glazing idref="GreenHue" sieved="no" hydrometerGravity="55"/>
         <brushon idref="JetBlack"/>
@@ -418,7 +420,7 @@
         <db:para><db:date>2008-01-14</db:date> Trimmed it &amp; and burnished the outside.</db:para>
         <db:para><db:date>2008-01-21</db:date> Glazed with complete, long dips, about 5 secs.</db:para>
 
-        <db:para>Think I can spot one pin hole, but it is easily acceptable</db:para>
+        <db:para>Think I can spot one pin hole, but it is easily acceptable.</db:para>
     </piece>
 
     <piece xml:id="P27">
@@ -434,6 +436,7 @@
     </piece>
 
     <piece xml:id="P28">
+        <measurementsWhenDone height="170" width="240"/>
         <clayref idref="SaintThomas" weightWhenWet="3200"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-01-13</db:date> Threw it.</db:para>
@@ -510,6 +513,7 @@
     </piece>
 
     <piece xml:id="P1">
+        <measurementsWhenDone height="135" width="220"/>
         <clayref idref="SaintThomas" weightWhenWet="2500"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-02-16</db:date> Threw it. Tilted.</db:para>
@@ -622,13 +626,16 @@
     </piece>
 
     <piece xml:id="P52">
+        <measurementsWhenDone height="60" width="67"/>
         <clayref idref="WSW"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
         <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
+        <db:para><db:date>2010-12-23</db:date> Measures are without handle.</db:para>
     </piece>
 
     <piece xml:id="P65">
+        <measurementsWhenDone height="190" width="80"/>
         <clayref idref="SaintThomas"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para>Probably thrown around <db:date>2008-03</db:date>. High straight cylinder, about 200x90 mm.</db:para>
@@ -636,13 +643,7 @@
     </piece>
 
     <piece xml:id="P110">
-        <clayref idref="SaintThomas"/>
-        <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
-        <db:para><db:date>2008-06-30</db:date>. Threw it.</db:para>
-        <db:para><db:date>2010-08-27</db:date> Glazed it.</db:para>
-    </piece>
-
-    <piece xml:id="P110">
+        <measurementsWhenDone height="120" width="202"/>
         <clayref idref="SaintThomas"/>
         <glazing idref="DaphnesBlackFeldspar" sieved="40" hydrometerGravity="61"/>
         <db:para><db:date>2008-06-30</db:date>. Threw it.</db:para>
@@ -650,9 +651,10 @@
     </piece>
 
     <piece xml:id="P112">
+        <measurementsWhenDone height="100" width="140"/>
         <clayref idref="SaintThomas"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
-        <db:para>Probably thrown around <db:date>2008-03</db:date>. Cup-like bowl without handle. 110x145 mm.</db:para>
+        <db:para>Probably thrown around <db:date>2008-03</db:date>. Cup-like bowl without handle.</db:para>
         <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
@@ -689,12 +691,14 @@
     </piece>
 
     <piece xml:id="P57">
+        <measurementsWhenDone height="80" width="95"/>
         <clayref idref="WSW"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2010-09-25</db:date> Glazed. From 3 kg batch, just mixed.</db:para>
     </piece>
 
-    <piece xml:id="P58">
+    <piece xml:id="P58"><!-- TODO Labeled as 85 in photo shoot. -->
+        <measurementsWhenDone height="75" width="120"/>
         <clayref idref="WSW"/>
         <glazing idref="ClausCrystalGreenBlack" sieved="60" hydrometerGravity="59"/>
         <db:para><db:date>2008-03-24</db:date></db:para>
