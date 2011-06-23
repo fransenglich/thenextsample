@@ -302,7 +302,7 @@
 
    <glaze xml:id="WhiteLeach"
           category="White"
-           manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
+          manufacturer="The Complete Guide To High-Fire Glazes, p. 63"
           name="White Leach">
        <recipe>
            <component idref="FeldsparFFF"           parts="40" replacementFor="CusterFeldspar"/>

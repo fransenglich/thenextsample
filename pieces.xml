@@ -152,6 +152,7 @@
     </piece>
 
     <piece xml:id="P15">
+        <measurementsWhenDone height="175" width="95"/>
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="49"/>
         <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="42"/>
@@ -384,6 +385,7 @@
     </piece>
 
     <piece xml:id="P13">
+        <measurementsWhenDone height="195" width="100"/>
         <clayref idref="SaintThomas"/>
         <db:para><db:date>2007-12-09</db:date> The UFO penguin.</db:para>
         <db:para><db:date>2007-12-31</db:date> "Glazed" it with porcelain slip. One runs into the same kind of problems as when glazing with a real glaze; finger marks, damaged rims and so on. The body had dried a bit too much, so there were plenty of crazings. So lots of trouble with this approach, maybe there's a better approach for doing white things. Razorhead's will turn out to be a prototype. How suitable.</db:para>
