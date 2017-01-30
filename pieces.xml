@@ -152,7 +152,7 @@
     </piece>
 
     <piece xml:id="P15">
-        <measurementsWhenDone height="175" width="95"/>
+        <measurementsWhenDone height="95" width="175"/>
         <clayref idref="WSW" weightWhenWet="800"/>
         <glazing idref="WhiteGloss" sieved="no" hydrometerGravity="49"/>
         <glazing idref="IntenseBlack" sieved="no" hydrometerGravity="42"/>
